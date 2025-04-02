@@ -1,0 +1,97 @@
+/* Client-specific styles */
+body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+img { -ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+
+/* Reset styles */
+body { 
+    margin: 0 !important; 
+    padding: 0 !important;
+    width: 100% !important;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #333333;
+}
+
+/* Email container */
+.email-container {
+    max-width: 800px; /* Increased size */
+    margin: 40px auto;
+    padding: 30px;
+    width: 100%;
+    background: #FFFFFF; /* White content box */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+.header {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    color: #011F5B; /* Blue text */
+}
+
+/* Content */
+.content {
+    padding: 20px 0;
+    color: #011F5B; /* Blue text */
+    text-align: justify; /* Justify paragraphs */
+}
+
+.content h2 {
+    margin-top: 0;
+}
+
+/* Footer */
+.footer {
+    padding: 20px 0;
+    font-size: 0.8em;
+    color: #333333;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    text-align: justify; /* Justify paragraphs */
+}
+
+.footer p + p {
+    margin-top: 10px;
+}
+
+.footer-link {
+    color: #011F5B; /* Blue links */
+    text-decoration: none;
+}
+
+/* Button */
+.button {
+    background-color: #011F5B; /* Blue button */
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Utility classes */
+.text-center {
+    text-align: center;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .email-container {
+        width: 95% !important;
+    }
+}
