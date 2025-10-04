@@ -32,70 +32,128 @@
         <p>
           I have open research positions at Ashoka University (especially for
           undergraduate and PhD students). Please send me an
-          <a href="mailto:athakkar@upenn.edu">email</a> if you are interested.
-        </p>
-        <p>
-          Ashoka University students can find more information about
-          undergraduate projects, capstone projects and thesis, and summer
-          research <a href="./undergrad_research.html"><u>here</u></a>.
+          <a href="mailto:thakkar@ashoka.edu.in">email</a> if you are interested.
         </p>
       </div>
 
       <div>
         <p>
           I am interested in formal methods and logic, and their applications to
-          programming languages and artificial intelligence.
+          programming languages and artificial intelligence. Beyond these, I am also
+          interested in CS pedagogy and computational sustainability.
         </p>
 
         <div class="entry">
-          <b> program synthesis:</b> Instead of writing a program directly, it
-          is often easier to describe the intended behavior of a program in
-          terms of either formal specification, natural language description, or
-          input-output examples. Can we then translate these descriptions to
-          program implementations? My prior work addresses this question in the
-          context of synthesizing relational queries from input-output examples
-          by developing the example-guided synthesis paradigm. A good starting
-          point for this work is
-          <a href="./webpage_files/publications/thesis/thesis.pdf"
-            >my PhD thesis</a
-          >
-          or
-          <a
-            href="./webpage_files/publications/conference/pldi2021/pldi2021.pdf"
-            >EGS (PLDI 2021).</a
-          >
-          I am currently interested in extending example-guided synthesis to
-          more expressive queries and other language domains as well as the
-          combination synthesis problem where the goal is to fulfill more than 
-          one formal specification simultaneously. <br />
+          <b> formal methods and logic:</b> My doctoral research focussed on 
+          automated program synthesis. A good starting point to learn about this 
+          work is <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2017/10/program_synthesis_now.pdf" target="_blank"">this survey</a>. In program synthesis, I am looking 
+          at the following two questions:
+          <ol>
+            <li>
+              Given a set of specifications which cannot be satisfied by any 
+              program, how can we find a program that satisfies a maximal 
+              subset of the specifications? <a href="https://www.linkedin.com/in/shobhit-singh-a549b3136/?originalSubdomain=in" target="_blank">Shobhit Singh</a> and <a href="https://www.linkedin.com/in/rajdeep-das-b6482927a/?originalSubdomain=in" target="_blank">Rajdeep Das</a> work on this project.
+            </li>
+            <li>
+              Given a database transformation (which includes a schema 
+              transformation and a value transformation), how can we systematically 
+              generate a query on the transformed database that is semantically 
+              equivalent to a specified query on the original database? This 
+              project is in collaboration with <a href="https://www.tcs.com/what-we-do/research" target="_blank">TCS Research</a>, and <a href="https://www.linkedin.com/in/shobhit-singh-a549b3136/?originalSubdomain=in" target="_blank">Shobhit Singh</a> and <a href="https://www.linkedin.com/in/shrey-arora-79865a1a5/?originalSubdomain=in" target="_blank">Shrey Arora</a> work on it.
+            </li>
+          </ol>
+
+          Beyond program synthesis, I am interested in automata theory. Three 
+          questions I am working on are:
+
+          <ol>
+            <li>
+              When does a transformation of a formal language preserve its regularity?
+            </li>
+            <li>
+              When is it possible to represent probability distributions over 
+              strings using finite-state models? <a href="https://www.linkedin.com/in/smayan-agarwal-402b66245/" target="_blank">Smayan Agarwal</a> works on this project. 
+            </li>
+            <li>
+              How can we test if two probability distributions over strings are close to each other? <a href="https://www.linkedin.com/in/smayan-agarwal-402b66245/" target="_blank">Smayan Agarwal</a> and <a href="https://www.linkedin.com/in/shobhit-singh-a549b3136/?originalSubdomain=in" target="_blank">Shobhit Singh</a> work on this project. 
+            </li>
+          </ol>
+
+          I am also interested in logic programming and probablistic logic programming. 
+          
           <br />
-          <b> reasoning in AI:</b> AGI (Artificial General Intelligence)
-          requires robust reasoning capabilities and cannot solely rely on
-          language generation methods. While current models excel at pattern
-          recognition and text generation, they struggle with logical
-          consistency and factual accuracy over longer contexts. On the other
-          hand, symbolic reasoning excels at maintaining consistency and
-          following strict rules, but struggles with the flexibility,
-          creativity, and natural language understanding that neural networks
-          provide. To leverage the best of both approaches, this line of work
-          focuses on embedding formal reasoning tools within Large Language
-          Models (LLMs). This integration aims to combine the strengths of
-          data-driven language generation with logical inference, potentially
-          leading to AI systems that can produce text that is not only fluent
-          and contextually appropriate, but also logically sound and factually
-          accurate across extended reasoning chains. <br />
           <br />
-          <b> reasoning about AI:</b> While traditional AI development focuses 
-          on functional correctness—ensuring that systems perform as 
-          intended—this project extends to providing guarantees in areas such 
-          as robustness, fairness, and data privacy, particularly in the context
-          of large language models (LLMs) and broader AI technologies. Robustness
-          guarantees that the system's output is reliable in the face of 
-          adversarial or unexpected inputs, fairness ensures that the model dees
-          not perpetuate or amplify biases, and data privacy safeguards sensitive 
-          information and protects user data.<br /> 
+          <b> trustworthy AI:</b> I am exploring several key aspects of trustworthy AI: 
+          <ol>
+            <li>
+              <b>lipschitz continuity:</b> Investigating ways to make AI models
+              more robust by ensuring controlled sensitivity to input changes. 
+              This raises many interesting theoretical and practical questions.
+              Prabhpreet Setia and Pranav Jayanandan are working on this. 
+            </li>
+            <li>
+              <b>testing AI:</b> In collaboration with <a href="https://moolya.com" target="_blank">Moolya</a>, 
+              we are developing methods to rigorously evaluate AI systems, 
+              identify failure modes, and ensure reliable behavior under diverse scenarios.
+            </li>
+            <li>
+              <b>AI safety benchmarking for India:</b> This research is funded by 
+              <a href="https://ekstep.org" target="_blank">EkStep Foundation</a>'s 
+              AI and Data Adoption fellowship. This is in collaboration with 
+              <a href="https://www.ashoka.edu.in/profile/debayan-gupta/" target="_blank">Debayan Gupta</a> and 
+              <a href="https://sites.google.com/ashoka.edu.in/anirbansen/home?authuser=0" target="_blank">Anirban Sen</a>. Several students and research assistants are working on this project.
+            </li>
+          </ol>
           <br />
-          <b> staistical models for carbon capture:</b> I am working on developing statistical models to estimate the carbon captured by Enhanced Rock Weathering (ERW) in Northern Bengal. We have several open positions for undergraduate and pre-doctoral students in this project. The project is funded by the <a href="https://www.alt-carbon.com" target="_blank">Alt Carbon</a> and supported by <a href="https://www.ashoka.edu.in" target="_blank">Ashoka University</a>. The project includes field work and data collection, software development, as well as statistical modeling and analysis.<br /> 
+          <b> CS pedagogy:</b> I am interested in the impact of AI on computer 
+          science education and in developing curricula and tools that are 
+          relevant to today's AI-enhanced learning environment. This includes:
+          <ol>
+            <li>
+              Designing courses that emphasize conceptual understanding, 
+              formal methods, and systems thinking to go beyond what AI tools 
+              can solve automatically. As a part of this project, 
+              <a href="https://www.linkedin.com/in/vaani-goenka-a4171b262/">Vaani Goenka</a> 
+              has built the <a href="https://www.arxiv.org/abs/2507.22085" target="_blank">BOOP framework</a>.
+            </li>
+            <li>
+              Developing intelligent assistants and teaching tools that guide learning while preserving active engagement and critical thinking.
+            </li>
+            <li>
+              Creating educational resources and platforms that are accessible 
+              to all students, including those with disabilities, with a focus 
+              on the Indian educational context. As a part of this, 
+              <a href="https://www.linkedin.com/in/vaanee-tripathi/" target="_blank">Vaanee Tripathi</a> 
+              has worked on <a href="https://www.arxiv.org/abs/2508.05056" target="_blank">redesigning CS curricula</a>.
+             </li>
+          </ol>
+          The above projects are supported by <a href="https://www.mphasis.com/home.html" target="_blank">Mphasis Limited</a> as a part of the <a href="https://www.ashoka.edu.in/page/mphasis-lab/" target="_blank">Mphasis AI & Applied Tech Lab at Ashoka</a>.
+          <br /> 
+          <br />
+          <b> computational sustainability:</b> I am working on two projects 
+          that bring together computation and the environment:
+
+          <ol>
+            <li>
+              <b>darjeeling revival project</b>: We are developing statistical 
+              models to estimate the carbon captured by Enhanced Rock Weathering 
+              (ERW) in Northern Bengal. The project is funded by the 
+              <a href="https://www.alt-carbon.com" target="_blank">Alt Carbon</a>, 
+              and a number of students and research assistants are working on it. 
+              The project includes field work and data collection, 
+              software development, as well as statistical modeling and analysis.
+            </li>
+            <li>
+              <b>OpenGIS India</b>: This is a project in collaboration with
+              <a href="https://www.ashoka.edu.in/profile/meghna-agarwala-3/" target="_blank">
+                Meghna Agarwala
+              </a>, where we use GIS and remote sensing to study forest dynamics, 
+              changing land usage and forest fire patterns, floods 
+              and river dynamics, and animal-human conflicts across India. 
+            </li>
+          </ol>
+          
+          
           <br />
         </div>
       </div>
