@@ -41,6 +41,30 @@ body {
   max-width: 600px; /* narrower content width for single-column pages */
 }
 
+/* Teaching page spacing tweaks */
+#content.teaching h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#content.teaching b {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#content.teaching ul {
+  padding-top: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#content.teaching ul.compact {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#content.teaching figcaption {
+  margin: 4px 0 6px;
+}
+
 /* Left column: photo + links */
 #content .left {
   padding: 0;
@@ -146,10 +170,10 @@ blockquote {
 
 /* ===== Lists ===== */
 ul {
-  padding: 0.5em 0 1em 3.2em;
+  padding: 0 0 0 3em;
 }
 ol {
-  padding: 0.5em 0 0 3.2em;
+  padding: 0 0 0 3em;
 }
 li {
   line-height: 1.4em;
