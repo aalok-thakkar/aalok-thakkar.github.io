@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;700&display=swap');
 
 @font-face {
   font-family: 'Clark';
@@ -17,7 +18,7 @@
 
 body {
   background: #fff;
-  font-family: 'Clark';
+  font-family: 'Work Sans', sans-serif;
   font-weight: 300; /* Light */
   font-size: 1em;
   line-height: 1.5em;

@@ -1,7 +1,10 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>aalok thakkar | 404</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aalok Thakkar</title>
+    <link rel="icon" href="data:," />
 
     <link
       rel="stylesheet"
@@ -9,41 +12,40 @@
       type="text/css"
       media="screen"
     />
+
     <style>
       #quote-container {
         font-size: 14px;
         text-align: center;
-        margin: 20px;
+        margin: 20px auto;
+        max-width: 500px;
+      }
+      .report-button {
+        margin-top: 12px;
+        display: inline-block;
+        padding: 6px 14px;
+        background: #eee;
+        border-radius: 6px;
+        text-decoration: none;
+        color: #000;
+        font-size: 13px;
+        border: 1px solid #ccc;
+      }
+      .report-button:hover {
+        background: #ddd;
       }
     </style>
   </head>
 
   <body>
-    <div id="content">
+    <div id="content" class="single">
       <h1>
-        <a href="/index.html">aalok thakkar</a>: <strong>error 404</strong>
+        <a href="/index.html">Aalok Thakkar</a>: <strong>Error 404</strong>
       </h1>
 
-      <div style="text-align: center">
-        <form action="mailto:aalok1996@gmail.com?subject=Broken%20Link%20Report" method="post" enctype="text/plain">
-          <label for="broken-link">Report Broken Link:</label><br />
-          <input
-            type="text"
-            id="broken-link"
-            name="Broken Link"
-            placeholder="Paste the broken URL here"
-            required
-          /><br />
-          <input
-            type="text"
-            id="source"
-            name="Source"
-            placeholder="Paste the URL source here"
-          /><br /><br />
-        
-          <input type="submit" value="Submit Report" />
-        </form>        
-      </div>
+      <p style="text-align: center;">
+        The page you are looking for does not exist.
+      </p>
 
       <div id="quote-container"></div>
     </div>
@@ -52,9 +54,7 @@
       <p>
         <a href="/index.html"> main </a>
         ::
-        <a href="/publications/index.html">
-          publications
-        </a>
+        <a href="/publications/index.html"> publications </a>
         ::
         <a href="/research/index.html"> research </a>
         ::
@@ -80,7 +80,17 @@
       function displayRandomQuote() {
         const quoteContainer = document.getElementById("quote-container");
         const randomIndex = Math.floor(Math.random() * quotes.length);
-        quoteContainer.innerHTML = quotes[randomIndex];
+
+        const poemHTML = `<div>${quotes[randomIndex]}</div>`;
+
+        const reportHTML = `
+          <br><br><a
+            class="report-button"
+            href="mailto:thakkar@ashoka.edu.in?subject=Broken%20Link%20Report&body=I%20found%20a%20broken%20link%20on%20the%20404%20page.%20The%20URL%20I%20was%20trying%20to%20reach%20was:%20"
+          >Report a Broken Link</a>
+        `;
+
+        quoteContainer.innerHTML = poemHTML + reportHTML;
       }
 
       displayRandomQuote();
