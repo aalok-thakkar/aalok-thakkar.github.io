@@ -34,6 +34,9 @@ body {
   grid-gap: 50px;
   align-items: start;
   justify-content: center;
+  overflow: visible;
+  position: relative;
+  z-index: 1;
 }
 
 #content.single {
@@ -410,9 +413,12 @@ li {
   position: relative;
   cursor: help;
   border-bottom: 1px dotted #555;
+  overflow: visible;
+  z-index: 1;
 }
 
 .tooltip .tooltiptext {
+  z-index: 9999;
   visibility: hidden;
   width: 200px;
   background-color: #333;
