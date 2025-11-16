@@ -13,32 +13,41 @@
   </head>
 
   <body>
-    <div id="content" class="single">
+    <div id="content" class="single-wide">
       <h1>
         <a href="/index.html">Aalok Thakkar</a>: <strong>Research</strong>
       </h1>
 
       <div style="text-align: center">
         <img
-          src="/webpage_files/artwork/hussain.jpg"
-          style="width: 100%"
+          src="/webpage_files/artwork/bendre.jpg"
+          style="width: 60%"
           class="center"
         />
         <figcaption style="color: #660000">
-          <font size="-1">M. F. Hussain, <em>Alap</em> (1960)</font>
+          <font size="-1">N.S. Bendre, <em>Cosmos in the Making</em> (1963)</font>
         </figcaption>
       </div>
 
       <div>
         <p>
-          I am interested in formal methods and logic, and their applications to
-          programming languages and artificial intelligence. Beyond these, I am also
-          interested in CS pedagogy and computational sustainability.<br><br>
+          My research lies at the intersection of 
+<span class="tooltip">logic,<span class="tooltiptext">The study of formal systems for reasoning about truth, inference, and computation.</span></span>
+<span class="tooltip">programming languages,<span class="tooltiptext">The design, semantics, and implementation of languages used to express computational processes.</span></span>
+and 
+<span class="tooltip">artificial intelligence,<span class="tooltiptext">The study of computational systems that can perform tasks requiring reasoning, learning, or decision-making.</span></span>
+with a focus on 
+<span class="tooltip">program synthesis,<span class="tooltiptext">The automatic construction of programs from examples or high-level descriptions of desired behavior.</span></span>
+<span class="tooltip">trustworthy AI,<span class="tooltiptext">Methods for ensuring that AI systems are reliable, fair, transparent, and aligned with human intent.</span></span>
+and 
+<span class="tooltip">computational sustainability<span class="tooltiptext">The application of computational methods to problems in environmental and social sustainability.</span></span>.
+I am also interested in computer science pedagogy, especially in the context of AI-assisted learning tools.<br><br>
         </p>
 
-        <div class="entry">
-          <h3>Formal Methods and Logic:</h3> 
-          
+        <table style="width:100%; height:100%; border-collapse:collapse; table-layout:fixed;">
+          <tr>
+          <td style="vertical-align:top; border:1px solid #ccc; padding:20px;">
+          <h3 class="section-title" style="text-align: center">Formal Methods and Logic</h3>
           <p>My doctoral research focussed on 
             automated program synthesis. A good starting point to learn about this 
             work is <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2017/10/program_synthesis_now.pdf" target="_blank"">this survey</a>. In program synthesis, I am looking 
@@ -59,124 +68,135 @@
           Beyond program synthesis, I am interested in various aspects of 
           automata theory, logic, formal methods, and logic and probablistic programming.</p>
 
-          <h3>Trustworthy AI</h3>
+          <p><strong>Group:</strong>
+            <ol>
+              <li>Smayan Agarwal (undergraduate thesis): Finite State Representations for String Samplers</li>
+              <li>Shrey Arora (undergraduate thesis): Query Regeneration under Schema/Value Transformations</li>
+              <li>Kudakwashe Chakanyuka (undergraduate thesis): Interfaces for Security Protocol Verification</li>
+              <li>Arnab Ray (visiting researcher): Invariants for Probablistic Programs</li>
+              <li>Tanush Seal (graduate student): Approximate Inference for Probablistic Logic Programs</li>
+            </ol>
+          </p>
+          </td>
+          <td style="vertical-align:top; border:1px solid #ccc; padding:20px;">
+          <h3 class="section-title" style="text-align: center">Trustworthy AI</h3>
+          <p>I am exploring several aspects of trustworthy AI: 
+            <ol>
+              <li>
+                In collaboration with <a href="https://moolya.com" target="_blank">Moolya</a>, 
+                we are developing methods to evaluate real-world AI systems, 
+                identify failure modes, and ensure reliable behavior under diverse scenarios.
+              </li>
+              <li>
+                AI Safety for Bharat: Supported by the EkStep Foundation’s AI and Data Adoption Fellowship, this project aims to create context-appropriate safety benchmarks tailored to the Indian ecosystem. This work is conducted jointly with
+                <a href="https://www.ashoka.edu.in/profile/debayan-gupta/" target="_blank">Debayan Gupta</a> and 
+                <a href="https://sites.google.com/ashoka.edu.in/anirbansen/home?authuser=0" target="_blank">Anirban Sen</a>. 
+              </li>
+              <li>
+                We are investigating how enforcing Lipschitz continuity in transformer architectures can improve robustness, stability, and certifiability of large language models under adversarial or distribution-shifted inputs.
+              </li>
+            </ol></p>
+
+            <p><strong>Group:</strong>
+              <ol>
+                <li>Pranav Aggarwal & Aishwarya Pokhriyal (research assistants): AI Safety for Bharat</li>
+                <li>Kashyap J. & Ananya Basotia (undergraduate thesis): AI Safety for Bharat </li>
+                <li>Pranav Jayanandan & Prabhpreet Setia (undergraduate thesis): Lipschitz Continuous Vision Transformers</li>
+              </ol>
+            </p>
+          </td>
+          </tr>
+          <tr>
+          <td style="vertical-align:top; border:1px solid #ccc; padding:20px;">
+          <h3 class="section-title" style="text-align: center">CS Pedagogy</h3>
+          <p>I am interested in the impact of AI on computer 
+            science education and in developing curricula and tools that are 
+            relevant to the modern learning environment. This includes:
+            <ol>
+              <li>
+                Designing courses that emphasize conceptual understanding, 
+                formal methods, and systems thinking to go beyond what AI tools 
+                can solve automatically. We have built the <a href="https://www.arxiv.org/abs/2507.22085" target="_blank">BOOP framework</a> for this.
+              </li>
+              <li>
+                Developing intelligent assistants and teaching tools that guide learning while preserving active engagement and critical thinking.
+              </li>
+              <li>
+                Creating educational resources and platforms that are accessible 
+                to all students, including those with disabilities, with a focus 
+                on the Indian educational context. More details <a href="https://www.arxiv.org/abs/2508.05056" target="_blank">here</a>.
+               </li>
+            </ol>
+            </p>
+
+            <p><strong>Group:</strong>
+              <ol>
+                <li>Vaani Goenka (research assistant): BOOP Framework</li>
+                <li>Ayush Thonge (research assistant): AI assistants for teaching</li>
+              </ol>
+            These projects are supported by <a href="https://www.mphasis.com/home.html" target="_blank">Mphasis Limited</a> as a part of the <a href="https://www.ashoka.edu.in/page/mphasis-lab/" target="_blank">Mphasis AI & Applied Tech Lab at Ashoka</a>.</p>
+          </td>
+          <td style="vertical-align:top; border:1px solid #ccc; padding:20px;">
+          <h3 class="section-title" style="text-align: center">Computational Sustainability</h3>
+          <p>I am working on two projects that bring together computation and the environment:
+
+            <ol>
+              <li>
+                Darjeeling Revival Project: We are developing statistical 
+                models to estimate the carbon captured by Enhanced Rock Weathering 
+                (ERW) in Northern Bengal. The project is funded by the 
+                <a href="https://www.alt-carbon.com" target="_blank">Alt Carbon</a>.
+              </li>
+              <li>
+                OpenGIS India: This is a project in collaboration with
+                <a href="https://www.ashoka.edu.in/profile/meghna-agarwala-3/" target="_blank">
+                  Meghna Agarwala
+                </a>, where we use GIS and remote sensing to study forest dynamics, 
+                changing land usage and forest fire patterns, floods 
+                and river dynamics, and animal-human conflicts across India. 
+              </li>
+            </ol></p>
+
+            <p><strong>Group:</strong>
+              <ol>
+                <li>Devesh Bajaj & Krish Goenka (undergraduate thesis): Predictive Models for Tea Yield</li>
+                <li>Rajdeep Das, Karan Kumar, & Vedant Gautam (research assistants): Statistical Models for Enhanced Rock Weathering</li>
+                <li>Taha Ibrahim Siddiqi (research associate): Remote Sensing for Inundation Mapping</li>
+                <li>Kabir Vohra (research assistant): OpenGIS India</li>
+              </ol>
+            </p>
+          </td>
+          </tr>
+          </table>
           
-          I am exploring several aspects of trustworthy AI: 
-          <ol>
-            <li>
-              In collaboration with <a href="https://moolya.com" target="_blank">Moolya</a>, 
-              we are developing methods to evaluate real-world AI systems, 
-              identify failure modes, and ensure reliable behavior under diverse scenarios.
-            </li>
-            <li>
-              AI Safety for Bharat: Supported by the EkStep Foundation’s AI and Data Adoption Fellowship, this project aims to create context-appropriate safety benchmarks tailored to the Indian ecosystem. This work is conducted jointly with
-              <a href="https://www.ashoka.edu.in/profile/debayan-gupta/" target="_blank">Debayan Gupta</a> and 
-              <a href="https://sites.google.com/ashoka.edu.in/anirbansen/home?authuser=0" target="_blank">Anirban Sen</a>. 
-            </li>
-            <li>
-              We are investigating how enforcing Lipschitz continuity in transformer architectures can improve robustness, stability, and certifiability of large language models under adversarial or distribution-shifted inputs.
-            </li>
-          </ol>
 
-          <h3>CS Pedagogy</h3>
-
-          I am interested in the impact of AI on computer 
-          science education and in developing curricula and tools that are 
-          relevant to the modern learning environment. This includes:
-          <ol>
-            <li>
-              Designing courses that emphasize conceptual understanding, 
-              formal methods, and systems thinking to go beyond what AI tools 
-              can solve automatically. We have built the <a href="https://www.arxiv.org/abs/2507.22085" target="_blank">BOOP framework</a> for this.
-            </li>
-            <li>
-              Developing intelligent assistants and teaching tools that guide learning while preserving active engagement and critical thinking.
-            </li>
-            <li>
-              Creating educational resources and platforms that are accessible 
-              to all students, including those with disabilities, with a focus 
-              on the Indian educational context. More details <a href="https://www.arxiv.org/abs/2508.05056" target="_blank">here</a>.
-             </li>
-          </ol>
-          The above projects are supported by <a href="https://www.mphasis.com/home.html" target="_blank">Mphasis Limited</a> as a part of the <a href="https://www.ashoka.edu.in/page/mphasis-lab/" target="_blank">Mphasis AI & Applied Tech Lab at Ashoka</a>.
-
-          <h3>Computational Sustainability</h3>
-          
-          I am working on two projects that bring together computation and the environment:
-
-          <ol>
-            <li>
-              Darjeeling Revival Project: We are developing statistical 
-              models to estimate the carbon captured by Enhanced Rock Weathering 
-              (ERW) in Northern Bengal. The project is funded by the 
-              <a href="https://www.alt-carbon.com" target="_blank">Alt Carbon</a>.
-            </li>
-            <li>
-              OpenGIS India: This is a project in collaboration with
-              <a href="https://www.ashoka.edu.in/profile/meghna-agarwala-3/" target="_blank">
-                Meghna Agarwala
-              </a>, where we use GIS and remote sensing to study forest dynamics, 
-              changing land usage and forest fire patterns, floods 
-              and river dynamics, and animal-human conflicts across India. 
-            </li>
-          </ol>
-
-          <h3>Research Group</h3>
-
-          <h4 style="margin-left: 30px;">Graduate Students:</h4>
-          <ol>
-            <li>Tanush Seal: Approximate Inference for Probablistic Logic Programs</li>
-          </ol>
-          <h4 style="margin-left: 30px;">Undergraduate Students:</h4>
-          <ol>
-            <li>Smayan Agarwal: Finite State Representations for String Samplers</li>
-            <li>Shrey Arora: Query Regeneration under Schema/Value Transformations</li>
-            <li>Devesh Bajaj & Krish Goenka: Statistical Models for Enhanced Rock Weathering</li>
-            <li>Kudakwashe Chakanyuka: Interfaces for Security Protocol Verification</li>
-            <li>Pranav Jayanandan & Prabhpreet Setia: Lipschitz Continuous Vision Transformers</li>
-          </ol>
-          <h4 style="margin-left: 30px;">Research Assistants:</h4>
-          <ol>
-            <li>Pranav Aggarwal, AI Safety for Bharat</li>
-            <li>Rajdeep Das, Darjeeling Revival Project</li>
-            <li>Karan Kumar, Darjeeling Revival Project</li>
-            <li>Vedant Gautam, Darjeeling Revival Project</li>
-            <li>Vaani Goenka, CS Pedagogy</li>
-            <li>Aishwarya Pokhriyal, AI Safety for Bharat</li>
-            <li>Arnab Ray, Visiting Researcher</li>
-            <li>Taha Ibrahim Siddiqi, Darjeeling Revival Project</li>
-            <li>Ayush Thonge, CS Pedagogy</li>
-            <li>Kabir Vohra, Darjeeling Revival Project</li>
-          </ol>
-          <h4 style="margin-left: 30px;">Former Members:</h4>
-          <ol>
-            <li>Roshni Agarwal, Darjeeling Revival Project 2025 (Ashoka Class of 2026)</li>
-            <li>Suyog Joshi, AI Safety for Bharat 2025 (Machine Learning Analyst, Wadhwani AI)</li>
-            <li>Pankhi Mehta, AI Safety for Bharat 2025  (Ashoka Class of 2026)</li>
-            <li>Shobhit Singh, Pre-doctoral Researcher (PhD Student, Karlsruhe Institute of Technology)</li>
-            <li>Aaryan Shah, AI Safety for Bharat 2025 (Data Scientist, Fractal AI)</li>
-            <li>Karthik Sunil, CS Pedagogy  (Ashoka Class of 2026)</li>
-          </ol>
-
-        </div>
+            <h3>Former Members of the Research Group:</h3>
+                <ol>
+                  <li>Roshni Agarwal, Darjeeling Revival Project 2025 (Ashoka Class of 2026)</li>
+                  <li>Suyog Joshi, AI Safety for Bharat 2025 (Machine Learning Analyst, Wadhwani AI)</li>
+                  <li>Pankhi Mehta, AI Safety for Bharat 2025  (Ashoka Class of 2026)</li>
+                  <li>Shobhit Singh, Pre-doctoral Researcher (PhD Student, Karlsruhe Institute of Technology)</li>
+                  <li>Aaryan Shah, AI Safety for Bharat 2025 (Data Scientist, Fractal AI)</li>
+                  <li>Karthik Sunil, CS Pedagogy  (Ashoka Class of 2026)</li>
+                </ol>
+              </div>
+            
+            </div>
       </div>
     </div>
+          
 
-    <div id="footer">
-      <p>
-        <a href="/index.html"> main </a>
-        ::
-        <a href="/publications/index.html"> publications </a>
-        ::
-        <a href="/research/index.html"> research </a>
-        ::
-        <a href="/contact/index.html"> contact </a>
-        ::
-        <a href="/teaching/index.html"> teaching </a>
-        ::
-        <a href="/more/index.html"> more </a>
-      </p>
-    </div>
+
+
+    <div id="footer"></div>
+
+    <script>
+    fetch("/webpage_files/footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer').innerHTML = data;
+      });
+    </script>
   </body>
 </html>
 

@@ -25,21 +25,26 @@
       </div>
 
       <div class="right entry">
-        <p>I am an <a href="https://www.ashoka.edu.in/profile/aalok-thakkar/" target="_blank">Assistant Professor in the Department of Computer Science</a> at Ashoka University, and an <a href="https://www.alt-carbon.com">Alt 
-            Carbon Darjeeling Revival Fellow</a>. My research lies at the intersection of logic, programming languages, and artificial intelligence. I am particularly interested in trustworthy AI, computational sustainability, and computer science pedagogy.
-              </p>
 
-              <p>
-                In 2023, I obtained my Ph.D. in Computer and Information Science from the University of Pennsylvania, where I was advised by
-                <a href="http://www.cis.upenn.edu/~alur/" target="_blank"
-                  >Rajeev Alur</a
-                >
-                and
-                <a href="https://www.cis.upenn.edu/~mhnaik/" target="_blank"
-                  >Mayur Naik</a
-                >. During this time, I developed the <a href="./webpage_files/publications/thesis/thesis.pdf" target="_blank">example-guided framework
-                  for synthesis of relational queries</a>.
-              </p>
+        <div style="font-size: 1.3em; margin-bottom: 1em;">
+          I work at <a href="https://www.ashoka.edu.in/profile/aalok-thakkar/" target="_blank">Ashoka University</a>. 
+          My <a href="/research/index.html">research</a> is on 
+          <span class="tooltip">logic<span class="tooltiptext">
+            The study of formal systems for representing and reasoning about truth, inference, and computation.
+          </span></span>
+          in computer science, with a focus on
+          <span class="tooltip">program synthesis<span class="tooltiptext">
+            Automatically generating programs from examples or from high-level descriptions of intended behavior.
+          </span></span>
+          and
+          <span class="tooltip">automata theory<span class="tooltiptext">
+            The study of abstract models of computation and formal languages.
+          </span></span>.
+        </div>
+        
+
+        <link rel="stylesheet" href="tooltip.css">
+
 
               <h3>News:</h3>
 
@@ -49,7 +54,7 @@
               </p>
 
               <p>
-                December 2025: We will host a mentoring workshop as a part of 
+                December 2025: We will host a <a href="/fsttcs-mentoring-workshop-2025.html" target="_blank">mentoring workshop</a> as a part of 
                 <a href="https://www.fsttcs.org.in/2025/" target="_blank">FSTTCS 2025</a> 
                 at BITS Pilani Goa Campus on December 16, 2025.
               </p>
@@ -77,15 +82,15 @@
           </div>
         </div>
 
-      <div id="footer">
-      <p>
-        <a href="/index.html">main</a> ::
-        <a href="/publications/index.html">publications</a> ::
-        <a href="/research/index.html">research</a> ::
-        <a href="/contact/index.html">contact</a> ::
-        <a href="/teaching/index.html">teaching</a> ::
-        <a href="/more/index.html">more</a>
-      </p>
-    </div>
+
+        <div id="footer"></div>
+
+        <script>
+        fetch("/webpage_files/footer.html")
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('footer').innerHTML = data;
+          });
+        </script>
     </body>
   </html>

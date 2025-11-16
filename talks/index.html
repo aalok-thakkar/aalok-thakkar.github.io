@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title> thakkar | talks</title>
+    <title>Aalok Thakkar</title>
     <link rel="icon" href="data:,">
 
     <link
@@ -13,8 +13,8 @@
   </head>
 
   <body>
-    <div id="content">
-      <h1><a href="/index.html">aalok thakkar</a>: <strong>talks</strong></h1>
+    <div id="content" class="single">
+      <h1><a href="/index.html">Aalok Thakkar</a>: <strong>Talks</strong></h1>
 
       <div class="entry">
 
@@ -115,21 +115,14 @@ Take to Count Rs in Strawberry?
       </div>
     </div>
 
-    <div id="footer">
-      <p>
-        <a href="/index.html"> main </a>
-        ::
-        <a href="/publications/index.html"> publications </a>
-        ::
-        <a href="/research/index.html"> research </a>
-        ::
-        <a href="/contact/index.html"> contact </a>
-        ::
-        <a href="/teaching/index.html"> teaching </a>
-        ::
-        <a href="/more/index.html"> more </a>
-      </p>
-    </div>
+    <div id="footer"></div>
+    <script>
+      fetch("/webpage_files/footer.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('footer').innerHTML = data;
+        });
+      </script>
   </body>
 </html>
 

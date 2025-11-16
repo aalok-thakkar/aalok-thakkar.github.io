@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title> Aalok Thakkar </title>
+    <title>Aalok Thakkar</title>
     <link rel="icon" href="data:,">
 
     <link
@@ -15,11 +15,11 @@
   <body>
     <div id="content" class="single">
       <h1>
-        <a href="./../index.html">Aalok Thakkar</a>: <strong>Poetry</strong>
+        <a href="/index.html">Aalok Thakkar</a>: <strong>Poetry</strong>
       </h1>
 
-      <div>
-                <h1>On the Compositional Inverse of the Square-Root Function</h1>
+      <div style="text-align: center;">
+        <h2>On the Compositional Inverse of the Square-Root Function</h2>
 
         <p style="margin: 80px;">
           I open my grandmother's cookbook,<br>
@@ -66,22 +66,14 @@
     </div>
     </div>
 
-<div id="footer">
+    <div id="footer"></div>
 
-
-      <p>
-        <a href="/index.html"> main </a>
-        ::
-        <a href="/publications/index.html"> publications </a>
-        ::
-        <a href="/research/index.html"> research </a>
-        ::
-        <a href="/contact/index.html"> contact </a>
-        ::
-        <a href="/teaching/index.html"> teaching </a>
-        ::
-        <a href="/more/index.html"> more </a>
-      </p>
-    </div>
+    <script>
+    fetch("/webpage_files/footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer').innerHTML = data;
+      });
+    </script>
   </body>
 </html>
