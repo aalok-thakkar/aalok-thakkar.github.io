@@ -7,7 +7,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: 'Clark';
   src: url('./fonts/Clack-LightItalic_otf.woff2') format('woff2');
@@ -87,16 +86,11 @@ body {
   margin: 0 auto;
 }
 
-
 #content .right {
   margin-top: 0;
   padding-top: 0;
   float: none;
   width: auto;
-}
-
-#content .right p:first-of-type {
-  margin-top: 0;
 }
 
 #content .right p:first-of-type {
@@ -166,7 +160,10 @@ strong, b {
 /* ===== Images & Blockquotes ===== */
 img {
   border: none;
+  max-width: 100%;
+  height: auto;
 }
+
 blockquote {
   border-left: 1px solid #a5abab;
   margin: 0;
@@ -188,6 +185,8 @@ li {
 /* ===== Header ===== */
 #header {
   position: fixed;
+  width: 100%;
+  left: 0;
 }
 #header h2 {
   color: #333;
@@ -239,18 +238,127 @@ li {
   margin-top: 80px;
 }
 
-/* Responsive layout for narrow screens */
-@media (max-width: 768px) {
+/* Responsive improvements for narrow screens */
+@media (max-width: 900px) {
   #content {
+    max-width: 100vw;
+    margin: 24px 8px;
     grid-template-columns: 1fr;
     grid-gap: 20px;
+  }
+  #content .left,
+  #content .right {
+    width: 100%;
+    float: none;
+    padding-right: 0;
   }
   #content .left img {
     max-width: 250px;
   }
+  .left, .right {
+    width: 100%;
+    float: none;
+    padding-right: 0;
+  }
+  #footer {
+    font-size: 0.9em;
+    margin-top: 40px;
+  }
+  h3, h4, h5 {
+    margin-top: 24px;
+  }
+  .calendar tr,
+  .calendar td {
+    height: auto !important;
+    min-height: 44px;
+    font-size: 0.95em;
+  }
+  .calendar td {
+    width: auto;
+    padding: 4px;
+  }
+  .cage {
+    font-size: 0.95em;
+  }
 }
 
-/* ===== Poetry Section ===== */
+@media (max-width: 600px) {
+  html, body {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+  }
+  #content {
+    max-width: 100vw;
+    margin: 12px 0;
+    grid-template-columns: 1fr;
+    grid-gap: 12px;
+    padding: 0 6px;
+  }
+  #content .left,
+  #content .right {
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
+  #content h1,
+  .main-title {
+    font-size: 1.35em;
+    margin-bottom: 0.6em;
+  }
+  #content .left img {
+    max-width: 150px;
+  }
+  .left, .right {
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
+  .calendar, .cage {
+    font-size: 0.90em;
+    min-width: 0;
+    width: 100%;
+  }
+  .calendar th, .calendar td,
+  .cage th, .cage td {
+    padding: 3px 4px;
+    word-break: break-word;
+  }
+  #footer {
+    font-size: 0.85em;
+    padding: 10px 0;
+    margin-top: 24px;
+  }
+  h1, h2 {
+    font-size: 1.15em;
+  }
+  h3, h4, h5 {
+    font-size: 1em;
+    margin-top: 18px;
+  }
+  blockquote {
+    font-size: 0.98em;
+    padding: 0 6px;
+  }
+  ul, ol {
+    padding-left: 1.5em;
+  }
+}
+
+@media (max-width: 500px) {
+  #content {
+    grid-gap: 8px;
+    padding: 0 2px;
+  }
+  #content h1,
+  .main-title {
+    font-size: 1.15em;
+  }
+  .calendar, .cage {
+    font-size: 0.85em;
+  }
+}
+
 #poetry {
   background: #fff;
   clear: both;
@@ -262,6 +370,7 @@ li {
   margin: 0;
   text-align: center;
   font-weight: 300;
+  word-break: break-word;
 }
 #poetry a {
   color: #666;
@@ -287,14 +396,27 @@ li {
   clear: both;
 }
 
-/* ===== Tables ===== */
+/* Responsive .left/.right for phone */
+@media (max-width: 800px) {
+  .left, .right {
+    width: 100%;
+    float: none;
+    padding-right: 0;
+  }
+}
+
 .calendar {
   border-collapse: collapse;
   border: 1px solid black;
+  width: 100%;
+  min-width: 220px;
+  font-size: 1em;
 }
 .calendar th,
 .calendar td {
   border: 1px solid black;
+  padding: 4px 8px;
+  word-break: break-word;
 }
 .calendar tr {
   height: 100px;
@@ -313,13 +435,16 @@ li {
   border: 1px solid black;
   width: 100%;
   margin: 0 auto;
+  min-width: 220px;
+  font-size: 1em;
 }
 .cage th,
 .cage td {
   border: 1px solid black;
+  padding: 4px 8px;
+  word-break: break-word;
 }
 
-/* ===== Decorative Patterns ===== */
 .line-pattern {
   background-image: linear-gradient(
     45deg,
@@ -333,7 +458,6 @@ li {
   );
   background-size: 60px 60px;
 }
-
 .checkered-pattern {
   background-image: linear-gradient(45deg, #e6e6e6 25%, transparent 25%),
     linear-gradient(-45deg, #e6e6e6 25%, transparent 25%),
@@ -408,7 +532,6 @@ li {
   }
 }
 
-
 .tooltip {
   position: relative;
   cursor: help;
@@ -421,6 +544,7 @@ li {
   z-index: 9999;
   visibility: hidden;
   width: 200px;
+  max-width: 85vw;
   background-color: #333;
   color: #fff;
   text-align: center;
@@ -437,6 +561,18 @@ li {
 
   opacity: 0;
   transition: opacity 0.2s;
+  word-break: break-word;
+}
+
+@media (max-width: 600px) {
+  .tooltip .tooltiptext {
+    width: 95vw;
+    max-width: 95vw;
+    font-size: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 5px;
+  }
 }
 
 .tooltip:hover .tooltiptext {
@@ -451,12 +587,25 @@ li {
   gap: 0;
   width: 100%;
   box-sizing: border-box;
-  }
-  .grid-item {
+}
+.grid-item {
   border: 1px solid #ccc;
   padding: 20px;
   overflow-y: auto;
-  }
-  .section-title {
+}
+.section-title {
   margin-top: 0;
+}
+
+/* Responsive Grid for Small Screens */
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: initial;
+    gap: 6px;
   }
+  .grid-item {
+    padding: 10px;
+    font-size: 1em;
+  }
+}
