@@ -12,22 +12,16 @@
 
 <body id="wide-page">
 
-    <div id="content" class="single">
+    <div id="content" class="single-wide">
 
         <h1>
-            <a href="./../../index.html">aalok thakkar</a>: <strong>introduction to computer science</strong>
+            Introduction to Computer Science</strong>
         </h1>
 
-        
+        <p style="text-align: center;">This course was taught in Summer 2025. For the latest <br> iteration 
+            of the course, please see the <u><a href="/teaching/index.html">teaching page</a></b>.</u></p>
 
         <div class="entry">
-
-            <div style="text-align: center;">
-                <h1>
-                    summer 2025: cs-1102
-                </h1>
-            </div>
-
             <div style="text-align: center;" >
                 <img src="./bugs.jpg" style="width: 350px;" class="center">
                 <figcaption style="color: #660000">
@@ -404,35 +398,18 @@
         </div>
     </div>
 
-    <div id="footer">
+      </div>
 
-        <p>
-            <a href="./../../index.html">
-                main
-            </a>
-            ::
-            <a href="./../../publications.html">
-                publications
-            </a>
-            ::
-            <a href="./../../research.html">
-                research
-            </a>
-            ::
-            <a href="./../../contact.html">
-                contact
-            </a>
-            ::
-            <a href="./../../teaching.html">
-                teaching
-            </a>
-            ::
-            <a href="./../../more.html">
-                more
-            </a>
-        </p>
-
-    </div>
+  <div id="footer"></div>
+ 
+  <script>
+    fetch("/webpage_files/footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer').innerHTML = data;
+      });
+    </script>
+</body>
 
 </body>
 

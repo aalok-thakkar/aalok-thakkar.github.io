@@ -12,11 +12,13 @@
 
 <body id="wide-page">
 
-    <div id="content" class="single">
+    <div id="content" class="single-wide">
 
         <h1>
-            Symbolic Logic and Applications</strong>
+            Symbolic Logic and Applications
         </h1>
+        <p style="text-align: center;">This course was taught in Monsoon 2025. For the latest <br> iteration 
+                of the course, please see the <u><a href="/teaching/index.html">teaching page</a></b>.</u></p>
 
         <div class="entry">
             <div style="text-align: center;">
@@ -28,7 +30,7 @@
             </div>
 
             <p>
-                <span class="bold-text">Logistics</span>:<br>
+                <span class="bold-text">Logistics:</span><br>
                 <table>
                     <tr>
                         <td>Credits:</td>
@@ -44,26 +46,12 @@
                     </tr>
                     <tr>
                         <td>Teaching Assistant:</td>
-                        <td><a href="mailto:smayan.agarwal_ug25@ashoka.edu.in">Smayan Agarwal</a></td>
+                        <td>Smayan Agarwal (<a href="mailto:smayan.agarwal_ug25@ashoka.edu.in">smayan.agarwal_ug25@ashoka.edu.in</a>)</td>
                     </tr>
                 </table>
                 </p>
-                <p>
-                <span class="bold-text">Links</span>:<br>
-                <table>
-                    <tr>
-                        <td><a href="./lectures.html">Course Outline and Lectures</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="./project.html">Course Project Guidelines</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="./resources.html">Resources and Reading Materials</a></td>
-                    </tr>
-                </table>
-            </p>
             <p>
-                <span class="bold-text">Course Description</span>:
+                <span class="bold-text">Course Description:</span>
                 Symbolic logic presents an intriguing challenge in computer science: balancing the need to express
                 complex ideas
                 with the ability to solve problems efficiently. This course explores how we can create systems that are
@@ -105,45 +93,43 @@
                     bridging the gap between theoretical reasoning and practical considerations. <br>
                     </li>
                     </ol>
-        </p>
+                </p>
         
         <p>
-            <span class="bold-text">Prerequisites</span>: First, the course will require a certain amount of maturity at least at the level of [CS-2212] Data Structures and Algorithms. Second, functional knowledge of a programming language
+            <span class="bold-text">Prerequisites:</span> First, the course will require a certain amount of maturity at least at the level of [CS-2212] Data Structures and Algorithms. Second, functional knowledge of a programming language
                 (preferably Python or Rust) is required for completing the assignments and projects in this course.
         </p>
         <p>
-            <span class="bold-text">Grading</span>: A serious student of a subject is not an idle spectator to a
+            <span class="bold-text">Grading:</span> A serious student of a subject is not an idle spectator to a
                 variety show but learns best by active
                 involvement. This is particularly true of mathematical subjects. This course is structured to
                 incentivise involvement through the following:
 
             <ol>
-                    <li>
-                    Assignments: The course includes four programming problem sets. These are designed to
+            <li>
+                    Assignments: The course includes three programming problem sets. These are designed to
                     reinforce
-                    lecture material and develop practical skills in applying theoretical concepts. They constitute
-                    <span class="bold-text">25%</span> of
-                    the grade.
+                    lecture material and develop practical skills in applying theoretical concepts. They constitute a
+                    third of the grade.
                     </li>
                     <li>
-                    <a href="./project.html">Course Project</a>: Students will undertake a project on constraint solving
+                    Course Project: Students will undertake a project on invariant synthesis
                     (which
                     requires programming). This hands-on experience allows for practical application of course concepts
                     and
                     fosters deeper engagement with the subject matter. The project may be done
                     either alone or
-                    in pairs. Project topic needs to be approved by the instructor. It carries <span class="bold-text">25%</span> of the
+                    in pairs. It carries a third of the
                     grade.
                     </li>
                     <li>
-                    Periodic Assessments: Six, in-class, closed-book, 45 minute quizzes carry the remaining grade.
+                    Periodic Assessments: Five, in-class, closed-book, assessments carry the remaining grade.
                     </li>
                     </ol>
-
             </p>
 
             <p>
-                <span class="bold-text">Policies</span>: Please note the following policies:
+                <span class="bold-text">Policies:</span> Please note the following policies:
 
                 <ul>
                 <li>
@@ -162,43 +148,26 @@
             </p>
 
             <p>
-                <span class="bold-text">Support</span>: Students are encouraged to reach out to University offices such as the 
+                <span class="bold-text">Support:</span> Students are encouraged to reach out to University offices such as the 
                 <a target="_blank" href="https://www.ashoka.edu.in/page/office-of-learning-support/">Office of Learning Support</a>, 
                 <a target="_blank" href="https://acwb.ashoka.edu.in">Ashoka Center for Well-Being</a>, and 
                 <a target="_blank" href="">Center for Writing and Communication</a> for additional support. 
             </p>
-        </div>
-    </div>
-
-    <div id="footer">
-
-        <p>
-            <a href="./../../../index.html">
-                main
-            </a>
-            ::
-            <a href="./../../../publications.html">
-                publications
-            </a>
-            ::
-            <a href="./../../../research.html">
-                research
-            </a>
-            ::
-            <a href="./../../../contact.html">
-                contact
-            </a>
-            ::
-            <a href="./../../../teaching.html">
-                teaching
-            </a>
-            ::
-            <a href="./../../../more.html">
-                more
-            </a>
         </p>
 
+        </div>
     </div>
+    </div>
+    <div id="footer"></div>
+
+    <script>
+    fetch("/webpage_files/footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer').innerHTML = data;
+      });
+    </script>
+    
 
 </body>
 

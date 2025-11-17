@@ -7,7 +7,7 @@
   </head>
 
   <body id="wide-page">
-    <div id="content" class="single">
+    <div id="content" class="single-wide">
       <h1>
         Symbolic Logic and Applications
       </h1>
@@ -115,21 +115,14 @@
 
     </div>
 
-    <div id="footer">
+    <div id="footer"></div>
 
-      <p>
-        <a href="./../../index.html"> main </a>
-        ::
-        <a href="./../../publications.html"> publications </a>
-        ::
-        <a href="./../../research.html"> research </a>
-        ::
-        <a href="./../../contact.html"> contact </a>
-        ::
-        <a href="./../../teaching.html"> teaching </a>
-        ::
-        <a href="./../../more.html"> more </a>
-      </p>
-    </div>
+    <script>
+    fetch("/webpage_files/footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer').innerHTML = data;
+      });
+    </script>
   </body>
 </html>

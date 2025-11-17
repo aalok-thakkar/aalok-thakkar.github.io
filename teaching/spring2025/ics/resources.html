@@ -1,28 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Aalok Thakkar</title>
 
-    <link
+ 	<head>
+
+ 		<title>Aalok Thakkar</title>
+
     <link rel="icon" href="data:,">
-      rel="stylesheet"
-      href="/webpage_files/style.css"
-      type="text/css"
-      media="screen"
-    />
-  </head>
+ 		<link rel="stylesheet" href="/webpage_files/style.css" type="text/css" media="screen">
 
-  <body id="wide-page">
-    <div id="content" class="single">
-      <h1>
-        <a href="./../../index.html">aalok thakkar</a>:
-        <strong>introduction to computer science</strong>
-      </h1>
+ 	</head>
 
-      <div class="entry">
-        <div style="text-align: center">
-          <h1>spring 2025: cs-1102-1</h1>
-        </div>
+ 	<body id="wide-page">
+
+ 		<div id="content" class="single-wide">
+
+ 			<h1>
+ 				Introduction to Computer Science</strong>
+ 			</h1>
+
+ 			<div class="entry">
 
         <div style="text-align: center">
           <img src="https://imgs.xkcd.com/comics/trained_a_neural_net.png" style="width: 250px" class="center" />
@@ -137,27 +133,24 @@
           </li>
         </ol>
       </div>
-    </div>
 
-    <div id="footer">
-      
-      <p>
-        back to <a href="./ics2025.html"><u>course</u></a>
+      <p style="text-align: center;">
+          back to <a href="./index.html"><u>course</u></a>
       </p>
 
-      <p>
-        <a href="./../../index.html"> main </a>
-        ::
-        <a href="./../../publications.html"> publications </a>
-        ::
-        <a href="./../../research.html"> research </a>
-        ::
-        <a href="./../../contact.html"> contact </a>
-        ::
-        <a href="./../../teaching.html"> teaching </a>
-        ::
-        <a href="./../../more.html"> more </a>
-      </p>
-    </div>
-  </body>
+  </div>
+
+  <div id="footer"></div>
+ 
+  <script>
+    fetch("/webpage_files/footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer').innerHTML = data;
+      });
+    </script>
+</body>
+
+</body>
+
 </html>

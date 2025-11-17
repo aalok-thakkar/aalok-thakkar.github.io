@@ -12,20 +12,16 @@
 
 <body id="wide-page">
 
-    <div id="content" class="single">
+    <div id="content" class="single-wide">
 
         <h1>
-            <a href="./../../index.html">thakkar</a>: <strong>introduction to computer science</strong>
+            Introduction to Computer Science
         </h1>
 
+        <p style="text-align: center;">This course was taught in Monsoon 2025. For the latest <br> iteration 
+            of the course, please see the <u><a href="/teaching/index.html">teaching page</a></b>.</u></p>
+
         <div class="entry">
-
-            <div style="text-align: center;">
-                <h1>
-                    monsoon 2025: cs-1102-1
-                </h1>
-            </div>
-
             <div style="text-align: center;" >
                 <img src="./camel.webp" style="width: 350px;" class="center">
                 <figcaption style="color: #660000">
@@ -48,12 +44,6 @@
                     <tr>
                         <td>Classsroom:</td>
                         <td>AC-04-LR-005</td>
-                    </tr>
-                    <tr>
-                        <td>Teaching Fellow:</td>
-                        <td>
-                            <a href="mailto:shobhit.singh@ashoka.edu.in">Shobhit Singh</a>
-                        </td>
                     </tr>
                     <tr>
                         <td>Teaching Assistants:</td>
@@ -135,36 +125,17 @@
                 <a target="_blank" href="">Center for Writing and Communication</a> for additional support. 
             </p>
         </div>
-
-    <div id="footer">
-
-        <p>
-            <a href="./../../../index.html">
-                main
-            </a>
-            ::
-            <a href="./../../../publications.html">
-                publications
-            </a>
-            ::
-            <a href="./../../../research.html">
-                research
-            </a>
-            ::
-            <a href="./../../../contact.html">
-                contact
-            </a>
-            ::
-            <a href="./../../../teaching.html">
-                teaching
-            </a>
-            ::
-            <a href="./../../../more.html">
-                more
-            </a>
-        </p>
-
     </div>
+
+    <div id="footer"></div>
+       
+    <script>
+      fetch("/webpage_files/footer.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('footer').innerHTML = data;
+        });
+      </script>
 
 </body>
 

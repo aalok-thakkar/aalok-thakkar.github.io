@@ -1,5 +1,18 @@
-Aalok Thakkar is an Assistant Professor of Computer Science at Ashoka University and an Alt Carbon Darjeeling Revival Fellow. His research spans logic, programming languages, and artificial intelligence, with particular focus on program synthesis, trustworthy AI, and computational sustainability. He also works on computer science pedagogy, especially in the context of emerging AI-assisted learning tools.
+Aalok Thakkar is an Assistant Professor of Computer Science at Ashoka 
+University and an Alt Carbon Darjeeling Revival Fellow. His research spans 
+logic, programming languages, and artificial intelligence, with particular 
+focus on program synthesis, trustworthy AI, and computational sustainability. 
+He also works on computer science pedagogy, especially in the context of 
+emerging AI-assisted learning tools.
 
-He received his Ph.D. in Computer and Information Science from the University of Pennsylvania in 2023, where he was advised by Rajeev Alur and Mayur Naik. His doctoral dissertation, Example-Guided Synthesis of Relational Queries, introduced a framework for synthesizing expressive relational queries from input–output examples.
+He received his Ph.D. in Computer and Information Science from the University 
+of Pennsylvania in 2023, where he was advised by Rajeev Alur and Mayur Naik. 
+His doctoral dissertation, Example-Guided Synthesis of Relational Queries, 
+introduced a novel framework for synthesizing expressive relational queries 
+from input–output examples.
 
-Before joining Ashoka University, he worked as a research scientist at Aptos Labs on the specification and verification of Move smart contracts. He has also held research positions at Adobe Systems, Amazon Web Services’ Automated Reasoning Group, Bell Labs, and ENS Paris-Saclay, focusing on automated reasoning and program synthesis.
+Before joining Ashoka University, he worked as a research scientist at Aptos 
+Labs on the specification and verification of Move smart contracts. He has also 
+held research positions at Adobe Systems, Amazon Web Services’ Automated 
+Reasoning Group, Bell Labs, and ENS Paris-Saclay, focusing on automated 
+reasoning and program synthesis.
