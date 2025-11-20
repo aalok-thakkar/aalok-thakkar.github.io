@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Aalok Thakkar</title>
+
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="/webpage_files/style.css" type="text/css" media="screen">
+
+</head>
+
+<body id="wide-page">
+
+    <div id="content" class="single-wide">
+
+        <h1>
+            Theory of Computation
+        </h1>
+    
+        <div class="entry">
+
+            <div style="text-align: center;">
+                <img src="./turing.jpg" style="width: 350px;" class="center">
+                <figcaption>
+                    <font size="-1">
+                        Ai-Da, <em>Portrait of Alan Turing</em> (2024)</font>
+                </figcaption>
+            </div>
+
+            <p>
+                <span class="bold-text">Logistics</span>:<br>
+                <table>
+                    <tr>
+                        <td>Credits:</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Classes:</td>
+                        <td>TBD (Add to your calendar)</td>
+                    </tr>
+                    <tr>
+                        <td>Classsroom:</td>
+                        <td>TBD</td>
+                    </tr>
+                    <tr>
+                        <td>Teaching Fellow:</td>
+                        <td>Arnab Ray (<a href="mailto:arnab.ray_tf@ashoka.edu.in">arnab.ray_tf@ashoka.edu.in</a>)</td>
+                    </tr>
+                    <tr>
+                        <td>Teaching Assistant:</td>
+                        <td>Smayan Agarwal (<a href="mailto:smayan.agarwal_ug25@ashoka.edu.in">smayan.agarwal_ug25@ashoka.edu.in</a>)</td>
+                    </tr>
+                </table>
+                </p>
+                <p>
+                <span class="bold-text">Links</span>:<br>
+                <table>
+                    <tr>
+                        <td><a href="./lectures.html">Course Outline and Lectures</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="./problems.html">Selection of Practice Problems</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="./resources.html">Resources and Reading Materials</a></td>
+                    </tr>
+                </table>
+            </p>
+            <p>
+                <span class="bold-text">Course Description</span>:
+                Most computer science courses teach how to compute: how to 
+                write programs, implement algorithms, and build systems. This 
+                course asks a deeper question: <em>what is computation?</em>
+                Different disciplines offer different answers. Logicians 
+                understand computation as symbol manipulation (<a href="https://en.wikipedia.org/wiki/On_Formally_Undecidable_Propositions_of_Principia_Mathematica_and_Related_Systems" target="_blank">Gödel, 1931</a>; <a href="./papers/post.pdf" target="_blank">Post, 1943</a>); 
+                mathematicians as the effective evaluation of functions 
+                (<a href="./papers/church.pdf" target="_blank">Church, 1936</a>); linguists as the generation and recognition 
+                of grammatical structure (<a href="./papers/chomsky.pdf" target="_blank">Chomsky, 1956</a>); and engineers as the 
+                control of physical processes (<a href="https://en.wikipedia.org/wiki/First_Draft_of_a_Report_on_the_EDVAC" target="_blank">von Neumann, 1945</a>; <a href="https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication" target="_blank">Shannon 1948</a>).<br><br>
+                
+                In CS-3330, we will answer this question as computer 
+                scientists: computation is the execution of an abstract machine 
+                acting on an input according to unambiguous rules (<a href="https://en.wikipedia.org/wiki/Turing%27s_proof" target="_blank">Turing, 1936</a>). 
+                With this perspective, we will unify the symbolic, functional, 
+                linguistic, and physical views of computation, and address 
+                three fundamental questions: What can be computed? What can be 
+                computed with resource constraints? And what cannot be computed 
+                at all? <br><br>
+
+                This course is divided into four modules: 
+
+            <ol>
+                <li>
+                    <strong>Finite State Systems:</strong> In the first module, we study computation with bounded memory and develop the theory of finite automata and regular languages. We compare different models of computation: deterministic, nondeterministic, and stochastic, as well as finite controllers with bounded data structures. We also introduce the connection between logic, automata, and grammar (and, time permitting, algebra and games), highlighting how simple computational models give rise to rich mathematical characterizations.
+                </li>
+                <li>
+                    <strong>Infinite State Systems:</strong> We move beyond finite machines to models with unbounded memory, expressed through stacks, tapes, and other extensible data structures. We examine their grammatical counterparts, such as context-free grammars, and show how these systems capture deeper forms of computational structure. This module clarifies why seemingly different models of general-purpose computation are equivalent in power and presents the Church-Turing Thesis as the unifying principle behind them.
+                </li>
+                <li>
+                    <strong>Decidability and Undecidability: </strong> In this module, we study the boundary between solvable and unsolvable problems. Using diagonalization, reductions, and fixed-point arguments, we identify problems that no algorithm can solve. Examples include the Entscheidungsproblem, problems about Turing machines, first-order logic validity, grammar problems, and tiling problems.
+                </li>
+                <li>
+                    <strong>Computational Complexity:</strong> When problems can be solved, we examine their time and space complexity, polynomial-time computation, and the notion of intractability. We also discuss the open problem P vs. NP and provide a framework for understanding why some solvable problems remain practically out of reach, and how resource constraints shape the landscape of computation.
+                </li>
+                    
+            </ol>
+        </p>
+        
+        <p>
+            <strong>Prerequisites:</strong>: The course will require a certain level of
+            maturity, at least at the level of CS-2212 (Data Structures and Algorithms). It is recommended that students also have familiarity with algorithmic concepts, including reductions, at the level of CS-3210 (Design and Analysis of Algorithms).
+        </p>
+        <p>
+            <strong>Grading</strong>: The grading rubric for this course is as follows:
+            <ol>
+                    <li>
+                        <strong>Assessments (64%):</strong> Four in-class assessments will be held during scheduled class sessions, typically at the end of each module. Each assessment contributes <strong>16%</strong> to the final grade, for a total of <strong>64%</strong>. There are <em>no make-up or repeat assessments</em>.
+                    </li>
+                    <li>
+                        <strong>Final Exam (30%):</strong> The final exam, scheduled by the Office of Examination, accounts for <strong>30%</strong> of the final grade. It is intended to provide an opportunity to synthesize and apply all the concepts learned throughout the course.
+                    </li>
+                    <li>
+                        <strong>Daily Exercises (6%):</strong> Students are encouraged to complete <strong>daily exercises</strong> that accompany lectures and readings. These exercises are designed to reinforce key concepts, develop problem-solving abilities, and give hands-on practice with the material. Completion and effort on these exercises account for <strong>6%</strong> of the final grade.
+                    </li>
+                    <li>
+                        <strong>Extra Credit:</strong> If a student loses points on the assessments, they will have the opportunity to revise and resubmit their papers to correct mistakes based on feedback. Successfully addressing the identified issues can earn up to a fourth of the lost points. This is intended as a opportunity to learn from mistakes and refine understanding.
+                    </li>
+            </ol>
+             
+        </p>
+
+            <p>
+                <strong>Audit Requirements</strong>: Students auditing the course will be evaluated based only on the assessments, and do not need to take the final exam. Auditing students are required to score at least half the points on each assessment. 
+            </p>
+
+            <p>
+                <strong>Policies</strong>: Please note the following policies:
+
+                <ul>
+                    <li>
+                        Regular attendance is expected but not mandatory. Students arriving more than 5 minutes late may not enter, to minimize disruption. Eating in class is not allowed, and the use of laptops or cellphones is prohibited unless specifically required for course activities. Students are encouraged to take notes on paper by hand (unless granted an exception by OLS or OAA). 
+                    </li>
+                <li>
+                    As outlined in Ashoka's Academic Integrity Policy (see MyAshoka → Information and Documents → Office of Academic Affairs), plagiarism and other violations (including but not limited to unauthorized use of AI tools) are serious offenses. Any violation will result in a <strong>failing grade (F)</strong> for the course. Please review the policy carefully.
+                </li>
+                </ul>
+            </p>
+
+            <p>
+                <span class="bold-text">Support</span>: Students are encouraged to reach out to University offices such as the 
+                <a target="_blank" href="https://www.ashoka.edu.in/page/office-of-learning-support/">Office of Learning Support</a>, 
+                <a target="_blank" href="https://acwb.ashoka.edu.in">Ashoka Center for Well-Being</a>, and 
+                <a target="_blank" href="">Center for Writing and Communication</a> for additional support. 
+            </p>
+
+           
+                            </div>
+
+    </div>
+
+    <div id="footer"></div>
+
+    <script>
+    fetch("/webpage_files/footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer').innerHTML = data;
+      });
+    </script>
+    
+
+</body>
+
+</html>
