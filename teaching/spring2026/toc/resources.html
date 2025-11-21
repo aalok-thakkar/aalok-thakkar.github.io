@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Aalok Thakkar</title>
+
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="/webpage_files/style.css" type="text/css" media="screen">
+
+</head>
+
+<body id="wide-page">
+
+    <div id="content" class="single-wide">
+
+        <h1>
+            Theory of Computation
+        </h1>
+    
+        <div class="entry">
+
+            <div style="text-align: center;">
+                <img src="./Edmond_de_Belamy.png" style="width: 350px;" class="center">
+                <figcaption>
+                    <font size="-1">
+                        Obvious, <em>Edmond de Belamy</em> (2018)</font>
+                </figcaption>
+            </div>
+
+        <div style="text-align: center">
+          <h3>Resources and Reading Materials:</h3>
+          <br />
+        </div>
+
+        <b>Textbooks:</b>
+<ol>
+  <li>
+      John E. Hopcroft, Rajeev Motwani, Jeffrey D. Ullman. <em>Introduction to Automata Theory, Languages, and Computation.</em> 3rd Edition, Pearson, 2008.
+  </li>
+  <li>
+    Michael Sipser. <em>Introduction to the Theory of Computation.</em> 3rd Edition, Cengage, 2012.
+  </li>
+  <li>
+      Dexter C. Kozen. <em>Theory of Computation.</em> Springer, 2006.
+  </li>
+  <li>
+      Jacques Sakarovitch. <em>Elements of Automata Theory.</em> Cambridge University Press, 2013. (Translated by Reuben Thomas)
+  </li>
+  <li>
+      Harry R. Lewis, Christos H. Papadimitriou. <em>Elements of the Theory of Computation.</em> 2nd Edition, Pearson, 2015.
+  </li>
+  <li>
+      Javier Esparza. <em>Automata Theory: An Algorithmic Approach.</em> MIT Press, 2023.
+  </li>
+  <li>
+      Sanjeev Arora, Boaz Barak. <em>Computational Complexity: A Modern Approach.</em> Cambridge University Press, 2009.
+  </li>
+</ol>
+
+    </div>
+
+    <div id="footer"></div>
+
+    <script>
+    fetch("/webpage_files/footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer').innerHTML = data;
+      });
+    </script>
+  </body>
+</html>
