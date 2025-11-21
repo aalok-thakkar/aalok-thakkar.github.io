@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Aalok Thakkar</title>
+
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="/webpage_files/style.css" type="text/css" media="screen">
+
+</head>
+
+<body id="wide-page">
+
+    <div id="content" class="single-wide">
+
+        <h1>
+            Theory of Computation
+        </h1>
+    
+        <div class="entry">
+
+            <div style="text-align: center;">
+                <img src="./orders.png" style="width: 350px;" class="center">
+                <figcaption>
+                    <font size="-1">
+                        Vera Molnar, <em>Ordres</em> (1974)</font>
+                </figcaption>
+            </div>
+            
+            <div style="text-align: center;">
+                    <h3>Practice Problems:</h3><br>
+            </div>
+
+                <p>
+                    The following is a list 100 challenging practice problems. These problems are not graded, but regular submission helps you stay engaged with the material and reinforce the core concepts. You are welcome to discuss them with classmates or the teaching staff and use any resources or tools you find helpful. Their purpose is to support your learning, not evaluate it.
+                    <br>
+                    <br>
+
+                    <table class="cage">
+                        <tr>
+                            <th style="width: 60px;">Date</th>
+                            <th>Problem</th>
+                        </tr>
+                        <tr>
+                            <td>Jan 19</td>
+                            <td>Let n ∈ ℕ. Consider the alphabet {a, b} and define the language
+                                L<sub>n</sub> to consist of all words in which the difference between the
+                                number of occurrences of a and the number of occurrences of b is
+                                divisible by n. Show that for all n, L<sub>n</sub> is regular.</td>
+                        </tr>
+                        <tr>
+                            <td>Jan 20</td>
+                            <td>Consider a first-order logic specification of a formal language over the alphabet {a, b, c}, with positions in a word as the domain of discourse and unary predicates A(x), B(x), and C(x)
+                            indicating that position x contains the symbols a, b, and c, respectively. Let S(x, y) denote that y is the successor of x. Show that the language expressed by the formula: &forall;x ( A(x) &rarr; &exist;y ( S(x, y) &and; B(y) ) ) is regular. Is every language definable by such a first-order formula regular? Can every regular language over {a, b, c} be expressed using such an FOL formula?
+                              </td>
+                        </tr>
+                        <tr>
+                            <td>Jan 21</td>
+                            <td>Prove that a DFA accepts an infinite language if and only if its transition 
+                                graph contains a directed cycle that is both reachable from the initial state 
+                                and co-reachable (i.e., some accepting state is reachable from it).</td>
+                        </tr>
+                        <tr>
+                            <td>Jan 22</td>
+                            <td>Construct, for every n ∈ ℕ, a regular language L<sub>n</sub> such that L<sub>n</sub> has an NFA with at most n states, and every equivalent DFA requires at least 2<sup>n</sup> states. 
+                                Give a specific language and prove both the upper and lower bounds.
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>Jan 23</td>
+                            <td>Show that every NFA with multiple accepting states can be transformed into an equivalent NFA with exactly one accepting state. Show that every NFA with multiple initial states can be transformed into 
+                                an equivalent NFA with exactly one initial state.</td>
+                        </tr>
+                        <tr>
+                            <td>Jan 24</td>
+                            <td>Given a regular language L as a DFA, construct a DFA for the reverse of the language. Show that there is a family of languages L<sub>n</sub> with DFA of size O(n) such that any DFA for the reversed language reverse(L<sub>n</sub>) has size ≥2<sup>n</sup>.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Jan 25</td>
+                            <td>For each n≥1, construct regular languages A<sub>n</sub> and B<sub>n</sub> over the alphabet {a,b}such that the DFA for A<sub>n</sub> and B<sub>n</sub> are of size O(n) and any DFA for the concatenation language A<sub>n</sub>B<sub>n</sub> has size ≥2<sup>n</sup>.
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>Jan 26</td>
+                            <td>Prove that the language of a unary NFA is a finite union of arithmetic 
+                                progressions (i.e., ultimately periodic).</td>
+                        </tr>
+                        <tr>
+                            <td>Jan 27</td>
+                            <td>A synchronizing word is a an input to the DFA that sends any state of the DFA to one and the same state. That is, w ∈ Σ* such that there exists a state q*, for all states q, δ(q, w) = q*. Design an algorithm to determine if a given DFA has a synchronizing word. Hint: Use subset construction for a naive algorithm.</td>
+                        </tr>
+                        <tr>
+                            <td>Jan 28</td>
+                            <td>Consider L<sub>p</sub> from Jan 19. Show that the intersection of all L<sub>p</sub>, taken over every prime number p, is exactly the set of all words in which the number of occurrences of
+                                a is equal to the number of occurrences of b.</td>
+                        </tr>
+                        <tr>
+                            <td>Jan 29</td>
+                            <td>Prove the pumping lemma: Let L be a regular language. Then there exists a constant p ( such that every word w in L with length at least p can be written as w = xyz, where |xy| ≤ p, |y| ≥ 1, and for all k ≥ 0, the word xy<sup>k</sup>z is also in L.</td>
+                        </tr>
+                        <tr>
+                            <td>Jan 30</td>
+                            <td>Let p(n) be a polynomial with integer coefficients such that p(n) ≥ 0 for all n ∈ ℕ. 
+                                Consider the unary language L<sub>p</sub> = { a<sup>p(n)</sup> : n ∈ ℕ }.
+                                Prove that L<sub>p</sub> is regular if and only if the polynomial p is
+                                at most linear.</td>
+                        </tr>
+                        <tr>
+                            <td>Jan 31</td>
+                            <td>Over the alphabet {a,b,c}, define L = { a b<sup>n</sup> c<sup>n</sup> : n &ge; 0 } &cup; { a<sup>k</sup> w : k &ge; 2 and w &isin; {a,b,c}*}. Show that L is not regular and yet it satisfies the pumping lemma (Jan 29 problem).
+                              </p></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 1</td>
+                            <td>Over the alphabet {a, b}, consider the set of all words in which the number of occurrences of a is equal to the number of occurrences of b. Show that this language is not regular. Using the answers of problems from Jan 19, Jan 28, and Feb 1, arrive at a contradiction to the claim that there are finitely many prime numbers.</td>
+                        </tr>
+                        <tr>
+                            <td>Feb 2</td>
+                            <td>Let L &subseteq; {a}* be any language
+                                (not necessarily regular) over a singleton alphabet. Prove that L* (the Kleene star of L) is regular.</td>
+                        </tr>
+                        <tr>
+                            <td>Feb 3</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 4</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 5</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 6</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 7</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 8</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 9</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 10</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 11</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 12</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 13</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 14</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 15</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 16</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 17</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 18</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 19</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 20</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 21</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 22</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 23</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 24</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 25</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 26</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 27</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Feb 28</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 1</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 2</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 3</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 4</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 5</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 6</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 7</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 8</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 9</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 10</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 11</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 12</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 13</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 14</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 15</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 16</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 17</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 18</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 19</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 20</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 21</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 22</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 23</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 24</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 25</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 26</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 27</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 28</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 29</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 30</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mar 31</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 1</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 2</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 3</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 4</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 5</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 6</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 7</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 8</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 9</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 10</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 11</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 12</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 13</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 14</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 15</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 16</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 17</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 18</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 19</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 20</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 21</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 22</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 23</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 24</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 25</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 26</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 27</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Apr 28</td>
+                            <td></td>
+                        </tr>
+                        
+                        
+                        
+                    </table>
+                </p>
+
+            </div>
+            <p style="text-align: center;">
+                back to <a href="./index.html">course</a>
+            </p>
+
+           
+                            </div>
+
+    </div>
+
+    <div id="footer"></div>
+
+    <script>
+    fetch("/webpage_files/footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer').innerHTML = data;
+      });
+    </script>
+    
+
+</body>
+
+</html>
