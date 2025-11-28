@@ -134,16 +134,15 @@
                         </tr>
                         <tr>
                             <td>Feb 5</td>
-                            <td>Let A,B ⊆ Σ* be regular, and let M(A) and M(B) be their syntactic monoids. Consider P = M_A × M_B. Define φ(w): Σ* → P and a subset F ⊆ P such that w ∈ A ∩ B if and only if φ(w)∈F. This is effectively the Cartesian product construction to show that regular languages are closed under intersection.</td>
+                            <td>Let A,B ⊆ Σ* be regular, and let M(A) and M(B) be their syntactic monoids. Consider P = M(A) × M(B). Define φ(w): Σ* → P and a subset F ⊆ P such that w ∈ A ∩ B if and only if φ(w)∈F. This is effectively the Cartesian product construction to show that regular languages are closed under intersection.</td>
                         </tr>
                         <tr>
                             <td>Feb 6</td>
-                            <td>Let A,B ⊆ Σ* be regular, and let M(A) and M(B) be their syntactic monoids. Consider P = 𝒫(M_A × M_B) (set of all subsets of M(A)×M(B)). Define φ(w): Σ* → P and a subset F ⊆ P such that w ∈ A·B if and only if φ(w)∈F. This is effectively the powerset construction to show that regular languages are closed under concatenation.</td>
+                            <td>Let A,B ⊆ Σ* be regular, and let M(A) and M(B) be their syntactic monoids. Consider P = 𝒫(M(A) × M(B)) (set of all subsets of M(A)×M(B)). Define φ(w): Σ* → P and a subset F ⊆ P such that w ∈ A·B if and only if φ(w)∈F. This is effectively the powerset construction to show that regular languages are closed under concatenation.</td>
                         </tr>
                         <tr>
                             <td>Feb 7</td>
-                            <td>Define 𝒫(M) = { S | S ⊆ M } with multiplication
-                                S · T = { s·t | s ∈ S, t ∈ T }, and {1} as the identity. Prove that if M is aperiodic then so are 𝒫(M) and M×N (component-wise product).</td>
+                            <td>Define 𝒫(M) = { S | S ⊆ M } with multiplication S · T = { s·t | s ∈ S, t ∈ T }, and {1} as the identity. Prove that if M is aperiodic then so are 𝒫(M) and M×N (component-wise product).</td>
                         </tr>
                         <tr>
                             <td>Feb 8</td>
@@ -151,27 +150,30 @@
                         </tr>
                         <tr>
                             <td>Feb 9</td>
-                            <td>Given regular expressions r,s, give a direct inductive proof that L(r)∩L(s) is regular without invoking automata.</td>
+                            <td>Given regular expressions r, s, give a direct inductive proof that L(r) ∩ L(s) is regular without invoking automata.</td>
                         </tr>
                         <tr>
                             <td>Feb 10</td>
-                            <td></td>
+                            <td>For any regular expression R and k ≥ 0, let Rᵏ be R self-concatenated k times (that is, R·R···R, k times). Over the alphabet Σ = {0, 1}, show that { 0ᵏ u 1ᵏ | k ≥ 1 and u ∈ Σ* } is regular, while { 0ᵏ1 u 1ᵏ | k ≥ 1 and u ∈ Σ* } is not regular.
+</td>
                         </tr>
                         <tr>
                             <td>Feb 11</td>
-                            <td></td>
+                            <td>Can two different expressions R and S satisfy R* = S* even if R ≠ S? Either give an example or prove that no such expressions exist.</td>
                         </tr>
                         <tr>
                             <td>Feb 12</td>
-                            <td></td>
+                            <td>Consider languages R, S, and T (not necessarily regular). Show that 
+                                (i) {ε}+R·R* = R*, (ii) R·R* = R·R*, and (iii) if X=(R·X) ∪ S then X=R*·S. If Y = (R·Y) ∪  (S·Y) ∪ T, what does it imply about Y? 
+                            </td>
                         </tr>
                         <tr>
                             <td>Feb 13</td>
-                            <td></td>
+                            <td>Consider an additional opeperation for regular expressions </td>
                         </tr>
                         <tr>
                             <td>Feb 14</td>
-                            <td></td>
+                            <td>If r is a regular expression, Consider a new operation <span style="text-decoration: overline;">r</span> to denote its complement. That is L(<span style="text-decoration: overline;">r</span>) = Σ* \ L(r). Regular expressions with only concatenation, union, and complement correspond to star-free languages (Feb 8 problem). Provide a star-free regular expression for the following languages: (i) { w in Σ* | w contains at least one a }, (ii) (ab)* (all repitions of ab), and (iii) {w∈Σ* | between the first and last a (if they exist) there is no b}.</td>
                         </tr>
                         <tr>
                             <td>Feb 15</td>
