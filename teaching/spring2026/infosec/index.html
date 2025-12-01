@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Aalok Thakkar</title>
+
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="/webpage_files/style.css" type="text/css" media="screen">
+
+</head>
+
+<body id="wide-page">
+
+    <div id="content" class="single-wide">
+
+        <h1>
+            Information Security
+        </h1>
+    
+        <div class="entry">
+
+            <div style="text-align: center;">
+                <img src="./Lion.jpeg.webp" style="width: 450px;" class="center">
+                <figcaption>
+                    <font size="-1">
+                        Mohammed Al-Hawajri, <em>Lion of Gaza</em> (2013)</font>
+                </figcaption>
+            </div>
+
+            <p>
+                <span class="bold-text">Logistics</span>:<br>
+                <table>
+                    <tr>
+                        <td>Credits:</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Classes:</td>
+                        <td>Mondays and Wednesdays, 3:00 PM - 4:30 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Classsroom:</td>
+                        <td>AC-04-LR-301</td>
+                    </tr>
+                    <tr>
+                        <td>Teaching Fellow:</td>
+                        <td>TBD</td>
+                    </tr>
+                    <tr>
+                        <td>Teaching Assistant:</td>
+                        <td>TBD</td>
+                    </tr>
+                </table>
+                </p>
+                <p>
+                <span class="bold-text">Links</span>:<br>
+                <table>
+                    <tr>
+                        <td><a href="./lectures.html">Course Outline and Lectures</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="./resources.html">Resources and Reading Materials</a></td>
+                    </tr>
+                </table>
+            </p>
+            <p>
+                <span class="bold-text">Course Description</span>:
+                Are your secrets safe? Is your data truly private? What do <em>they</em> really know? <br><br>
+                The answers to these questions depend on how we design the systems that manage our information and the assumptions built into them. This course offers a formal, rigorous study of the security of these systems—its theory, its practice, and its implications. <br><br>
+
+                We will examine foundational concepts including threat models, confidentiality, privacy, authentication, cryptography, and access control. Alongside the technical framework, we will consider the human, organizational, and societal dimensions that influence real-world security outcomes. <br><br>
+
+                The course is divided into three modules: 
+            <ol>
+                <li>
+                    <strong>Theoretical Foundations:</strong> We begin by establishing security definitions and introducing threat models to formalize how we think about adversaries and protection goals. Then, we look at the two major perspectives of modern information security: cryptography (which relies on complexity-theoretic assumptions), and verification (which uses logic and formal reasoning to prove that systems behave securely).
+                </li>
+                <li>
+                    <strong>Practical Cases:</strong> We then shift to real-world systems and their failures. The case studies include the Heartbleed vulnerability, private or “incognito” browsing modes, prompt injection risks in large language models, and the security challenges surrounding electronic voting machines. These examples illustrate how security can break down due to implementation errors, design trade-offs, usability constraints, and human assumptions.
+                </li>
+                <li>
+                    <strong>Advanced Topics:</strong> Finally, we look at a few emerging and future-facing areas of security research, such as zero-knowledge proofs, secure multiparty computation, and post-quantum cryptography.
+                </li>
+            </ol>
+        </p>
+        
+        <p>
+            <strong>Prerequisites:</strong> The course will require a certain level of
+            maturity, at least at the level of CS-2212 (Data Structures and Algorithms).
+        </p>
+        <p>
+            <strong>Grading:</strong> The grading rubric for this course is as follows:
+            <ol>
+                    <li>
+                        <strong>Assessments (70%):</strong> Weekly in-class assessments will contributes to a total of <strong>70%</strong> to the final grade.
+                    </li>
+                    <li>
+                        <strong>Final Exam (30%):</strong> The final exam, scheduled by the Office of Examination, will account for <strong>30%</strong> of the grade.
+                    </li>
+                    <li>
+                        <strong>Extra Credit:</strong> If a student loses points on the weekly assessments, they will have the opportunity to revise and resubmit their papers to correct mistakes based on feedback. Successfully addressing the identified issues can earn up to a fourth of the lost points. This is intended as a opportunity to learn from mistakes and refine understanding.
+                    </li>
+            </ol>
+             
+        </p>
+
+            <p>
+                <strong>Audit Requirements:</strong> There is no audit option for this course.
+            </p>
+
+            <p>
+                <strong>Policies:</strong> Please note the following policies:
+
+                <ul>
+                    <li>
+                        Regular attendance is expected but not mandatory. Students arriving more than 5 minutes late may not enter, to minimize disruption. Eating in class is not allowed, and the use of laptops or cellphones is prohibited unless specifically required for course activities. Students are encouraged to take notes on paper by hand (unless granted an exception by OLS or OAA). 
+                    </li>
+                <li>
+                    As outlined in Ashoka's Academic Integrity Policy (see MyAshoka → Information and Documents → Office of Academic Affairs), plagiarism and other violations (including but not limited to unauthorized use of AI tools) are serious offenses. Any violation will result in a <strong>failing grade (F)</strong> for the course. Please review the policy carefully.
+                </li>
+                </ul>
+            </p>
+
+            <p>
+                <span class="bold-text">Support</span>: Students are encouraged to reach out to University offices such as the 
+                <a target="_blank" href="https://www.ashoka.edu.in/page/office-of-learning-support/">Office of Learning Support</a>, 
+                <a target="_blank" href="https://acwb.ashoka.edu.in">Ashoka Center for Well-Being</a>, and 
+                <a target="_blank" href="">Center for Writing and Communication</a> for additional support. 
+            </p>
+
+           
+                            </div>
+
+    </div>
+
+    <div id="footer"></div>
+
+    <script>
+    fetch("/webpage_files/footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer').innerHTML = data;
+      });
+    </script>
+    
+
+</body>
+
+</html>
