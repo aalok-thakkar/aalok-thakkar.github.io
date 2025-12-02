@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Aalok Thakkar</title>
+    <link rel="icon" href="data:,">
+
+    <link
+      rel="stylesheet"
+      href="/webpage_files/style.css"
+      type="text/css"
+      media="screen"
+    />
+  </head>
+
+  <body>
+    <div id="content" class="single">
+      <h1><a href="/index.html">Letters of Recommendation</a></h1>
+
+      <div style="text-align: center">
+        <img src="./harring.png" style="width: 450px;" class="center">
+        <figcaption>
+          <font size="-1"> Keith Haring, <em>Untitled</em> (1987)</font>
+        </figcaption>
+      </div>
+
+      <div class="entry">
+
+        <p> Please note that I only write Letters of Recommendation (LoRs) for students who have taken at least three courses with me (or at minimum one elective course taught by me), or for students who have worked directly with me on a research project (including capstone or thesis). Before contacting me with a request for a recommendation letter, please review the following carefully:
+          <ul>
+            <li>Please submit your LoR request at least <strong>two weeks</strong> prior to the submission date. I will not be able to write an LoR with shorter notice.</li>
+            <li>For graduate (or other academic) programmes, please note: 
+              <ul>
+                <li>I will not write LoRs for students who have <strong>not worked on a research project</strong> with me.</li>
+                <li>If I have strong reservations about a programme, institution, or fit based on your academic profile or other relevant factors, I will decline writing a recommendation for that specific institution.</li>
+                <li> To begin the process, you must provide the following materials at least <strong>two weeks</strong> before the first date:
+                  <ol>
+                    <li>Your CV or résumé.</li>
+                    <li>Your unofficial transcript.</li>
+                    <li>Your statement of purpose (drafts are acceptable).</li>
+                    <li>A letter clearly indicating the list of courses taken with me, including the semester/year and final grades, research projects and outcomes, and any specific aspect that you would like me to highlight in your recommendation.</li>
+                    <li>A shared Google spreadsheet with a list of institutions (universities) and the specific programmes you are applying to, with dates clearly indicated. Please also include a column for me to mark when I submit the letter</li>
+                  </ol>
+                </li>
+              </ul>
+              <li> I <strong>do not share</strong> written recommendation letters with applicants, nor do I provide copies of submitted letters. Letters will be submitted directly to the institution or platform requesting them. When applying to US universities, please waive your right to view your letter before submitting me a request. </li>
+              <li>I <strong>do not write</strong> open-ended or generic letters, including those addressed “To Whom It May Concern.” All recommendation letters must be directed to a specific institution or programme.</li>
+            </li>
+          </ul>
+        </p>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script>
+    fetch("/webpage_files/footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer').innerHTML = data;
+      });
+    </script>
+  </body>
+</html>
+
