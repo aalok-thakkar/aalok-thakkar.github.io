@@ -1,0 +1,3 @@
+1. Can two different expressions R and S satisfy R* = S* even if R ≠ S? Either give an example or prove that no such expressions exist.
+
+2. For any regular expression R and k ≥ 0, let Rᵏ be R self-concatenated k times (that is, R·R···R, k times). Over the alphabet Σ = {0, 1}, show that { 0ᵏ u 1ᵏ | k ≥ 1 and u ∈ Σ* } is regular, while { 0ᵏ1 u 1ᵏ | k ≥ 1 and u ∈ Σ* } is not regular.

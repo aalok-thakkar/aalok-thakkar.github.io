@@ -118,27 +118,26 @@
                         </tr>
                         <tr>
                             <td>Feb 2</td>
-                            <td>Let L &subseteq; {a}* be any language
-                                (not necessarily regular) over a singleton alphabet. Prove that L* (the Kleene star of L) is regular.</td>
+                            <td>Let Σ be a finite alphabet and let L ⊆ Σ* be a language (not necessarily regular). Let M be the set of equivalence classes induced by the Myhill-Nerode relation (for w ∈ Σ*, let [w] denote its equivalence class). Define a binary operation on M by: [x] ⋅ [y] = [xy]. Prove that (M, ⋅, [ε]) is a well defined monoid. This monoid is called the syntactic monoid of the language L.</td>
                         </tr>
                         <tr>
                             <td>Feb 3</td>
-                            <td>Let Σ be a finite alphabet and let L ⊆ Σ* be a language (not necessarily regular). Let M be the set of equivalence classes induced by the Myhill-Nerode relation (for w ∈ Σ*, let [w] denote its equivalence class). Define a binary operation on M by: [x] ⋅ [y] = [xy]. Prove that (M, ⋅, [ε]) is a well defined monoid. This monoid is called the syntactic monoid of the language L.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Feb 4</td>
-                            <td> A language L is recognised by a monoid M if there exists a map φ:Σ* → M and a subset F⊆M such that L=φ^(-1)(F). Equivalently, L consists exactly of those words whose image under φ lies in F. A finite monoid M is called aperiodic if for every element s ∈ M there exists a positive integer k such that s^k = s^(k+1).
+                            <td>A language L is recognised by a monoid M if there exists a map φ:Σ* → M and a subset F⊆M such that L=φ^(-1)(F). Equivalently, L consists exactly of those words whose image under φ lies in F. A finite monoid M is called aperiodic if for every element s ∈ M there exists a positive integer k such that s^k = s^(k+1).
                             Give an explicit example of a regular language whose syntactic monoid is aperiodic, and one whose syntactic monoid is not aperiodic.
                             </td>
                         </tr>
                         <tr>
+                            <td>Feb 4</td>
+                            <td> Let A,B ⊆ Σ* be regular, and let M(A) and M(B) be their syntactic monoids. Consider P = M(A) × M(B). Define φ(w): Σ* → P and a subset F ⊆ P such that w ∈ A ∩ B if and only if φ(w)∈F. This is effectively the Cartesian product construction to show that regular languages are closed under intersection.
+                            </td>
+                        </tr>
+                        <tr>
                             <td>Feb 5</td>
-                            <td>Let A,B ⊆ Σ* be regular, and let M(A) and M(B) be their syntactic monoids. Consider P = M(A) × M(B). Define φ(w): Σ* → P and a subset F ⊆ P such that w ∈ A ∩ B if and only if φ(w)∈F. This is effectively the Cartesian product construction to show that regular languages are closed under intersection.</td>
+                            <td>Let A,B ⊆ Σ* be regular, and let M(A) and M(B) be their syntactic monoids. Consider P = 𝒫(M(A) × M(B)) (set of all subsets of M(A)×M(B)). Define φ(w): Σ* → P and a subset F ⊆ P such that w ∈ A·B if and only if φ(w)∈F. This is effectively the powerset construction to show that regular languages are closed under concatenation.</td>
                         </tr>
                         <tr>
                             <td>Feb 6</td>
-                            <td>Let A,B ⊆ Σ* be regular, and let M(A) and M(B) be their syntactic monoids. Consider P = 𝒫(M(A) × M(B)) (set of all subsets of M(A)×M(B)). Define φ(w): Σ* → P and a subset F ⊆ P such that w ∈ A·B if and only if φ(w)∈F. This is effectively the powerset construction to show that regular languages are closed under concatenation.</td>
+                            <td>Given regular expressions r, s, give a direct inductive proof that L(r) ∩ L(s) is regular without invoking automata.</td>
                         </tr>
                         <tr>
                             <td>Feb 7</td>
@@ -150,86 +149,87 @@
                         </tr>
                         <tr>
                             <td>Feb 9</td>
-                            <td>Given regular expressions r, s, give a direct inductive proof that L(r) ∩ L(s) is regular without invoking automata.</td>
+                            <td>Construct a weighted automaton over the real numbers with a single symbol alphabet {a} that generates a geometric distribution over strings. The automaton should assign weight (1 − α) α^k to the string a^k (for a parameter α).
+Now consider a generalisation, denoted D(α, m, c). This distribution assigns weight (1 − α) α^k to strings of the form a^(mk + c), and assigns weight 0 to all other strings (that is, strings whose length is not congruent to c modulo m).
+Show that this generalised distribution can also be represented by a weighted automaton.
+ </td>
                         </tr>
                         <tr>
                             <td>Feb 10</td>
-                            <td>For any regular expression R and k ≥ 0, let Rᵏ be R self-concatenated k times (that is, R·R···R, k times). Over the alphabet Σ = {0, 1}, show that { 0ᵏ u 1ᵏ | k ≥ 1 and u ∈ Σ* } is regular, while { 0ᵏ1 u 1ᵏ | k ≥ 1 and u ∈ Σ* } is not regular.
-</td>
+                            <td>Create a weighted automaton over the real numbers with a single symbol alphabet {a} that maps a^n to n. Show that no deterministic weighted automata (that is an automata where every state has at most one outgoing transition labelled a, or where every word has a unique run) over reals can express this function.</td>
                         </tr>
                         <tr>
                             <td>Feb 11</td>
-                            <td>Can two different expressions R and S satisfy R* = S* even if R ≠ S? Either give an example or prove that no such expressions exist.</td>
+                            <td>Consider languages R, S, and T (not necessarily regular). Show that 
+                                (i) {ε}+R·R* = R*, (ii) R·R* = R·R*, and (iii) if X=(R·X) ∪ S then X=R*·S. If Y = (R·Y) ∪  (S·Y) ∪ T, what does it imply about Y? </td>
                         </tr>
                         <tr>
                             <td>Feb 12</td>
-                            <td>Consider languages R, S, and T (not necessarily regular). Show that 
-                                (i) {ε}+R·R* = R*, (ii) R·R* = R·R*, and (iii) if X=(R·X) ∪ S then X=R*·S. If Y = (R·Y) ∪  (S·Y) ∪ T, what does it imply about Y? 
-                            </td>
+                            <td>Let L be a language (not necessarily regular) over a singleton alphabet Σ = {a}. Show that L* is regular.</td>
                         </tr>
                         <tr>
                             <td>Feb 13</td>
-                            <td>Consider an additional opeperation for regular expressions </td>
-                        </tr>
-                        <tr>
-                            <td>Feb 14</td>
                             <td>If r is a regular expression, Consider a new operation <span style="text-decoration: overline;">r</span> to denote its complement. That is L(<span style="text-decoration: overline;">r</span>) = Σ* \ L(r). Regular expressions with only concatenation, union, and complement correspond to star-free languages (Feb 8 problem). Provide a star-free regular expression for the following languages: (i) { w in Σ* | w contains at least one a }, (ii) (ab)* (all repitions of ab), and (iii) {w∈Σ* | between the first and last a (if they exist) there is no b}.</td>
                         </tr>
                         <tr>
+                            <td>Feb 14</td>
+                            <td>Consider a system of linear equations over finite languages, that is, a system of equations of the form X<sub>i</sub> = Σ<sub>j</sub> (c<sub>ij</sub> * X<sub>j</sub>) + d<sub>i</sub>, where each c<sub>ij</sub> and each d<sub>i</sub> is a finite language. Show that if this system has a solution then this solution is unique, and every component language of the solution is regular.</td>
+                        </tr>
+                        <tr>
                             <td>Feb 15</td>
-                            <td></td>
+                            <td>Prove that no weighted automata over real numbers with a singleton alphabet {a} can express the function f(a<sup>n</sup>) = λ<sup>n</sup> * e<sup>-λ</sup> / n! (the Poisson distribution with parameter λ).</td>
                         </tr>
                         <tr>
                             <td>Feb 16</td>
-                            <td></td>
+                            <td>Similar to a push-down automaton with a stack, consider a <em>finite-state automaton with a queue</em>. Show that any langauge accepted by a push-down automaton with a stack is also accepted by a <em>finite-state automaton with a queue</em>.</td>
                         </tr>
                         <tr>
                             <td>Feb 17</td>
-                            <td></td>
+                            <td>Show that any language accepted by a <em>finite-state automaton with an array</em> is regular. Note that the array length is a fixed constant independent of the input length. </td>
                         </tr>
                         <tr>
                             <td>Feb 18</td>
-                            <td></td>
+                            <td>Show that L = { ww  |  w ∈ Σ* } can be accepted by a non-deterministic <em>finite-state automaton with a queue</em> (Feb 16 problem), but not a push-down automaton with a stack.</td>
                         </tr>
                         <tr>
                             <td>Feb 19</td>
-                            <td></td>
+                            <td>A context-free grammar is linear if each production contains at most one non-terminal. Show that the language of well-balanced parentheses cannot be generated by a linear grammar.</td>
                         </tr>
                         <tr>
                             <td>Feb 20</td>
-                            <td></td>
+                            <td>This problem extends the problem for Feb 14. Consider a system of polynomial equations over finite languages. Show that if this system has a solution then this solution is unique, and every component language of the solution is context-free language.</td>
                         </tr>
                         <tr>
                             <td>Feb 21</td>
-                            <td></td>
+                            <td>Prove that the set of context-free languages is closed under union, concatenation, and Kleene star.</td>
                         </tr>
                         <tr>
                             <td>Feb 22</td>
-                            <td></td>
+                            <td>Prove that the intersection of a regular language and a context-free language is context-free. The intersection of two context-free languages is not context-free. Using the result of Feb 21 problem, show that the set of context-free languages is not closed under complementation.</td>
                         </tr>
                         <tr>
                             <td>Feb 23</td>
-                            <td></td>
+                            <td>A deterministic Turing machine has a single infinite tape and a read/write head. Prove that a finite-state automaton with two stacks can simulate a deterministic Turing machine.</td>
                         </tr>
                         <tr>
                             <td>Feb 24</td>
-                            <td></td>
+                            <td>A k-counter machine is like a finite automaton equipped with k integer counters. Each counter can be incremented, decremented, and tested for zero. Show that a push-down automaton (with a stack) can simulate a 1-counter machine, but not vice-versa.</td>
                         </tr>
                         <tr>
                             <td>Feb 25</td>
-                            <td></td>
+                            <td>Show that a deterministic k-tape Turing machine (TM) that runs in time T(n) on inputs of length n can be simulated by a single-tape Turing machine in time O(T(n)<sup>2</sup>).</td>
                         </tr>
                         <tr>
                             <td>Feb 26</td>
-                            <td></td>
+                            <td>A Random Access Machine consists of a finite state machine (control unit), a finite number of registers for temporary storage, and an unbounded sequence of memory cells that can store integers. Unlike a Turing machine, which accesses memory sequentially along a tape, a RAM can directly access any memory cell in a single step, hence the term "random access." The machine operates by executing a sequence of instructions, which include arithmetic operations (such as addition, subtraction, and multiplication), data transfer between registers and memory cells, and conditional branching based on the contents of registers. Show that RAM is computationally equivalent to a deterministic Turing machine.</td>
                         </tr>
                         <tr>
                             <td>Feb 27</td>
-                            <td></td>
+                            <td>Consider the language {a<sup>n</sup>b<sup>n</sup>c<sup>n</sup>∣n≥1}. Show that this language can be simulated by a 2-counter machine but not a 1-counter machine (and hence not a push-down automaton). </td>
                         </tr>
                         <tr>
                             <td>Feb 28</td>
-                            <td></td>
+                            <td>An unrestricted grammar is a grammar in which each production rule has the form α → β, where α is a non-empty string of terminals and/or non-terminals, and β is any string of terminals and/or non-terminals (possibly empty). Show that every the class of languages generated by unrestricted grammars is equivalent to the class of languages accepted by a nondeterministic Turing machine.</td>
                         </tr>
                         <tr>
                             <td>Mar 1</td>
