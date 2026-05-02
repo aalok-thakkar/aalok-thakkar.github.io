@@ -13,7 +13,7 @@
   </head>
 
   <body>
-    <div id="content" class="single teaching">
+    <div id="content" class="single">
       <h1>
         <a href="/index.html">Aalok Thakkar</a>: <strong>Teaching</strong>
       </h1>
@@ -28,25 +28,30 @@
           <font size="-1">R. D. Raval, <em>Man Triumphant</em> (1963)</font>
         </figcaption>
       </div>
-      <h3 style="margin-bottom:0;">Spring 2026:</h3>
+
+      <div id="content" class="single-wide">
+      <h3 style="margin-bottom:0;">Summer 2026:</h3>
           <ul class="compact" style="margin:0;padding-top:0;">
             <li>
-              <a href="./spring2026/toc/index.html">CS-3330: Theory of Computation</a>
-            </li>
-            <li>
-              <a href="./spring2026/infosec/index.html">CS-3610: Information Security</a>
-            </li>
+              FC-0306: Quantitative Reasoning and Mathematical Thinking
           </ul>
 
         <h3 style="margin-bottom:0;">All Courses:</h3>
           <ul class="compact" style="margin:0;padding-top:0;">
             <li>
               FC-0306: Quantitative Reasoning and Mathematical Thinking
-              (<a href="./summer2025/qrmt/index.html">Summer 2025</a>)
+              (<a href="./summer2025/qrmt/index.html">Summer 2025</a>, Summer 2026)
             </li>
             <li>
               CS-1102: Introduction to Computer Science
               (<a href="./spring2025/ics/index.html">Spring 2025</a>, <a href="./summer2025/ics/index.html">Summer 2025</a>, <a href="./monsoon2025/ics/index.html">Monsoon 2025</a>)
+            </li>
+            <li>
+              CS-3330: Theory of Computation (<a href="./spring2026/toc/index.html">Spring 2026</a>)
+            </li>
+            <li>
+              CS-3610: Information Security (<a href="https://subhashis-banerjee.in/Courses/InfoSec_Spring2026/" target="_blank">Spring 2026</a>)
+            </li>
             </li>
             <li>
               CS-5440: Trustworthy AI
@@ -61,37 +66,12 @@
               (Monsoon 2025)
             </li>
           </ul>
-
-        <h3 style="margin-bottom:0;">Independent Study Modules:</h3>
-          <ul class="compact" style="margin:0;padding-top:0;">
-            <li>
-              CS-IS-3077: Rustification - An Introduction to Rust 
-              (Monsoon 2024)
-            </li>
-            <li>
-              CS-IS-3081: Philosophy of Mathematics 
-              (Spring 2025)
-            </li>
-            <li>
-              CS-IS-3082: Theory of Probability 
-              (Spring 2025)
-            </li>
-            <li>
-              CS-IS-3083: Games on Graphs 
-              (Spring 2025)
-            </li>
-            <li>
-              CS-IS-3091: AI for Sustainability 
-              (Monsoon 2025)
-            </li>
-            <li>
-              CS-IS-4077: Gödel 
-              (Monsoon 2025)
-            </li>
-          </ul>
-      </div>
+          </div>
+    </div>
         
-      <div id="footer"></div>
+      <div id="footer">
+
+    
        
     <script>
       fetch("/webpage_files/footer.html")
@@ -100,5 +80,6 @@
           document.getElementById('footer').innerHTML = data;
         });
       </script>
+      </div>
   </body>
 </html>
