@@ -3,7 +3,10 @@
 
  	<head>
 
- 		<title>Aalok Thakkar</title>
+ 		
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aalok Thakkar</title>
 
     <link rel="icon" href="data:,">
  		<link rel="stylesheet" href="/webpage_files/style.css" type="text/css" media="screen">
@@ -15,7 +18,7 @@
  		<div id="content" class="single">
 
  			<h1>
- 				<a href="./../index.html">aalok thakkar</a>: <strong>introduction to computer science</strong>
+ 				Aalok Thakkar: <strong>Introduction to Computer Science</strong>
  			</h1>
 
  			<div class="entry">
@@ -31,47 +34,29 @@
                 </div>
 
                 <p>
-                    We seek applications for a teaching assistant (TA) for the course <a href="./ics2025.html">CS-1102: Introduction to Computer Science</a>. An ideal candidate should have a strong background in computer science, and be familiar with functional programming, imperative programming in Python, and LaTeX. The TA will be responsible for assisting with grading assignments, holding office hours, assisting discussion sessions and lab sessions, and supporting students throughout the course. This is an excellent opportunity for students to gain teaching experience in a rigorous and engaging course that bridges theoretical concepts with practical applications. 
+                    We seek applications for a teaching assistant (TA) for the course <a href="./index.html">CS-1102: Introduction to Computer Science</a>. An ideal candidate should have a strong background in computer science, and be familiar with functional programming, imperative programming in Python, and LaTeX. The TA will be responsible for assisting with grading assignments, holding office hours, assisting discussion sessions and lab sessions, and supporting students throughout the course. This is an excellent opportunity for students to gain teaching experience in a rigorous and engaging course that bridges theoretical concepts with practical applications.
                 </p>
                 <p>
-                    Interested candidates should attempt <a target="_blank" href="./ICS_TA_problem_set.pdf">this problem set</a>, and submit their solutions, their CV, and a brief statement of interest to both the instructors via <a href="mailto:aalok.thakkar@ashoka.edu.in?subject=[TF ICS]&cc=debayan.gupta@ashoka.edu.in">email</a> by <b>January 7</b>. 
+                    Interested candidates should attempt <a target="_blank" href="./ICS_TA_problem_set.pdf">this problem set</a>, and submit their solutions, their CV, and a brief statement of interest to both the instructors via <a href="mailto:aalok.thakkar@ashoka.edu.in?subject=[TF ICS]&cc=debayan.gupta@ashoka.edu.in">email</a> by <b>January 7</b>.
                 </p>
 
- 		</div>
+            </div>
 
-         <div id="footer">
-
-            <p>
-                back to <a href="./ics2025.html"><u>course</u></a>
+            <p style="text-align: center;">
+                back to <a href="./index.html"><u>course</u></a>
             </p>
 
-			<p>
-				<a href="./../../index.html">
-					main
-				</a>
-				 :: 
-				<a href="./../../publications.html">
-					publications
-				</a>
-				:: 
-				<a href="./../../research.html">
-					research
-				</a>
-				:: 
-				<a href="./../../contact.html">
-					contact
-				</a>
-				:: 
-				<a href="./../../teaching.html">
-					teaching
-				</a>
-				 :: 
-				<a href="./../../more.html">
-					more
-				</a>
-			</p>
+        </div>
 
- 		</div>
+        <div id="footer"></div>
+
+        <script>
+        fetch("/webpage_files/footer.html")
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('footer').innerHTML = data;
+          });
+        </script>
 
  	</body>
 

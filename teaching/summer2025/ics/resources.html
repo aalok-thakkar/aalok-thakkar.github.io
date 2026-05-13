@@ -1,10 +1,13 @@
 <!doctype html>
 <html>
   <head>
-    <title>Aalok Thakkar</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aalok Thakkar</title>
 
-    <link
     <link rel="icon" href="data:,">
+    <link
       rel="stylesheet"
       href="/webpage_files/style.css"
       type="text/css"
@@ -41,7 +44,7 @@
         <b>Required Pre-course Reading:</b>
         <ol> First four chapters of 
             <a
-              href="./../../books-and-references/IPaMV.pdf"
+              href="/books-and-references/IPaMV.pdf"
               target="_blank"
             >
             Martin V. Day. <em>An Introduction to Proofs and the Mathematical Vernacular</em>, 2008.
@@ -89,7 +92,7 @@
         <ol>
           <li>
             <a
-              href="./../../books-and-references/Bhargava2016.pdf"
+              href="/books-and-references/Bhargava2016.pdf"
               target="_blank"
             >
             Aditya Y. Bhargava. <em>Grokking Algorithms.</em> Manning Publications, 2016.
@@ -121,25 +124,18 @@
       </div>
     </div>
 
-    <div id="footer">
-      
-      <p>
-        back to <a href="./ics2025.html"><u>course</u></a>
-      </p>
+    <p style="text-align: center;">
+      back to <a href="./index.html"><u>course</u></a>
+    </p>
 
-      <p>
-        <a href="./../../index.html"> main </a>
-        ::
-        <a href="./../../publications.html"> publications </a>
-        ::
-        <a href="./../../research.html"> research </a>
-        ::
-        <a href="./../../contact.html"> contact </a>
-        ::
-        <a href="./../../teaching.html"> teaching </a>
-        ::
-        <a href="./../../more.html"> more </a>
-      </p>
-    </div>
+    <div id="footer"></div>
+
+    <script>
+    fetch("/webpage_files/footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer').innerHTML = data;
+      });
+    </script>
   </body>
 </html>

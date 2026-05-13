@@ -3,7 +3,10 @@
 
  	<head>
 
- 		<title>Aalok Thakkar</title>
+ 		
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aalok Thakkar</title>
 
     <link rel="icon" href="data:,">
  		<link rel="stylesheet" href="/webpage_files/style.css" type="text/css" media="screen">
@@ -15,7 +18,7 @@
  		<div id="content" class="single">
 
  			<h1>
- 				<a href="/index.html">aalok thakkar</a>: introduction to computer science</strong>
+ 				Aalok Thakkar: <strong>Introduction to Computer Science</strong>
  			</h1>
 
  			<div class="entry">
@@ -24,15 +27,6 @@
                     <h1>
                        summer 2025: cs-1102
                     </h1>
-                </div>
-
-                <div style="text-align: center;">
-                    <img src="induction.jpeg" style="width: 300px;" class="center">
-                    <figcaption style="color: #660000; margin: 0px 130px 30px 130px">
-                        <font size="-1" >
-                            "Induction is a Computer" - Subhashis Banerjee
-                        </font>
-                    </figcaption>
                 </div>
 
                 <div style="text-align: center;">
@@ -88,39 +82,19 @@
             </div>
         </div>
 
- 		<div id="footer">
+        <p style="text-align: center;">
+            back to <a href="./index.html"><u>course</u></a>
+        </p>
 
-            <p>
-                back to <a href="./ics2025.html"><u>course</u></a>
-            </p>
+        <div id="footer"></div>
 
-			<p>
-				<a href="./../../index.html">
-					main
-				</a>
-				 :: 
-				<a href="./../../publications.html">
-					publications
-				</a>
-				:: 
-				<a href="./../../research.html">
-					research
-				</a>
-				:: 
-				<a href="./../../contact.html">
-					contact
-				</a>
-				:: 
-				<a href="./../../teaching.html">
-					teaching
-				</a>
-				 :: 
-				<a href="./../../more.html">
-					more
-				</a>
-			</p>
-
- 		</div>
+        <script>
+        fetch("/webpage_files/footer.html")
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('footer').innerHTML = data;
+          });
+        </script>
 
  	</body>
 

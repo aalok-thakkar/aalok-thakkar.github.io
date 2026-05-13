@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aalok Thakkar</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="/webpage_files/style.css" type="text/css" media="screen" />
+  </head>
+
+  <body>
+    <div id="content" class="single">
+      <h1>
+        Aalok Thakkar: <strong>Quizzes</strong>
+      </h1>
+
+      <p style="text-align: center;">
+        Coming soon.
+      </p>
+
+      <p style="text-align: center;">
+        Back to <a href="/more/index.html"><u>More</u></a>
+      </p>
+    </div>
+
+    <div id="footer"></div>
+
+    <script>
+      fetch("/webpage_files/footer.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('footer').innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

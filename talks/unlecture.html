@@ -1,1 +1,28 @@
-<iframe scrolling="yes" title="unLecture" src="https://www.geogebra.org/material/iframe/id/vbnmdkfn/width/1512/height/865/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1512px" height="865px" style="border:0px;"> </iframe>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aalok Thakkar: unLecture</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="/webpage_files/style.css" type="text/css" media="screen" />
+    <style>
+      #content.unlecture { max-width: none; padding: 0 16px; }
+      iframe { width: 100%; max-width: 1512px; height: 865px; border: 0; display: block; margin: 0 auto; }
+    </style>
+  </head>
+  <body>
+    <div id="content" class="single-wide unlecture">
+      <h1>Aalok Thakkar: <strong>unLecture</strong></h1>
+      <iframe scrolling="yes" title="unLecture" src="https://www.geogebra.org/material/iframe/id/vbnmdkfn/width/1512/height/865/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false"></iframe>
+    </div>
+    <div id="footer"></div>
+    <script>
+      fetch("/webpage_files/footer.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('footer').innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

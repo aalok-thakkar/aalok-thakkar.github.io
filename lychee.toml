@@ -1,0 +1,24 @@
+# lychee link-checker config (used by the link-check CI job).
+# Docs: https://lychee.cli.rs/usage/config/
+
+# Skip schemes that aren't HTTP/S.
+exclude_mail = true
+
+# Treat these as transient — they 4xx/5xx without being broken.
+accept = [200, 203, 206, 301, 302, 303, 307, 308, 999]
+
+# Don't bother re-checking common authwalled or rate-limited hosts.
+exclude = [
+  # arXiv / academic sites occasionally 503 under load
+  "^https://www\\.cnbctv18\\.com/",
+  "^https://www\\.hindustantimes\\.com/",
+  # X/Twitter blocks unauthenticated bots
+  "^https://(x|twitter)\\.com/",
+  # LinkedIn does the same
+  "^https://www\\.linkedin\\.com/",
+]
+
+# Be generous with timeouts and retries for academic hosts.
+timeout = 30
+max_retries = 2
+max_concurrency = 8
