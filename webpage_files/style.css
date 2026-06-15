@@ -32,6 +32,11 @@
   --accent-tint: rgba(42, 92, 184, 0.035);
   --accent-hover: #4b7dd6;
 
+  /* Audience colours (used by /grants/) */
+  --aud-students: #2a5cb8;
+  --aud-postdocs: #c97b3b;
+  --aud-faculty:  #3f8a55;
+
   /* Spacing scale */
   --sp-1: 4px;   --sp-2: 8px;   --sp-3: 12px;  --sp-4: 16px;
   --sp-6: 24px;  --sp-8: 32px;  --sp-12: 48px; --sp-16: 64px;
@@ -65,6 +70,11 @@
     --accent-tint: rgba(141, 177, 255, 0.05);
     --accent-hover: #b3c8ff;
     --shadow-lg: 0 12px 36px rgba(0, 0, 0, 0.5);
+
+    /* Audience colours (dark) */
+    --aud-students: #8db1ff;
+    --aud-postdocs: #e8a06a;
+    --aud-faculty:  #76c08e;
   }
 }
 
@@ -411,4 +421,259 @@ details.news-archive > summary:hover { color: var(--text); }
 
   /* Tooltips on touch: tap to reveal */
   .tooltip .tooltiptext { width: min(260px, 80vw); }
+}
+
+/* ======================================================================
+ * /grants/ - repository of science grants
+ * ==================================================================== */
+
+.grants-intro {
+  font-size: 1.05em;
+  color: var(--text);
+  margin: 0.5em 0 var(--sp-3);
+}
+.grants-meta {
+  color: var(--text-muted);
+  font-size: 0.9em;
+  margin: 0 0 var(--sp-6);
+}
+.grants-footnote {
+  margin-top: var(--sp-12);
+  font-size: 0.85em;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Tabs ----------------------------------------------------------------- */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  border-bottom: 1px solid var(--border);
+  margin: var(--sp-6) 0 var(--sp-8);
+  padding-bottom: 0;
+}
+.tab {
+  font-family: var(--font-body);
+  font-size: 0.95em;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--text-muted);
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  padding: var(--sp-2) var(--sp-3);
+  margin-bottom: -1px;
+  cursor: pointer;
+  transition: color var(--t-fast), border-color var(--t-fast), background var(--t-fast);
+}
+.tab:hover { color: var(--text); background: var(--accent-tint); }
+.tab.is-active {
+  color: var(--text);
+  border-bottom-color: var(--accent);
+  font-weight: 500;
+}
+.tab:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* Calendar ------------------------------------------------------------- */
+.cal-section { margin: var(--sp-8) 0 var(--sp-12); }
+.cal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  margin-bottom: var(--sp-3);
+}
+.cal-title {
+  font-family: var(--font-display);
+  font-size: 1.3em;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  flex: 1;
+}
+.cal-nav {
+  font-family: var(--font-display);
+  font-size: 1.4em;
+  line-height: 1;
+  width: 2.2em;
+  height: 2.2em;
+  border: 1px solid var(--border);
+  background: var(--bg-elev);
+  color: var(--text);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background var(--t-fast), border-color var(--t-fast);
+}
+.cal-nav:hover { background: var(--accent-tint); border-color: var(--accent); }
+.cal-nav:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+.cal-wd {
+  background: var(--bg-elev);
+  color: var(--text-muted);
+  font-size: 0.72em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: var(--sp-2) 0;
+  font-weight: 500;
+}
+.cal-cell {
+  position: relative;
+  background: var(--bg);
+  min-height: 78px;
+  padding: var(--sp-2);
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-1);
+  transition: background var(--t-fast);
+}
+.cal-cell.is-blank { background: var(--bg-elev); opacity: 0.4; }
+.cal-cell.is-past .cal-num { color: var(--text-faint); }
+.cal-cell.is-today {
+  background: var(--accent-tint);
+  outline: 1px solid var(--accent);
+  outline-offset: -1px;
+}
+.cal-cell.has-pin { cursor: help; }
+.cal-cell.has-pin:hover { background: var(--accent-tint); }
+.cal-num {
+  font-size: 0.85em;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+}
+.cal-cell.is-today .cal-num { color: var(--accent); font-weight: 600; }
+.cal-dots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin-top: auto;
+}
+.cal-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.cal-dot[data-audience="students"] { background: var(--aud-students); }
+.cal-dot[data-audience="postdocs"] { background: var(--aud-postdocs); }
+.cal-dot[data-audience="faculty"]  { background: var(--aud-faculty); }
+
+.cal-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-4);
+  justify-content: center;
+  margin: var(--sp-3) 0 0;
+  font-size: 0.8em;
+  color: var(--text-muted);
+}
+.cal-legend-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 4px;
+  vertical-align: 1px;
+}
+.cal-legend-dot[data-audience="students"] { background: var(--aud-students); }
+.cal-legend-dot[data-audience="postdocs"] { background: var(--aud-postdocs); }
+.cal-legend-dot[data-audience="faculty"]  { background: var(--aud-faculty); }
+
+/* Listings ------------------------------------------------------------- */
+.list-title {
+  font-family: var(--font-body);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.78em;
+  color: var(--text-muted);
+  margin: var(--sp-12) 0 var(--sp-3);
+  padding-bottom: var(--sp-2);
+  border-bottom: 1px solid var(--border);
+}
+
+.grant-list {
+  display: flex;
+  flex-direction: column;
+}
+.grant-card {
+  padding: var(--sp-4) 0;
+  border-bottom: 1px solid var(--border);
+}
+.grant-card:last-child { border-bottom: 0; }
+.grant-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+}
+.grant-name {
+  font-size: 1.02em;
+  margin: 0;
+  font-weight: 500;
+}
+.grant-name a { border-bottom: none; }
+.grant-name a:hover { background: none; text-decoration: underline; }
+.grant-deadline {
+  font-size: 0.85em;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  font-weight: 500;
+}
+.grant-deadline.grant-rolling {
+  color: var(--text-muted);
+  font-style: italic;
+  font-weight: 400;
+}
+.grant-meta {
+  color: var(--text-muted);
+  font-size: 0.85em;
+  margin: var(--sp-1) 0 var(--sp-2);
+}
+.grant-desc {
+  margin: 0;
+  color: var(--text);
+  font-size: 0.93em;
+}
+.grant-note-line {
+  margin: var(--sp-1) 0 0;
+  font-size: 0.82em;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.grants-empty {
+  color: var(--text-muted);
+  font-style: italic;
+  padding: var(--sp-4);
+  text-align: center;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-sm);
+}
+
+/* Mobile: calendar shrinks ------------------------------------------- */
+@media (max-width: 768px) {
+  .cal-cell { min-height: 56px; padding: var(--sp-1); }
+  .cal-num { font-size: 0.75em; }
+  .cal-dot { width: 6px; height: 6px; }
+  .cal-wd { font-size: 0.65em; padding: 6px 0; }
+  .cal-title { font-size: 1.1em; }
+  .grant-row { flex-direction: column; align-items: flex-start; gap: var(--sp-1); }
 }

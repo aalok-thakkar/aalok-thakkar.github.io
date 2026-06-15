@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aalok Thakkar: Science Grants</title>
+    <link rel="icon" href="data:,">
+
+    <link
+      rel="stylesheet"
+      href="/webpage_files/style.css"
+      type="text/css"
+      media="screen"
+    />
+  </head>
+
+  <body>
+    <div id="content" class="single-wide">
+      <h1>
+        Aalok Thakkar: <strong>Science Grants</strong>
+      </h1>
+
+      <p class="grants-intro">
+        A public-service repository of grants, fellowships, and awards in the
+        sciences, for students, postdocs, and faculty. Updated every two weeks.
+        Spotted a missing or expired entry? Write to
+        <a href="mailto:thakkar@ashoka.edu.in">thakkar@ashoka.edu.in</a>.
+      </p>
+      <p class="grants-meta">
+        Last updated: <span id="grants-updated">&hellip;</span>
+        &middot;
+        <span id="grants-count">&hellip;</span> grants in the repository.
+      </p>
+
+      <div class="tabs" role="tablist" aria-label="Filter by category">
+        <button class="tab is-active" role="tab" aria-selected="true" data-filter="all">All</button>
+        <button class="tab" role="tab" aria-selected="false" data-filter="students">Students</button>
+        <button class="tab" role="tab" aria-selected="false" data-filter="postdocs">Postdocs</button>
+        <button class="tab" role="tab" aria-selected="false" data-filter="faculty">Faculty</button>
+        <button class="tab" role="tab" aria-selected="false" data-filter="hackathons">Hackathons</button>
+      </div>
+
+      <section class="cal-section" aria-label="Deadline calendar">
+        <div class="cal-header">
+          <button class="cal-nav" id="cal-prev" aria-label="Previous month">&lsaquo;</button>
+          <h3 class="cal-title" id="cal-title">&nbsp;</h3>
+          <button class="cal-nav" id="cal-next" aria-label="Next month">&rsaquo;</button>
+        </div>
+        <div class="cal-grid" id="cal-grid" role="grid" aria-labelledby="cal-title"></div>
+        <p class="cal-legend">
+          <span class="cal-legend-dot" data-audience="students"></span> students
+          <span class="cal-legend-dot" data-audience="postdocs"></span> postdocs
+          <span class="cal-legend-dot" data-audience="faculty"></span> faculty
+        </p>
+      </section>
+
+      <section aria-labelledby="month-list-title">
+        <h3 id="month-list-title" class="list-title">Deadlines in <span id="month-name">this month</span></h3>
+        <div id="month-list" class="grant-list"></div>
+      </section>
+
+      <section aria-labelledby="upcoming-list-title">
+        <h3 id="upcoming-list-title" class="list-title">All upcoming deadlines</h3>
+        <div id="upcoming-list" class="grant-list"></div>
+      </section>
+
+      <section aria-labelledby="rolling-list-title">
+        <h3 id="rolling-list-title" class="list-title">Rolling &amp; annually recurring</h3>
+        <div id="rolling-list" class="grant-list"></div>
+      </section>
+
+      <p class="grants-footnote">
+        This page is community-maintained. Inclusion is not an endorsement; check
+        each funder&rsquo;s site for the current deadline and eligibility before
+        applying.
+      </p>
+    </div>
+
+    <div id="footer"></div>
+    <script>
+      fetch("/webpage_files/footer.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('footer').innerHTML = data;
+        });
+    </script>
+    <script src="./grants.js?v=5"></script>
+  </body>
+</html>
