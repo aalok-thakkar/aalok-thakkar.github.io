@@ -1,6 +1,6 @@
 {
   "_comment": "Source of truth for /grants/. 'deadlines' is an array of upcoming ISO dates; leave empty for rolling deadlines (the entry will appear under 'Rolling & annually recurring').",
-  "lastUpdated": "2026-06-14",
+  "lastUpdated": "2026-06-15",
   "grants": [
     {
       "id": "nsf-grfp",
@@ -2138,6 +2138,21 @@
       "amount": "Varies; recent events $3,500-$32,000+ per event",
       "duration": "3-14 days per event",
       "description": "Largest rolling calendar of AI builder hackathons globally. Topics span LLM agents, multimodal models, open-weights fine-tuning, enterprise AI, and applied ML. Open to developers and researchers worldwide."
+    },
+    {
+      "id": "people-powered-climate-democracy",
+      "name": "Climate Democracy Accelerator Programme",
+      "funder": "People Powered",
+      "url": "https://www.peoplepowered.org/climate-democracy-accelerator",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-06-26"
+      ],
+      "deadlineNote": "Closes 5:00 PM UTC; priority for applicants from Brazil, India, Indonesia, and Mexico, with additional spots open globally (esp. Africa, Asia, Latin America).",
+      "region": "Global",
+      "description": "Cohort accelerator for government, civil society, and NGO leaders launching participatory programs that shape climate policy - regenerative agriculture, renewable energy, and just transitions."
     }
   ]
 }
