@@ -548,8 +548,9 @@ details.news-archive > summary:hover { color: var(--text); }
   outline: 1px solid var(--accent);
   outline-offset: -1px;
 }
-.cal-cell.has-pin { cursor: help; }
+.cal-cell.has-pin { cursor: pointer; }
 .cal-cell.has-pin:hover { background: var(--accent-tint); }
+.cal-cell.has-pin:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 .cal-num {
   font-size: 0.85em;
   color: var(--text-muted);
@@ -657,6 +658,13 @@ details.news-archive > summary:hover { color: var(--text); }
   font-size: 0.82em;
   color: var(--text-muted);
   font-style: italic;
+}
+.grant-card.is-flashing {
+  animation: grant-flash 1.8s ease-out;
+}
+@keyframes grant-flash {
+  0%   { background: var(--accent-soft); }
+  100% { background: transparent; }
 }
 
 .grants-empty {

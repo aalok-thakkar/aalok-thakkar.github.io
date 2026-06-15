@@ -129,8 +129,12 @@
       const titleAttr = dayGrants.length
         ? ' title="' + dayGrants.map(g => g.name.replace(/"/g, '&quot;')).join('\n') + '"'
         : '';
+      const ids = dayGrants.map(g => g.id).join(',');
+      const clickAttrs = dayGrants.length
+        ? ` data-grant-ids="${ids}" tabindex="0" role="button" aria-label="${dayGrants.length} deadline${dayGrants.length>1?'s':''} on ${MONTH_NAMES[state.month]} ${day}"`
+        : ' role="gridcell"';
       cells.push(
-        `<div class="cal-cell${isToday ? ' is-today' : ''}${isPast ? ' is-past' : ''}${dayGrants.length ? ' has-pin' : ''}" role="gridcell"${titleAttr}>
+        `<div class="cal-cell${isToday ? ' is-today' : ''}${isPast ? ' is-past' : ''}${dayGrants.length ? ' has-pin' : ''}"${clickAttrs}${titleAttr}>
            <span class="cal-num">${day}</span>
            ${dots ? `<span class="cal-dots">${dots}</span>` : ''}
          </div>`
@@ -139,8 +143,27 @@
     grid.innerHTML = cells.join('');
   }
 
+  function jumpToGrant(idsCsv) {
+    const ids = (idsCsv || '').split(',').filter(Boolean);
+    let target = null;
+    for (const id of ids) {
+      target =
+        document.getElementById(`g-month-${id}`) ||
+        document.getElementById(`g-upcoming-${id}`) ||
+        document.getElementById(`g-rolling-${id}`);
+      if (target) break;
+    }
+    if (!target) return;
+    target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    target.classList.remove('is-flashing');
+    // Force reflow so the animation restarts even if class was just toggled.
+    void target.offsetWidth;
+    target.classList.add('is-flashing');
+    setTimeout(() => target.classList.remove('is-flashing'), 1800);
+  }
+
   // -------- list render --------
-  function grantCard(grant, withDeadline) {
+  function grantCard(grant, withDeadline, section) {
     const next = withDeadline ? formatLong(withDeadline) : '';
     const aud = (grant.audience || []).join(', ');
     const metaParts = [
@@ -152,7 +175,7 @@
       aud ? `for ${aud}` : null
     ].filter(Boolean);
     return `
-      <article class="grant-card">
+      <article id="g-${section}-${grant.id}" class="grant-card">
         <div class="grant-row">
           <h4 class="grant-name"><a href="${grant.url}" target="_blank" rel="noopener">${grant.name}</a></h4>
           ${next ? `<span class="grant-deadline">${next}</span>` : '<span class="grant-deadline grant-rolling">rolling</span>'}
@@ -173,7 +196,7 @@
       host.innerHTML = '<p class="grants-empty">No deadlines this month for the selected audience.</p>';
       return;
     }
-    host.innerHTML = items.map(({ grant, date }) => grantCard(grant, date)).join('');
+    host.innerHTML = items.map(({ grant, date }) => grantCard(grant, date, 'month')).join('');
   }
 
   function renderUpcomingList() {
@@ -183,7 +206,7 @@
       host.innerHTML = '<p class="grants-empty">No upcoming fixed deadlines for the selected audience.</p>';
       return;
     }
-    host.innerHTML = items.map(({ grant, date }) => grantCard(grant, date)).join('');
+    host.innerHTML = items.map(({ grant, date }) => grantCard(grant, date, 'upcoming')).join('');
   }
 
   function renderRollingList() {
@@ -193,7 +216,7 @@
       host.innerHTML = '<p class="grants-empty">No rolling-deadline grants for the selected audience.</p>';
       return;
     }
-    host.innerHTML = items.map(g => grantCard(g, null)).join('');
+    host.innerHTML = items.map(g => grantCard(g, null, 'rolling')).join('');
   }
 
   function renderAll() {
@@ -232,6 +255,21 @@
       renderAll();
     });
   }
+  function wireCalendarClicks() {
+    const grid = document.getElementById('cal-grid');
+    grid.addEventListener('click', (e) => {
+      const cell = e.target.closest('.cal-cell.has-pin');
+      if (!cell) return;
+      jumpToGrant(cell.dataset.grantIds);
+    });
+    grid.addEventListener('keydown', (e) => {
+      if (e.key !== 'Enter' && e.key !== ' ') return;
+      const cell = e.target.closest('.cal-cell.has-pin');
+      if (!cell) return;
+      e.preventDefault();
+      jumpToGrant(cell.dataset.grantIds);
+    });
+  }
 
   function init(data) {
     state.grants = Array.isArray(data.grants) ? data.grants : [];
@@ -250,6 +288,7 @@
 
     wireTabs();
     wireNav();
+    wireCalendarClicks();
     renderAll();
   }
 
