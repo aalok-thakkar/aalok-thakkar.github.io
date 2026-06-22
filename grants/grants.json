@@ -1,6 +1,6 @@
 {
   "_comment": "Source of truth for /grants/. 'deadlines' is an array of upcoming ISO dates; leave empty for rolling deadlines (the entry will appear under 'Rolling & annually recurring').",
-  "lastUpdated": "2026-06-15",
+  "lastUpdated": "2026-06-22",
   "grants": [
     {
       "id": "nsf-grfp",
@@ -2235,9 +2235,9 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Rolling; one application per 12-month period. Staged: first grant up to GBP 7,000 through Completion Grant up to GBP 18,000.",
+      "deadlineNote": "Rolling; one application per 12-month period; 12-month wait after rejection. Four-tier system: 1st GBP 7,000, 2nd GBP 8,000, Booster GBP 12,000, Completion GBP 18,000 (final tier).",
       "region": "Global (eligible developing countries)",
-      "amount": "GBP 7,000 - 18,000 (staged)",
+      "amount": "GBP 7,000 - 18,000 (staged: 1st GBP 7k, 2nd GBP 8k, Booster GBP 12k, Completion GBP 18k)",
       "description": "Conservation grants for early-career researchers working on threatened species, critical habitats, human-wildlife conflict, or community conservation education. MSc/PhD students or graduates within the last 3 years."
     },
     {
@@ -2248,8 +2248,10 @@
       "audience": [
         "faculty"
       ],
-      "deadlines": [],
-      "deadlineNote": "Annual call; most recent pre-proposal window closed 31 Jan 2026. Watch for the next cycle notification.",
+      "deadlines": [
+        "2026-03-21"
+      ],
+      "deadlineNote": "Current notification window open 22 Sept 2025 - 21 March 2026 (online submission only). Two-stage: pre-proposal then full proposal.",
       "region": "Kerala, India",
       "amount": "Up to Rs. 30 lakh",
       "duration": "Up to 3 years",
@@ -2264,7 +2266,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Annual call; most recent pre-proposal window closed 31 Jan 2026. Next notification expected late 2026.",
+      "deadlineNote": "2026 cycle last date was 31.01.2026. Annual call; next notification expected late 2026 / early 2027.",
       "region": "Kerala, India",
       "amount": "Up to Rs. 30 lakh",
       "duration": "Up to 3 years",
@@ -2355,7 +2357,7 @@
         "students"
       ],
       "deadlines": [],
-      "deadlineNote": "49th series proposals closed 15 Dec 2025; 50th series call expected in late 2026 for the 2026-27 academic year.",
+      "deadlineNote": "49th series (2025-26) proposals closed 15 Dec 2025; selections announced Feb 2026, mid-term March-April 2026, state exhibition May/June 2026. 50th series call expected late 2026.",
       "region": "Karnataka, India",
       "amount": "Variable per project (historically averaging a few thousand rupees per project from a state-wide pool)",
       "duration": "One academic year",
@@ -2498,13 +2500,13 @@
       "id": "cepf-mediterranean-third-call",
       "name": "CEPF Mediterranean Basin Hotspot - Third Call for Small Grants",
       "funder": "Critical Ecosystem Partnership Fund",
-      "url": "https://www.cepf.net/grants/open-calls-for-proposals",
+      "url": "https://www.cepf.net/grants/open-calls-for-proposals/2026-third-cfp-mediterranean-basin",
       "audience": [
         "postdocs",
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Most recent call closed 15 March 2026; future hotspot calls posted at cepf.net/grants/open-calls-for-proposals",
+      "deadlineNote": "Third Call for Small Grants closed 15 March 2026; project window August 2026 - September 2027. Future Mediterranean calls posted at cepf.net/grants/open-calls-for-proposals.",
       "region": "Mediterranean Basin (Albania, BiH, Jordan, Lebanon, Morocco, Palestine, Tunisia)",
       "amount": "USD 20,000 - 50,000",
       "duration": "Up to 24 months",
@@ -2531,7 +2533,7 @@
       "id": "idea-wild-equipment-grant",
       "name": "IDEA WILD Equipment Grant",
       "funder": "IDEA WILD",
-      "url": "https://ideawild.org/grants/",
+      "url": "https://ideawild.org/application/",
       "audience": [
         "students",
         "postdocs",
@@ -3178,9 +3180,9 @@
         "faculty"
       ],
       "deadlines": [
-        "2026-07-15"
+        "2026-07-01"
       ],
-      "deadlineNote": "2027-2028 cohort deadline 15 Jul 2026, 23:59 IST.",
+      "deadlineNote": "2027-2028 cohort deadline 1 Jul 2026, 23:59 IST. Applications opened 18 Feb 2026.",
       "region": "India to USA",
       "amount": "Monthly stipend, J-1 visa, health benefits, round-trip airfare",
       "duration": "4-9 months",
@@ -3298,8 +3300,8 @@
       "deadlineNote": "Rolling submission; Scientific Committee decisions take 6-8 weeks",
       "region": "Oberwolfach, Germany",
       "amount": "Full board and accommodation at MFO; stay realised within 1 year of decision",
-      "duration": "2 weeks to 3 months for small research groups (2-4 participants)",
-      "description": "Successor to Research in Pairs. Supports small collaborative research groups working in residence at MFO on a focused mathematical problem."
+      "duration": "1-4 weeks for small research groups (2-4 participants); Leibniz Fellowships for single researchers",
+      "description": "Successor to Research in Pairs. Supports small collaborative groups (2-4 researchers) in residence at MFO for 1-4 weeks of focused mathematical research; Leibniz Fellowships allow single-researcher stays."
     },
     {
       "id": "fields-postdoctoral-fellowship",
@@ -3377,9 +3379,9 @@
         "postdocs"
       ],
       "deadlines": [
-        "2026-12-15"
+        "2026-07-23"
       ],
-      "deadlineNote": "Two cycles per year (June and December); fall 2027 cycle deadline approx Dec 2026",
+      "deadlineNote": "Two cycles per year; current Summer 2027 cycle deadline is 23 July 2026 (referees due 31 July 2026); start date 1 January 2027.",
       "region": "Bangalore, India",
       "amount": "Up to INR 54,000/month plus housing and research support",
       "duration": "Typically 2-3 years",
@@ -3506,20 +3508,6 @@
       "description": "Postdoctoral fellowships at IUCAA, Pune, covering theoretical, observational, and instrumentation research in astronomy and astrophysics, with on-campus housing and contingency funding."
     },
     {
-      "id": "icts-tifr-postdoctoral-program",
-      "name": "ICTS-TIFR Postdoctoral Program",
-      "funder": "International Centre for Theoretical Sciences, TIFR, Bengaluru",
-      "url": "https://www.icts.res.in/academic/postdoctoral-fellowships",
-      "audience": [
-        "postdocs"
-      ],
-      "deadlines": [],
-      "deadlineNote": "Two cycles annually (Spring / Fall). The Spring 2027 cycle deadline is typically end May 2026; Fall 2027 cycle deadline typically late November 2026. Exceptional candidates considered for Postdoctoral Prize Fellowship.",
-      "region": "India",
-      "duration": "2 years (renewable to 3)",
-      "description": "Postdoctoral positions in theoretical physics, mathematics, and astrophysics at ICTS-TIFR Bengaluru, with research and travel allowance and opportunities to participate in ICTS programs."
-    },
-    {
       "id": "aspen-center-physics-summer-workshop",
       "name": "Aspen Center for Physics Summer Workshop Participation",
       "funder": "Aspen Center for Physics",
@@ -3529,7 +3517,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Annual summer workshop participation; main application window closes January for the following summer (e.g., the 2027 summer cycle will accept applications through January 2027). Limited financial support available for early-career and underrepresented participants.",
+      "deadlineNote": "Annual summer workshop participation; application window closes 15 January for the following summer (e.g., 2027 summer cycle opens fall 2026 with 15 January 2027 deadline). PhD required (or expected in program year). Minimum 2-week stay; limited financial support for early-career and underrepresented participants.",
       "region": "United States",
       "duration": "1-3 weeks (summer)",
       "description": "Participation in self-organized summer workshops in theoretical physics, astrophysics, cosmology, condensed matter, and biological physics at Aspen, Colorado. Open by application; postdocs may apply for travel/lodging support."
@@ -3643,7 +3631,7 @@
       ],
       "deadlineNote": "Fall 2026 submission window: Sep 14 - Oct 9, 2026.",
       "region": "United States and international",
-      "amount": "$125,000 over 2 years",
+      "amount": "$110,000 over 2 years",
       "duration": "2 years",
       "description": "Start-up funding for new tenure-track faculty at PhD-granting institutions in fields fundamental to petroleum or fossil fuel science. Applicant must be within first three years of first academic appointment."
     },
@@ -3691,8 +3679,11 @@
         "students",
         "postdocs"
       ],
-      "deadlines": [],
-      "deadlineNote": "2026 round closed Apr 27, 2026. Next call expected spring 2027.",
+      "deadlines": [
+        "2026-08-03",
+        "2026-10-19"
+      ],
+      "deadlineNote": "Multiple 2026 rounds remain: Round 3 closes Aug 3, 2026 (activities Oct 1, 2026+); Round 4 closes Oct 19, 2026 (activities Jan 1, 2027+). One grant per applicant every three years.",
       "region": "International (RSC members)",
       "amount": "Up to £500",
       "duration": "Single activity",
@@ -3823,7 +3814,7 @@
       "id": "cooperative-ai-phd-fellowship",
       "name": "Cooperative AI PhD Fellowship",
       "funder": "Cooperative AI Foundation",
-      "url": "https://www.cooperativeai.com/phd-fellowship",
+      "url": "https://www.cooperativeai.com/phd-fellowship/2026",
       "audience": [
         "students"
       ],
