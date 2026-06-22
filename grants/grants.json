@@ -2153,6 +2153,1733 @@
       "deadlineNote": "Closes 5:00 PM UTC; priority for applicants from Brazil, India, Indonesia, and Mexico, with additional spots open globally (esp. Africa, Asia, Latin America).",
       "region": "Global",
       "description": "Cohort accelerator for government, civil society, and NGO leaders launching participatory programs that shape climate policy - regenerative agriculture, renewable energy, and just transitions."
+    },
+    {
+      "id": "wct-bees-grants",
+      "name": "WCT-BEES Grants",
+      "funder": "Wildlife Conservation Trust",
+      "url": "https://www.wildlifeconservationtrust.org/our-work/wct-bees-grants/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-07-20"
+      ],
+      "deadlineNote": "Closes 23:59 hours; one PI per project; ongoing projects eligible up to 10 months. Master's dissertation work allowed.",
+      "region": "India",
+      "amount": "INR 3,00,000 - 3,50,000",
+      "description": "Small grants for Indian wildlife researchers, grassroots conservationists, and conservation organisations protecting India's endangered species and critical habitats. Projects building evidence-based policy recommendations are preferred."
+    },
+    {
+      "id": "longview-digital-minds-research",
+      "name": "Digital Minds Research Fellowships",
+      "funder": "Longview Philanthropy",
+      "url": "https://www.longview.org/request-for-proposals-research-and-applied-work-on-digital-minds/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-07-10"
+      ],
+      "deadlineNote": "PhD/JD in CS, neuroscience, law, medicine, or applied social science by Sept 2027 or fellowship start.",
+      "region": "Global (where Longview can make grants)",
+      "amount": "USD 55,000 - 150,000/year",
+      "description": "Project-independent fellowship for rigorous inquiry into AI consciousness, sentience, moral status, and legal position. Includes research/travel/compute support and funded attendance at the annual CMEP Summit at NYU."
+    },
+    {
+      "id": "longview-digital-minds-career",
+      "name": "Digital Minds Career Development Fellowships",
+      "funder": "Longview Philanthropy & Future Impact Group",
+      "url": "https://www.longview.org/request-for-proposals-research-and-applied-work-on-digital-minds/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-07-10"
+      ],
+      "deadlineNote": "For degree students or those with an established mentorship relationship; exceptional career-pivot candidates also welcome.",
+      "region": "Global (where Longview can make grants)",
+      "amount": "Living stipend + support suite",
+      "description": "Career-pivot fellowship for students, early-career researchers, or professionals moving into digital minds (AI consciousness, welfare, moral status)."
+    },
+    {
+      "id": "itto-freezailah-fellowship",
+      "name": "ITTO Freezailah Fellowship Fund",
+      "funder": "International Tropical Timber Organization (ITTO)",
+      "url": "https://www.itto.int/fellowship/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-07-20"
+      ],
+      "deadlineNote": "Closes 17:00 JST; nationals of ITTO member countries only; prior awardees ineligible within 2 years of completion.",
+      "region": "Global (ITTO member countries)",
+      "amount": "Up to USD 10,000",
+      "description": "Supports training, conferences, study tours, technical publications, and postgraduate research aligned with sustainable forest management, biodiversity conservation, and the SDGs. Awards made to individuals."
+    },
+    {
+      "id": "rufford-small-grants",
+      "name": "Rufford Small Grants for Nature Conservation",
+      "funder": "The Rufford Foundation",
+      "url": "https://apply.ruffordsmallgrants.org/help/criteria",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling; one application per 12-month period. Staged: first grant up to GBP 7,000 through Completion Grant up to GBP 18,000.",
+      "region": "Global (eligible developing countries)",
+      "amount": "GBP 7,000 - 18,000 (staged)",
+      "description": "Conservation grants for early-career researchers working on threatened species, critical habitats, human-wildlife conflict, or community conservation education. MSc/PhD students or graduates within the last 3 years."
+    },
+    {
+      "id": "kscste-science-research-scheme",
+      "name": "KSCSTE Science Research Scheme (SRS)",
+      "funder": "Kerala State Council for Science, Technology and Environment (KSCSTE)",
+      "url": "https://kscste.kerala.gov.in/science-research-scheme/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call; most recent pre-proposal window closed 31 Jan 2026. Watch for the next cycle notification.",
+      "region": "Kerala, India",
+      "amount": "Up to Rs. 30 lakh",
+      "duration": "Up to 3 years",
+      "description": "Research grant for fundamental and applied science projects led by regular faculty of Kerala colleges/universities or scientists at R&D institutions in Kerala. PhD required and 5+ years of service left to superannuation. Two-stage selection (pre-proposal then full proposal) reviewed by the PAC-SRS."
+    },
+    {
+      "id": "kscste-engineering-technology-programme",
+      "name": "KSCSTE Engineering & Technology Programme (ETP)",
+      "funder": "Kerala State Council for Science, Technology and Environment (KSCSTE)",
+      "url": "https://kscste.kerala.gov.in/engineering-technology-programme-etp/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call; most recent pre-proposal window closed 31 Jan 2026. Next notification expected late 2026.",
+      "region": "Kerala, India",
+      "amount": "Up to Rs. 30 lakh",
+      "duration": "Up to 3 years",
+      "description": "Research grant promoting high-quality work in emerging engineering and technology areas. PI must be a regular faculty member of an engineering college or scientist at an R&D institution in Kerala with PhD in engineering and 5+ years of service remaining."
+    },
+    {
+      "id": "gujcost-minor-research-project",
+      "name": "GUJCOST Minor Research Project (MRP) Scheme",
+      "funder": "Gujarat Council on Science and Technology (GUJCOST)",
+      "url": "https://gujcost.gujarat.gov.in/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling: PIs may submit throughout the year; GUJCOST advertises one or two calls annually for wider visibility.",
+      "region": "Gujarat, India",
+      "amount": "Up to Rs. 10 lakh",
+      "duration": "Up to 2 years",
+      "description": "Financial assistance for original minor research projects in science and engineering, open to R&D institutions approved by Government of India, UGC/AICTE-approved colleges, and other professional institutions approved by the Government of Gujarat."
+    },
+    {
+      "id": "gujcost-major-research-project",
+      "name": "GUJCOST Major Research Project Scheme",
+      "funder": "Gujarat Council on Science and Technology (GUJCOST)",
+      "url": "https://gujcost.gujarat.gov.in/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Calls advertised periodically under the Gujarat STI Fund. No standing deadline; check the GUJCOST homepage.",
+      "region": "Gujarat, India",
+      "amount": "Up to Rs. 50 lakh",
+      "duration": "Up to 3 years",
+      "description": "Larger-scale R&D grant under the Gujarat STI Fund, targeting Artificial Intelligence, Biotechnology, Sustainable Habitat and allied priority areas. Open to eligible R&D institutions, universities, and approved colleges in Gujarat."
+    },
+    {
+      "id": "tnscst-science-technology-projects",
+      "name": "TANSCST Science and Technology Projects Scheme",
+      "funder": "Tamil Nadu State Council for Science and Technology (TANSCST)",
+      "url": "https://www.tanscst.tn.gov.in/science-and-technology-projects/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Proposals invited once a year via Google Form on the TANSCST site.",
+      "region": "Tamil Nadu, India",
+      "amount": "Rs. 3-5 lakh",
+      "duration": "2 years",
+      "description": "Project grants for scientists and faculty at recognised universities, colleges and research institutions in Tamil Nadu across agricultural, biological, environmental, engineering, physical, chemical, medical, social and veterinary sciences. Also intended to train research scholars and PG students."
+    },
+    {
+      "id": "tnscst-bridging-gap-research-funding",
+      "name": "TANSCST Programme for Bridging the Gap in Research Funding (for Research Scholars in Colleges)",
+      "funder": "Tamil Nadu State Council for Science and Technology (TANSCST)",
+      "url": "https://www.tanscst.tn.gov.in/programme-for-bridging-the-gap-in-research-funding-for-research-scholars-in-colleges/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call; check TANSCST schemes page for the next open window.",
+      "region": "Tamil Nadu, India",
+      "amount": "Rs. 1.5 lakh/year (Rs. 10,000 stipend/month + Rs. 30,000 contingency)",
+      "duration": "2 years",
+      "description": "Doctoral research support for ~10 scholars per cycle pursuing PhDs in Tamil Nadu colleges. Aimed at removing financial barriers and channeling research toward state-relevant problems."
+    },
+    {
+      "id": "tnscst-young-scientists-fellowship",
+      "name": "TANSCST Young Scientists Fellowship Scheme",
+      "funder": "Tamil Nadu State Council for Science and Technology (TANSCST)",
+      "url": "https://www.tanscst.tn.gov.in/young-scientists-fellowship-scheme/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call; proposals invited once a year via the TANSCST site.",
+      "region": "Tamil Nadu, India",
+      "amount": "Rs. 10,000/month (top-up over regular salary)",
+      "duration": "2 to 6 months",
+      "description": "Short-term fellowship for early-career scientists under 40 to pursue focused research stints alongside their regular employment in Tamil Nadu institutions."
+    },
+    {
+      "id": "kscst-student-project-programme",
+      "name": "KSCST Student Project Programme (SPP)",
+      "funder": "Karnataka State Council for Science and Technology (KSCST), IISc Campus, Bengaluru",
+      "url": "https://www.kscst.org.in/spp.html",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "49th series proposals closed 15 Dec 2025; 50th series call expected in late 2026 for the 2026-27 academic year.",
+      "region": "Karnataka, India",
+      "amount": "Variable per project (historically averaging a few thousand rupees per project from a state-wide pool)",
+      "duration": "One academic year",
+      "description": "Long-running scheme (since 1977-78) funding final-year B.E., B.Arch., M.Tech, M.Sc., MBA and MCA student projects across Karnataka institutions. Max 4 students per project; max 20 proposals per branch per institution."
+    },
+    {
+      "id": "mpcst-young-scientist-congress-2026",
+      "name": "41st M.P. Young Scientist Congress Awards 2026",
+      "funder": "Madhya Pradesh Council of Science & Technology (MPCST)",
+      "url": "https://www.mpysc.in/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2026 cycle closed (online by 2 Feb 2026, hard copies by 6 Feb 2026). 42nd edition expected early 2027.",
+      "region": "Madhya Pradesh, India",
+      "amount": "Awards of Rs. 25,000 / 20,000 / 15,000 plus certificate",
+      "duration": "Congress held 26-28 Feb 2026 at Bhopal",
+      "description": "Annual congress recognising single-authored research papers (work carried out in Madhya Pradesh) by young scientists. Age cap 32 (men) / 35 (women); requires 2 years post-PG research experience (or post-bachelor for medical/veterinary/engineering)."
+    },
+    {
+      "id": "hscst-fellowship-programme-haryana",
+      "name": "HSCST Fellowship Programme (Haryana PhD Research Fellowship)",
+      "funder": "Haryana State Council for Science, Innovation & Technology (HSCSIT)",
+      "url": "https://harchhatravratti.highereduhry.ac.in/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call; watch the harchhatravratti portal for the next 2026-27 notification.",
+      "region": "Haryana, India",
+      "amount": "Up to Rs. 35,000/month",
+      "duration": "Up to 5 years (JRF + SRF combined)",
+      "description": "Doctoral fellowship for candidates who have qualified both JRF-NET and Lectureship in the CSIR-UGC NET, to pursue full-time PhD research at any accredited university or institution in Haryana across earth, mathematical, chemical, physical and life sciences."
+    },
+    {
+      "id": "ksum-idea-grant",
+      "name": "Kerala Startup Mission Idea Grant",
+      "funder": "Kerala Startup Mission (KSUM), Government of Kerala",
+      "url": "https://startupmission.kerala.gov.in/schemes/idea-grant",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling intake during official KSUM application windows; rejected applicants may reapply after 3 months.",
+      "region": "Kerala, India",
+      "amount": "Up to Rs. 3 lakh",
+      "duration": "Milestone-based (typically months)",
+      "description": "Early-stage grant for Kerala-based innovators with technology-based ideas at ideation, design or proof-of-concept stage. Disbursed in milestone tranches; requires company incorporation (Pvt Ltd/LLP/OPC) before fund release."
+    },
+    {
+      "id": "natgeo-level-i-grant",
+      "name": "National Geographic Society Level I Grant",
+      "funder": "National Geographic Society",
+      "url": "https://www.nationalgeographic.org/funding-opportunities/grants/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Quarterly application cycles; check funder site for next cycle window",
+      "region": "Global",
+      "amount": "Up to USD 20,000",
+      "duration": "Up to 2 years",
+      "description": "Entry-level grant for emerging conservationists, scientists, educators, storytellers, and technologists addressing the Society's focus areas - Ocean, Land, Wildlife, Human History & Culture, and Human Ingenuity. Aimed at applicants new to National Geographic funding."
+    },
+    {
+      "id": "natgeo-level-ii-grant",
+      "name": "National Geographic Society Level II Grant",
+      "funder": "National Geographic Society",
+      "url": "https://www.nationalgeographic.org/funding-opportunities/grants/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Open year-round in quarterly cycles for established National Geographic Explorers",
+      "region": "Global",
+      "amount": "Up to USD 100,000",
+      "duration": "Up to 3 years",
+      "description": "Advanced grant for established National Geographic Explorers leading larger, multi-year projects in conservation, science, education, storytelling, or technology. Requires demonstrated track record and prior Society engagement."
+    },
+    {
+      "id": "mbz-species-conservation-fund",
+      "name": "Mohamed bin Zayed Species Conservation Fund",
+      "funder": "Mohamed bin Zayed Species Conservation Fund",
+      "url": "https://www.speciesconservation.org/biodiversity-nature-people/conservation-philanthropy/grants/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-10-15"
+      ],
+      "deadlineNote": "Three cycles per year - May/Sept cycle closed 31 May 2026; December cycle 15 Sep - 15 Oct 2026; April cycle window in early 2027",
+      "region": "Global",
+      "amount": "Up to USD 25,000",
+      "duration": "Typically 1-2 years",
+      "description": "Species-focused grants for hands-on conservation initiatives targeting threatened plant, animal, and fungi species (IUCN Red Listed or candidate species). Individual-led, project-based grants; open to applicants worldwide working on field conservation, applied research, capacity building, or education."
+    },
+    {
+      "id": "whitley-awards-2027",
+      "name": "Whitley Awards",
+      "funder": "Whitley Fund for Nature",
+      "url": "https://whitleyaward.org/apply-for-conservation-funding/apply-for-a-whitley-award/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Applications for the 2027 Whitley Awards open July/August 2026; deadline typically late October 2026",
+      "region": "Global South",
+      "amount": "GBP 50,000",
+      "duration": "1 year",
+      "description": "Flagship prize for grassroots conservation leaders from the Global South with at least 5 years of leadership experience in applied species/habitat conservation. Recognises proven mid-career conservationists ready to scale established initiatives with strong community and scientific foundations."
+    },
+    {
+      "id": "iucn-sos-ias-rapid-response",
+      "name": "IUCN SOS European Invasive Alien Species Rapid-Response Fund",
+      "funder": "IUCN Save Our Species",
+      "url": "https://iucnsos.org/call-for-proposals/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-02-10"
+      ],
+      "deadlineNote": "Rolling submissions until 10 February 2027, 14:00 CEST",
+      "region": "European Union (incl. Canary Islands, Azores, Madeira)",
+      "amount": "EUR 10,000 - 50,000",
+      "duration": "Up to 12 months",
+      "description": "Rapid-response conservation grants from IUCN SOS (funded by the European Union) for urgent on-the-ground action targeting early detection and eradication of invasive alien species threatening native biodiversity in EU territories."
+    },
+    {
+      "id": "cepf-mediterranean-third-call",
+      "name": "CEPF Mediterranean Basin Hotspot - Third Call for Small Grants",
+      "funder": "Critical Ecosystem Partnership Fund",
+      "url": "https://www.cepf.net/grants/open-calls-for-proposals",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Most recent call closed 15 March 2026; future hotspot calls posted at cepf.net/grants/open-calls-for-proposals",
+      "region": "Mediterranean Basin (Albania, BiH, Jordan, Lebanon, Morocco, Palestine, Tunisia)",
+      "amount": "USD 20,000 - 50,000",
+      "duration": "Up to 24 months",
+      "description": "Small grants for civil-society organisations conserving biodiversity in CEPF biodiversity hotspots. CEPF operates rolling calls across multiple hotspots (Indo-Burma, Guinean Forests, Caribbean Islands, Mediterranean Basin) supporting threatened species, key biodiversity areas, and corridors. Each call has its own eligible-country list and priorities."
+    },
+    {
+      "id": "habitats-trust-seed-grant",
+      "name": "The Habitats Trust Seed Grant",
+      "funder": "The Habitats Trust",
+      "url": "https://www.thehabitatstrust.org/grants.php",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Currently accepting applications; main Conservation/Action/Research grants closed for 2026, expected to reopen January 2027",
+      "region": "India",
+      "amount": "INR 3,00,000 (~USD 3,600)",
+      "duration": "Up to 1 year",
+      "description": "Small grant supporting early-stage Indian conservation projects on lesser-known species and critical habitats. Habitats Trust also offers larger Conservation Grant (INR 1 Cr / 3 yrs), Action Grant (INR 25L / 2 yrs), and Research Grant (INR 40L) in annual cycles opening each January."
+    },
+    {
+      "id": "idea-wild-equipment-grant",
+      "name": "IDEA WILD Equipment Grant",
+      "funder": "IDEA WILD",
+      "url": "https://ideawild.org/grants/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling applications accepted year-round through the online portal",
+      "region": "Global (priority: developing countries)",
+      "amount": "Up to USD 1,500 in equipment",
+      "duration": "One-time",
+      "description": "In-kind grants providing field and research equipment (binoculars, GPS, cameras, mist nets, computers, telemetry, etc.) to conservation biologists, ecologists, and biodiversity researchers, with priority for projects in low- and middle-income countries where small equipment costs are otherwise prohibitive."
+    },
+    {
+      "id": "cetpartnership-joint-call-2026",
+      "name": "CETPartnership Joint Call 2026",
+      "funder": "Clean Energy Transition Partnership (Horizon Europe co-fund; DST India is a participating funder)",
+      "url": "https://cetpartnership.eu/calls/joint-call-2026",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-10-08"
+      ],
+      "deadlineNote": "Pre-proposal deadline 8 October 2026, 14:00 CEST; full-proposal stage March 2027. Project start September–December 2027.",
+      "region": "Europe-wide; includes India, Canada and other associated funders",
+      "amount": "Varies by national funding organization (typical project budgets €0.5–3M, transnational consortia)",
+      "duration": "2-3 years typical",
+      "description": "Fifth annual joint call of the European Partnership for Clean Energy Transition. Eleven modules covering renewable energy, hydrogen and renewable fuels, batteries and storage, grid flexibility, heating/cooling, industrial decarbonisation, integrated regional energy systems, and CCUS. Requires international consortia (3 partners from 3 countries)."
+    },
+    {
+      "id": "vw-pioneering-research",
+      "name": "Pioneering Research - Exploring the Unknown Unknown",
+      "funder": "Volkswagen Foundation (VolkswagenStiftung)",
+      "url": "https://www.volkswagenstiftung.de/en/funding/funding-offer/pioneering-research-exploring-unknown-unknown",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-08-27"
+      ],
+      "deadlineNote": "Short-proposal deadline 27 August 2026, 14:00 CEST; full proposals invited early 2027; decisions autumn 2027.",
+      "region": "Germany (international collaborations allowed)",
+      "amount": "Up to EUR 1.3 million per project",
+      "duration": "3-5 years",
+      "description": "Open-disciplinary call for high-risk, radically exploratory basic research, explicitly including climate science, Earth system science, and clean-energy fundamentals. Lead applicants must hold a PhD and be at a German university/research institute; international co-applicants welcome. Distributed peer review used for short proposals."
+    },
+    {
+      "id": "schmidt-sciences-vicc-2",
+      "name": "Virtual Institute for the Carbon Cycle (VICC) - Phase 2",
+      "funder": "Schmidt Sciences",
+      "url": "https://www.schmidtsciences.org/vicc/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-08-28"
+      ],
+      "deadlineNote": "Applications due 28 August 2026 for Phase 2.",
+      "region": "Global (international, multidisciplinary teams)",
+      "amount": "Up to USD 10 million per team over 5 years",
+      "duration": "5 years",
+      "description": "Phase 2 of Schmidt Sciences' carbon-cycle virtual institute. Funds international multidisciplinary teams to reduce uncertainty in the global carbon budget by an order of magnitude (from ~1 GtCO2/yr to ~0.1 GtCO2/yr). Priority topics include wetland emissions, soil carbon flux, novel instrumentation, and modeling innovations."
+    },
+    {
+      "id": "bwf-climate-human-health-seed",
+      "name": "Climate Change and Human Health Seed Grants",
+      "funder": "Burroughs Wellcome Fund",
+      "url": "https://www.bwfund.org/funding-opportunities/climate-change-and-human-health/climate-change-and-human-health-seed-grants/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-07-23"
+      ],
+      "deadlineNote": "Final quarterly deadline of the program is 23 July 2026; applications accepted on a rolling basis with quarterly review.",
+      "region": "United States and Canada",
+      "amount": "USD 2,500-50,000",
+      "duration": "1-2 years",
+      "description": "Seed grants building cross-disciplinary connections between biomedical/health researchers and climate, environmental, ecological, geographic, and Earth-system scientists. Supports collaborations linking basic science with epidemiology, public health, demography, economics, and urban planning. Open to non-profit organizations and degree-granting institutions."
+    },
+    {
+      "id": "bezos-earth-fund-ai-grand-challenge",
+      "name": "AI for Climate and Nature Grand Challenge",
+      "funder": "Bezos Earth Fund",
+      "url": "https://aiforclimateandnature.org/",
+      "audience": [
+        "faculty",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Phase II awardees announced October 2025 ($30M to 15 teams, up to $2M each). Future rounds anticipated but no current open application window; sign up for updates on the official site.",
+      "region": "Global (US 501(c)(3) entities and global academic institutions in prior rounds)",
+      "amount": "Up to USD 2 million per Implementation Grant (Phase II); USD 50,000 seed grants in Phase I",
+      "duration": "Up to 2 years",
+      "description": "$100M Bezos Earth Fund initiative funding AI-driven solutions across sustainable proteins, power grid optimization, biodiversity conservation, and wildcard climate/nature applications. Two-phase structure with innovation sprints. Recurring; check site for next round."
+    },
+    {
+      "id": "irena-newgen-accelerator",
+      "name": "IRENA NewGen Renewable Energy Accelerator",
+      "funder": "International Renewable Energy Agency (IRENA)",
+      "url": "https://www.irena.org/Energy-Transition/Partnerships/Youth-Engagement/NewGen-Accelerator",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2026 cohort applications closed 3 May 2026; next cohort expected in 2027 (annual call, opens early in the year).",
+      "region": "Global",
+      "amount": "Non-monetary acceleration support (mentorship, technical/business expert access, investor exposure)",
+      "duration": "4-month hybrid acceleration programme",
+      "description": "Annual UAE-backed accelerator (with Enel Foundation and Social Alpha) for youth-led start-ups (founders under 35) in renewable energy, energy efficiency, climate adaptation and mitigation clean tech (solar, wind, hydro, green hydrogen, geothermal, bioenergy)."
+    },
+    {
+      "id": "arpa-e-igniite",
+      "name": "IGNIITE - Inspiring Generations of New Innovators to Impact Technologies in Energy",
+      "funder": "U.S. Department of Energy - ARPA-E",
+      "url": "https://arpa-e.energy.gov/news-and-events/news-and-insights/us-department-energy-announces-10-million-igniite-2026-program-back-early-career-innovators",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "IGNIITE 2026 concept-paper deadline was 29 May 2026 (closed). Program recurs annually; IGNIITE 2027 anticipated. Watch ARPA-E eXCHANGE for next FOA.",
+      "region": "United States",
+      "amount": "Up to USD 500,000 per award (plus optional USD 250,000 Director's Award); ~USD 10M program total",
+      "duration": "Up to 2 years",
+      "description": "Annual early-career program for solo PIs within 8 years of PhD (pre-tenure if academic; US citizens, permanent residents, or green-card applicants). Funds high-risk, transformational energy technologies including advanced nuclear, geothermal, grid reliability, energy supply-chain security, and clean manufacturing."
+    },
+    {
+      "id": "arpa-e-scaleup-ready",
+      "name": "SCALEUP Ready",
+      "funder": "U.S. Department of Energy - ARPA-E",
+      "url": "https://arpa-e-foa.energy.gov/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Continuously open FOA (DE-FOA-0003467); full-application submission deadline TBD per ARPA-E eXCHANGE portal.",
+      "region": "United States",
+      "amount": "Varies; supports scaling of disruptive technologies",
+      "duration": "Project-dependent",
+      "description": "Supports scale-up of previously ARPA-E-funded high-risk, potentially disruptive energy technologies toward commercial deployment. Open to prior ARPA-E performers across clean energy and decarbonisation sectors."
+    },
+    {
+      "id": "y2y-sarah-baker-memorial-fund",
+      "name": "Sarah Baker Memorial Fund - Y2Y Research Grants",
+      "funder": "Yellowstone to Yukon Conservation Initiative",
+      "url": "https://y2y.net/grants/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call; 2025-26 cycle closed 26 November 2025. Next 2026-27 cycle expected to open in autumn 2026 with a November deadline.",
+      "region": "Canada (graduate students and postdocs at Canadian post-secondary institutions)",
+      "amount": "Up to CAD 5,000 (two awards per cycle)",
+      "duration": "1 year",
+      "description": "Conservation-science research grants for graduate students and postdoctoral fellows working on projects aligned with the Yellowstone-to-Yukon mission (large-landscape connectivity, biodiversity, climate adaptation across the Rocky Mountain corridor)."
+    },
+    {
+      "id": "mistra-strategic-environmental-research-calls",
+      "name": "Mistra Strategic Environmental Research Programmes",
+      "funder": "Mistra - Swedish Foundation for Strategic Environmental Research",
+      "url": "https://www.mistra.org/en/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2-4 thematic calls per year; check Mistra's calls page for 2026 windows. Recent themes include circular economy, electrification, environmental communication, fair climate transition, and nature restoration.",
+      "region": "Sweden (international collaboration permitted)",
+      "amount": "SEK 60-100 million per programme over 4 years (full programme); requires co-funding",
+      "duration": "4 years (with renewal possible)",
+      "description": "Large, interdisciplinary, multi-sectoral research programmes solving major environmental challenges and supporting Sweden's sustainability competitiveness. Requires academic-stakeholder collaboration (industry, agencies, NGOs). Annual programme budget ~SEK 200M."
+    },
+    {
+      "id": "fli-vitalik-buterin-postdoc-ai-existential-safety",
+      "name": "Vitalik Buterin Postdoctoral Fellowship in AI Existential Safety",
+      "funder": "Future of Life Institute",
+      "url": "https://futureoflife.org/grant-program/postdoctoral-fellowships/",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; 2026 deadline (5 Jan 2026) has passed. Next call expected late 2026 for January 2027 deadline.",
+      "region": "US, UK, Canada host institutions; no applicant geography limits",
+      "amount": "$80,000/yr stipend + $10,000 research fund",
+      "duration": "Up to 3 years",
+      "description": "Postdoctoral support for researchers working on technical AI existential safety with an identified host mentor. Annual recurring program funding research on reducing catastrophic and existential risks from advanced AI."
+    },
+    {
+      "id": "cooperative-ai-foundation-research-grants-2026",
+      "name": "Cooperative AI Research Grants 2026",
+      "funder": "Cooperative AI Foundation (CAIF)",
+      "url": "https://www.cooperativeai.com/grants/2025",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-08-08"
+      ],
+      "deadlineNote": "Two-stage application: pre-proposal first, then invited full proposals.",
+      "region": "Global",
+      "amount": "GBP 10,000 - GBP 385,000+ (median ~GBP 150,000); early-career track up to GBP 100,000",
+      "duration": "Up to 2 years",
+      "description": "Supports research on understanding and evaluating cooperation-relevant capabilities and propensities in AI, multi-agent security, collusion, and information asymmetries. Priority on AI safety from a cooperative/multi-agent perspective."
+    },
+    {
+      "id": "aria-safeguarded-ai-ta2-cybersecurity",
+      "name": "Safeguarded AI - TA2 Cybersecurity Solicitation",
+      "funder": "Advanced Research + Invention Agency (ARIA, UK)",
+      "url": "https://aria.org.uk/opportunity-spaces/mathematics-for-safe-ai/safeguarded-ai/funding/",
+      "audience": [
+        "faculty",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-07-01"
+      ],
+      "deadlineNote": "Deadline 1 July 2026, 14:00 BST. Open to startups, industry, and academia.",
+      "region": "UK (>50% of project costs/personnel must be UK-based)",
+      "amount": "Programme backed by GBP 59M; team-level awards vary",
+      "duration": "Multi-year project teams",
+      "description": "PM-led ARIA programme building AI-enabled formal methods for high-assurance cyber defence. Funds Blue Teams to develop production-grade security-critical software with machine-checked proofs, and a Red Team for adversarial validation."
+    },
+    {
+      "id": "long-term-future-fund",
+      "name": "Long-Term Future Fund",
+      "funder": "Effective Altruism Funds",
+      "url": "https://funds.effectivealtruism.org/funds/far-future",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling applications; reviewed continuously. No institutional affiliation required. Upskilling grants of $5K-$50K available.",
+      "region": "Global",
+      "amount": "Typically $5K-$300K; ~$5M+ disbursed per quarter",
+      "duration": "Project-dependent",
+      "description": "Primary grantmaker for AI existential safety projects: technical alignment research, policy work, independent researchers, organization founding, conference travel, and career upskilling. Major source of seed and bridge funding in the alignment ecosystem."
+    },
+    {
+      "id": "manifund-regranting-ai-safety",
+      "name": "Manifund Regranting Program",
+      "funder": "Manifund",
+      "url": "https://manifund.org/about/regranting",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling; decisions in days rather than months. Apply via open call or directly to a regrantor.",
+      "region": "Global",
+      "amount": "Typical grants $5K-$50K; regrantor budgets $100K-$350K",
+      "duration": "Project-dependent",
+      "description": "Expert regrantors with independent budgets recommend grants for AI safety projects, with fiscal sponsorship via Manifund's 501(c)(3). Supports individuals, charities, and (with diligence) for-profits working on alignment, governance, and catastrophic risk reduction."
+    },
+    {
+      "id": "foresight-ai-safety-science-nodes",
+      "name": "AI for Science & Safety Nodes",
+      "funder": "Foresight Institute",
+      "url": "https://foresight.org/grants/grants-ai-for-science-safety/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-06-30",
+        "2026-09-30",
+        "2026-12-31"
+      ],
+      "deadlineNote": "Quarterly deadlines on the last day of each quarter; reviewed ~2 months after each deadline.",
+      "region": "Hubs in San Francisco and Berlin; in-person preferred",
+      "amount": "$10,000 - $100,000 per grant; ~$3M total/year",
+      "duration": "Project-dependent",
+      "description": "Project funding plus office and compute resources at Foresight's AI safety hubs for work on AI safety, private/decentralized AI, evaluation, and AI-driven science. Priority for grantees who will be in-person members of the nodes."
+    },
+    {
+      "id": "anthropic-fellows-program-2026",
+      "name": "Anthropic Fellows Program (July 2026 cohort)",
+      "funder": "Anthropic",
+      "url": "https://alignment.anthropic.com/2025/anthropic-fellows-program-2026/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Two 2026 cohorts (May and July); applications via Greenhouse portal. Check site for exact deadline window.",
+      "region": "Global (remote-friendly)",
+      "amount": "$3,850/week stipend + ~$15,000/month compute",
+      "duration": "4 months",
+      "description": "Mentored empirical AI safety research with Anthropic researchers on scalable oversight, adversarial robustness, AI control, mechanistic interpretability, model organisms, AI security, and model welfare. ~40% of first cohort transitioned to full-time Anthropic safety roles."
+    },
+    {
+      "id": "sff-hsee-2026",
+      "name": "SFF-2026 S-Process - Human Self-Enhancement & Empowerment Theme",
+      "funder": "Survival and Flourishing Fund",
+      "url": "https://survivalandflourishing.fund/2026/application",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-07-08"
+      ],
+      "deadlineNote": "Theme deadline 8 July 2026 11:59 PM PT. The HSEE round explicitly frames work as a response to extinction-level AI risk.",
+      "region": "Global",
+      "amount": "$2M-$4M total for this theme; per-grant size varies",
+      "duration": "Project-dependent",
+      "description": "Themed S-Process grant round positioning human enhancement and empowerment as a hedge against extinction risk from advanced AI. Funds organizations working on AI-relevant cognitive/coordination enhancement and longterm flourishing."
+    },
+    {
+      "id": "ai-risk-mitigation-fund",
+      "name": "AI Risk Mitigation Fund",
+      "funder": "Effective Ventures Foundation (USA)",
+      "url": "https://www.airiskfund.com/grants",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling; spun out of LTFF in Dec 2023 with dedicated focus on catastrophic AI risk.",
+      "region": "Global",
+      "amount": "Historical range $2,500 - $300,000 (typical $12K-$231K)",
+      "duration": "Project-dependent",
+      "description": "Grants to technical AI alignment research (interpretability, oversight, dangerous-capability evals), AI policy work on catastrophic risks, and training programs to bring new researchers into AI safety. 100% of donations passed through to grantees."
+    },
+    {
+      "id": "rand-tasp-fellowship",
+      "name": "RAND Technology and Security Policy (TASP) Fellowship",
+      "funder": "RAND Corporation",
+      "url": "https://www.rand.org/global-and-emerging-risks/centers/technology-and-security-policy/get-involved.html",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling applications. Requires ability to obtain US or UK government security clearance.",
+      "region": "US or UK (remote or in-office)",
+      "amount": "$40,000 - $200,000 stipend (US fellows); UK compensation experience-based",
+      "duration": "6 months, renewable up to 3 years; full- or part-time",
+      "description": "Fellows conduct policy research at RAND on AI security, frontier AI risks, biosecurity, and other emerging technologies, with mentorship from RAND policy experts. Open from undergraduate through mid-career."
+    },
+    {
+      "id": "wellcome-leap-focused-antibiotics",
+      "name": "Wellcome Leap Focused Antibiotics",
+      "funder": "Wellcome Leap",
+      "url": "https://wellcomeleap.org/focused-antibiotics/",
+      "audience": [
+        "faculty",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-06-29"
+      ],
+      "deadlineNote": "Full proposal portal opens June 22, 2026; closes June 29, 2026 at 11:59pm ET. Decisions July 29, 2026.",
+      "region": "Global",
+      "amount": "Up to USD 5,000,000 per award (program total USD 50M)",
+      "duration": "3 years",
+      "description": "USD 50M Wellcome Leap program to develop reformulated, gut-sparing antibiotics that treat infections while preserving the gut microbiome. Open to universities, companies, and non-profits worldwide; abstract round preceded the full proposal window."
+    },
+    {
+      "id": "mjff-pd-proteoforms",
+      "name": "MJFF Parkinson's Disease Proteoforms Program",
+      "funder": "The Michael J. Fox Foundation for Parkinson's Research",
+      "url": "https://www.michaeljfox.org/grant/parkinsons-disease-proteoforms-program",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-07-21"
+      ],
+      "deadlineNote": "Full proposals due July 21, 2026, 5pm US ET. Awards announced week of Nov 2, 2026.",
+      "region": "Global",
+      "amount": "Up to USD 1,000,000",
+      "duration": "Up to 24 months",
+      "description": "MJFF funding to generate large-scale, high-resolution proteoform datasets from Parkinson's disease cohorts, supporting biomarker discovery and target identification."
+    },
+    {
+      "id": "mjff-gba1-catalyst",
+      "name": "MJFF GBA1 Parkinson's Disease Research Catalyst Program",
+      "funder": "The Michael J. Fox Foundation for Parkinson's Research",
+      "url": "https://www.michaeljfox.org/grant/gba1-parkinsons-disease-research-catalyst-program",
+      "audience": [
+        "faculty",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-07-22"
+      ],
+      "deadlineNote": "Full proposals due July 22, 2026, 5pm US ET. Decisions week of Oct 28, 2026.",
+      "region": "Global",
+      "amount": "Up to USD 300,000",
+      "duration": "12-24 months",
+      "description": "MJFF program supporting cross-cohort analyses and mechanistic studies of GBA1-associated Parkinson's disease, including LRRK2/GBA1 interactions and therapeutic target discovery."
+    },
+    {
+      "id": "komen-ccr",
+      "name": "Susan G. Komen Career Catalyst Research (CCR) Grants",
+      "funder": "Susan G. Komen",
+      "url": "https://www.komen.org/breast-cancer-research/grants/programs/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-07-29",
+        "2026-10-05"
+      ],
+      "deadlineNote": "Institutional opt-in by June 10, 2026; LOI nominations by July 29, 2026; full applications due Oct 5, 2026. Limited submission - max two nominees per institution.",
+      "region": "Global (US institutions preferred; limited submission)",
+      "amount": "Up to USD 150,000/year (USD 450,000 total)",
+      "duration": "3 years",
+      "description": "Career development award for early-career breast cancer researchers within their first 6 years of faculty appointment, providing protected research time under a mentor committee."
+    },
+    {
+      "id": "brightfocus-alzheimers",
+      "name": "BrightFocus Alzheimer's Disease Research Award",
+      "funder": "BrightFocus Foundation",
+      "url": "https://www.brightfocus.org/about/for-scientists/apply-for-a-research-grant/alzheimers-disease-research-request-for-proposals/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-09-01"
+      ],
+      "deadlineNote": "Application window open June 1 - Sept 1, 2026 (5pm EST). No LOI required.",
+      "region": "Global",
+      "amount": "Standard Awards up to USD 300,000; Postdoctoral Fellowships USD 200,000",
+      "duration": "2-3 years",
+      "description": "Supports innovative Alzheimer's and related dementia research. Standard Awards target early-career investigators within 15 years of terminal degree; Postdoctoral Fellowships within 5 years. Researchers from AI, engineering, ML, physics, and cancer biology are encouraged to apply."
+    },
+    {
+      "id": "bwf-casi",
+      "name": "Burroughs Wellcome Fund Career Awards at the Scientific Interface (CASI)",
+      "funder": "Burroughs Wellcome Fund",
+      "url": "https://www.bwfund.org/funding-opportunities/interfaces-in-science/career-awards-at-the-scientific-interface/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-08-14"
+      ],
+      "deadlineNote": "LOI due August 14, 2026, 3pm EDT. Full application January 11, 2027 (by invitation).",
+      "region": "US and Canada",
+      "amount": "USD 560,000",
+      "duration": "5 years",
+      "description": "Bridges postdoctoral training and the first three years of faculty service for researchers from mathematics, physics, chemistry, CS, statistics, or engineering moving into biology. Requires 12-60 months postdoc experience and no tenure-track appointment yet."
+    },
+    {
+      "id": "cff-clinical-research-award",
+      "name": "Cystic Fibrosis Foundation Clinical Research Award (Fall 2026)",
+      "funder": "Cystic Fibrosis Foundation",
+      "url": "https://www.cff.org/researchers/clinical-research-award",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-08-17"
+      ],
+      "deadlineNote": "Fall 2026 LOI was April 2, 2026; full applications due Aug 17, 2026 by 5pm ET.",
+      "region": "Global",
+      "amount": "Up to USD 150,000/year + 12% indirects",
+      "duration": "Up to 2 years (renewable)",
+      "description": "Supports clinical research in cystic fibrosis spanning epidemiology, therapeutics, behavioral interventions, and care delivery. Applications submitted via awards.cff.org."
+    },
+    {
+      "id": "dbt-birac-bio-ai-bioe3",
+      "name": "DBT-BIRAC Bio-AI for High-Performance Biomanufacturing (BioE3)",
+      "funder": "Department of Biotechnology (DBT) and BIRAC, Government of India",
+      "url": "https://birac.nic.in/cfp.php",
+      "audience": [
+        "faculty",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-06-30"
+      ],
+      "deadlineNote": "Rolling call closes June 30, 2026; proposals evaluated on a rolling basis.",
+      "region": "India",
+      "amount": "Project-dependent (rolling)",
+      "duration": "Project-dependent",
+      "description": "Joint DBT-BIRAC call under the BioE3 Policy to integrate AI with biotechnology across five themes - biomolecular design, sustainable agriculture, synthetic biology, Ayurveda, and genome diagnostics - supporting hubs for high-performance biomanufacturing."
+    },
+    {
+      "id": "gci-cost-disruptive-diagnostics",
+      "name": "Grand Challenges India - Cost-Disruptive Screening and Diagnostic Innovations",
+      "funder": "BIRAC / Gates Foundation (Grand Challenges India)",
+      "url": "https://birac.nic.in/grandchallengesindia/",
+      "audience": [
+        "faculty",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-07-01"
+      ],
+      "deadlineNote": "Call deadline July 1, 2026, 2pm IST.",
+      "region": "India",
+      "amount": "Exploratory up to INR 50 lakh (~USD 55,000); Solution up to INR 2 crore (~USD 200,000)",
+      "duration": "12-18 months",
+      "description": "Open call for indigenous, cost-disruptive screening and diagnostic innovations targeting tuberculosis, emerging pathogens, syndromic testing, and enteric pathogens - point-of-care and ultra-low-cost solutions from Indian startups, industry, and academia."
+    },
+    {
+      "id": "fogarty-emerging-global-leader",
+      "name": "Fogarty Emerging Global Leader Award (K43)",
+      "funder": "Fogarty International Center, NIH",
+      "url": "https://www.fic.nih.gov/Programs/Pages/research-career-development.aspx",
+      "audience": [
+        "faculty",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-12-03"
+      ],
+      "deadlineNote": "Next standard receipt date December 3, 2026 (both clinical trial and non-clinical trial tracks; PAR-24-295/296).",
+      "region": "LMICs",
+      "amount": "Up to USD 75,000/year direct costs",
+      "duration": "3-5 years",
+      "description": "International research career development award for early-career investigators from low- and middle-income countries to lead a focused biomedical/behavioral research project with protected research time at an LMIC institution."
+    },
+    {
+      "id": "daad-research-grants-india",
+      "name": "DAAD Research Grants - Doctoral Programmes / Short-Term and One-Year Grants",
+      "funder": "German Academic Exchange Service (DAAD)",
+      "url": "https://www.daad.in/en/find-funding/scholarship-database/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-10-07",
+        "2026-10-21"
+      ],
+      "deadlineNote": "Research Grants - Short-Term and One-Year: 7 Oct 2026. Doctoral Programmes (incl. Bi-nationally Supervised/Cotutelle) for funding starting Oct 2027: 21 Oct 2026.",
+      "region": "India to Germany",
+      "amount": "EUR 934/month (doctoral); EUR 1,300/month (postdoc); plus travel, insurance, research allowance",
+      "duration": "Short-term 1-6 months; one-year up to 12 months; doctoral up to 4 years",
+      "description": "Bilateral mobility grants for Indian doctoral candidates and early-career postdocs to conduct research stays in Germany, including bi-nationally supervised PhD (Cotutelle) arrangements with German hosts."
+    },
+    {
+      "id": "humboldt-research-fellowship-postdoc",
+      "name": "Humboldt Research Fellowship (Postdoctoral and Experienced Researchers)",
+      "funder": "Alexander von Humboldt Foundation",
+      "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-07-15",
+        "2026-11-15"
+      ],
+      "deadlineNote": "Three annual calls (15 Mar / 15 Jul / 15 Nov); each closes after 800 applications received. Selection 4-8 months later.",
+      "region": "Worldwide (incl. India) to Germany",
+      "amount": "EUR 3,000/month (postdoc); EUR 3,600/month (experienced); plus family, language, mobility allowances",
+      "duration": "6-24 months (postdoc); 6-18 months (experienced), divisible into up to 3 stays over 3 years",
+      "description": "Open to researchers of all nationalities, including India. Postdocs must be within 4 years of PhD; experienced researchers within 12 years. Applicant identifies an academic host in Germany."
+    },
+    {
+      "id": "jsps-postdoctoral-fellowship-standard",
+      "name": "JSPS Postdoctoral Fellowship for Research in Japan (Standard)",
+      "funder": "Japan Society for the Promotion of Science (JSPS)",
+      "url": "https://www.jsps.go.jp/english/e-fellow/e-ippan/appliguidelines.html",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-08-28"
+      ],
+      "deadlineNote": "FY2027 1st round closes 28 Aug 2026 at 17:00 JST. 2nd round deadline 23 Apr 2027. Indian applicants are typically nominated via CSIR (earlier internal deadline).",
+      "region": "India (and worldwide) to Japan",
+      "amount": "JPY 362,000/month + JPY 200,000 settling allowance + round-trip airfare + insurance",
+      "duration": "12-24 months",
+      "description": "Long-term standard postdoctoral fellowship for non-Japanese researchers with PhD within ~6 years, to conduct cooperative research with a Japanese host institution. Indian researchers are eligible."
+    },
+    {
+      "id": "newton-international-fellowships",
+      "name": "Newton International Fellowships",
+      "funder": "Royal Society / British Academy (UK)",
+      "url": "https://royalsociety.org/grants/newton-international/",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2027-03-11"
+      ],
+      "deadlineNote": "The 2026 round closed 11 Mar 2026; next round expected to open Jan 2027 with deadline c. 11 Mar 2027. Each UK sponsor limited to one application per round.",
+      "region": "India / worldwide to UK",
+      "amount": "Up to GBP 280,000 over 2 years (salary, research, relocation, visa)",
+      "duration": "2 years",
+      "description": "For early-career postdoctoral researchers from any country outside the UK (incl. India and LMICs) with PhD plus up to ~5 years experience, to hold a fellowship at a UK host institution."
+    },
+    {
+      "id": "royal-society-international-exchanges",
+      "name": "Royal Society International Exchanges (incl. Yusuf and Farida Hamied Foundation India scheme)",
+      "funder": "Royal Society (UK)",
+      "url": "https://royalsociety.org/grants/international-exchanges/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-09-24"
+      ],
+      "deadlineNote": "Three rounds in 2026: closed 18 Mar, closed 4 Jun, and 24 Sep 2026. Round 1 of 2027 expected to open Jan 2027.",
+      "region": "UK-India bilateral",
+      "amount": "Up to GBP 12,000 (multi-visit, 2 years) or up to GBP 3,000 (one-off, 3-12 months)",
+      "duration": "Up to 2 years (multi-visit) or 3-12 months (one-off)",
+      "description": "Travel/subsistence funding for UK-based researchers to build collaborations with overseas partners, including a dedicated India stream (Yusuf and Farida Hamied Foundation) for collaborations with Indian researchers."
+    },
+    {
+      "id": "fulbright-nehru-postdoctoral",
+      "name": "Fulbright-Nehru Postdoctoral Research Fellowship",
+      "funder": "United States-India Educational Foundation (USIEF)",
+      "url": "https://www.usief.org.in/fulbright-fellowships/fellowships-for-indian-citizen/fulbright-nehru-postdoctoral-research-fellowships/",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-07-15"
+      ],
+      "deadlineNote": "2027-2028 cohort deadline 15 Jul 2026, 23:59 IST. Applications accepted from 18 Feb 2026 onward.",
+      "region": "India to USA",
+      "amount": "Monthly stipend, J-1 visa support, health insurance, round-trip airfare, settling allowance",
+      "duration": "8-24 months",
+      "description": "For Indian postdoctoral researchers (PhD/DM awarded between Jul 2022 and Jul 2026) to undertake research at a US host institution. Government of India / state civil servants ineligible; CSIR, ICAR, DRDO, ISRO, ICMR, IISc, IIT researchers eligible."
+    },
+    {
+      "id": "fulbright-nehru-academic-professional-excellence",
+      "name": "Fulbright-Nehru Academic and Professional Excellence Fellowships",
+      "funder": "United States-India Educational Foundation (USIEF)",
+      "url": "https://www.usief.org.in/fulbright-fellowships/fellowships-for-indian-citizen/fulbright-nehru-academic-and-professional-excellence-fellowships/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-07-15"
+      ],
+      "deadlineNote": "2027-2028 cohort deadline 15 Jul 2026, 23:59 IST.",
+      "region": "India to USA",
+      "amount": "Monthly stipend, J-1 visa, health benefits, round-trip airfare",
+      "duration": "4-9 months",
+      "description": "For mid-career to senior Indian faculty and professionals in STEM and other fields to undertake teaching, research, or combined assignments at US universities. Indian citizenship required."
+    },
+    {
+      "id": "raman-charpak-fellowship",
+      "name": "Raman-Charpak Fellowship",
+      "funder": "CEFIPRA / DST (India) and French Embassy / MEAE (France)",
+      "url": "https://www.cefipra.org/PgmMF.aspx?p=RC",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call typically opens April-May with deadline around June-July. 2026 call dates to be announced on cefipra.org.",
+      "region": "India-France bilateral",
+      "amount": "EUR 1,500/month (Indian fellow in France) + airfare + insurance; INR 40,000/month + accommodation (French fellow in India)",
+      "duration": "2-6 months",
+      "description": "Doctoral mobility fellowship for Indian PhD students (2nd-3rd year) to undertake research stays in French laboratories, and vice versa. Jointly funded by India's DST and France's MEAE; honours Nobel Laureates C.V. Raman and Georges Charpak."
+    },
+    {
+      "id": "erasmus-plus-international-credit-mobility",
+      "name": "Erasmus+ International Credit Mobility (KA171)",
+      "funder": "European Commission",
+      "url": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/studying-abroad",
+      "audience": [
+        "students",
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-02-19"
+      ],
+      "deadlineNote": "2026 institutional call closed 26 Mar 2026; 2027 call typically opens Nov 2026 with deadline c. Feb 2027. Individual students/staff apply via their home or host institution.",
+      "region": "EU-India bilateral",
+      "amount": "Monthly subsistence allowance + travel costs (rates set by EC; varies by destination)",
+      "duration": "2-12 months (students); 5-60 days (staff)",
+      "description": "Mobility scheme funding exchanges between European HEIs and partner-country institutions (including India) at bachelor, master, doctoral, and staff level. Individuals apply through institutional partnerships; not a direct grant to researchers."
+    },
+    {
+      "id": "clay-research-fellowship",
+      "name": "Clay Research Fellowship",
+      "funder": "Clay Mathematics Institute",
+      "url": "https://www.claymath.org/fellowship-nominations/",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-10-15"
+      ],
+      "deadlineNote": "Nominations (not direct applications) due Oct 15 annually",
+      "region": "Global (CMI employer, USA-based)",
+      "amount": "Generous salary plus research expenses",
+      "duration": "Up to 5 years",
+      "description": "Prestigious nomination-based postdoctoral fellowship for recent PhDs in mathematics who show exceptional research promise. Fellows are employed by CMI and may work at any host institution worldwide. Alumni include multiple Fields Medalists."
+    },
+    {
+      "id": "ams-centennial-fellowship",
+      "name": "AMS Centennial Research Fellowship",
+      "funder": "American Mathematical Society",
+      "url": "https://www.ams.org/grants-awards/ams-fellowships/centennial-fellow/emp-centflyer",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-09-30"
+      ],
+      "deadlineNote": "2027-2028 cycle applications open Jul 15 - Sep 30, 2026",
+      "region": "USA / Canada",
+      "amount": "USD 75,000",
+      "duration": "1 academic year",
+      "description": "Annual fellowship for outstanding early-career mathematicians (3-12 years post-PhD) at North American institutions to support a year of dedicated research."
+    },
+    {
+      "id": "ictp-mathematics-postdoc",
+      "name": "ICTP Mathematics Postdoctoral Fellowships",
+      "funder": "Abdus Salam International Centre for Theoretical Physics (ICTP)",
+      "url": "https://www.ictp.it/opportunity/mathematics-postdoctoral-positions-2026",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call typically opens autumn; next cycle (2027 start) expected late 2026",
+      "region": "Trieste, Italy",
+      "amount": "EUR 2,100-2,300/month tax-free stipend plus travel and family allowances",
+      "duration": "24 months, extendable by 12",
+      "description": "Postdoctoral fellowships at ICTP's Mathematics section for young mathematicians with strong research records. Preference given to candidates from developing countries who will engage with ICTP's mission."
+    },
+    {
+      "id": "birs-workshop-proposals",
+      "name": "Banff International Research Station (BIRS) Workshop Proposals",
+      "funder": "BIRS / PIMS / Alberta Innovates",
+      "url": "https://www.birs.ca/applicants/deadlines/",
+      "audience": [
+        "faculty",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call (2028 program) expected around Sep 2026; 2027 call closed Sep 2025",
+      "region": "Banff (Canada), with sister centres in Mexico, China, Spain, India",
+      "amount": "Full accommodation, meals, and facilities at Banff (additional travel may be covered)",
+      "duration": "5-day workshops; also 2-day weekends and Focused Research Groups",
+      "description": "Workshop funding for collaborative research gatherings in mathematics, statistics, and computer science. Hosts 5-day workshops at Banff plus partner centres including CMI Chennai. Proposals submitted annually via proposals.birs.ca."
+    },
+    {
+      "id": "oberwolfach-research-fellows",
+      "name": "Oberwolfach Research Fellows (OWRF / Research in Pairs)",
+      "funder": "Mathematisches Forschungsinstitut Oberwolfach (MFO)",
+      "url": "https://www.mfo.de/scientific-program/longer-term/oberwolfach-research-fellows",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling submission; Scientific Committee decisions take 6-8 weeks",
+      "region": "Oberwolfach, Germany",
+      "amount": "Full board and accommodation at MFO; stay realised within 1 year of decision",
+      "duration": "2 weeks to 3 months for small research groups (2-4 participants)",
+      "description": "Successor to Research in Pairs. Supports small collaborative research groups working in residence at MFO on a focused mathematical problem."
+    },
+    {
+      "id": "fields-postdoctoral-fellowship",
+      "name": "Fields Institute Postdoctoral Fellowships",
+      "funder": "Fields Institute for Research in Mathematical Sciences",
+      "url": "https://www.fields.utoronto.ca/honours-and-fellowships/postdoctoral-fellowships",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Tied to specific thematic programs; deadlines vary, posted on MathJobs",
+      "region": "Toronto, Canada",
+      "amount": "USD 35,000 per six-month term (from July 2026)",
+      "duration": "Six months to two years, linked to thematic programs",
+      "description": "Postdoctoral fellowships tied to Fields Institute thematic programs in pure and applied mathematics, including upcoming programs in quantum algorithms and mathematics for AI safety. Usually co-funded with a sponsoring university."
+    },
+    {
+      "id": "him-trimester-participation",
+      "name": "Hausdorff Research Institute (HIM) Trimester Program Participation",
+      "funder": "Hausdorff Research Institute for Mathematics, University of Bonn",
+      "url": "https://www.him.uni-bonn.de/programs/future-programs/call-for-proposals/trimester-programs/",
+      "audience": [
+        "postdocs",
+        "faculty",
+        "students"
+      ],
+      "deadlines": [
+        "2026-06-28",
+        "2026-11-01"
+      ],
+      "deadlineNote": "Per-program calls; current open rounds 28 Jun and 1 Nov 2026",
+      "region": "Bonn, Germany",
+      "amount": "Monthly fellowship covering living costs; varies by program",
+      "duration": "13-15 weeks (one trimester)",
+      "description": "Long-term collaborative trimester programs hosting up to 30 mathematicians and economists for focused research. Open application rounds for postdocs, PhD students, and senior researchers."
+    },
+    {
+      "id": "erdos-center-postdoc",
+      "name": "Erdős Center Semester Postdoctoral Fellowships",
+      "funder": "Alfréd Rényi Institute of Mathematics (HUN-REN)",
+      "url": "https://erdoscenter.renyi.hu/positions",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Per-semester calls; algebraic geometry semester (Aug-Dec 2026) tied to upcoming Simons Semester",
+      "region": "Budapest, Hungary",
+      "amount": "1,100,000 HUF/month gross",
+      "duration": "4-12 months",
+      "description": "Postdoctoral positions linked to Erdős Center thematic semesters in areas including algebraic geometry, harmonic analysis, number theory, Ramsey theory, complex geometry, automorphic forms, and large networks. No teaching duties."
+    },
+    {
+      "id": "pcmi-research-program",
+      "name": "IAS/Park City Mathematics Institute (PCMI) Summer Programs",
+      "funder": "Institute for Advanced Study (IAS), Princeton",
+      "url": "https://www.ias.edu/pcmi",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual mid-January deadlines; 2027 cycle expected ~Jan 15-31, 2027",
+      "region": "Park City, Utah, USA",
+      "amount": "Lodging, meals, partial travel; stipend support varies by program",
+      "duration": "3-week summer session",
+      "description": "Three-week residential mathematics institute with parallel Research, Graduate Summer School, Undergraduate Summer School, and Faculty programs around an annual theme."
+    },
+    {
+      "id": "icts-postdoctoral-program",
+      "name": "ICTS Postdoctoral Fellowships",
+      "funder": "International Centre for Theoretical Sciences (ICTS-TIFR)",
+      "url": "https://www.icts.res.in/academic/postdoctoral-fellowships",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-12-15"
+      ],
+      "deadlineNote": "Two cycles per year (June and December); fall 2027 cycle deadline approx Dec 2026",
+      "region": "Bangalore, India",
+      "amount": "Up to INR 54,000/month plus housing and research support",
+      "duration": "Typically 2-3 years",
+      "description": "Postdoctoral fellowships in mathematics and theoretical physics at ICTS-TIFR, with twice-yearly application cycles. Strong programs in mathematics, condensed matter, astrophysics, and theoretical CS-adjacent areas."
+    },
+    {
+      "id": "heilbronn-small-grants",
+      "name": "Heilbronn Institute Small Grants and International Visitors Scheme",
+      "funder": "Heilbronn Institute for Mathematical Research (UKRI/EPSRC)",
+      "url": "https://heilbronn.ac.uk/opportunities/",
+      "audience": [
+        "faculty",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Small Grants reviewed on a rolling basis; Focused Research Grants annually in November",
+      "region": "United Kingdom",
+      "amount": "Small Grants up to GBP 10K; International Visitors up to GBP 10K; Focused Research up to GBP 8K",
+      "duration": "Project-dependent; visitor scheme up to 3 weeks",
+      "description": "Heilbronn funding schemes for UK-based mathematical research in algebra, algebraic geometry, combinatorics, data science, number theory, probability, and quantum information. Includes Small Grants, Focused Research Grants, and an International Visitors Scheme for hosting overseas experts."
+    },
+    {
+      "id": "51-pegasi-b-fellowship",
+      "name": "51 Pegasi b Fellowship",
+      "funder": "Heising-Simons Foundation",
+      "url": "https://www.hsfoundation.org/programs/science/51-pegasi-b-fellowship/",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; the 2026 cycle closed October 2025. Next call expected to open mid-2026 with deadline in early October 2026.",
+      "region": "United States",
+      "amount": "~$415,000 over 3 years (salary, research, travel)",
+      "duration": "3 years",
+      "description": "Postdoctoral fellowship in planetary astronomy supporting research on exoplanets, planetary atmospheres, formation, and habitability at host institutions across the US."
+    },
+    {
+      "id": "kitp-postdoctoral-scholars",
+      "name": "KITP Postdoctoral Scholars in Theoretical Physics",
+      "funder": "Kavli Institute for Theoretical Physics, UC Santa Barbara",
+      "url": "https://www.kitp.ucsb.edu/apply/fellowships/postdoctoral-scholars-theoretical-physics",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; primary-consideration deadline is mid-November (next call expected November 2026 for September 2027 start). Open to all areas of theoretical physics including astrophysics, condensed matter, high-energy, quantum information.",
+      "region": "United States",
+      "duration": "3 years",
+      "description": "Highly selective postdoctoral positions at KITP, with 4-5 scholars selected annually across all areas of theoretical physics, offering a flexible research environment alongside KITP programs."
+    },
+    {
+      "id": "perimeter-postdoctoral-program",
+      "name": "Perimeter Postdoctoral Program",
+      "funder": "Perimeter Institute for Theoretical Physics",
+      "url": "https://perimeterinstitute.ca/jobs/perimeter-postdoctoral-program",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; 2027 academic-year call opens September 2026 with a November 2026 deadline. Open to fundamental theoretical physics across cosmology, quantum gravity, quantum information, particle physics, and more.",
+      "region": "Canada",
+      "duration": "3 years (with 4- and 5-year named fellowships available)",
+      "description": "Postdoctoral positions in fundamental theoretical physics with generous research and travel support, mentoring, and flexibility to host visitors at Perimeter Institute in Waterloo."
+    },
+    {
+      "id": "kavli-ipmu-postdoctoral",
+      "name": "Kavli IPMU Postdoctoral Fellowships",
+      "funder": "Kavli Institute for the Physics and Mathematics of the Universe, University of Tokyo",
+      "url": "https://www.ipmu.jp/en/job-opportunities",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; recent calls have closed in late November / early December for September starts. The 2027 main call is expected to open in autumn 2026 via Academic Jobs Online.",
+      "region": "Japan",
+      "duration": "3 years",
+      "description": "Postdoctoral positions spanning astrophysics, cosmology, particle physics, mathematics and statistics at Kavli IPMU in Kashiwa, Japan, with research allowance and ability to work abroad up to three months per year."
+    },
+    {
+      "id": "eso-fellowship-programme",
+      "name": "ESO Fellowship Programme",
+      "funder": "European Southern Observatory",
+      "url": "https://www.eso.org/sci/activities/fellowships-and-studentships/FeSt-overview/fellowship_programme.html",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-10-15"
+      ],
+      "deadlineNote": "Annual deadline of 15 October. Applicants need a PhD in astronomy, physics or a related discipline by ~November of the start year.",
+      "region": "Germany / Chile",
+      "duration": "Up to 4 years (Garching) / 3+1 years (Chile)",
+      "description": "Postdoctoral fellowships at ESO Headquarters (Garching, Germany) or in Chile, combining independent research with functional duties supporting ESO observatories and instruments."
+    },
+    {
+      "id": "nasa-hubble-fellowship-program",
+      "name": "NASA Hubble Fellowship Program (Hubble/Einstein/Sagan)",
+      "funder": "NASA / Space Telescope Science Institute",
+      "url": "https://www.stsci.edu/stsci-research/fellowships/nasa-hubble-fellowship-program",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; the 2027 call is expected to open September 2026 with a late-October 2026 deadline (mirroring the 2026 cycle, which closed October 29, 2025).",
+      "region": "United States",
+      "duration": "Up to 3 years",
+      "description": "Prestigious umbrella postdoctoral fellowship covering NASA astrophysics: Hubble (cosmic origins), Einstein (physics of the cosmos), and Sagan (exoplanets). Salary plus benefits, travel, and research allowance at chosen US host institutions."
+    },
+    {
+      "id": "iucaa-postdoctoral-fellowship",
+      "name": "IUCAA Postdoctoral Fellowships (incl. Vaidya-Raychaudhury)",
+      "funder": "Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune",
+      "url": "https://www.iucaa.in/en/opportunities/post-doctoral-fellows-openings",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-07-05"
+      ],
+      "deadlineNote": "Next call deadline 5 July 2026. Up to eight positions awarded annually across regular and named fellowships in astronomy and astrophysics.",
+      "region": "India",
+      "amount": "Stipend Rs 67,000-95,000/month + contingency grant",
+      "duration": "2-3 years (Regular); 5 years (Vaidya-Raychaudhury)",
+      "description": "Postdoctoral fellowships at IUCAA, Pune, covering theoretical, observational, and instrumentation research in astronomy and astrophysics, with on-campus housing and contingency funding."
+    },
+    {
+      "id": "icts-tifr-postdoctoral-program",
+      "name": "ICTS-TIFR Postdoctoral Program",
+      "funder": "International Centre for Theoretical Sciences, TIFR, Bengaluru",
+      "url": "https://www.icts.res.in/academic/postdoctoral-fellowships",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Two cycles annually (Spring / Fall). The Spring 2027 cycle deadline is typically end May 2026; Fall 2027 cycle deadline typically late November 2026. Exceptional candidates considered for Postdoctoral Prize Fellowship.",
+      "region": "India",
+      "duration": "2 years (renewable to 3)",
+      "description": "Postdoctoral positions in theoretical physics, mathematics, and astrophysics at ICTS-TIFR Bengaluru, with research and travel allowance and opportunities to participate in ICTS programs."
+    },
+    {
+      "id": "aspen-center-physics-summer-workshop",
+      "name": "Aspen Center for Physics Summer Workshop Participation",
+      "funder": "Aspen Center for Physics",
+      "url": "https://aspenphys.org/summer/step-by-step-application-instructions/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual summer workshop participation; main application window closes January for the following summer (e.g., the 2027 summer cycle will accept applications through January 2027). Limited financial support available for early-career and underrepresented participants.",
+      "region": "United States",
+      "duration": "1-3 weeks (summer)",
+      "description": "Participation in self-organized summer workshops in theoretical physics, astrophysics, cosmology, condensed matter, and biological physics at Aspen, Colorado. Open by application; postdocs may apply for travel/lodging support."
+    },
+    {
+      "id": "cfa-sao-predoctoral-program",
+      "name": "Center for Astrophysics | SAO Predoctoral Fellowship",
+      "funder": "Smithsonian Astrophysical Observatory / Harvard CfA",
+      "url": "https://www.cfa.harvard.edu/opportunities/graduate-undergraduate-programs/predoctoral-program",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2026-11-01"
+      ],
+      "deadlineNote": "Two cycles per year: May 1 and November 1. Open to PhD students enrolled at a university worldwide who wish to do part or all of their thesis research under SAO scientists.",
+      "region": "United States",
+      "duration": "Typically 1-2 years (thesis research period)",
+      "description": "Predoctoral fellowship for PhD students to carry out thesis research at the Smithsonian Astrophysical Observatory in Cambridge, MA, under the supervision of a CfA scientist."
+    },
+    {
+      "id": "aries-postdoctoral-fellowship",
+      "name": "ARIES Postdoctoral Fellowship",
+      "funder": "Aryabhatta Research Institute of Observational Sciences (ARIES), Nainital",
+      "url": "https://www.aries.res.in/opportunities/opportunities-postdoc",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Calls advertised periodically through the year; current RA/PDF/SPA call closes 15 June 2026. Open to candidates with a PhD in astronomy, astrophysics, or atmospheric science.",
+      "region": "India",
+      "amount": "Rs 61,000-75,000/month depending on level",
+      "duration": "1 year (renewable up to 3 years)",
+      "description": "Postdoctoral fellowships at ARIES, Nainital, with research in observational astronomy, solar physics, stellar physics, galaxies, and atmospheric science, including access to the 3.6 m Devasthal Optical Telescope."
+    },
+    {
+      "id": "camille-dreyfus-teacher-scholar",
+      "name": "Camille Dreyfus Teacher-Scholar Awards",
+      "funder": "Camille and Henry Dreyfus Foundation",
+      "url": "https://www.dreyfus.org/camille-dreyfus-teacher-scholar/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call; 2026 deadline (Feb 3) has passed. 2027 call expected to open late 2026 with February 2027 deadline.",
+      "region": "United States",
+      "amount": "$100,000 unrestricted research grant",
+      "duration": "5 years (unrestricted use)",
+      "description": "Early-career chemistry, biochemistry, materials chemistry, or chemical engineering faculty at PhD-granting institutions within their first six years of independent academic appointment. One nomination per institution; recognizes outstanding scholarship combined with commitment to education."
+    },
+    {
+      "id": "henry-dreyfus-teacher-scholar",
+      "name": "Henry Dreyfus Teacher-Scholar Awards",
+      "funder": "Camille and Henry Dreyfus Foundation",
+      "url": "https://www.dreyfus.org/henry-dreyfus-teacher-scholar/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-08-06"
+      ],
+      "region": "United States",
+      "amount": "$75,000 unrestricted research grant (includes $5,000 for departmental expenses)",
+      "duration": "Unrestricted",
+      "description": "Chemistry faculty at primarily undergraduate institutions (no doctoral program) between their 4th and 12th years of independent academic careers, conducting research substantially with undergraduates. One nomination per institution."
+    },
+    {
+      "id": "welch-foundation-research-grants",
+      "name": "Welch Foundation Research Grants",
+      "funder": "The Welch Foundation",
+      "url": "https://welch1.org/grants-programs/research-grants",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-01-31"
+      ],
+      "deadlineNote": "Applications accepted Nov 1 - Jan 31 annually; portal opens via ProposalCentral.",
+      "region": "Texas, USA",
+      "amount": "$117,000 per year",
+      "duration": "3 years (renewable)",
+      "description": "Supports basic chemistry research by tenured or tenure-track faculty at Texas universities/colleges listed by the Texas Higher Education Coordinating Board. Funds may cover personnel, equipment, supplies, publication, and travel."
+    },
+    {
+      "id": "acs-prf-new-directions",
+      "name": "ACS PRF New Directions (ND) Grants",
+      "funder": "American Chemical Society Petroleum Research Fund",
+      "url": "https://www.acs.org/funding/grants/petroleum-research-fund/programs/new-directions-grants.html",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-10-09"
+      ],
+      "deadlineNote": "Fall 2026 submission window: Sep 14 - Oct 9, 2026. Spring 2027 window: Feb 15 - Mar 12, 2027.",
+      "region": "United States and international",
+      "amount": "$125,000 over 2 years",
+      "duration": "2 years",
+      "description": "Supports faculty at PhD-granting institutions to pursue a new research direction in fundamental science related to petroleum or fossil fuels, distinct from currently funded work. ACS membership not required."
+    },
+    {
+      "id": "acs-prf-doctoral-new-investigator",
+      "name": "ACS PRF Doctoral New Investigator (DNI) Grants",
+      "funder": "American Chemical Society Petroleum Research Fund",
+      "url": "https://www.acs.org/funding/grants/petroleum-research-fund/programs/doctoral-new-investigator-grants.html",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-10-09"
+      ],
+      "deadlineNote": "Fall 2026 submission window: Sep 14 - Oct 9, 2026.",
+      "region": "United States and international",
+      "amount": "$125,000 over 2 years",
+      "duration": "2 years",
+      "description": "Start-up funding for new tenure-track faculty at PhD-granting institutions in fields fundamental to petroleum or fossil fuel science. Applicant must be within first three years of first academic appointment."
+    },
+    {
+      "id": "mrs-postdoctoral-award",
+      "name": "MRS Postdoctoral Award",
+      "funder": "Materials Research Society",
+      "url": "https://www.mrs.org/advancing-careers/award-central/spring-awards/mrs-postdoctoral-award",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-08-01"
+      ],
+      "deadlineNote": "Nominations accepted June 1 - August 1 annually for the following Spring Meeting recognition.",
+      "region": "International",
+      "amount": "$3,000 cash prize plus travel reimbursement to MRS Spring Meeting",
+      "duration": "One-time recognition",
+      "description": "Recognizes postdoctoral scholars showing exceptional promise across any class of materials research. Open to nominations regardless of nationality; preference for postdocs still in position at the recognition meeting."
+    },
+    {
+      "id": "rsc-research-fund",
+      "name": "Royal Society of Chemistry Research Fund",
+      "funder": "Royal Society of Chemistry",
+      "url": "https://www.rsc.org/prizes-funding/funding/find-funding/research-fund/",
+      "audience": [
+        "faculty",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-11-30"
+      ],
+      "deadlineNote": "Round 2 closes Nov 30, 2026; Round 1 (closed Jun 15, 2026) decisions early Sep 2026.",
+      "region": "International (RSC members)",
+      "amount": "Up to £5,000",
+      "duration": "12 months",
+      "description": "Supports RSC members (Associate, Member, or Fellow) with limited access to research funds to start new chemistry projects. Prioritises researchers in developing countries, those at less well-funded institutes, and early-career investigators."
+    },
+    {
+      "id": "rsc-researcher-development-travel-grant",
+      "name": "RSC Researcher Development and Travel Grant",
+      "funder": "Royal Society of Chemistry",
+      "url": "https://www.rsc.org/funding-and-support/funding/researcher-development-and-travel-grant",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2026 round closed Apr 27, 2026. Next call expected spring 2027.",
+      "region": "International (RSC members)",
+      "amount": "Up to £500",
+      "duration": "Single activity",
+      "description": "Supports PhD students and early-career chemists (academia or industry) to attend conferences, training courses, or organise scientific meetings. One award per applicant every three years."
+    },
+    {
+      "id": "gdch-conference-scholarships",
+      "name": "GDCh Conference Scholarships (travel grants)",
+      "funder": "Gesellschaft Deutscher Chemiker (German Chemical Society)",
+      "url": "https://en.gdch.de/events/gdch-conference-grants.html",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling; tied to each conference's registration/presentation deadline. Over 1,000 travel grants awarded yearly.",
+      "region": "Germany / international conferences",
+      "amount": "Up to ~600 EUR (varies by venue: ~400 EUR national, ~500 EUR Europe, ~600 EUR outside Europe)",
+      "duration": "Single event",
+      "description": "Supports GDCh members (bachelor/master/doctoral students and trainees) to actively participate (lecture or poster) in national and international chemistry conferences. Karl Ziegler Foundation funds parallel travel grants for EuChemS and GDCh scientific forums."
+    },
+    {
+      "id": "jst-erato",
+      "name": "JST ERATO (Exploratory Research for Advanced Technology)",
+      "funder": "Japan Science and Technology Agency",
+      "url": "https://www.jst.go.jp/erato/en/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling nominations year-round; annual cutoff (typically end of September JST) determines selection year cohort.",
+      "region": "Japan (Research Director must be affiliated with a domestic Japanese institution; nationality not a barrier)",
+      "amount": "Up to JPY 1.2 billion per project",
+      "duration": "~5 years",
+      "description": "Funds high-risk, paradigm-shifting basic research led by an outstanding Research Director who assembles a project team. Strong fit for chemistry, materials, and interdisciplinary science. Email nominations to erato-suisen@jst.go.jp."
+    },
+    {
+      "id": "two-sigma-phd-fellowship",
+      "name": "Two Sigma PhD Fellowship",
+      "funder": "Two Sigma",
+      "url": "https://www.twosigma.com/academic-partnerships/team-phd-fellowship/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle opens mid-August and closes late September; the 2026 round closed 26 Sep 2025 and the 2027 round is expected to open around August 2026. Fellowship begins Fall of award year for PhD students in their 3rd year or later with 2+ years remaining.",
+      "region": "United States (US-enrolled PhD)",
+      "amount": "Up to $75,000/year for two academic years (paid to university) + $10,000 one-time to the recipient",
+      "duration": "2 years",
+      "description": "Fellowship for US-based PhD students (3rd year+) in applied mathematics, computer science, statistics, finance/econometrics, or physics. Includes mentorship from Two Sigma researchers."
+    },
+    {
+      "id": "bloomberg-data-science-phd-fellowship",
+      "name": "Bloomberg Data Science PhD Fellowship",
+      "funder": "Bloomberg L.P.",
+      "url": "https://www.bloomberg.com/company/values/tech-at-bloomberg/data-science/academic-engagement-programs/data-science-ph-d-fellowship/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2026-2027 cycle closed 14 Dec 2025; next call (2027-2028) historically opens in November with mid-December deadline.",
+      "region": "Global (internship in NY, London, or Toronto)",
+      "amount": "100% tuition + $45,000 annual stipend; paid summer internship",
+      "duration": "1 academic year (renewable)",
+      "description": "Supports full-time PhD students in data science, machine learning, NLP, information retrieval, and related areas. Requires a 14-week summer internship at Bloomberg for each year of the fellowship."
+    },
+    {
+      "id": "hertz-foundation-fellowship",
+      "name": "Hertz Foundation Fellowship",
+      "funder": "Fannie and John Hertz Foundation",
+      "url": "https://www.hertzfoundation.org/hertz-fellowship/apply/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2027 application opens late August 2026 and closes late October 2026; reference deadline ~early November 2026.",
+      "region": "United States (US citizens / permanent residents)",
+      "amount": "Up to $250,000 over five years (stipend plus tuition equivalent)",
+      "duration": "Up to 5 years",
+      "description": "Highly selective PhD fellowship for applied physical, biological, and engineering sciences including computer science and AI. Fellows have unusual freedom to pursue high-risk research directions."
+    },
+    {
+      "id": "ndseg-fellowship",
+      "name": "National Defense Science and Engineering Graduate (NDSEG) Fellowship",
+      "funder": "U.S. Department of Defense (Air Force, Army, Navy)",
+      "url": "https://ndseg.sysplus.com/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle opens 15 Aug and closes mid-November; the FY2027 cycle is expected to open 15 Aug 2026 and close ~17 Nov 2026.",
+      "region": "United States (US citizens / nationals)",
+      "amount": "Three years of full tuition + ~$45,500 annual stipend + health insurance allowance",
+      "duration": "3 years",
+      "description": "Portable 3-year doctoral fellowship for US citizens pursuing science and engineering disciplines of interest to DoD, including computer science, computer/computational engineering, electrical engineering, and mathematics."
+    },
+    {
+      "id": "vannevar-bush-faculty-fellowship",
+      "name": "Vannevar Bush Faculty Fellowship (VBFF)",
+      "funder": "U.S. Department of Defense (Basic Research Office)",
+      "url": "https://basicresearch.defense.gov/Programs/Vannevar-Bush-Faculty-Fellowship/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual solicitation; white papers historically due late September. The next white-paper deadline (Class of 2027) is expected ~late September 2026.",
+      "region": "United States (tenured US faculty, US citizens/permanent residents)",
+      "amount": "Up to ~$3,000,000 over 5 years",
+      "duration": "5 years",
+      "description": "DoD's flagship single-investigator basic research award. Networks & AI is a recurring topic area. Open to tenured US faculty with a record of substantial scientific contributions."
+    },
+    {
+      "id": "qualcomm-innovation-fellowship-na",
+      "name": "Qualcomm Innovation Fellowship (North America)",
+      "funder": "Qualcomm Technologies, Inc.",
+      "url": "https://www.qualcomm.com/research/university-relations/innovation-fellowship",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Regional cycles: North America deadline ~1 December annually (next: ~1 Dec 2026); Europe ~late February; India/APAC ~April. 2026 windows have all closed; 2027 NA cycle expected to open early November 2026.",
+      "region": "North America, Europe, India, and other APAC regions (invited universities)",
+      "amount": "$50,000 per team (North America); $40,000 per student (Europe)",
+      "duration": "1 academic year",
+      "description": "Mentorship-driven fellowship for PhD (and some Masters) students at invited universities working on novel research in computer science, electrical engineering, and related areas including AI/ML, wireless, computer vision, and systems."
+    },
+    {
+      "id": "cooperative-ai-phd-fellowship",
+      "name": "Cooperative AI PhD Fellowship",
+      "funder": "Cooperative AI Foundation",
+      "url": "https://www.cooperativeai.com/phd-fellowship",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2026 round closed 16 Nov 2025; next call expected to open around September 2026 for the 2027 cohort.",
+      "region": "Global",
+      "amount": "Up to $40,000/year living stipend plus conference budget and compute support",
+      "duration": "Up to 3 years",
+      "description": "Supports PhD students whose research advances cooperative AI: multi-agent cooperation, AI in social contexts, mechanism design, and the foundations of agentic systems that interact safely with humans and other agents."
+    },
+    {
+      "id": "paul-daisy-soros-fellowship",
+      "name": "Paul & Daisy Soros Fellowships for New Americans",
+      "funder": "Paul & Daisy Soros Fellowships for New Americans",
+      "url": "https://pdsoros.org/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2026-10-29"
+      ],
+      "deadlineNote": "Applicants must be immigrants, the children of immigrants, or DACA recipients, and 30 or younger as of the deadline. Supports any full-time US graduate program including STEM/CS PhDs.",
+      "region": "United States (graduate study in the US)",
+      "amount": "Up to $90,000 over two years (stipend + tuition support)",
+      "duration": "Up to 2 years",
+      "description": "Merit-based graduate fellowship for New Americans pursuing full-time graduate or professional degrees in the US. Open to all fields including computer science, AI/ML, and engineering."
+    },
+    {
+      "id": "schmidt-science-polymaths",
+      "name": "Schmidt Science Polymaths",
+      "funder": "Schmidt Sciences",
+      "url": "https://www.schmidtsciences.org/schmidt-science-polymaths/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Invitation-only program; institutional nominations are solicited June through mid-August, with full applications typically due in October and decisions in April. The 2027 nomination round is expected to open June 2026.",
+      "region": "Global (research-intensive institutions)",
+      "amount": "$500,000 per year for up to 5 years (paid to institution)",
+      "duration": "Up to 5 years",
+      "description": "Supports recently tenured researchers (within 3 years of tenure) with track records of cross-disciplinary work who want to make a substantive methodological or disciplinary shift. Open to mathematics, computer science, natural sciences, and engineering."
+    },
+    {
+      "id": "snap-research-fellowship",
+      "name": "Snap Research Fellowship",
+      "funder": "Snap Inc.",
+      "url": "https://research.snap.com/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; recent rounds have opened in spring with a summer deadline. Confirm current cycle on research.snap.com before applying.",
+      "region": "Global",
+      "amount": "$10,000 per recipient",
+      "duration": "1 year",
+      "description": "Recognizes PhD and MS students conducting exceptional research in computer science areas relevant to Snap including AI/ML, computer vision, computational imaging, computer graphics, HCI, NLP, and AR."
     }
   ]
 }
