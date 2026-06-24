@@ -1,8 +1,7 @@
 # lychee link-checker config (used by the link-check CI job).
 # Docs: https://lychee.cli.rs/usage/config/
 
-# Skip schemes that aren't HTTP/S.
-exclude_mail = true
+# Mail links are not checked by default in lychee >=0.23 (opt-in via --include-mail).
 
 # Treat these as transient — they 4xx/5xx without being broken.
 accept = [200, 203, 206, 301, 302, 303, 307, 308, 999]
