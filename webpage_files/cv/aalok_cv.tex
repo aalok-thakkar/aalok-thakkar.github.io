@@ -1,6 +1,6 @@
 % =============================================================
-% Aalok Thakkar - Curriculum Vitae
-% Compile with: pdflatex aalok_cv.tex
+% Aalok Thakkar - Curriculum Vitae (minimal academic version)
+% Compile with: pdflatex aalok_cv.tex (twice for headers).
 % Format adapted from a Pei-Wu-style academic CV (running page
 % header, small-caps section labels, two-column hanging entries).
 % =============================================================
@@ -50,18 +50,6 @@
 % Lighter sub-heading
 \newcommand{\cvsubsection}[1]{\vspace{0.5em}\noindent{\normalsize\itshape #1}\par\vspace{0.2em}}
 
-% ---------------- Top of page block ----------------------
-\newcommand{\cvheader}{%
-  \begin{center}
-    {\Huge\textbf{Aalok Thakkar}}\\[0.4em]
-    {\large\itshape Assistant Professor}\\[0.2em]
-    {\small\textsc{Department of Computer Science}}\\
-    {\small\textsc{Ashoka University, Sonipat, India}}\\[0.4em]
-    {\small\href{mailto:thakkar@ashoka.edu.in}{thakkar@ashoka.edu.in} \, $\bullet$ \, \href{https://aalok-thakkar.github.io}{aalok-thakkar.github.io}}
-  \end{center}
-  \vspace{0.4em}
-}
-
 % ---------------- Two-column entry helper ----------------
 % Usage: \entry{LEFT DATE COLUMN}{RIGHT CONTENT}
 \newcommand{\entry}[2]{%
@@ -78,36 +66,17 @@
   \itshape #3\par\vspace{0.5em}
 }
 
-% Talk title heading (used to group talk dates beneath)
-\newcommand{\talktitle}[1]{\vspace{0.3em}\noindent\textbf{\textit{#1}}\par\vspace{0.2em}}
-\newcommand{\talk}[2]{%
-  \noindent
-  \begin{minipage}[t]{0.13\linewidth}\raggedright\small\textsc{#1}\end{minipage}%
-  \hspace{0.02\linewidth}%
-  \begin{minipage}[t]{0.83\linewidth}#2\end{minipage}\par\vspace{0.3em}
-}
-
 % =============================================================
 \begin{document}
 \thispagestyle{fancy}
-\cvheader
 
-% ---------------- Academic Appointments ------------------
-\cvsection{Academic Appointments}
+% ---------------- Academic Appointment -------------------
+\cvsection{Academic Appointment}
 
 \entry{2024--present}{%
   \textsc{Ashoka University}, Sonipat, India \\
   Department of Computer Science \\
   \emph{Assistant Professor}}
-
-\entry{2023--2024}{%
-  \textsc{Aptos Labs and Movement Labs}, Seattle, WA, USA \\
-  \emph{Research Scientist, Programming Languages}}
-
-\entry{Summer 2021}{%
-  \textsc{Amazon Web Services}, Boston, MA, USA \\
-  Automated Reasoning Group \\
-  \emph{Research Intern}}
 
 % ---------------- Education ------------------------------
 \cvsection{Education}
@@ -135,24 +104,6 @@
   {with Ayush Thonge}
   {Innovation and Technology in Computer Science Education (ITiCSE 2026)}
 
-\pub{Accessibility Beyond Accommodations}
-  {with Vaanee Tripathi}
-  {ACM India Compute Conference (COMPUTE 2025)}
-
-\pub{Ancient Algorithms for Modern Curriculum}{}{ACM India Compute Conference (COMPUTE 2025)}
-
-\pub{BOOP: Write Right Code}
-  {with Vaani Goenka}
-  {ACM India Compute Conference (COMPUTE 2025)}
-
-\pub{SocraticAI: Transforming LLMs into Guided CS Tutors Through Scaffolded Interaction}
-  {with Karthik Sunil}
-  {ACM India Compute Conference (COMPUTE 2025)}
-
-\pub{From Transformers to Weighted Automata: Towards Verification of Large Language Models}
-  {with Smayan Agarwal, Aslah Ahmad Faizi, and Shobhit Singh}
-  {From Data to Models and Back (DATAMOD 2025)}
-
 \pub{Mobius: Synthesizing Relational Queries with Recursive and Invented Predicates}
   {with Nathaniel Sands, George Petrou, Rajeev Alur, Mayur Naik, and Mukund Raghothaman}
   {Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA 2023)}
@@ -165,10 +116,6 @@
   {with Aaditya Naik, Nathaniel Sands, Mukund Raghothaman, Mayur Naik, and Rajeev Alur}
   {Programming Language Design and Implementation (PLDI 2021)}
 
-\pub{Additive Collatz Trajectories}
-  {with Mrunmay Jagadale}
-  {International Conference of the Jangjeon Mathematical Society (ICJMS 2016)}
-
 \cvsubsection{Journal Publications}
 
 \pub{Reopening businesses and risk of COVID-19 transmission}
@@ -180,53 +127,6 @@
   {Natural Computing 19, 91--109 (2020)}
 
 \pub{Infinitude of Primes Using Formal Languages}{}{The American Mathematical Monthly 125:8, 745--749 (2018)}
-
-\cvsubsection{Workshop Publications}
-
-\pub{Complexity of Relational Query Synthesis}
-  {with Rajeev Alur and Mayur Naik}
-  {11th Workshop on Synthesis (SYNT 2022)}
-
-\pub{Modular Synthesis of Reactive Systems}
-  {with Kedar S.~Namjoshi and Richard Trefler}
-  {9th Workshop on Synthesis (SYNT 2020)}
-
-\pub{Verification of Rewriting-based Query Optimizers}
-  {with Krishnamurthy Balaji and Piyush Gupta}
-  {16th International Workshop on Termination (WST 2018)}
-
-\cvsubsection{Pre-prints}
-
-\pub{When Does a Monoid Action Preserve Regularity?}{}{}
-
-\pub{Stochastic Languages at Sub-stochastic Cost}
-  {with Smayan Agarwal}
-  {}
-
-\pub{Identity Testing for Stochastic Languages}
-  {with Smayan Agarwal and Shobhit Singh}
-  {}
-
-% ---------------- Selected Talks -------------------------
-\cvsection{Selected Talks}
-
-\talktitle{Proofs Without Proofs}
-\talk{07/2026}{ICHIM 2026, University of Peradeniya, Sri Lanka}
-
-\talktitle{Formal Methods Update Meeting 2026}
-\talk{07/2026}{Krea University, Sri City, India (organizer and invited talk)}
-
-\talktitle{Identity Testing for Stochastic Languages}
-\talk{2025}{IARCS Verification Seminar Series}
-
-\talktitle{Synthesis of Relational Queries with Recursive and Invented Predicates}
-\talk{2023}{OOPSLA 2023, Lisbon, Portugal}
-
-\talktitle{Relational Query Synthesis $\bowtie$ Decision Tree Learning}
-\talk{2023}{VLDB 2023, Vancouver, Canada}
-
-\talktitle{Example-Guided Synthesis of Relational Queries}
-\talk{2021}{PLDI 2021, online}
 
 % ---------------- Teaching -------------------------------
 \cvsection{Teaching}
@@ -260,21 +160,6 @@
 \entry{2026}{%
   \textsc{Nagarathna Memorial Grant} \\
   Translation of \emph{Nayi Kavita} poets into English.}
-
-% ---------------- Selected Opinion Pieces -----------
-\cvsection{Selected Opinion Pieces}
-
-\pub{Your OTP isn't a one-time password any more, and that carries a security cost}{}{\emph{The Indian Express} (2026)}
-
-\pub{Rejoinder: The retroflex, like the Marathi `na', has little to do with caste}{}{\emph{Scroll.in} (2026)}
-
-\pub{New rules for living with intelligent machines}{}{\emph{Hindustan Times} (2026)}
-
-\pub{Computer science cannot rely on jugaad for real-world reliability}{}{\emph{Moneycontrol} (2025)}
-
-\pub{Staying relevant: A professor's insights on what makes engineers more employable}{}{\emph{CNBC TV18} (2025)}
-
-\pub{Ensuring a Level Playing Field}{}{\emph{Moneycontrol} (2025)}
 
 % ---------------- Service --------------------------------
 \cvsection{Professional Service}
