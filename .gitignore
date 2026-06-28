@@ -8,3 +8,8 @@ Gemfile.lock
 .jekyll-cache
 .vscode
 .claude
+# LaTeX build artifacts
+webpage_files/cv/aalok_cv.pdf
+webpage_files/cv/*.aux
+webpage_files/cv/*.log
+webpage_files/cv/*.out

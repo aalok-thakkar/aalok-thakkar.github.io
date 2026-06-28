@@ -1,0 +1,297 @@
+% =============================================================
+% Aalok Thakkar - Curriculum Vitae
+% Compile with: pdflatex aalok_cv.tex
+% Format adapted from a Pei-Wu-style academic CV (running page
+% header, small-caps section labels, two-column hanging entries).
+% =============================================================
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=1in,top=0.9in,bottom=1in]{geometry}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  filecolor=black,
+  urlcolor=black,
+  pdftitle={Aalok Thakkar - Curriculum Vitae},
+  pdfauthor={Aalok Thakkar}
+}
+
+% ---------------- Running page header --------------------
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[C]{\small\textsc{Aalok Thakkar} \, $\bullet$ \, \textsc{Curriculum Vitae} \, $\bullet$ \, 2026}
+\fancyfoot[C]{\small\thepage}
+
+% ---------------- Section headings -----------------------
+% Replace \section's formatting without titlesec.
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0pt}%
+  {1.6em}%      space before
+  {0.6em}%      space after
+  {\normalfont\large\bfseries}%
+}
+\makeatother
+% Append a rule under each section title via \cvsection wrapper.
+\newcommand{\cvsection}[1]{%
+  \section*{#1}\vspace{-0.6em}\noindent\rule{\linewidth}{0.4pt}\vspace{0.2em}\par
+}
+% Lighter sub-heading
+\newcommand{\cvsubsection}[1]{\vspace{0.5em}\noindent{\normalsize\itshape #1}\par\vspace{0.2em}}
+
+% ---------------- Top of page block ----------------------
+\newcommand{\cvheader}{%
+  \begin{center}
+    {\Huge\textbf{Aalok Thakkar}}\\[0.4em]
+    {\large\itshape Assistant Professor}\\[0.2em]
+    {\small\textsc{Department of Computer Science}}\\
+    {\small\textsc{Ashoka University, Sonipat, India}}\\[0.4em]
+    {\small\href{mailto:thakkar@ashoka.edu.in}{thakkar@ashoka.edu.in} \, $\bullet$ \, \href{https://aalok-thakkar.github.io}{aalok-thakkar.github.io}}
+  \end{center}
+  \vspace{0.4em}
+}
+
+% ---------------- Two-column entry helper ----------------
+% Usage: \entry{LEFT DATE COLUMN}{RIGHT CONTENT}
+\newcommand{\entry}[2]{%
+  \noindent
+  \begin{minipage}[t]{0.18\linewidth}\raggedright\small\textsc{#1}\end{minipage}%
+  \hspace{0.02\linewidth}%
+  \begin{minipage}[t]{0.78\linewidth}#2\end{minipage}\par\vspace{0.6em}
+}
+
+% Publication entry: title, authors, venue.
+\newcommand{\pub}[3]{%
+  \noindent\textbf{#1}\\
+  \small #2\\
+  \itshape #3\par\vspace{0.5em}
+}
+
+% Talk title heading (used to group talk dates beneath)
+\newcommand{\talktitle}[1]{\vspace{0.3em}\noindent\textbf{\textit{#1}}\par\vspace{0.2em}}
+\newcommand{\talk}[2]{%
+  \noindent
+  \begin{minipage}[t]{0.13\linewidth}\raggedright\small\textsc{#1}\end{minipage}%
+  \hspace{0.02\linewidth}%
+  \begin{minipage}[t]{0.83\linewidth}#2\end{minipage}\par\vspace{0.3em}
+}
+
+% =============================================================
+\begin{document}
+\thispagestyle{fancy}
+\cvheader
+
+% ---------------- Academic Appointments ------------------
+\cvsection{Academic Appointments}
+
+\entry{2024--present}{%
+  \textsc{Ashoka University}, Sonipat, India \\
+  Department of Computer Science \\
+  \emph{Assistant Professor}}
+
+\entry{2023--2024}{%
+  \textsc{Aptos Labs and Movement Labs}, Seattle, WA, USA \\
+  \emph{Research Scientist, Programming Languages}}
+
+\entry{Summer 2021}{%
+  \textsc{Amazon Web Services}, Boston, MA, USA \\
+  Automated Reasoning Group \\
+  \emph{Research Intern}}
+
+% ---------------- Education ------------------------------
+\cvsection{Education}
+
+\entry{2018--2023}{%
+  \textsc{University of Pennsylvania} \\
+  Ph.D., Computer and Information Science \\
+  Thesis: \emph{Example-Guided Synthesis of Relational Queries} \\
+  Advisors: Rajeev Alur and Mayur Naik}
+
+\entry{2015--2018}{%
+  \textsc{Chennai Mathematical Institute} \\
+  B.Sc.~(Honours), Mathematics and Computer Science}
+
+% ---------------- Publications ---------------------------
+\cvsection{Publications}
+
+\cvsubsection{Conference Publications}
+
+\pub{A Correctness-First Introduction to Computer Science}
+  {with Vaani Goenka}
+  {Innovation and Technology in Computer Science Education (ITiCSE 2026)}
+
+\pub{A Good Rubber Duck Does Not Quack}
+  {with Ayush Thonge}
+  {Innovation and Technology in Computer Science Education (ITiCSE 2026)}
+
+\pub{Accessibility Beyond Accommodations}
+  {with Vaanee Tripathi}
+  {ACM India Compute Conference (COMPUTE 2025)}
+
+\pub{Ancient Algorithms for Modern Curriculum}{}{ACM India Compute Conference (COMPUTE 2025)}
+
+\pub{BOOP: Write Right Code}
+  {with Vaani Goenka}
+  {ACM India Compute Conference (COMPUTE 2025)}
+
+\pub{SocraticAI: Transforming LLMs into Guided CS Tutors Through Scaffolded Interaction}
+  {with Karthik Sunil}
+  {ACM India Compute Conference (COMPUTE 2025)}
+
+\pub{From Transformers to Weighted Automata: Towards Verification of Large Language Models}
+  {with Smayan Agarwal, Aslah Ahmad Faizi, and Shobhit Singh}
+  {From Data to Models and Back (DATAMOD 2025)}
+
+\pub{Mobius: Synthesizing Relational Queries with Recursive and Invented Predicates}
+  {with Nathaniel Sands, George Petrou, Rajeev Alur, Mayur Naik, and Mukund Raghothaman}
+  {Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA 2023)}
+
+\pub{Relational Query Synthesis $\bowtie$ Decision Tree Learning}
+  {with Aaditya Naik, Adam Stein, Rajeev Alur, and Mayur Naik}
+  {International Conference on Very Large Data Bases (VLDB 2023)}
+
+\pub{Example-Guided Synthesis of Relational Queries}
+  {with Aaditya Naik, Nathaniel Sands, Mukund Raghothaman, Mayur Naik, and Rajeev Alur}
+  {Programming Language Design and Implementation (PLDI 2021)}
+
+\pub{Additive Collatz Trajectories}
+  {with Mrunmay Jagadale}
+  {International Conference of the Jangjeon Mathematical Society (ICJMS 2016)}
+
+\cvsubsection{Journal Publications}
+
+\pub{Reopening businesses and risk of COVID-19 transmission}
+  {with Ashley O'Donoghue, Tenzin Dechen, Whitney Pavlova, Michael Boals, Garba Moussa, Manvi Madan, Frank J.~DeFalco, and Jennifer P.~Stevens}
+  {npj Digital Medicine 4, 51 (2021)}
+
+\pub{Concurrency in Boolean networks}
+  {with Thomas Chatain, Stefan Haar, Juraj Kolcak, and Loic Pauleve}
+  {Natural Computing 19, 91--109 (2020)}
+
+\pub{Infinitude of Primes Using Formal Languages}{}{The American Mathematical Monthly 125:8, 745--749 (2018)}
+
+\cvsubsection{Workshop Publications}
+
+\pub{Complexity of Relational Query Synthesis}
+  {with Rajeev Alur and Mayur Naik}
+  {11th Workshop on Synthesis (SYNT 2022)}
+
+\pub{Modular Synthesis of Reactive Systems}
+  {with Kedar S.~Namjoshi and Richard Trefler}
+  {9th Workshop on Synthesis (SYNT 2020)}
+
+\pub{Verification of Rewriting-based Query Optimizers}
+  {with Krishnamurthy Balaji and Piyush Gupta}
+  {16th International Workshop on Termination (WST 2018)}
+
+\cvsubsection{Pre-prints}
+
+\pub{When Does a Monoid Action Preserve Regularity?}{}{}
+
+\pub{Stochastic Languages at Sub-stochastic Cost}
+  {with Smayan Agarwal}
+  {}
+
+\pub{Identity Testing for Stochastic Languages}
+  {with Smayan Agarwal and Shobhit Singh}
+  {}
+
+% ---------------- Selected Talks -------------------------
+\cvsection{Selected Talks}
+
+\talktitle{Proofs Without Proofs}
+\talk{07/2026}{ICHIM 2026, University of Peradeniya, Sri Lanka}
+
+\talktitle{Formal Methods Update Meeting 2026}
+\talk{07/2026}{Krea University, Sri City, India (organizer and invited talk)}
+
+\talktitle{Identity Testing for Stochastic Languages}
+\talk{2025}{IARCS Verification Seminar Series}
+
+\talktitle{Synthesis of Relational Queries with Recursive and Invented Predicates}
+\talk{2023}{OOPSLA 2023, Lisbon, Portugal}
+
+\talktitle{Relational Query Synthesis $\bowtie$ Decision Tree Learning}
+\talk{2023}{VLDB 2023, Vancouver, Canada}
+
+\talktitle{Example-Guided Synthesis of Relational Queries}
+\talk{2021}{PLDI 2021, online}
+
+% ---------------- Teaching -------------------------------
+\cvsection{Teaching}
+
+\entry{Summer 2026}{FC-0306: Quantitative Reasoning and Mathematical Thinking}
+\entry{Spring 2026}{CS-3330: Theory of Computation \\ CS-3610: Information Security}
+\entry{Monsoon 2025}{CS-1102: Introduction to Computer Science \\ CS-5310: Symbolic Logic and Applications \\ CS-6101: Computer Science Research Methods and Seminars}
+\entry{Summer 2025}{FC-0306: Quantitative Reasoning and Mathematical Thinking \\ CS-1102: Introduction to Computer Science}
+\entry{Spring 2025}{CS-1102: Introduction to Computer Science \\ CS-5440: Trustworthy AI}
+\entry{Monsoon 2024}{CS-5310: Symbolic Logic and Applications}
+
+% ---------------- Grants ---------------------------------
+\cvsection{Grants and Fellowships}
+
+\entry{2026--}{%
+  \textsc{ANRF Prime Minister Early Career Research Grant} \\
+  Robust and scalable program synthesis.}
+
+\entry{2025--2026}{%
+  \textsc{Data \& AI Adoption Fellowship}, EkStep Foundation \\
+  AI Safety Benchmarks for Education and Agriculture.}
+
+\entry{2025--2026}{%
+  \textsc{Darjeeling Revival Fellowship}, Alt Carbon \\
+  Geostatistical modelling for enhanced rock weathering.}
+
+\entry{2025--2026}{%
+  \textsc{Adaptive and Inclusive Pedagogy Grant}, Mphasis \\
+  Curriculum design for an adaptive and inclusive classroom.}
+
+\entry{2026}{%
+  \textsc{Nagarathna Memorial Grant} \\
+  Translation of \emph{Nayi Kavita} poets into English.}
+
+% ---------------- Selected Opinion Pieces -----------
+\cvsection{Selected Opinion Pieces}
+
+\pub{Your OTP isn't a one-time password any more, and that carries a security cost}{}{\emph{The Indian Express} (2026)}
+
+\pub{Rejoinder: The retroflex, like the Marathi `na', has little to do with caste}{}{\emph{Scroll.in} (2026)}
+
+\pub{New rules for living with intelligent machines}{}{\emph{Hindustan Times} (2026)}
+
+\pub{Computer science cannot rely on jugaad for real-world reliability}{}{\emph{Moneycontrol} (2025)}
+
+\pub{Staying relevant: A professor's insights on what makes engineers more employable}{}{\emph{CNBC TV18} (2025)}
+
+\pub{Ensuring a Level Playing Field}{}{\emph{Moneycontrol} (2025)}
+
+% ---------------- Service --------------------------------
+\cvsection{Professional Service}
+
+\entry{Organizer}{%
+  Formal Methods Update Meeting 2026, Krea University. \\
+  FSTTCS 2024, FSTTCS 2025. \\
+  IARCS Verification Seminar Series. \\
+  Logic Society of Delhi.}
+
+\entry{Editor}{Corresponding editor, \emph{Bh\=avan\=a} magazine.}
+
+\entry{Reviewer}{%
+  Programme committees and review activities for POPL AEC 2022, ISEC 2025, PLDI SRC 2025, ATVA AEC 2025, OOPSLA 2026, and \emph{ACM Computing Surveys}.}
+
+\entry{Memberships}{%
+  Association for Computing Machinery (ACM India). \\
+  Vijnana Bharati.}
+
+\end{document}
