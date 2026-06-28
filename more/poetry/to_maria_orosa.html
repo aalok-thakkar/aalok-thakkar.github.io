@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aalok Thakkar</title>
+    <link rel="icon" href="data:,">
+
+    <link
+      rel="stylesheet"
+      href="/webpage_files/style.css"
+      type="text/css"
+      media="screen"
+    />
+  </head>
+
+  <body>
+    <div id="content" class="single">
+      <h1>
+        Aalok Thakkar: <strong>Poetry</strong>
+      </h1>
+
+      <div style="text-align: center;">
+        <h2>To Mar&iacute;a Orosa</h2>
+
+        <p>
+          In New York, <br />
+          My Malwani Fish Tikka arrives <br />
+          On a small white plate: <br />
+          Salmon, Banana Ketchup, Lotus Stem. <br />
+          It looks beautiful, tastes just fine. <br />
+          I do leave a tip. <br />
+          I am glad I am in New York, <br />
+          Where there is no war, no famine. <br />
+          <br />
+          I no longer have to eat <br />
+          A commoner&rsquo;s catch, <br />
+          A wartime sauce, <br />
+          Or stems pulled from a cold lake.
+        </p>
+      </div>
+
+      <p style="text-align: center;">
+        Back to <a href="./index.html"><u>Poetry</u></a>
+      </p>
+    </div>
+
+    <div id="footer"></div>
+
+    <script>
+    fetch("/webpage_files/footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer').innerHTML = data;
+      });
+    </script>
+  </body>
+</html>
