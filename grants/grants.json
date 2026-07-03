@@ -1,6 +1,6 @@
 {
   "_comment": "Source of truth for /grants/. 'deadlines' is an array of upcoming ISO dates; leave empty for rolling deadlines (the entry will appear under 'Rolling & annually recurring').",
-  "lastUpdated": "2026-06-22",
+  "lastUpdated": "2026-07-03",
   "grants": [
     {
       "id": "nsf-grfp",
@@ -3871,6 +3871,216 @@
       "amount": "$10,000 per recipient",
       "duration": "1 year",
       "description": "Recognizes PhD and MS students conducting exceptional research in computer science areas relevant to Snap including AI/ML, computer vision, computational imaging, computer graphics, HCI, NLP, and AR."
+    },
+    {
+      "id": "icmr-unnati-growth-standards",
+      "name": "ICMR UNNATI - Growth Standards for Indian Children (Phase 2)",
+      "funder": "Indian Council of Medical Research (ICMR)",
+      "url": "https://www.icmr.gov.in/call-for-proposals",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-07-22"
+      ],
+      "deadlineNote": "Expression of Interest closes 22 July 2026. Multicentre study; sites must enroll 500-600 children/adolescents in 3-6 months.",
+      "region": "India",
+      "description": "Multicentre data collection for growth standards for Indian children aged 2-18. Teams need prior experience in large school/community studies on child and adolescent health, standardised anthropometry, and body composition/metabolic health assessment. Open to researchers with regular employment at medical/research institutes, universities, colleges, government/semi-government bodies, and NGOs."
+    },
+    {
+      "id": "fast-india-science-book-fellowship-2026",
+      "name": "India Science Book Fellowship 2026-27",
+      "funder": "Foundation for Advancing Science and Technology (FAST-India)",
+      "url": "https://www.fast-india.org/india-science-book-fellowship-2026-27/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-07-31"
+      ],
+      "deadlineNote": "2026-27 cycle; suggested theme is deep-tech but entries across genres are welcome. Individual or team applications; lead applicant must be based in India.",
+      "region": "India",
+      "amount": "Up to INR 10 lakh",
+      "description": "Fellowship for writing a book on science and technology. Includes monetary support, mentorship, publisher introductions, and post-publication promotion via FAST-India."
+    },
+    {
+      "id": "usistef-critical-minerals-quantum-2026",
+      "name": "USISTEF - U.S.-India Partnerships in Critical Minerals and Quantum Technology",
+      "funder": "United States-India Science and Technology Endowment Fund (USISTEF)",
+      "url": "https://endowment.iusstf.org/login",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-07-31"
+      ],
+      "deadlineNote": "Requires one Indian and one U.S. partner. At least one partner must be entrepreneurial (preferably SME). Academic/government/research partners need an NOC.",
+      "region": "India / USA",
+      "description": "Bilateral partnerships to develop and commercialise technologies in critical minerals and supply chain resilience, and in quantum technologies. Teams may combine incorporated companies (including start-ups), non-incorporated entities, and academic/government/non-government research institutions."
+    },
+    {
+      "id": "dst-jsps-ijcsp-2026",
+      "name": "DST-JSPS Indo-Japan Cooperative Science Programme (IJCSP) 2026",
+      "funder": "Department of Science and Technology (DST), India and Japan Society for the Promotion of Science (JSPS)",
+      "url": "https://onlinedst.gov.in",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-09-03"
+      ],
+      "deadlineNote": "Joint Research Projects and Joint Workshops/Seminars. Indian and Japanese PIs must submit the same proposal to their respective agencies. One proposal per PI. Closes 11:59 PM IST.",
+      "region": "India / Japan",
+      "description": "Bilateral scientific collaboration across physical sciences, chemical sciences, life sciences and agriculture, mathematics and computational science, astronomy and earth science, and materials and engineering. Indian PI must be in a regular faculty/scientist position at universities, deemed universities, academic institutes, national R&D laboratories, or private non-profit R&D institutions."
+    },
+    {
+      "id": "mq-schizophrenia-research-fellowship",
+      "name": "MQ Schizophrenia Research Fellowship",
+      "funder": "MQ Mental Health Research (funded by Nikki Fa Fond via Fondation Philanthropia)",
+      "url": "https://www.mqmentalhealth.org/schizophrenia-research-fellowship/",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-08-12",
+        "2026-12-08"
+      ],
+      "deadlineNote": "Expression of Interest due 12 August 2026; full application due 8 December 2026.",
+      "region": "Global",
+      "description": "Fellowship for early-career researchers with 3-7 years of postdoctoral experience working on schizophrenia. Applicants must be based at a university, hospital, or research institution and show a research track record with plans for independence."
+    },
+    {
+      "id": "mapfre-larramendi-research-grants",
+      "name": "Ignacio H. de Larramendi Research Grants",
+      "funder": "Fundación MAPFRE",
+      "url": "https://www.fundacionmapfre.org/en/awards-aids/ignacio-larramendi-research-grants/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-10-22"
+      ],
+      "deadlineNote": "Closes 2:00 PM UTC+2. One principal investigator per project. Open to individuals or institutions in any country.",
+      "region": "Global",
+      "description": "Supports research in health promotion (obesity prevention, physical activity, emotional well-being, emergency response training, bodily-harm assessment, clinical quality and safety, longevity science) and in insurance and social protection (risk management, emerging risks, longevity economics). Open to academic and professional researchers and to research teams led by a researcher, independently or through affiliated universities, hospitals, companies, or research centres."
+    },
+    {
+      "id": "nnf-postdoc-plant-ag-food-2026",
+      "name": "Novo Nordisk Foundation Postdoctoral Fellowships in Plant Science, Agriculture and Food Biotechnology",
+      "funder": "Novo Nordisk Foundation",
+      "url": "https://novonordiskfonden.dk/en/grant/postdoctoral-fellowships-for-research-within-plant-science-agriculture-and-food-biotechnology/",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-08-20"
+      ],
+      "deadlineNote": "Closes 2:00 PM Copenhagen time. PhD obtained within 5 years of the deadline, or PhD student defending before 1 April 2027.",
+      "region": "Denmark / Global (host in Denmark or abroad)",
+      "description": "Postdoctoral fellowships for early-career researchers in plant science, agricultural science, and food biotechnology. Supports research on sustainable plant production, crop improvement, plant-microbe interactions, and food systems."
+    },
+    {
+      "id": "lundbeck-lf-experiment-2026",
+      "name": "Lundbeck Foundation LF Experiment",
+      "funder": "Lundbeck Foundation",
+      "url": "https://lundbeckfonden.com/grants-prizes/apply-grants",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-08-27"
+      ],
+      "deadlineNote": "Open to researchers at all career levels (PhD required). Neuroscience focus.",
+      "region": "Denmark / International",
+      "amount": "Up to DKK 2.3M",
+      "duration": "2 years",
+      "description": "Funds bold, exploratory experiments in neuroscience with the potential to produce results that could not otherwise be obtained. Open to researchers at all career levels."
+    },
+    {
+      "id": "lundbeck-brain-prize-2026",
+      "name": "The Brain Prize",
+      "funder": "Lundbeck Foundation",
+      "url": "https://lundbeckfonden.com/grants-prizes/apply-grants",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-09-01"
+      ],
+      "deadlineNote": "Nomination deadline for outstanding scientists whose work has advanced neuroscience.",
+      "region": "Global",
+      "amount": "DKK 10M",
+      "description": "The world's largest neuroscience prize, awarded annually for outstanding contributions to brain research. Nominations via the Lundbeck Foundation portal."
+    },
+    {
+      "id": "lundbeck-start-up-programme-2026",
+      "name": "Lundbeck Foundation Start-Up Programme",
+      "funder": "Lundbeck Foundation",
+      "url": "https://lundbeckfonden.com/grants-prizes/apply-grants",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-08-13",
+        "2026-10-22"
+      ],
+      "deadlineNote": "Four annual deadlines (Feb 3, Apr 9, Aug 13, Oct 22 in 2026); earlier 2026 rounds have closed. Associate professors receive up to DKK 7M; full professors up to DKK 11M.",
+      "region": "Denmark / International",
+      "amount": "DKK 7M (associate professor) or DKK 11M (full professor)",
+      "duration": "4 years",
+      "description": "Supports associate and full professors starting or expanding neuroscience research programmes. Funds staff, equipment, and running costs to establish an independent research direction."
+    },
+    {
+      "id": "lundbeck-lf-postdocs-2026",
+      "name": "Lundbeck Foundation LF Postdocs",
+      "funder": "Lundbeck Foundation",
+      "url": "https://lundbeckfonden.com/grants-prizes/apply-grants",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Call opens August 2026; check the Lundbeck Foundation portal for the exact deadline. Applicants must be within 5 years post-PhD and change research environment.",
+      "region": "Denmark / International",
+      "amount": "Up to DKK 3M",
+      "duration": "3 years",
+      "description": "Postdoctoral funding for early-career neuroscientists to move to a new research environment (in Denmark or abroad) and establish an independent research direction."
+    },
+    {
+      "id": "snsf-ambizione-2026",
+      "name": "SNSF Ambizione",
+      "funder": "Swiss National Science Foundation (SNSF)",
+      "url": "https://www.snf.ch/en/N18L3oGWomTSSGkF/funding/careers/ambizione",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-11-03"
+      ],
+      "deadlineNote": "Closes 5:00 PM CET. Final call before the scheme is replaced. PhD (or medical studies) within 4 years of deadline; physicians up to 9 years post-medical-exam with 3+ years clinical work.",
+      "region": "Switzerland",
+      "duration": "Up to 4 years",
+      "description": "Supports early-career researchers who wish to conduct, manage, and lead an independent project at a Swiss higher education institution. Covers the grantee's salary and project funds, or project funds alone if the grantee already holds a salary-bearing position. Swiss nationality, a Swiss degree, or 12+ months of research at a Swiss institution required."
+    },
+    {
+      "id": "dreyfus-teacher-scholar-2027",
+      "name": "Camille Dreyfus Teacher-Scholar Awards",
+      "funder": "Camille and Henry Dreyfus Foundation",
+      "url": "https://www.dreyfus.org/camille-dreyfus-teacher-scholar/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-02-04"
+      ],
+      "deadlineNote": "Announcements early May 2027. Nominations from institutions granting bachelor's degrees or higher in the chemical sciences.",
+      "region": "USA",
+      "amount": "USD 100,000 unrestricted + USD 7,500 departmental",
+      "duration": "5 years",
+      "description": "Unrestricted research grants for tenure-track faculty within the first six years of their independent academic careers in chemistry, biochemistry, materials chemistry, or chemical engineering, working in PhD-granting departments."
     }
   ]
 }
