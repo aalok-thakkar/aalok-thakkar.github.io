@@ -195,6 +195,12 @@ img {
   display: block;
 }
 
+/* Images tagged .center sit centered in their column (images are block-level). */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 figcaption {
   text-align: center;
   font-size: 0.85em;

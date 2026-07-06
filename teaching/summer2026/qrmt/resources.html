@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+ 	<head>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aalok Thakkar</title>
+
+    <link rel="icon" href="data:,">
+ 		<link rel="stylesheet" href="/webpage_files/style.css" type="text/css" media="screen">
+
+ 	</head>
+
+ 	<body>
+
+        <div id="content" class="single-wide">
+
+ 			<h1>
+ 				Quantitative Reasoning and Mathematical Thinking
+ 			</h1>
+
+ 			<div class="entry">
+
+                <div style="text-align: center;">
+                    <h3>Resources and Reading Materials:</h3><br>
+                    <img src="./ramanujan.png" style="width: 350px;" class="center">
+                    <figcaption>
+                        <font size="-1">Ramanujan&rsquo;s geometric approximation for squaring the circle</font>
+                    </figcaption>
+                </div>
+
+                <p>
+                    Reading materials for each seminar are listed on the <a href="./lectures.html">course outline</a>. Additional resources will be posted here as the course progresses.
+                </p>
+
+            </div>
+			<p style="text-align: center;">
+                back to <a href="./index.html"><u>course</u></a>
+              </p>
+        </div>
+
+			  <div id="footer"></div>
+
+			  <script>
+				fetch("/webpage_files/footer.html")
+				  .then(response => response.text())
+				  .then(data => {
+					document.getElementById('footer').innerHTML = data;
+				  });
+				</script>
+			</body>
+
+		  </html>
