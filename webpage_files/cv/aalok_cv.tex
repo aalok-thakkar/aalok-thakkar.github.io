@@ -1,8 +1,6 @@
 % =============================================================
-% Aalok Thakkar - Curriculum Vitae (minimal academic version)
+% Aalok Thakkar - Curriculum Vitae (complete academic version)
 % Compile with: pdflatex aalok_cv.tex (twice for headers).
-% Format adapted from a Pei-Wu-style academic CV (running page
-% header, small-caps section labels, two-column hanging entries).
 % =============================================================
 \documentclass[11pt,letterpaper]{article}
 
@@ -14,6 +12,21 @@
 \usepackage{fancyhdr}
 \usepackage{xcolor}
 \usepackage{array}
+\usepackage{etoolbox}
+% Minimal \needspace{HEIGHT} replacement: force a page break if the
+% remaining page height is smaller than HEIGHT.
+\makeatletter
+\newcommand{\needspace}[1]{%
+  \begingroup
+  \setlength{\@tempdima}{#1}%
+  \ifdim\pagegoal=\maxdimen\else
+    \dimen@=\pagegoal
+    \advance\dimen@ by -\pagetotal
+    \ifdim\dimen@<\@tempdima\break\fi
+  \fi
+  \endgroup
+}
+\makeatother
 \usepackage{hyperref}
 \usepackage{parskip}
 
@@ -35,7 +48,6 @@
 \fancyfoot[C]{\small\thepage}
 
 % ---------------- Section headings -----------------------
-% Replace \section's formatting without titlesec.
 \makeatletter
 \renewcommand{\section}{\@startsection{section}{1}{0pt}%
   {1.6em}%      space before
@@ -43,15 +55,20 @@
   {\normalfont\large\bfseries}%
 }
 \makeatother
-% Append a rule under each section title via \cvsection wrapper.
+% Section title with rule; refuses to appear near the bottom of a page.
 \newcommand{\cvsection}[1]{%
+  \needspace{6\baselineskip}%
   \section*{#1}\vspace{-0.6em}\noindent\rule{\linewidth}{0.4pt}\vspace{0.2em}\par
 }
-% Lighter sub-heading
-\newcommand{\cvsubsection}[1]{\vspace{0.5em}\noindent{\normalsize\itshape #1}\par\vspace{0.2em}}
+% Lighter sub-heading; also avoids orphaning above a page break.
+\newcommand{\cvsubsection}[1]{%
+  \needspace{5\baselineskip}%
+  \vspace{0.5em}\noindent{\normalsize\itshape #1}\par\vspace{0.2em}%
+}
 
 % ---------------- Two-column entry helper ----------------
 % Usage: \entry{LEFT DATE COLUMN}{RIGHT CONTENT}
+% The two minipages keep the row atomic across page breaks.
 \newcommand{\entry}[2]{%
   \noindent
   \begin{minipage}[t]{0.18\linewidth}\raggedright\small\textsc{#1}\end{minipage}%
@@ -59,11 +76,15 @@
   \begin{minipage}[t]{0.78\linewidth}#2\end{minipage}\par\vspace{0.6em}
 }
 
-% Publication entry: title, authors, venue.
+% Publication entry: title, authors, venue. Wrapped in a minipage
+% so a single entry cannot split across pages.
 \newcommand{\pub}[3]{%
-  \noindent\textbf{#1}\\
-  \small #2\\
-  \itshape #3\par\vspace{0.5em}
+  \par\vspace{0.25em}%
+  \noindent\begin{minipage}{\linewidth}%
+    \textbf{#1}\\
+    \ifstrempty{#2}{}{\small #2\\}%
+    \itshape #3
+  \end{minipage}\par\vspace{0.15em}%
 }
 
 % =============================================================
@@ -92,9 +113,13 @@
   B.Sc.~(Honours), Mathematics and Computer Science}
 
 % ---------------- Publications ---------------------------
-\cvsection{Selected Publications}
+\cvsection{Publications}
 
 \cvsubsection{Conference Publications}
+
+\pub{A Forced-Structure Reduction and Verifiable Bounds for Conway's 99-Graph}
+  {}
+  {Conference For AI Scientists (CAISc 2026)}
 
 \pub{A Correctness-First Introduction to Computer Science}
   {with Vaani Goenka}
@@ -103,6 +128,26 @@
 \pub{A Good Rubber Duck Does Not Quack}
   {with Ayush Thonge}
   {Innovation and Technology in Computer Science Education (ITiCSE 2026)}
+
+\pub{Accessibility Beyond Accommodations}
+  {with Vaanee Tripathi}
+  {ACM India Compute Conference (COMPUTE 2025)}
+
+\pub{Ancient Algorithms for Modern Curriculum}
+  {}
+  {ACM India Compute Conference (COMPUTE 2025)}
+
+\pub{BOOP: Write Right Code}
+  {with Vaani Goenka}
+  {ACM India Compute Conference (COMPUTE 2025)}
+
+\pub{SocraticAI: Transforming LLMs into Guided CS Tutors Through Scaffolded Interaction}
+  {with Karthik Sunil}
+  {ACM India Compute Conference (COMPUTE 2025)}
+
+\pub{From Transformers to Weighted Automata: Towards Verification of Large Language Models}
+  {with Smayan Agarwal, Aslah Ahmad Faizi, and Shobhit Singh}
+  {From Data to Models and Back (DATAMOD 2025)}
 
 \pub{Mobius: Synthesizing Relational Queries with Recursive and Invented Predicates}
   {with Nathaniel Sands, George Petrou, Rajeev Alur, Mayur Naik, and Mukund Raghothaman}
@@ -116,6 +161,10 @@
   {with Aaditya Naik, Nathaniel Sands, Mukund Raghothaman, Mayur Naik, and Rajeev Alur}
   {Programming Language Design and Implementation (PLDI 2021)}
 
+\pub{Additive Collatz Trajectories}
+  {with Mrunmay Jagadale}
+  {International Conference of The Jangjeon Mathematical Society (ICJMS 2016)}
+
 \cvsubsection{Journal Publications}
 
 \pub{Reopening businesses and risk of COVID-19 transmission}
@@ -126,7 +175,44 @@
   {with Thomas Chatain, Stefan Haar, Juraj Kolcak, and Loic Pauleve}
   {Natural Computing 19, 91--109 (2020)}
 
-\pub{Infinitude of Primes Using Formal Languages}{}{The American Mathematical Monthly 125:8, 745--749 (2018)}
+\pub{Infinitude of Primes Using Formal Languages}
+  {}
+  {The American Mathematical Monthly 125:8, 745--749 (2018)}
+
+\cvsubsection{Workshop Publications}
+
+\pub{Complexity of Relational Query Synthesis}
+  {with Rajeev Alur and Mayur Naik}
+  {11th Workshop on Synthesis (SYNT 2022)}
+
+\pub{Modular Synthesis of Reactive Systems}
+  {with Kedar S.~Namjoshi and Richard Trefler}
+  {9th Workshop on Synthesis (SYNT 2020)}
+
+\pub{Verification of Rewriting-based Query Optimizers}
+  {with Krishnamurthy Balaji and Piyush Gupta}
+  {16th International Workshop on Termination (WST 2018)}
+
+\cvsubsection{Pre-prints}
+
+\pub{When Does a Monoid Action Preserve Regularity?}
+  {}
+  {}
+
+\pub{Stochastic Languages at Sub-stochastic Cost}
+  {with Smayan Agarwal}
+  {}
+
+\pub{Identity Testing for Stochastic Languages}
+  {with Smayan Agarwal and Shobhit Singh}
+  {}
+
+% ---------------- Thesis ---------------------------------
+\cvsection{Thesis}
+
+\entry{2023}{%
+  \textbf{Example-Guided Synthesis of Relational Queries} \\
+  Ph.D.\ thesis, University of Pennsylvania.}
 
 % ---------------- Teaching -------------------------------
 \cvsection{Teaching}
@@ -178,5 +264,47 @@
 \entry{Memberships}{%
   Association for Computing Machinery (ACM India). \\
   Vijnana Bharati.}
+
+% ---------------- Opinion Pieces -------------------------
+\cvsection{Opinion Pieces}
+
+\pub{Your OTP isn't a one-time password any more, and that carries a security cost}
+  {}
+  {The Indian Express (2026)}
+
+\pub{Rejoinder: The retroflex, like the Marathi `na', has little to do with caste}
+  {}
+  {Scroll.in (2026)}
+
+\pub{New rules for living with intelligent machines}
+  {}
+  {Hindustan Times (2026)}
+
+\pub{Staying relevant: A professor's insights on what makes engineers more employable}
+  {}
+  {CNBC TV18 (2025)}
+
+\pub{Computer science cannot rely on jugaad for real-world reliability}
+  {}
+  {Moneycontrol (2025)}
+
+\pub{Ensuring a Level Playing Field}
+  {}
+  {Moneycontrol (2025)}
+
+% ---------------- Expositions ----------------------------
+\cvsection{Expositions}
+
+\pub{Synthesis of SQL Queries from Natural Language Descriptions}
+  {}
+  {University of Pennsylvania (2022)}
+
+\pub{Super-Spreader Businesses and Risk of COVID-19 Transmission}
+  {with Ashley L.~O'Donoghue, Tenzin Dechen, Whitney Pavlova, Michael Boals, Garba Moussa, Manvi Madan, and Frank J.~DeFalco}
+  {MIT COVID-19 Datathon (2020)}
+
+\pub{Heartbleed: A Formal Methods Perspective}
+  {}
+  {CIS 673: Computer-Aided Verification, University of Pennsylvania (2020)}
 
 \end{document}
