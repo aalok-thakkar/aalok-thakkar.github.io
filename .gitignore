@@ -13,3 +13,6 @@ webpage_files/cv/aalok_cv.pdf
 webpage_files/cv/*.aux
 webpage_files/cv/*.log
 webpage_files/cv/*.out
+
+# Personal archive (not for public display)
+NEWS-ARCHIVE.md
