@@ -4081,6 +4081,36 @@
       "amount": "USD 100,000 unrestricted + USD 7,500 departmental",
       "duration": "5 years",
       "description": "Unrestricted research grants for tenure-track faculty within the first six years of their independent academic careers in chemistry, biochemistry, materials chemistry, or chemical engineering, working in PhD-granting departments."
+    },
+    {
+      "id": "pmrf-dr-anrf-ficci",
+      "name": "Prime Minister's Fellowship for Doctoral Research (PMRF-DR)",
+      "funder": "Anusandhan National Research Foundation (ANRF) and FICCI",
+      "url": "https://pmrfdr.ficci.in/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling applications; 100 slots annually. Focus areas identified by industry and national priorities.",
+      "region": "India",
+      "amount": "INR 70,000/month (years 1-2), INR 75,000/month (year 3), INR 80,000/month (years 4-5) + INR 2 lakh/year contingency",
+      "duration": "Up to 5 years",
+      "description": "Industry-oriented doctoral fellowship in science, technology, engineering, agriculture, and medicine at reputed Indian technology and research institutions. Distinct from the standard PMRF; the Direct Route is administered by FICCI on behalf of ANRF and emphasises industry-relevant PhD research."
+    },
+    {
+      "id": "haryana-rd-scheme-2026",
+      "name": "Haryana Research and Development Scheme (2026-27)",
+      "funder": "Directorate of Higher Education, Government of Haryana",
+      "url": "https://dst.highereduhry.ac.in/student_RDP",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Call for the 2026-27 financial year is open. Deadline announced via press advertisement on the directorate portal; submissions online via the Head of Institution.",
+      "region": "Haryana, India",
+      "amount": "Up to INR 50 lakh per project",
+      "duration": "Up to 3 years",
+      "description": "State R&D grant for regular faculty at recognised Higher Education Institutions in Haryana. Prefers problem-oriented S&T research aimed at socio-economic development of the state - rural livelihoods, local resources, artisan skills, and need-based applied R&D."
     }
   ]
 }
