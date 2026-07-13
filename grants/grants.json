@@ -4111,6 +4111,160 @@
       "amount": "Up to INR 50 lakh per project",
       "duration": "Up to 3 years",
       "description": "State R&D grant for regular faculty at recognised Higher Education Institutions in Haryana. Prefers problem-oriented S&T research aimed at socio-economic development of the state - rural livelihoods, local resources, artisan skills, and need-based applied R&D."
+    },
+    {
+      "id": "leverhulme-early-career-fellowships",
+      "name": "Leverhulme Trust Early Career Fellowships",
+      "funder": "The Leverhulme Trust",
+      "url": "https://www.leverhulme.ac.uk/research-fellowships",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; 2026 round closed 19 February 2026. Next Trust deadline expected February 2027; institutional expressions of interest typically close late November-December.",
+      "region": "United Kingdom (host institutions)",
+      "amount": "Salary contribution up to GBP 56,000 (year 1); 50% of salary up to GBP 28,000 in years 2-3",
+      "duration": "3 years",
+      "description": "~145 fellowships annually across all disciplines including sciences, engineering, and mathematics. Trust contributes salary; host institution provides the balance. Applicants must be within 4 years of PhD (with allowances). Fellowships commence between September and May."
+    },
+    {
+      "id": "royal-society-newton-international",
+      "name": "Royal Society Newton International Fellowships",
+      "funder": "The Royal Society",
+      "url": "https://royalsociety.org/grants/newton-international/",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; 2026 round closed 11 March 2026. Next call typically opens mid-January with an early-March deadline; institutional internal deadlines run earlier.",
+      "region": "United Kingdom (host institutions); applicants global",
+      "amount": "Up to GBP 280,000",
+      "duration": "2 years",
+      "description": "Postdoctoral fellowships for early-career, non-UK-based researchers in the natural, physical and social sciences to conduct research at UK host institutions. Eligibility rules and sponsor limits changed from the 2026 round."
+    },
+    {
+      "id": "humboldt-research-fellowship-postdoc",
+      "name": "Alexander von Humboldt Research Fellowship for Postdoctoral Researchers",
+      "funder": "Alexander von Humboldt Foundation",
+      "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling with three selection meetings per year (March, July, November). Applications close ~8 months before each meeting, or earlier if the 800-application cap is reached.",
+      "region": "Germany (host); applicants global",
+      "amount": "EUR 3,170/month (postdoc) or EUR 3,770/month (experienced researcher) + allowances",
+      "duration": "6-24 months",
+      "description": "Long-term Humboldt fellowship for researchers from any country and any discipline (natural sciences, engineering, humanities) to conduct long-term research in Germany hosted by a collaborator of their choice. Experienced Researcher variant available for those up to 12 years post-PhD."
+    },
+    {
+      "id": "nasa-postdoctoral-program",
+      "name": "NASA Postdoctoral Program (NPP)",
+      "funder": "NASA / ORAU",
+      "url": "https://npp.orau.org/",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-11-01"
+      ],
+      "deadlineNote": "Three annual deadlines: 1 March, 1 July, and 1 November. Closes at 6:00 PM US ET. Three letters of recommendation and transcripts (for Postdoctoral Fellow tier) must arrive by the deadline.",
+      "region": "United States (host NASA centres); applicants US and international",
+      "amount": "USD 82,500+ stipend (varies by centre) + relocation and health allowances",
+      "duration": "1-3 years",
+      "description": "Fellowships hosted at NASA centres to advance NASA's missions across Earth science, planetary science, heliophysics, astrophysics, biological and physical sciences, aeronautics, human exploration, space operations, space technology, and astrobiology. PhD in hand before start (may apply while finishing)."
+    },
+    {
+      "id": "dfg-emmy-noether",
+      "name": "DFG Emmy Noether Programme",
+      "funder": "Deutsche Forschungsgemeinschaft (DFG)",
+      "url": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/emmy-noether",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling submissions; proposals accepted anytime. Occasional themed calls (e.g. Methods in AI, June 2026) run alongside.",
+      "region": "Germany",
+      "amount": "Own position + research group budget",
+      "duration": "6 years",
+      "description": "Enables exceptionally qualified early-career researchers to qualify for a professorship by leading an independent junior research group. Open to postdocs and junior professors with temporary contracts across all disciplines."
+    },
+    {
+      "id": "dfg-walter-benjamin",
+      "name": "DFG Walter Benjamin Programme",
+      "funder": "Deutsche Forschungsgemeinschaft (DFG)",
+      "url": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/walter-benjamin",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling submissions; proposals accepted anytime.",
+      "region": "Germany or abroad (with return module)",
+      "amount": "Postdoc salary + research allowance",
+      "duration": "Up to 2 years",
+      "description": "Postdoctoral fellowship enabling researchers to independently conduct a project at a research institution of their choice in Germany or abroad. Return module supports subsequent re-integration into the German research system."
+    },
+    {
+      "id": "cottrell-scholar-award-2028",
+      "name": "Cottrell Scholar Award",
+      "funder": "Research Corporation for Science Advancement (RCSA)",
+      "url": "https://rescorp.org/cottrell-scholars/cottrell-scholar-award/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-07-01"
+      ],
+      "deadlineNote": "Annual cycle closes 1 July; portal opens ~April. 2027 cycle closed 1 July 2026 (2027 awards announced Feb 2027). Next application window: April-July 2027 for the 2028 cohort. Eligibility keyed to first faculty appointment year.",
+      "region": "United States and Canada",
+      "amount": "USD 120,000",
+      "duration": "3 years",
+      "description": "Awards to third-year tenure-track faculty in chemistry, physics, and astronomy for integrated programmes of research and academic leadership. Prior awardees are eligible for follow-on SEED, STAR, and IMPACT awards."
+    },
+    {
+      "id": "indiaai-fellowship-phd",
+      "name": "IndiaAI Fellowship (PhD)",
+      "funder": "IndiaAI Mission, Ministry of Electronics and Information Technology (MeitY)",
+      "url": "https://fellowship.indiaai.gov.in/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; 2026 round closed 28 February 2026. 100 PhD fellowships per year. Next call expected early 2027. Also supports UG (INR 1 lakh) and PG (M.Tech) tiers.",
+      "region": "India (top-50 NIRF ranked research institutes)",
+      "amount": "INR 70,000/month (years 1-2), INR 75,000/month (year 3), INR 80,000/month (years 4-5) + INR 2 lakh/year research grant",
+      "duration": "Up to 5 years",
+      "description": "PhD fellowship for full-time scholars researching Artificial Intelligence at India's top NIRF-ranked institutions. Structured to bridge theoretical AI research and practical applications, aligned with IndiaAI Mission priorities."
+    },
+    {
+      "id": "fens-ibro-perc-exchange-fellowships",
+      "name": "FENS/IBRO-PERC Exchange Fellowships",
+      "funder": "FENS and IBRO (Pan-European Regional Committee)",
+      "url": "https://ibro.org/grants/grants-calendar/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-10-15"
+      ],
+      "deadlineNote": "For applicants based in Europe. Supports laboratory visits to other European neuroscience labs.",
+      "region": "Europe",
+      "description": "Exchange fellowship supporting PhD students and early-career postdoctoral researchers in neuroscience to visit host laboratories elsewhere in Europe for training and collaboration. Companion to the global IBRO Exchange Fellowships."
+    },
+    {
+      "id": "wadhwani-ai-for-all-fellowship",
+      "name": "Wadhwani AI - AI for All Research Fellowship",
+      "funder": "Wadhwani Institute for Artificial Intelligence",
+      "url": "https://www.wadhwaniai.org/careers/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling; apply via email to careers@wadhwaniai.org with CV and short statement of interest. Technical assessment and interview follow.",
+      "region": "India",
+      "description": "Research fellowship for recent or graduating undergraduate (BTech/BE/BS) and Master's (MTech/ME/MS) students to work on AI systems for societal-scale problems in under-resourced settings - healthcare, agriculture, education, and public infrastructure - across India and globally."
     }
   ]
 }
