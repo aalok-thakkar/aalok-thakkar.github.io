@@ -4152,9 +4152,9 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Rolling with three selection meetings per year (March, July, November). Applications close ~8 months before each meeting, or earlier if the 800-application cap is reached.",
+      "deadlineNote": "Rolling with three selection meetings per year (March, July, November). Application windows open 15 March, 15 July, and 15 November each year; the 800-application cap can close a window early.",
       "region": "Germany (host); applicants global",
-      "amount": "EUR 3,170/month (postdoc) or EUR 3,770/month (experienced researcher) + allowances",
+      "amount": "EUR 3,000/month (postdoc) or EUR 3,600/month (experienced researcher) + allowances",
       "duration": "6-24 months",
       "description": "Long-term Humboldt fellowship for researchers from any country and any discipline (natural sciences, engineering, humanities) to conduct long-term research in Germany hosted by a collaborator of their choice. Experienced Researcher variant available for those up to 12 years post-PhD."
     },
@@ -4265,6 +4265,79 @@
       "deadlineNote": "Rolling; apply via email to careers@wadhwaniai.org with CV and short statement of interest. Technical assessment and interview follow.",
       "region": "India",
       "description": "Research fellowship for recent or graduating undergraduate (BTech/BE/BS) and Master's (MTech/ME/MS) students to work on AI systems for societal-scale problems in under-resourced settings - healthcare, agriculture, education, and public infrastructure - across India and globally."
+    },
+    {
+      "id": "la-caixa-junior-leader-retaining",
+      "name": "La Caixa Postdoctoral Junior Leader Fellowships - Retaining",
+      "funder": "\"la Caixa\" Foundation",
+      "url": "https://lacaixafoundation.org/en/postdoctoral-junior-leader-fellowships-retaining-call",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; 2026 Retaining call closed 25 September 2025. Next call expected mid-2026 for 2027. 20 fellowships per year.",
+      "region": "Spain / Portugal",
+      "amount": "Up to EUR 320,100",
+      "duration": "3 years",
+      "description": "Postdoctoral fellowship to carry out a research project at any university or research centre in Spain or Portugal. STEM disciplines. Candidates must have been awarded a PhD 2-7 years before the deadline. Companion Incoming call funds work at Severo Ochoa / Maria de Maeztu / Carlos III / FCT-accredited centres."
+    },
+    {
+      "id": "la-caixa-junior-leader-incoming",
+      "name": "La Caixa Postdoctoral Junior Leader Fellowships - Incoming",
+      "funder": "\"la Caixa\" Foundation",
+      "url": "https://lacaixafoundation.org/en/postdoctoral-junior-leader-fellowships-incoming-call",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual Incoming cycle; deadline typically early February. 20 fellowships per year.",
+      "region": "Spain / Portugal (excellence-accredited centres)",
+      "amount": "Up to EUR 320,100",
+      "duration": "3 years",
+      "description": "Postdoctoral fellowship to conduct research at Spanish centres accredited by the Severo Ochoa, Maria de Maeztu, or Carlos III Health Institute excellence seals, or Portuguese centres accredited by FCT. STEM disciplines. Candidates must have PhD awarded 2-7 years before the deadline."
+    },
+    {
+      "id": "czi-ai-gpu-compute-2026",
+      "name": "CZI Accelerating Biological Sciences via AI - GPU Compute Allocations",
+      "funder": "Chan Zuckerberg Initiative",
+      "url": "https://chanzuckerberg.com/rfa/ai-computing-gpu/",
+      "audience": [
+        "faculty",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2026 cycle closed 18 June 2026. Program provides access to CZI's 1,024 NVIDIA H100 DGX SuperPOD cluster; next RFA expected 2027.",
+      "region": "Global",
+      "amount": "GPU-hours on CZI's H100 cluster (no cash grant)",
+      "duration": "Project-based",
+      "description": "RFA for large-scale AI/ML models in biological sciences that cannot be built with conventional university compute. Provides allocations on CZI's NVIDIA DGX SuperPOD (1,024 H100 GPUs) with VAST fast storage."
+    },
+    {
+      "id": "ibro-exchange-fellowships",
+      "name": "IBRO Exchange Fellowships",
+      "funder": "International Brain Research Organization",
+      "url": "https://ibro.smapply.org/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual global cycle; 2026 round closed 15 April 2026 with 20 fellows selected. Next call expected early 2027.",
+      "region": "Global (outside applicant's home region)",
+      "description": "Fellowships for PhD students and early-career postdoctoral neuroscientists to conduct laboratory visits internationally for training, collaboration, and access to techniques. Complementary regional variants include the FENS/IBRO-PERC exchange for European-based applicants."
+    },
+    {
+      "id": "rgstc-maharashtra",
+      "name": "RGSTC Assistance to Innovative S&T Applications",
+      "funder": "Rajiv Gandhi Science & Technology Commission, Government of Maharashtra",
+      "url": "https://rgstc.maharashtra.gov.in/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling; proposals invited through host institutions in Maharashtra. Also runs the CPIITA scheme (Collaborative Projects between Institutions and Industries for Technology Development/Adoption).",
+      "region": "Maharashtra, India",
+      "description": "State S&T grants for innovative applications of science and technology aimed at socio-economic development of Maharashtra. Open to R&D institutions, universities, and colleges in the state. CPIITA scheme supports academia-industry collaborative technology development/adoption."
     }
   ]
 }
