@@ -4338,6 +4338,24 @@
       "deadlineNote": "Rolling; proposals invited through host institutions in Maharashtra. Also runs the CPIITA scheme (Collaborative Projects between Institutions and Industries for Technology Development/Adoption).",
       "region": "Maharashtra, India",
       "description": "State S&T grants for innovative applications of science and technology aimed at socio-economic development of Maharashtra. Open to R&D institutions, universities, and colleges in the state. CPIITA scheme supports academia-industry collaborative technology development/adoption."
+    },
+    {
+      "id": "bharat-life-sciences-awards-2026",
+      "name": "Bharat Life Sciences Awards 2026",
+      "funder": "Bharat Life Sciences Awards (inaugural edition)",
+      "url": "https://bharatlifesciencesawards.com/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-08-10"
+      ],
+      "deadlineNote": "Applications open 1 July - 10 August 2026; no application fee. Inaugural ceremony 1 October 2026, New Delhi.",
+      "region": "India",
+      "amount": "INR 7 crore total grant pool across six categories",
+      "description": "Awards recognising excellence in healthcare and life sciences across two streams: Samman (Grants) - Ramanujan Arogya Udaan (Young Scientist), Charaka (Innovation for Unmet Patient Needs), Sushruta (Translational and Clinical Advancement), Nalanda (Institute of Scientific Excellence); and Gaurav (Recognition) - Jivaka (Healthcare/Life Sciences Startup Innovator) and Sarabhai (Promoting Scientific Ecosystem in India). Open to researchers, scientists, public research institutions, universities, and private-sector innovators."
     }
   ]
 }
