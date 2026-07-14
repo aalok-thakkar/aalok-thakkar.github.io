@@ -4356,6 +4356,178 @@
       "region": "India",
       "amount": "INR 7 crore total grant pool across six categories",
       "description": "Awards recognising excellence in healthcare and life sciences across two streams: Samman (Grants) - Ramanujan Arogya Udaan (Young Scientist), Charaka (Innovation for Unmet Patient Needs), Sushruta (Translational and Clinical Advancement), Nalanda (Institute of Scientific Excellence); and Gaurav (Recognition) - Jivaka (Healthcare/Life Sciences Startup Innovator) and Sarabhai (Promoting Scientific Ecosystem in India). Open to researchers, scientists, public research institutions, universities, and private-sector innovators."
+    },
+    {
+      "id": "tinker-research-teaching-grants",
+      "name": "Tinker Research and Teaching Grants",
+      "funder": "Thinking Machines Lab",
+      "url": "https://thinkingmachines.ai/news/tinker-research-and-teaching-grants/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling; applications assessed within a week. Teaching Grants provide $250 in Tinker credits per student for academic classes.",
+      "region": "Global",
+      "amount": "Research Grants from USD 5,000 in Tinker credits/funding; Teaching Grants USD 250/student",
+      "description": "Grants for researchers, students, and instructors whose work involves training or teaching with open-weight LLMs via Tinker. Recent recipients include fine-tuning small-molecule chemistry models (Grant Rotskoff, Stanford) and CMU Deep RL coursework (Aviral Kumar, Katerina Fragkiadaki)."
+    },
+    {
+      "id": "tinker-interactivity-research-grants",
+      "name": "Interactivity Research Grants",
+      "funder": "Thinking Machines Lab",
+      "url": "https://thinkingmachines.ai/news/interactivity-research-grants/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2026 cycle closed 19 June 2026. Next call TBD.",
+      "region": "Global",
+      "amount": "USD 100,000 + USD 25,000 in Tinker credits per award",
+      "description": "Multi-award RFP on human-AI interactivity. Four focus areas: real-time multimodal interaction evaluations, safety for multimodal systems, generative UI for explaining complex information, and human steering of agents during extended tasks. Also accepts proposals on any topic advancing interactivity in AI."
+    },
+    {
+      "id": "emergent-ventures",
+      "name": "Emergent Ventures",
+      "funder": "Mercatus Center at George Mason University",
+      "url": "https://www.mercatus.org/emergent-ventures",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling. Dedicated verticals for India (led by Shruti Rajagopalan), Africa & Caribbean, Ukraine, AI, and talent identification. Ages 13+.",
+      "region": "Global (with India, Africa/Caribbean, Ukraine, AI verticals)",
+      "amount": "Flexible; from modest sums to substantial awards",
+      "description": "Low-overhead fellowship and grant program for entrepreneurs and researchers pursuing highly scalable 'zero to one' ideas including scientific research, deep tech, AI, biotech, and metascience. No application fee; no strings attached."
+    },
+    {
+      "id": "acx-grants",
+      "name": "ACX Grants",
+      "funder": "Astral Codex Ten (Scott Alexander) via Manifund",
+      "url": "https://www.astralcodexten.com/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Round-based; next round expected late 2026 or early 2027. Application starts with an expression of interest (<=500 words).",
+      "region": "Global",
+      "amount": "Typically USD 5,000-50,000; rare grants up to USD 100,000; ~USD 1 million total per round",
+      "description": "Microgrants for charitable or scientific projects surfaced through the Astral Codex Ten community. Prior rounds funded biomedical research, AI safety, biosecurity, forecasting, and metascience. Administered by Manifund."
+    },
+    {
+      "id": "gradcapital-atomic-fellowship",
+      "name": "gradCapital Atomic Fellowship",
+      "funder": "gradCapital",
+      "url": "https://www.gradcapital.in/atomicfellow",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling; no strings attached. Follow-on investment of USD 40K-100K possible.",
+      "region": "India (primary); global considered",
+      "amount": "USD 4,000-5,000 (no-strings) + potential follow-on",
+      "description": "Micro-grant for students pursuing independent science and engineering projects outside traditional academic constraints. Engineering-heavy ideas with real-world potential are prioritised."
+    },
+    {
+      "id": "bambu-lab-lets-make-it-fund",
+      "name": "Bambu Lab Let's Make It Fund",
+      "funder": "Bambu Lab",
+      "url": "https://bambulab.com/en-us/letsmakeitfund",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling; two to five projects selected per quarter. Age 18+ (or age of majority in home jurisdiction). No requirement to own a Bambu Lab printer.",
+      "region": "Global",
+      "amount": "From a few thousand USD up to USD 300,000",
+      "description": "Grants for ambitious maker projects across hardware, engineering, education, and open manufacturing. Evaluated on originality, positive impact, and feasibility. Includes financial support plus technical guidance and promotion."
+    },
+    {
+      "id": "1517-medici-grants",
+      "name": "1517 Medici Grants",
+      "funder": "1517 Fund",
+      "url": "https://www.1517fund.com/medici",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling; apply via a five-minute Loom video. No-strings-attached (no IP/equity claims). Currently North America only.",
+      "region": "North America",
+      "amount": "Minimum USD 1,000 stipend",
+      "description": "Microgrants for high school students, college students, dropouts, and 'renegade' deep-tech scientists pursuing science, engineering, mathematics, or heretical technical passion projects outside academic credit."
+    },
+    {
+      "id": "oshaughnessy-fellowships",
+      "name": "O'Shaughnessy Fellowships & Grants",
+      "funder": "O'Shaughnessy Ventures",
+      "url": "https://www.osv.llc/fellowships",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-04-30"
+      ],
+      "deadlineNote": "2026 cycle closed 30 April 2026; decisions by 1 June 2026. 10 Fellowships plus 20+ runner-up Grants per year. Rolling review favours earlier submissions.",
+      "region": "Global (remote-friendly)",
+      "amount": "USD 100,000 (Fellowship, 10 per year) or USD 10,000+ (Grant, 20+ per year)",
+      "duration": "12 months",
+      "description": "Equity-free, IP-free, one-year fellowship for researchers, builders, and creatives across science, engineering, and adjacent fields. Requires 40-60 hours/week commitment. No education/nationality requirements."
+    },
+    {
+      "id": "alive-prize",
+      "name": "Alive Prize",
+      "funder": "Alive Prize (partners include Solcoa Industries, Shinkei Systems, Splunk founders)",
+      "url": "https://aliveprize.com/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual; deadline 1 May. 10-minute application; decisions in 2 weeks.",
+      "region": "Global",
+      "amount": "USD 100,000 (uncapped)",
+      "description": "Grant for young people (high school through PhD, including dropouts) building projects that push humanity forward. Past recipients have worked on human brain organoids for Alzheimer's research, extreme-heat resilience, and stable antibody design."
+    },
+    {
+      "id": "thiel-fellowship",
+      "name": "Thiel Fellowship",
+      "funder": "Thiel Foundation",
+      "url": "https://thielfellowship.org/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling annual applications; two-year program. Age 22 or younger; must drop out or defer college to accept.",
+      "region": "Global",
+      "amount": "USD 250,000 over two years (raised from USD 100,000 for the 2026 class)",
+      "duration": "2 years",
+      "description": "Two-year fellowship for young founders building deep tech, science, AI, biotech, and hardware companies instead of continuing formal education. Alumni include founders of Anthropic, Figma, and Ethereum."
+    },
+    {
+      "id": "776-fellowship",
+      "name": "776 Fellowship",
+      "funder": "776 Foundation (Alexis Ohanian)",
+      "url": "https://776.org/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; deadline typically mid-April. Ages 18-24; must dedicate full-time to climate-focused work.",
+      "region": "Global",
+      "amount": "Up to USD 100,000 over two years",
+      "duration": "2 years",
+      "description": "Fellowship for young people building solutions to climate change and environmental issues - clean tech, adaptation, resilience, and sustainability. Includes access to the 776 network of entrepreneurs and investors."
     }
   ]
 }
