@@ -444,11 +444,22 @@ details.news-archive > summary:hover { color: var(--text); }
   margin: 0 0 var(--sp-6);
 }
 .grants-footnote {
-  margin-top: var(--sp-12);
+  margin-top: var(--sp-6);
   font-size: 0.85em;
   color: var(--text-muted);
   font-style: italic;
 }
+.grants-cta {
+  margin: var(--sp-12) 0 var(--sp-4);
+  padding: var(--sp-4) var(--sp-6);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  background: var(--accent-tint);
+  border-radius: var(--radius-sm);
+  font-size: 0.95em;
+  color: var(--text);
+}
+.grants-cta strong { color: var(--text); }
 
 /* Tabs ----------------------------------------------------------------- */
 .tabs {

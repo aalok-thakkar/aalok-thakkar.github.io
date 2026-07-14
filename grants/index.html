@@ -39,6 +39,7 @@
         <button class="tab" role="tab" aria-selected="false" data-filter="postdocs">Postdocs</button>
         <button class="tab" role="tab" aria-selected="false" data-filter="faculty">Faculty</button>
         <button class="tab" role="tab" aria-selected="false" data-filter="hackathons">Hackathons</button>
+        <button class="tab" role="tab" aria-selected="false" data-filter="rolling">Always open</button>
       </div>
 
       <section class="cal-section" aria-label="Deadline calendar">
@@ -70,6 +71,13 @@
         <div id="rolling-list" class="grant-list"></div>
       </section>
 
+      <aside class="grants-cta" role="note">
+        <strong>Missing a grant?</strong> If you know of a science grant,
+        fellowship, or award that belongs here &mdash; or spot an expired or
+        incorrect entry &mdash; write to
+        <a href="mailto:thakkar@ashoka.edu.in">thakkar@ashoka.edu.in</a>.
+      </aside>
+
       <p class="grants-footnote">
         This page is community-maintained. Inclusion is not an endorsement; check
         each funder&rsquo;s site for the current deadline and eligibility before
@@ -85,6 +93,6 @@
           document.getElementById('footer').innerHTML = data;
         });
     </script>
-    <script src="./grants.js?v=6"></script>
+    <script src="./grants.js?v=7"></script>
   </body>
 </html>

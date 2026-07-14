@@ -51,10 +51,14 @@
 
   // -------- data shaping --------
   function isHackathon(grant) { return grant.type === 'hackathon'; }
+  function isRolling(grant) {
+    return !Array.isArray(grant.deadlines) || grant.deadlines.length === 0;
+  }
   function filterMatch(grant) {
     const f = state.filter;
     if (f === 'all') return true;
     if (f === 'hackathons') return isHackathon(grant);
+    if (f === 'rolling') return isRolling(grant);
     // Audience tabs exclude hackathons.
     if (isHackathon(grant)) return false;
     return Array.isArray(grant.audience) && grant.audience.includes(f);
@@ -193,7 +197,9 @@
       date.getFullYear() === state.year && date.getMonth() === state.month
     );
     if (!items.length) {
-      host.innerHTML = '<p class="grants-empty">No deadlines this month for the selected audience.</p>';
+      host.innerHTML = state.filter === 'rolling'
+        ? '<p class="grants-empty">Rolling grants have no fixed date &mdash; see the list below.</p>'
+        : '<p class="grants-empty">No deadlines this month for the selected audience.</p>';
       return;
     }
     host.innerHTML = items.map(({ grant, date }) => grantCard(grant, date, 'month')).join('');
@@ -203,7 +209,9 @@
     const host = document.getElementById('upcoming-list');
     const items = expandedDeadlines(false).slice(0, 30);
     if (!items.length) {
-      host.innerHTML = '<p class="grants-empty">No upcoming fixed deadlines for the selected audience.</p>';
+      host.innerHTML = state.filter === 'rolling'
+        ? '<p class="grants-empty">Rolling grants have no fixed date &mdash; see the list below.</p>'
+        : '<p class="grants-empty">No upcoming fixed deadlines for the selected audience.</p>';
       return;
     }
     host.innerHTML = items.map(({ grant, date }) => grantCard(grant, date, 'upcoming')).join('');
