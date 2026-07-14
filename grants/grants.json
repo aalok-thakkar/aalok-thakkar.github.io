@@ -4262,7 +4262,7 @@
         "students"
       ],
       "deadlines": [],
-      "deadlineNote": "Rolling; apply via email to careers@wadhwaniai.org with CV and short statement of interest. Technical assessment and interview follow.",
+      "deadlineNote": "Historically rolling: applications go to careers@wadhwaniai.org with the subject 'Application: AI for All Research Fellowship Program'. Program not currently featured on the main careers page - check for open cycles before applying.",
       "region": "India",
       "description": "Research fellowship for recent or graduating undergraduate (BTech/BE/BS) and Master's (MTech/ME/MS) students to work on AI systems for societal-scale problems in under-resourced settings - healthcare, agriculture, education, and public infrastructure - across India and globally."
     },
@@ -4545,6 +4545,157 @@
       "region": "Global",
       "amount": "USD 10M-30M program pool; per-grant USD <100K to USD 10M",
       "description": "Funds research, policy, implementation, field-building, institutions, and infrastructure to help ensure transformative AI improves human health and wellbeing, with particular attention to risks for and benefits to the global poor. Distinct from 'AI for good' projects that just apply AI as a tool - this RFP targets the larger implications of AI transforming the world."
+    },
+    {
+      "id": "darpa-yfa",
+      "name": "DARPA Young Faculty Award (YFA)",
+      "funder": "Defense Advanced Research Projects Agency (DARPA)",
+      "url": "https://www.darpa.mil/work-with-us/communities/academia/young-faculty-award",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; 2026 executive summaries were due 15 October 2025, full proposals 20 January 2026. Next (2027) research announcement typically posted to grants.gov / sam.gov in August-September 2026.",
+      "region": "United States",
+      "amount": "Up to USD 500,000 base (24 months) + up to USD 500,000 option (12 months)",
+      "duration": "24 + 12 months",
+      "description": "Identifies rising junior faculty in academia and non-profit research institutions (particularly those without prior DARPA funding) and exposes them to DoD needs. Broad technical scope including AI, autonomy, cybersecurity, biosecurity, quantum, and emerging computing."
+    },
+    {
+      "id": "cohere-labs-scholars-program",
+      "name": "Cohere Labs Scholars Program",
+      "funder": "Cohere Labs (formerly Cohere For AI)",
+      "url": "https://cohere.com/research/scholars-program",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-08-29"
+      ],
+      "deadlineNote": "Applications open annually in August; 2026 cycle closes 29 August 2026. Program starts January and runs 8 months. Remote-first, full-time paid.",
+      "region": "Global (remote)",
+      "duration": "8 months",
+      "description": "Paid research residency for emerging researchers in NLP and machine learning. Targets candidates with strong engineering skills and creative thinking but limited or no prior publication experience. No previous research experience required."
+    },
+    {
+      "id": "cohere-labs-catalyst-grants",
+      "name": "Cohere Labs Catalyst Grants",
+      "funder": "Cohere Labs (formerly Cohere For AI)",
+      "url": "https://cohere.com/research/grants",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling. Grants provide API access to Cohere models rather than cash.",
+      "region": "Global",
+      "amount": "API credits to Cohere models",
+      "description": "API-access grants for academic partners, civic organisations, and public-impact groups. Focus areas: language model safety, prosocial LM applications (education, climate science, content moderation, healthcare, law, history, social science), and language model capabilities."
+    },
+    {
+      "id": "turing-ai-global-fellowships",
+      "name": "Turing AI Global Fellowships",
+      "funder": "The Alan Turing Institute / UKRI EPSRC",
+      "url": "https://www.ukri.org/opportunity/turing-ai-global-fellowships/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2026 round closed 12 March 2026 (fellowships start 1 February 2027). Annual cycle; next call typically opens November for a March deadline.",
+      "region": "United Kingdom (host institutions); applicants global",
+      "amount": "Up to GBP 4.5 million per award + up to 1,000,000 GPU hours per fellow via UK AI Research Resource (AIRR)",
+      "duration": "Up to 5 years",
+      "description": "Fellowship for exceptional, world-class AI experts based outside the UK - either established international leaders or those with outstanding potential - to relocate to a UK host institution. Part of the GBP 46 million Turing AI Fellowships programme."
+    },
+    {
+      "id": "vector-distinguished-postdoc",
+      "name": "Vector Distinguished Postdoctoral Fellows",
+      "funder": "Vector Institute for Artificial Intelligence",
+      "url": "https://vectorinstitute.ai/research-talent/research-opportunities/vector-postdoctoral-fellows/",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling. Standard term 1-2 years with possible extension to 3.",
+      "region": "Canada (Toronto)",
+      "duration": "1-3 years",
+      "description": "Postdoctoral fellowship at Vector Institute for fundamental machine-learning and deep-learning research (theory and applications). Fellows propose independent research and collaborate with 1-2 of Vector's 45+ ML/DL faculty; can engage in teaching, mentoring, and entrepreneurial activities."
+    },
+    {
+      "id": "simons-investigators",
+      "name": "Simons Investigators (Mathematics, Physics, Astrophysics, Computer Science)",
+      "funder": "Simons Foundation",
+      "url": "https://www.simonsfoundation.org/funding-opportunities/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual nominations cycle; institutional internal deadlines typically September, Foundation deadline early autumn. Nomination only - contact your institution's limited-submissions office.",
+      "region": "USA, Canada, UK, Ireland (tenured faculty)",
+      "duration": "5 years (renewable for 5 more)",
+      "description": "Provides stable long-term support for outstanding theoretical mid-career scientists in mathematics, physics, astrophysics, and theoretical computer science. Nominees must be mid-career tenured faculty in a PhD-granting department who have not previously been Simons Investigators."
+    },
+    {
+      "id": "huggingface-community-gpu-grants",
+      "name": "Hugging Face Community GPU Grants",
+      "funder": "Hugging Face",
+      "url": "https://huggingface.co/docs/hub/en/spaces-gpus",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling. Apply from within a Hugging Face Space's Settings tab; grants are temporary and can be reclaimed if usage is low.",
+      "region": "Global",
+      "amount": "GPU compute allocations on Hugging Face Spaces",
+      "description": "Free GPU compute (A10G, T4, or larger) for academic and open-source projects hosted as Hugging Face Spaces. Supports research demos, model releases, and community tools. ZeroGPU is available for free within quota; PRO and Team/Enterprise members get 8x the standard quota."
+    },
+    {
+      "id": "nsf-satc",
+      "name": "NSF Security, Privacy, and Trust in Cyberspace (SaTC 2.0)",
+      "funder": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/satc-20-security-privacy-trust-cyberspace/nsf25-515/solicitation",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-09-28"
+      ],
+      "deadlineNote": "Two annual deadlines: last Monday of January and last Monday of September (next: 28 September 2026 and 26 January 2027).",
+      "region": "United States",
+      "amount": "Research: up to USD 1.2M/4 years; Education: up to USD 500K/3 years",
+      "duration": "Up to 4 years (RES) or 3 years (EDU)",
+      "description": "NSF's flagship cybersecurity, privacy, and trust research programme. Spans NSF's CISE, MPS, SBE, and EDU directorates. Areas include cryptography, systems security, formal methods for security, privacy-preserving computation, AI security, hardware security, and cybersecurity education."
+    },
+    {
+      "id": "templeton-diverse-intelligences",
+      "name": "Templeton Diverse Intelligences Initiative",
+      "funder": "Templeton World Charity Foundation and John Templeton Foundation",
+      "url": "https://www.templetonworldcharity.org/our-priorities/discovery/diverse-intelligences",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling under the multi-year initiative; the John Templeton Foundation launched a related USD 60M+ intelligence venture in 2026 with grants over 3 years.",
+      "region": "Global",
+      "amount": "Varies (initiative pool: USD 60M+ over 3 years across all Templeton intelligence grants)",
+      "description": "Cross-disciplinary programme to study intelligence in animal, human, and machine systems. Themes: diversity of intelligence (biological systems), plurality of intelligence (collective and distributed), and future of intelligence (machine and AI trajectory and ethics). Open to philosophers, ethicists, biologists, neuroscientists, physicists, computer scientists."
+    },
+    {
+      "id": "mila-postdoctoral-fellowships",
+      "name": "Mila Postdoctoral Fellowships",
+      "funder": "Mila - Quebec AI Institute",
+      "url": "https://mila.quebec/en/prospective-students-postdocs/postdoctoral-fellowships",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling; opportunities arise year-round depending on lab needs. Applicants must be invited by a Mila faculty member. Within 5 years of PhD.",
+      "region": "Canada (Montreal)",
+      "description": "Postdoctoral positions in the lab of a Mila professor covering deep learning, reinforcement learning, NLP, computer vision, ML theory, and AI safety/policy. Also runs the separate Mila AI Policy Fellowship (French-language cohort starting September 2026)."
     }
   ]
 }
