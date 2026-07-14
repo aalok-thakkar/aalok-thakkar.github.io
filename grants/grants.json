@@ -1727,17 +1727,17 @@
     },
     {
       "id": "openphilanthropy-scientific-research-pre-proposals",
-      "name": "Coefficient Giving Scientific Research Pre-Proposals",
+      "name": "Coefficient Giving Science and Global Health R&D",
       "funder": "Coefficient Giving (formerly Open Philanthropy)",
-      "url": "https://coefficientgiving.org/funds/science-and-global-health-rd",
+      "url": "https://coefficientgiving.org/funds/science-and-global-health-rd/",
       "audience": [
         "postdocs",
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Rolling - brief pre-proposals accepted any time at science@openphilanthropy.org; only fits get a response.",
+      "deadlineNote": "Rolling. Email a 1-2 page proposal with budget and timeline (or a short description of an existing proposal to another funder) to science@coefficientgiving.org. Historically funds ~1-2% of unsolicited proposals. 2026 priorities: Strep A vaccine development, malaria, and global health vaccine R&D more broadly.",
       "region": "Global",
-      "amount": "Varies (high-risk, high-impact basic science)",
+      "amount": "Varies (high-risk, high-impact biomedical / global health R&D)",
       "duration": "Project-dependent",
       "description": "Supports high-risk, high-impact, under-funded scientific research, with emphasis on transformative basic science, biosecurity/pandemic preparedness, and human health. Submit a 2-page outline, rough budget, and timeline."
     },
@@ -4528,6 +4528,23 @@
       "amount": "Up to USD 100,000 over two years",
       "duration": "2 years",
       "description": "Fellowship for young people building solutions to climate change and environmental issues - clean tech, adaptation, resilience, and sustainability. Includes access to the 776 network of entrepreneurs and investors."
+    },
+    {
+      "id": "coefficient-giving-transformative-ai-health-rfp",
+      "name": "Global Health and Wellbeing in an Era of Transformative AI (RFP)",
+      "funder": "Coefficient Giving (formerly Open Philanthropy)",
+      "url": "https://coefficientgiving.org/funds/global-health-wellbeing-opportunities/request-for-proposals-global-health-and-wellbeing-in-an-era-of-transformative-ai/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-08-21"
+      ],
+      "deadlineNote": "Rolling review through 21 August 2026. Three tiers: exploratory (<USD 100K), standard (USD 100K-1M), large (USD 1M-10M). Open to individuals, academia, think tanks, nonprofits, and (where appropriate) for-profits. LMIC-based applicants and those new to AI futures explicitly welcomed.",
+      "region": "Global",
+      "amount": "USD 10M-30M program pool; per-grant USD <100K to USD 10M",
+      "description": "Funds research, policy, implementation, field-building, institutions, and infrastructure to help ensure transformative AI improves human health and wellbeing, with particular attention to risks for and benefits to the global poor. Distinct from 'AI for good' projects that just apply AI as a tool - this RFP targets the larger implications of AI transforming the world."
     }
   ]
 }
