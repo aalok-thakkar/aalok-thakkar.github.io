@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+ 	<head>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aalok Thakkar</title>
+
+    <link rel="icon" href="data:,">
+ 		<link rel="stylesheet" href="/webpage_files/style.css" type="text/css" media="screen">
+
+ 	</head>
+
+ 	<body>
+
+        <div id="content" class="single-wide">
+
+ 			<h1>
+ 				Data Structures and Algorithms
+ 			</h1>
+
+ 			<div class="entry">
+
+                <div style="text-align: center;">
+                    <h3>Resources and Reading List:</h3><br>
+                    <img src="./AlmondBlossoms.jpg" style="width: 350px;" class="center">
+                    <figcaption>
+                        <font size="-1">Vincent van Gogh, <em>Almond Blossoms</em> (1890)</font>
+                    </figcaption>
+                </div>
+
+                <p>
+                    The course does not follow a single textbook. The following six works will be drawn on throughout the semester.
+                </p>
+
+                <ul>
+                    <li>
+                        Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. <em>Introduction to Algorithms</em>. 4th ed., MIT Press, 2022.
+                    </li>
+                    <li>
+                        Donald E. Knuth. <em>The Art of Computer Programming, Volume 1: Fundamental Algorithms</em>. 3rd ed., Addison-Wesley, 1997.
+                    </li>
+                    <li>
+                        Donald E. Knuth. <em>The Art of Computer Programming, Volume 3: Sorting and Searching</em>. 2nd ed., Addison-Wesley, 1998.
+                    </li>
+                    <li>
+                        Chris Okasaki. <em>Purely Functional Data Structures</em>. Cambridge University Press, 1998.
+                    </li>
+                    <li>
+                        Robert Sedgewick and Kevin Wayne. <em>Algorithms</em>. 4th ed., Addison-Wesley, 2011.
+                    </li>
+                    <li>
+                        Niklaus Wirth. <em>Algorithms + Data Structures = Programs</em>. Prentice-Hall, 1976.
+                    </li>
+                </ul>
+
+            </div>
+			<p style="text-align: center;">
+                back to <a href="./index.html"><u>course</u></a>
+              </p>
+        </div>
+
+			  <div id="footer"></div>
+
+			  <script>
+				fetch("/webpage_files/footer.html")
+				  .then(response => response.text())
+				  .then(data => {
+					document.getElementById('footer').innerHTML = data;
+				  });
+				</script>
+			</body>
+
+		  </html>
