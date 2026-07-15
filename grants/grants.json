@@ -4749,9 +4749,9 @@
         "postdocs"
       ],
       "deadlines": [],
-      "deadlineNote": "Rolling; selection via CV screening and interview. Upper age 35 (with relaxations for SC/ST/OBC/PWD).",
+      "deadlineNote": "Applications invited annually through all-India press advertisement. Upper age 35 (5-year relaxation for SC/ST/PWD/women; 3-year for OBC non-creamy layer). Requires at least one publication in a refereed journal listed in Journal Citation Reports.",
       "region": "India",
-      "amount": "INR 58,000/month (higher tiers possible with strong justification)",
+      "amount": "INR 58,000 / 61,000 / 67,000 per month (three tiers; selection committee may place awardees in higher tier with justification)",
       "description": "Postdoctoral research associateship for young researchers (PhD in science/engineering, MD/MS/MDS, or ME/MTech/MPharm/MVSc with 3 years R&D experience) working on specific projects at CSIR labs and other research institutions."
     },
     {
@@ -4776,9 +4776,10 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Implemented by IISc Bengaluru. Original scheme ran 2019-24; check STARS portal for renewal / current calls.",
+      "deadlineNote": "Implemented by IISc Bengaluru. Watch stars.iisc.ac.in for the current call window.",
       "region": "India",
-      "amount": "Programme outlay Rs 250 crore over 5 years",
+      "amount": "Up to INR 50 lakh (single PI) or INR 100 lakh (multi-PI); programme outlay Rs 250 crore",
+      "duration": "Up to 3 years",
       "description": "Extramural funding for translational, India-centric science research across Physics, Chemistry, Biological Sciences, Nanosciences, Data Sciences & Mathematics, and Earth Sciences. Open to permanent faculty at IISc, IITs, IISERs, NITs, Central Universities, and Non-MoE institutions with NIRF <=100 or NAAC >=3.26."
     },
     {
@@ -4790,7 +4791,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Year-round submissions via the SPARC portal (implemented by IIT Kharagpur). Requires an Indian PI (top-100 NIRF, Central University, or Institute of National Importance) and a foreign PI at a QS Top 800 institution across 28 partner countries.",
+      "deadlineNote": "Proposal submission currently closed; next cycle likely to open around 31 July 2026 per the SPARC portal. Requires an Indian PI (top-100 NIRF, Central University, or Institute of National Importance) and a foreign PI at a QS Top 800 institution across 28 partner countries. Implemented by IIT Kharagpur.",
       "region": "India + partner countries",
       "amount": "Up to INR 1 crore per project",
       "description": "Joint research projects between top Indian HEIs and globally ranked foreign institutions, with mobility of faculty and students. High-impact themes include AI, quantum, MedTech, climate, semiconductors, and smart cities."
@@ -4832,9 +4833,9 @@
         "students"
       ],
       "deadlines": [],
-      "deadlineNote": "Annual cycle; 15 innovative student projects funded per year via the Gandhian Young Technological Innovation Award. Companion SITARE-Appreciation Grant supports UG students at Biotech Innovation Ignition School (BIIS) workshops with up to INR 1 lakh.",
+      "deadlineNote": "Annual cycle; GYTI-2025 call closed 20 January 2026 (results pending). Next GYTI-2026 call typically opens later in the year. Companion SITARE-Appreciation Grant supports UG students at Biotech Innovation Ignition School (BIIS) workshops with up to INR 1 lakh.",
       "region": "India",
-      "amount": "Up to INR 15 lakh per project",
+      "amount": "Up to INR 15 lakh per project (15 projects funded per cycle)",
       "description": "Student Innovations for Translation & Advancement of Research Explorations (SITARE) award for Indian PhD/Masters students working on translational innovations across healthcare, life sciences, diagnostics, medical devices, drugs, vaccines, industrial biotech, bioinformatics, agriculture, waste management, sanitation, clean energy, and AI/IoT applications in these areas."
     },
     {
