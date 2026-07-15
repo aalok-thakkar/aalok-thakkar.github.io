@@ -4547,21 +4547,6 @@
       "description": "Funds research, policy, implementation, field-building, institutions, and infrastructure to help ensure transformative AI improves human health and wellbeing, with particular attention to risks for and benefits to the global poor. Distinct from 'AI for good' projects that just apply AI as a tool - this RFP targets the larger implications of AI transforming the world."
     },
     {
-      "id": "darpa-yfa",
-      "name": "DARPA Young Faculty Award (YFA)",
-      "funder": "Defense Advanced Research Projects Agency (DARPA)",
-      "url": "https://www.darpa.mil/work-with-us/communities/academia/young-faculty-award",
-      "audience": [
-        "faculty"
-      ],
-      "deadlines": [],
-      "deadlineNote": "Annual cycle; 2026 executive summaries were due 15 October 2025, full proposals 20 January 2026. Next (2027) research announcement typically posted to grants.gov / sam.gov in August-September 2026.",
-      "region": "United States",
-      "amount": "Up to USD 500,000 base (24 months) + up to USD 500,000 option (12 months)",
-      "duration": "24 + 12 months",
-      "description": "Identifies rising junior faculty in academia and non-profit research institutions (particularly those without prior DARPA funding) and exposes them to DoD needs. Broad technical scope including AI, autonomy, cybersecurity, biosecurity, quantum, and emerging computing."
-    },
-    {
       "id": "cohere-labs-scholars-program",
       "name": "Cohere Labs Scholars Program",
       "funder": "Cohere Labs (formerly Cohere For AI)",
@@ -4651,23 +4636,6 @@
       "region": "Global",
       "amount": "GPU compute allocations on Hugging Face Spaces",
       "description": "Free GPU compute (A10G, T4, or larger) for academic and open-source projects hosted as Hugging Face Spaces. Supports research demos, model releases, and community tools. ZeroGPU is available for free within quota; PRO and Team/Enterprise members get 8x the standard quota."
-    },
-    {
-      "id": "nsf-satc",
-      "name": "NSF Security, Privacy, and Trust in Cyberspace (SaTC 2.0)",
-      "funder": "National Science Foundation",
-      "url": "https://www.nsf.gov/funding/opportunities/satc-20-security-privacy-trust-cyberspace/nsf25-515/solicitation",
-      "audience": [
-        "faculty"
-      ],
-      "deadlines": [
-        "2026-09-28"
-      ],
-      "deadlineNote": "Two annual deadlines: last Monday of January and last Monday of September (next: 28 September 2026 and 26 January 2027).",
-      "region": "United States",
-      "amount": "Research: up to USD 1.2M/4 years; Education: up to USD 500K/3 years",
-      "duration": "Up to 4 years (RES) or 3 years (EDU)",
-      "description": "NSF's flagship cybersecurity, privacy, and trust research programme. Spans NSF's CISE, MPS, SBE, and EDU directorates. Areas include cryptography, systems security, formal methods for security, privacy-preserving computation, AI security, hardware security, and cybersecurity education."
     },
     {
       "id": "templeton-diverse-intelligences",
