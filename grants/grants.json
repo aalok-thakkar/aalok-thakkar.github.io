@@ -4664,6 +4664,193 @@
       "deadlineNote": "Rolling; opportunities arise year-round depending on lab needs. Applicants must be invited by a Mila faculty member. Within 5 years of PhD.",
       "region": "Canada (Montreal)",
       "description": "Postdoctoral positions in the lab of a Mila professor covering deep learning, reinforcement learning, NLP, computer vision, ML theory, and AI safety/policy. Also runs the separate Mila AI Policy Fellowship (French-language cohort starting September 2026)."
+    },
+    {
+      "id": "dst-national-quantum-mission",
+      "name": "National Quantum Mission (NQM) Calls for Proposals",
+      "funder": "Department of Science & Technology (DST), Government of India",
+      "url": "https://dst.gov.in/national-quantum-mission-nqm",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling. Umbrella mission with multiple ongoing calls: startups (rolling since 15 July 2025), quantum algorithms, undergraduate teaching labs. Four Thematic Hubs (T-Hubs) each run their own calls: IISc Bengaluru (computing), IIT Madras with C-DoT (communication), IIT Bombay (sensing/metrology), IIT Delhi (materials/devices).",
+      "region": "India",
+      "description": "National mission to make India a leader in quantum technologies. Funds research and startups across quantum computing, communication, sensing/metrology, and materials/devices. Watch DST call-for-proposals portal and individual T-Hub websites."
+    },
+    {
+      "id": "dst-nm-icps-tihs",
+      "name": "NM-ICPS Technology Innovation Hubs (TIHs)",
+      "funder": "Department of Science & Technology (DST), Government of India",
+      "url": "https://nmicps.gov.in/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "25 Technology Innovation Hubs (TIHs) hosted at IITs, IISc, IIITs, and NITs each run their own calls for research grants, fellowships (Chanakya UG/PG/PDF), startup grants (TIDE, TIH-SEED, PRISM), and hackathons. Watch individual TIH portals.",
+      "region": "India",
+      "amount": "Rs 3,660 crore total mission outlay; per-award varies by TIH",
+      "description": "National Mission on Interdisciplinary Cyber-Physical Systems umbrella. 25 TIHs cover AI, machine learning, robotics, cybersecurity, data science, quantum technologies, IoT, autonomous systems, and CPS. Over 6,400 fellowships awarded to date."
+    },
+    {
+      "id": "nbhm-postdoctoral-fellowship",
+      "name": "NBHM Postdoctoral Fellowship (Mathematics)",
+      "funder": "National Board for Higher Mathematics (NBHM), Department of Atomic Energy",
+      "url": "https://nbhm.dae.gov.in/postdoct.html",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-12-31"
+      ],
+      "deadlineNote": "Two cycles per year: Autumn (30 June deadline) and Spring (31 December deadline). Age limit 35. Fellowship stipend and contingency revised periodically - check current NBHM notification.",
+      "region": "India",
+      "duration": "2 years (extendable to 3 after review)",
+      "description": "Postdoctoral fellowship for young mathematicians (below 35) with PhD in mathematics (or thesis submitted). Tenable at Indian universities and research institutions."
+    },
+    {
+      "id": "ugc-ds-kothari-postdoc",
+      "name": "Dr. D.S. Kothari Postdoctoral Fellowship in Sciences",
+      "funder": "University Grants Commission (UGC), Government of India",
+      "url": "https://dskpdf.ugc.ac.in/",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling; selection within ~6 weeks. Age limit typically 35 (with relaxations). Tenable only at UGC-supported science departments of Indian universities and UGC-funded inter-university centres (IUCAA, IUAC, UGC-DAE-CSR, etc.).",
+      "region": "India",
+      "amount": "INR 67,000/month + INR 1,00,000/year contingency (revised 1 January 2024)",
+      "duration": "3 years (non-extendable)",
+      "description": "Postdoctoral fellowship for PhD holders in the sciences, established in 2007 in honour of Dr. Daulat Singh Kothari, UGC's first Chairman."
+    },
+    {
+      "id": "aim-atal-incubation-centres",
+      "name": "Atal Incubation Centres (AIC)",
+      "funder": "Atal Innovation Mission (AIM), NITI Aayog",
+      "url": "https://aim.gov.in/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Application portal periodically opens for new AICs; 72 AICs operational as of 2025. AIM also runs Atal Tinkering Labs (schools) and ACIC (community-scale).",
+      "region": "India",
+      "amount": "Grant-in-aid up to INR 10 crore per AIC",
+      "duration": "Up to 5 years",
+      "description": "Establishes greenfield incubation centres to nurture innovative startups. Covers capital and operational expenditure, sectoral mentoring, seed capital access, industry partnerships, and training."
+    },
+    {
+      "id": "csir-hrdg-research-associateship",
+      "name": "CSIR Research Associateship (RA)",
+      "funder": "CSIR Human Resource Development Group (CSIR-HRDG)",
+      "url": "https://csirhrdg.res.in/Home/Index/1/Default/3374/56",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling; selection via CV screening and interview. Upper age 35 (with relaxations for SC/ST/OBC/PWD).",
+      "region": "India",
+      "amount": "INR 58,000/month (higher tiers possible with strong justification)",
+      "description": "Postdoctoral research associateship for young researchers (PhD in science/engineering, MD/MS/MDS, or ME/MTech/MPharm/MVSc with 3 years R&D experience) working on specific projects at CSIR labs and other research institutions."
+    },
+    {
+      "id": "csir-nehru-science-postdoc",
+      "name": "CSIR-Nehru Science Postdoctoral Research Fellowship",
+      "funder": "Council of Scientific & Industrial Research (CSIR)",
+      "url": "https://www.indiascienceandtechnology.gov.in/nurturing-minds/scholarships/post-doctoral/csir-nehru-science-postdoctoral-research-fellowship-scheme",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call via CSIR-HRDG; watch csirhrdg.res.in for announcements.",
+      "region": "India",
+      "description": "Postdoctoral fellowship named for Jawaharlal Nehru, supporting outstanding early-career researchers to work in CSIR labs across chemistry, biology, physics, engineering, and applied sciences."
+    },
+    {
+      "id": "moe-stars",
+      "name": "STARS - Scheme for Transformational and Advanced Research in Sciences",
+      "funder": "Ministry of Education (MoE), Government of India",
+      "url": "https://stars.iisc.ac.in/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Implemented by IISc Bengaluru. Original scheme ran 2019-24; check STARS portal for renewal / current calls.",
+      "region": "India",
+      "amount": "Programme outlay Rs 250 crore over 5 years",
+      "description": "Extramural funding for translational, India-centric science research across Physics, Chemistry, Biological Sciences, Nanosciences, Data Sciences & Mathematics, and Earth Sciences. Open to permanent faculty at IISc, IITs, IISERs, NITs, Central Universities, and Non-MoE institutions with NIRF <=100 or NAAC >=3.26."
+    },
+    {
+      "id": "moe-sparc",
+      "name": "SPARC - Scheme for Promotion of Academic and Research Collaboration",
+      "funder": "Ministry of Education (MoE), Government of India",
+      "url": "https://sparc.iitkgp.ac.in/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Year-round submissions via the SPARC portal (implemented by IIT Kharagpur). Requires an Indian PI (top-100 NIRF, Central University, or Institute of National Importance) and a foreign PI at a QS Top 800 institution across 28 partner countries.",
+      "region": "India + partner countries",
+      "amount": "Up to INR 1 crore per project",
+      "description": "Joint research projects between top Indian HEIs and globally ranked foreign institutions, with mobility of faculty and students. High-impact themes include AI, quantum, MedTech, climate, semiconductors, and smart cities."
+    },
+    {
+      "id": "drdo-eripr",
+      "name": "DRDO Extramural Research and Intellectual Property Rights (ER&IPR)",
+      "funder": "Directorate of Extramural Research and Intellectual Property Rights, DRDO",
+      "url": "https://academyresearch.drdo.gov.in/DRDO/ERIPR_ERG",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling. Proposals submitted online via the Electronic Project Proposal Management System (EPPMS) and reviewed by DRDO lab experts and academic reviewers.",
+      "region": "India",
+      "amount": "Project-based",
+      "description": "Extramural grants to Indian universities, colleges, research institutions, and industry R&D groups for basic and applied research in defence-relevant sciences and engineering. Also supports Centres of Excellence, infrastructure, and workshops/symposia."
+    },
+    {
+      "id": "dbt-research-associateship",
+      "name": "DBT Research Associateship (DBT-RA)",
+      "funder": "Department of Biotechnology (DBT), Government of India",
+      "url": "https://fellowships.gov.in/",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call via the Common Fellowship Portal; recent March 2026 call closed with reference letters due 27 May 2026. Next round expected 2027.",
+      "region": "India",
+      "duration": "2 years (extendable up to 4 based on progress)",
+      "description": "Postdoctoral training for young researchers in biotechnology and life sciences at premier Indian research institutions, universities, and non-profit R&D bodies. Open to PhD holders in science or engineering, or MD/MS in medicine, with research interests in biotech/life sciences."
+    },
+    {
+      "id": "birac-sitare-gyti",
+      "name": "BIRAC SITARE-GYTI Award Grant",
+      "funder": "BIRAC (with SRISTI, Ahmedabad)",
+      "url": "https://gyti.techpedia.in/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; 15 innovative student projects funded per year via the Gandhian Young Technological Innovation Award. Companion SITARE-Appreciation Grant supports UG students at Biotech Innovation Ignition School (BIIS) workshops with up to INR 1 lakh.",
+      "region": "India",
+      "amount": "Up to INR 15 lakh per project",
+      "description": "Student Innovations for Translation & Advancement of Research Explorations (SITARE) award for Indian PhD/Masters students working on translational innovations across healthcare, life sciences, diagnostics, medical devices, drugs, vaccines, industrial biotech, bioinformatics, agriculture, waste management, sanitation, clean energy, and AI/IoT applications in these areas."
+    },
+    {
+      "id": "aicte-rps",
+      "name": "AICTE Research Promotion Scheme (RPS) - Lab to Market",
+      "funder": "All India Council for Technical Education (AICTE)",
+      "url": "https://www.aicte-india.org/schemes/research-innovations-development-schemes",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Periodic calls announced on the AICTE schemes page. For full-time regular faculty at AICTE-approved technical institutions and university departments.",
+      "region": "India",
+      "amount": "Up to INR 25 lakh per project",
+      "duration": "3 years",
+      "description": "Extramural research grants in engineering sciences and emerging technologies. Restructured as 'RPS: Lab to Market' with focus on AI, machine learning, quantum computing and communication, and big data. Supports both research and Master's/PhD student generation to augment faculty quality."
     }
   ]
 }
