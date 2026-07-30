@@ -4852,6 +4852,99 @@
       "amount": "Up to INR 25 lakh per project",
       "duration": "3 years",
       "description": "Extramural research grants in engineering sciences and emerging technologies. Restructured as 'RPS: Lab to Market' with focus on AI, machine learning, quantum computing and communication, and big data. Supports both research and Master's/PhD student generation to augment faculty quality."
+    },
+    {
+      "id": "indoml-datathon-2026",
+      "name": "IndoML Datathon 2026 - Indic Speech Noise Detection & Removal",
+      "funder": "IndoML (Heritage Institute of Technology, IIT Kharagpur, IISc Bangalore, Inception - G42)",
+      "url": "https://indoml.in/datathon/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "type": "hackathon",
+      "deadlines": [],
+      "deadlineNote": "Registration opens 1 August 2026; competition launches 15 August 2026. Presentations at IndoML 2026 at IIT Kharagpur, 18-21 December 2026. Final submission deadline TBA.",
+      "region": "India",
+      "amount": "INR 2,00,000 total prize pool",
+      "description": "Research-oriented data-science competition on noise event detection and removal in real-world Indic speech. Two tracks: (1) identify noise events with precise timestamps, (2) suppress detected noise while preserving speech intelligibility. Uses ~150 hours of real-world Indic audio from the Vaani corpus. At least one team member must be affiliated with an Indian university or research institution."
+    },
+    {
+      "id": "flipkart-grid",
+      "name": "Flipkart GRiD",
+      "funder": "Flipkart",
+      "url": "https://internshala.com/competitions/flipkart-grid-8-0/",
+      "audience": [
+        "students"
+      ],
+      "type": "hackathon",
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; GRiD 8.0 (2026) registration closed 7 July 2026. Next season expected mid-2027.",
+      "region": "India",
+      "amount": "Cash prizes + SDE interview / offer pathways; top offers up to INR 32.67 LPA",
+      "description": "India-wide engineering and SDE challenge across Software Development, AI Engineering, and Data Science tracks solving real-world e-commerce problems. Open to B.Tech/B.E./M.Tech/M.E./M.S./PhD/Dual/Integrated Degree students at recognised Indian institutions. Online rounds + National Finals at Flipkart Bengaluru HQ."
+    },
+    {
+      "id": "amazon-hackon",
+      "name": "HackOn With Amazon",
+      "funder": "Amazon India",
+      "url": "https://unstop.com/blog/hackon-with-amazon",
+      "audience": [
+        "students"
+      ],
+      "type": "hackathon",
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; Season 6 (2026) registrations closed 28 May 2026. Coding challenge 30 May, hackathon 13-14 June, grand finale 7 July 2026. Next season expected 2027.",
+      "region": "India",
+      "amount": "INR 2.25 lakh prize pool + Pre-Placement Interview (PPI) opportunities",
+      "description": "Amazon India's flagship engineering hackathon. Multi-round format (coding challenge, 48-hour hackathon, mentorship, grand finale). Eligibility for Season 6: B.Tech/M.Tech/MCA graduates of 2026/2027 with CGPA >=6.5."
+    },
+    {
+      "id": "hackwithinfy",
+      "name": "HackWithInfy",
+      "funder": "Infosys",
+      "url": "https://unstop.com/blog/hackwithinfy-2025-key-details",
+      "audience": [
+        "students"
+      ],
+      "type": "hackathon",
+      "deadlines": [],
+      "deadlineNote": "Annual pan-India cycle; 2026 registrations opened 6 February 2026. Next cycle expected early 2027.",
+      "region": "India",
+      "amount": "Cash prizes + Pre-Placement Interviews and internship opportunities",
+      "description": "Infosys' flagship pan-India hackathon for engineering students. Designed to identify and nurture strong programming talent and route participants to Infosys PPIs and internships."
+    },
+    {
+      "id": "tcs-codevita",
+      "name": "TCS CodeVita",
+      "funder": "Tata Consultancy Services",
+      "url": "https://www.tcs.com/careers/india/tcs-codevita",
+      "audience": [
+        "students"
+      ],
+      "type": "hackathon",
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; Season 13 (2026) concluded February 2026 with 146,922 participants (Guinness World Record for largest coding contest). Season 14 expected late 2026 / early 2027.",
+      "region": "Global (large India participation)",
+      "amount": "Up to USD 20,000 first prize + TCS R&I internship for finalists",
+      "description": "Open-book, six-hour coding competition open to undergraduate students worldwide. Teams of 1-3 solve problems of varying complexity across multiple online rounds culminating in a global finale."
+    },
+    {
+      "id": "ethindia",
+      "name": "ETHIndia",
+      "funder": "ETHGlobal x Devfolio",
+      "url": "https://ethindia.co/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "type": "hackathon",
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; typically mid-September in Bangalore. 30-hour on-site format with 800+ hackers. Registration and tracks via Devfolio.",
+      "region": "India (Bangalore)",
+      "amount": "Sponsor bounties (varies by track and sponsor)",
+      "description": "South Asia's largest ETHGlobal hackathon, built for developers working on Ethereum, EVM chains, zero-knowledge cryptography, DeFi, on-chain identity, agents, and cross-chain tooling. Global sponsors include Ethereum Foundation, Polygon, Aztec, and many L2s."
     }
   ]
 }
