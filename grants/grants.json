@@ -4945,6 +4945,50 @@
       "region": "India (Bangalore)",
       "amount": "Sponsor bounties (varies by track and sponsor)",
       "description": "South Asia's largest ETHGlobal hackathon, built for developers working on Ethereum, EVM chains, zero-knowledge cryptography, DeFi, on-chain identity, agents, and cross-chain tooling. Global sponsors include Ethereum Foundation, Polygon, Aztec, and many L2s."
+    },
+    {
+      "id": "openai-chatgpt-academic-researchers",
+      "name": "ChatGPT for Academic Researchers",
+      "funder": "OpenAI",
+      "url": "https://openai.com/index/chatgpt-for-academic-researchers/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling. Rolling out to 10,000 researchers first, expanding to 100,000 through 2027. Apply via form on OpenAI's site with institutional affiliation and research use case.",
+      "region": "Global (recognised degree-granting institutions with high research activity)",
+      "amount": "Free access to frontier models across ChatGPT, ChatGPT Work, and Codex (including GPT-5.6 at launch); business-grade privacy; data not used for training by default; invite up to 4 institutional collaborators",
+      "description": "Part of OpenAI's USD 250M+ commitment through 2027 to support external scientific research. Free frontier-model access for researchers at recognised colleges and universities, aimed at accelerating scientific discovery."
+    },
+    {
+      "id": "anrf-pair",
+      "name": "ANRF PAIR - Partnerships for Accelerated Innovation and Research",
+      "funder": "Anusandhan National Research Foundation (ANRF)",
+      "url": "https://www.anrfonline.in/ANRF/PAIR",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Periodic calls via ANRF portal. Hub-and-spoke structure requires the hub to submit on behalf of the network. First cohort of 7 hub-spoke networks awarded ~INR 100 crore each; other participating institutions receive smaller Rs 2 crore grants.",
+      "region": "India",
+      "amount": "Up to INR 100 crore per hub-spoke network (top tier); Rs 2 crore for participating institutions",
+      "description": "Mentorship-driven hub-and-spoke programme to grow research capacity across Indian universities. Hub: top-25 NIRF overall or top 26-50 INIs. Spokes: central/state public universities (top 200 NIRF), NITs/IIITs, or other central/state public universities. At least two state public universities per network mandatory; at least one spoke outside the hub's state."
+    },
+    {
+      "id": "anrf-irg",
+      "name": "ANRF Inclusivity Research Grant (IRG)",
+      "funder": "Anusandhan National Research Foundation (ANRF)",
+      "url": "https://www.anrfonline.in/ANRF/inrg_anrf",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Subsumes the earlier EMEQ (Empowerment and Equity Opportunities for Excellence in Science) scheme. For Indian nationals belonging to SC/ST categories in regular academic/lab positions.",
+      "region": "India",
+      "amount": "Up to INR 60 lakh + overheads",
+      "duration": "3 years",
+      "description": "Research grant for SC/ST scientists to conduct frontier research in science and engineering at Indian academic institutions, national labs, and recognised R&D organisations."
     }
   ]
 }
