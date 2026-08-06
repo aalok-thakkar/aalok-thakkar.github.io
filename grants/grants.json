@@ -4989,6 +4989,85 @@
       "amount": "Up to INR 60 lakh + overheads",
       "duration": "3 years",
       "description": "Research grant for SC/ST scientists to conduct frontier research in science and engineering at Indian academic institutions, national labs, and recognised R&D organisations."
+    },
+    {
+      "id": "iitm-cold-winter-school-2026",
+      "name": "COLD Winter School 2026 - Complexity, Optimisation, Learning, Dynamics",
+      "funder": "Centre for Complex Systems and Dynamics, IIT Madras (with Office of Global Engagement)",
+      "url": "https://ge.iitm.ac.in/COLD2026/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2026-08-31"
+      ],
+      "deadlineNote": "Applications close 31 August 2026; selections announced by 10 September 2026. School runs 10-15 December 2026 (rest day 13 Dec). ~30 participants selected.",
+      "region": "India (Chennai)",
+      "amount": "Fully funded (registration INR 1,000+GST; up to 3-tier AC train fare reimbursed; on-campus accommodation and meals provided)",
+      "duration": "6 days",
+      "description": "Six-day intensive winter school for late-UG and Master's students in engineering, mathematics, physics, or CS. Fifteen lectures across four interconnected themes: Complexity (computational tractability), Optimisation (convex analysis, gradient methods), Learning (statistical learning theory, neural networks), and Dynamics (nonlinear systems, chaos). Plus research projects and lab visits. Prerequisites: linear algebra, multivariable calculus, basic probability, Python."
+    },
+    {
+      "id": "sony-research-award-2026",
+      "name": "Sony Research Award Program 2026",
+      "funder": "Sony",
+      "url": "https://www.sony.com/en/SonyInfo/research-award-program/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-09-15"
+      ],
+      "deadlineNote": "Two tracks: Faculty Innovation Award (up to USD 100K) and Focused Research Award (up to USD 150K). PI must be full-time faculty eligible to supervise PhD students. Co-PIs allowed from same institution. Open to India and other eligible countries.",
+      "region": "Global (eligible countries)",
+      "amount": "Up to USD 100,000 (Faculty Innovation) or USD 150,000 (Focused Research)",
+      "description": "Academia-industry collaboration awards for cutting-edge research in AI, robotics, sensing, imaging, sustainability, and entertainment technologies. 2026 focus areas include mechanistic interpretability of LLMs/MLLMs, speech/audio models, music models, and video generation for multimodal content."
+    },
+    {
+      "id": "anthropic-claude-science-grant",
+      "name": "Anthropic Claude Science Grants",
+      "funder": "Anthropic",
+      "url": "https://www.anthropic.com/research/claude-science",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "First cycle deadline 15 July 2026 (closed); notifications 31 July; projects run 1 Sep - 1 Dec 2026. Next cycle expected. ~50 projects funded per round.",
+      "region": "Global",
+      "amount": "Up to USD 30,000 in Claude API credits + up to USD 2,000 Modal compute (select recipients)",
+      "duration": "3 months (per cycle)",
+      "description": "Grants supporting scientific research that uses Claude, with emphasis on biology and biomedical research but open to all scientific domains. Eligible: academic researchers, independent scientists, biotech startups."
+    },
+    {
+      "id": "anthropic-ai-for-science-rare-disease",
+      "name": "Anthropic AI for Science - Rare Disease Research Track",
+      "funder": "Anthropic",
+      "url": "https://www.anthropic.com/research/ai-for-science",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "First focused sub-grant deadline 2 August 2026 (closed). Future themed sub-grants expected under the broader AI for Science program.",
+      "region": "Global",
+      "amount": "Up to USD 50,000 in Claude API credits",
+      "description": "Themed sub-grant within Anthropic's AI for Science program for researchers and early-stage biotechs working on rare genetic diseases. Uses Claude for scientific discovery, hypothesis generation, and data analysis in a domain with under-served patient populations."
+    },
+    {
+      "id": "amgen-scholars",
+      "name": "Amgen Scholars Program",
+      "funder": "Amgen Foundation",
+      "url": "https://amgenscholars.com/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; 2026 application deadline was 1 February 2026 for US host institutions. Applications for Summer 2027 open 1 November 2026 in the US, EU, Australia, Japan, and Singapore.",
+      "region": "USA, EU, Australia, Japan, Singapore (host institutions)",
+      "amount": "Housing + stipend + travel to annual Amgen Scholars Symposium",
+      "duration": "8-10 weeks (summer)",
+      "description": "Undergraduate summer research programme in science and biotechnology hosted at leading universities globally (Harvard, MIT, Columbia, Berkeley, Stanford, Cambridge, Karolinska, Tokyo, Kyoto, LMU Munich, NUS, and others). Each host runs its own selection process."
     }
   ]
 }
