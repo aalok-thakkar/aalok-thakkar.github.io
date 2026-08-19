@@ -5068,6 +5068,68 @@
       "amount": "Housing + stipend + travel to annual Amgen Scholars Symposium",
       "duration": "8-10 weeks (summer)",
       "description": "Undergraduate summer research programme in science and biotechnology hosted at leading universities globally (Harvard, MIT, Columbia, Berkeley, Stanford, Cambridge, Karolinska, Tokyo, Kyoto, LMU Munich, NUS, and others). Each host runs its own selection process."
+    },
+    {
+      "id": "dbt-builder",
+      "name": "DBT-BUILDER - Boost to University Interdisciplinary Life Science Departments for Education and Research",
+      "funder": "Department of Biotechnology (DBT), Government of India",
+      "url": "https://dbtindia.gov.in/builder",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Periodic call for proposals from central and state universities; watch dbtindia.gov.in/latest-announcement for the current window.",
+      "region": "India",
+      "amount": "Multi-crore institutional support (infrastructure + operational)",
+      "description": "Flagship DBT programme to establish interdisciplinary Schools of Life Sciences at Indian universities. Funds infrastructure, equipment, and human-resource development to strengthen postgraduate-level education and research in life sciences at central/state universities."
+    },
+    {
+      "id": "startup-india-seed-fund-scheme",
+      "name": "Startup India Seed Fund Scheme (SISFS)",
+      "funder": "Department for Promotion of Industry and Internal Trade (DPIIT), Government of India",
+      "url": "https://seedfund.startupindia.gov.in/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling applications through DPIIT-recognised incubators; 2026 startup-application window closed 31 May 2026. Priority sectors: agriculture, biotech, energy, education, health, water, and other innovation-heavy domains. Startup must be DPIIT-recognised, <=2 years old, with >=51% Indian shareholding.",
+      "region": "India",
+      "amount": "Up to INR 20 lakh (proof-of-concept / prototype / product trials) or up to INR 50 lakh (commercialisation)",
+      "description": "Seed funding for early-stage startups routed through approved incubators (not directly to applicants). Incubators must be operational for 2+ years with facilities for 25+ seats and 5+ incubatees at time of application."
+    },
+    {
+      "id": "hfsp-research-grants",
+      "name": "HFSP Research Grants (Program & Early Career)",
+      "funder": "Human Frontier Science Program",
+      "url": "https://www.hfsp.org/funding/hfsp-funding/research-grants",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-03-26"
+      ],
+      "deadlineNote": "Annual cycle; LOI deadline late March (LOI ID must be obtained by ~17 March). Full-proposal invitations early July, full proposal mid-September, decisions March of the following year. Team members must all be in different countries with different training histories.",
+      "region": "Global (multinational teams)",
+      "amount": "USD 300K/year (2-member), 400K/year (3-member), or 500K/year (4-member team)",
+      "duration": "3 years",
+      "description": "Frontier research grants for interdisciplinary multinational teams tackling fundamental biological problems. Two tracks: Program Grants (any career stage) and Early Career Research Grants (all team members within 5 years of first independent position). No preliminary data required at LOI stage."
+    },
+    {
+      "id": "wcs-research-fellowship",
+      "name": "WCS Research Fellowship Program",
+      "funder": "Wildlife Conservation Society",
+      "url": "https://programs.wcs.org/rfp/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle. Applicants must be citizens of developing countries (with an exception for Native American, First Nations, Metis, and Inuit applicants). Field-research projects linked to WCS priority land/seascapes or global initiatives are prioritised.",
+      "region": "Global South (with Native American / First Nations exception)",
+      "amount": "Up to USD 15,000",
+      "description": "Small grants for individual field research projects with clear application to conservation of threatened wildlife and wild places. Priority themes include business and conservation, climate change, ecosystem services, human wellbeing, and wildlife health."
     }
   ]
 }
