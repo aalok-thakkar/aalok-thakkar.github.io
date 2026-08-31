@@ -5130,6 +5130,88 @@
       "region": "Global South (with Native American / First Nations exception)",
       "amount": "Up to USD 15,000",
       "description": "Small grants for individual field research projects with clear application to conservation of threatened wildlife and wild places. Priority themes include business and conservation, climate change, ecosystem services, human wellbeing, and wildlife health."
+    },
+    {
+      "id": "grand-challenges-canada-stars-global-health",
+      "name": "Grand Challenges Canada - Stars in Global Health",
+      "funder": "Grand Challenges Canada",
+      "url": "https://www.grandchallenges.ca/portfolio/stars-in-global-health/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; 2026 deadline was 2 August 2026. Applications via the Fluxx portal.",
+      "region": "Global (LMICs and Canada)",
+      "amount": "Up to CAD 150,000",
+      "duration": "Up to 18 months",
+      "description": "Seed grants for bold ideas from scientists and innovators in low- and middle-income countries and Canada to address pressing global health challenges. Current priorities: climate change and health, surveillance and outbreak response, and ethical/equitable AI in global health."
+    },
+    {
+      "id": "bsf-us-israel-research-grants",
+      "name": "BSF Research Grants (US-Israel)",
+      "funder": "United States-Israel Binational Science Foundation (BSF)",
+      "url": "https://www.bsf.org.il/funding-opportunities/bsf-research-grants/about/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-18"
+      ],
+      "deadlineNote": "Annual mid-November deadline; each scientific discipline is eligible only every other year. 2026 (even year) supports chemistry, computer sciences, earth/ocean/atmospheric sciences, economics, energy, environmental, materials, mathematical sciences, physics, sociology/anthropology, and psychology (excluding psychobiology).",
+      "region": "USA + Israel (joint teams)",
+      "amount": "Typical annual awards USD 25-55K per side (up to USD 300,000 total over 4 years, experimental)",
+      "duration": "4 years",
+      "description": "Grants for joint research by U.S. and Israeli PIs; no prior collaboration required but scientific synergy must be evident. Companion NSF-BSF track lets US applicants apply through NSF programs with a joint BSF-funded Israeli partner."
+    },
+    {
+      "id": "wallenberg-scholars",
+      "name": "Wallenberg Scholars",
+      "funder": "Knut and Alice Wallenberg Foundation",
+      "url": "https://kaw.wallenberg.org/en/wallenberg-scholars-0",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "By university nomination; the Foundation runs several project-grant calls per year (Mathematics call opens 1 September 2026; other programme calls open 16 October 2026). International peer review; renewable after 5 years pending evaluation.",
+      "region": "Sweden",
+      "amount": "SEK 18 million (theoretical) or SEK 20 million (experimental)",
+      "duration": "5 years (renewable for another 5)",
+      "description": "Long-term free-use funding for Sweden's leading senior researchers in medicine, technology, and natural sciences. Broader Foundation portfolio also includes Wallenberg Academy Fellows (early-career) and project grants; the Foundation disburses ~SEK 2+ billion per year across programmes."
+    },
+    {
+      "id": "dst-nidhi-prayas",
+      "name": "NIDHI PRAYAS 2.0",
+      "funder": "Department of Science and Technology (DST), Government of India",
+      "url": "https://nidhi-prayas.org/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Students and innovators apply through NIDHI-PRAYAS Centres (at selected Technology Business Incubators). 2026 centre-selection window closed 30 June 2026; ongoing intake at operational PRAYAS Centres.",
+      "region": "India",
+      "amount": "Up to INR 20 lakh per innovator/startup for prototyping (Level 1 Centre)",
+      "description": "DST flagship for young innovators and early-stage startups to convert science and technology ideas into working physical prototypes. Sector-agnostic; PRAYAS 2.0 adds enhanced support for deep-tech innovations."
+    },
+    {
+      "id": "rolex-awards-for-enterprise",
+      "name": "Rolex Awards for Enterprise",
+      "funder": "Rolex",
+      "url": "https://www.rolex.org/rolex-awards",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-10-17"
+      ],
+      "deadlineNote": "Now annual (formerly biennial). 2027 application cycle opens 5 September 2026 and closes 17 October 2026. Applications accepted in English, simplified Chinese, and Spanish. Applicants must be 18 or older.",
+      "region": "Global",
+      "amount": "CHF 200,000 for laureates + associate awards",
+      "description": "Awards for individuals with innovative, ongoing projects in science and health, the environment, applied technology, exploration, or cultural heritage. Part of Rolex's Perpetual Planet Initiative."
     }
   ]
 }
