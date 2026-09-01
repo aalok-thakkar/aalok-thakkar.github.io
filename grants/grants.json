@@ -771,19 +771,21 @@
     },
     {
       "id": "dbt-biocare-women",
-      "name": "BioCARe - Biotechnology Career Advancement and Re-orientation for Women Scientists",
+      "name": "BioCARe - Biotechnology Career Advancement and Re-orientation for Women Researchers (2026-27)",
       "funder": "Department of Biotechnology (DBT), Government of India",
       "url": "https://dbtindia.gov.in/schemes-programmes/research-development/women-scientists-schemes/biotechnology-career-advancement",
       "audience": [
         "postdocs",
         "faculty"
       ],
-      "deadlines": [],
-      "deadlineNote": "Rolling / periodic calls via e-PROMIS portal.",
+      "deadlines": [
+        "2026-09-23"
+      ],
+      "deadlineNote": "2026-27 call closes 23 September 2026 via the Common Fellowship Portal, Ministry of Science & Technology. Indian women nationals up to 55, residing in India and unemployed / not in a regular position as of the closing date. Ineligible if currently enrolled in higher studies / PhD or receiving a fellowship. Must be first extramural research grant as PI from a Government funding agency.",
       "region": "India",
       "amount": "Up to INR 60 lakh (Cat-I) or INR 40 lakh (Cat-II) including fellowship",
-      "duration": "3 years",
-      "description": "First extramural research grant for women scientists (up to age 55) in life sciences and biotechnology to (re)launch independent research careers."
+      "duration": "Up to 3 years",
+      "description": "First extramural research grant for women scientists in biotechnology and allied areas to advance or re-establish research careers. Category I: PhD in Biotechnology / Life Sciences / allied or interdisciplinary areas, or MD / MDS / M.V.Sc. Category II: M.Tech in Biotechnology / allied areas, M.Pharma, or equivalent."
     },
     {
       "id": "india-alliance-fellowships",
