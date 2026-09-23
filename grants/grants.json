@@ -5214,6 +5214,73 @@
       "region": "Global",
       "amount": "CHF 200,000 for laureates + associate awards",
       "description": "Awards for individuals with innovative, ongoing projects in science and health, the environment, applied technology, exploration, or cultural heritage. Part of Rolex's Perpetual Planet Initiative."
+    },
+    {
+      "id": "google-center-climate-tech-manthan-utthan",
+      "name": "Google Center for Climate Tech Call for Proposals 2026",
+      "funder": "Google and the Office of the Principal Scientific Adviser to the Government of India (Manthan-Utthan)",
+      "url": "https://www.psa.gov.in/mission/manthan/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-10-22"
+      ],
+      "deadlineNote": "Applications close 22 October 2026 via the Manthan-Utthan platform. Open to academic institutions, government and private organisations, startups, MSMEs, incubators, NGOs, and individual innovators.",
+      "region": "India",
+      "amount": "Up to INR 4.72 crore",
+      "duration": "Up to 11 months",
+      "description": "Technology-driven proposals for a national climate-technology hub focused on water optimisation and advanced waste management. Priority areas: wastewater treatment, water harvesting, natural-source mapping, industrial cooling efficiency, e-waste systems, high-efficiency recycling, intelligent waste platforms, and circular-resource management. Aims to accelerate deployable solutions and strengthen government-industry-research collaboration."
+    },
+    {
+      "id": "tiny-blue-dot-perception-box-2026",
+      "name": "Tiny Blue Dot Foundation - Perception Box Research (Round 5)",
+      "funder": "Tiny Blue Dot Foundation",
+      "url": "https://www.tinybluedotfoundation.org/research/rfp",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-10-05"
+      ],
+      "deadlineNote": "Anonymous letters of intent close 5 October 2026 at 23:59 PDT; ~30 applicants invited to submit full proposals. PI must hold an MD, PhD, or equivalent. Postdoctoral applicants require an institutional research position if funded. OFAC-sanctioned countries excluded.",
+      "region": "Global (recognised universities and non-profit research institutions)",
+      "amount": "Up to USD 900,000 total including up to 15% overhead",
+      "duration": "Up to 3 consecutive years",
+      "description": "Rigorous, empirical research on the Perception Box: how expectations, beliefs, bodily signals, and social experience shape perceived reality, behaviour, and mental wellbeing. 2026 focus areas: agency and independence, interoception and emotional regulation, identity and self-narrative, and values, meaning, and belonging. Neural, psychological, somatic, or technology-enabled interventions welcomed."
+    },
+    {
+      "id": "venus-remedies-i-amr-cdp",
+      "name": "India AMR Co-Development Programme (I-AMR-CDP)",
+      "funder": "Venus Remedies Limited",
+      "url": "https://venusremedies.com/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-10-31"
+      ],
+      "deadlineNote": "Rolling review of non-confidential expressions of interest through 31 October 2026. Selected innovators enter a co-development agreement with Venus Remedies via a mutually agreed value-sharing model.",
+      "region": "India",
+      "amount": "INR 10 lakh upfront award on entering a co-development agreement, plus Venus-led development investment",
+      "description": "Co-development call for promising Indian anti-infective innovations at proof-of-concept or preclinical stage: novel antibiotics, beta-lactamase inhibitors, or adjunctive/potentiator therapies. Selected teams receive end-to-end development, R&D infrastructure, manufacturing, commercialisation, IP, and publication support. Open to academic institutions, industry researchers, startups or spin-outs, and independent investigators in India."
+    },
+    {
+      "id": "dbt-microbiome-human-health-2026",
+      "name": "DBT Microbiome and Human Health: Therapeutic Potential and Translational Opportunities",
+      "funder": "Department of Biotechnology (DBT), Government of India",
+      "url": "https://dbtindia.gov.in/latest-announcement",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-10-15"
+      ],
+      "deadlineNote": "Proposals due 15 October 2026 via eProMIS. Consortia of up to five funded components led by a Project Coordinator. Proposals must begin from an existing proof of concept.",
+      "region": "India",
+      "duration": "Up to 3 years, extendable by 2",
+      "description": "Consortium-oriented call to translate microbiome discoveries into evidence-based biotherapeutics or biomarkers for clinical and public-health use. Supported areas: probiotics, prebiotics, postbiotics, synbiotics, skin and fungal microbiome therapeutics, and biomarkers for disease prediction, diagnosis, and risk stratification. Investigators must hold regular positions at recognised academic institutions, universities, colleges, national laboratories, medical institutions, or DSIR-recognised research organisations."
     }
   ]
 }
