@@ -5281,6 +5281,36 @@
       "region": "India",
       "duration": "Up to 3 years, extendable by 2",
       "description": "Consortium-oriented call to translate microbiome discoveries into evidence-based biotherapeutics or biomarkers for clinical and public-health use. Supported areas: probiotics, prebiotics, postbiotics, synbiotics, skin and fungal microbiome therapeutics, and biomarkers for disease prediction, diagnosis, and risk stratification. Investigators must hold regular positions at recognised academic institutions, universities, colleges, national laboratories, medical institutions, or DSIR-recognised research organisations."
+    },
+    {
+      "id": "newttorr-shwas-kavach-oxygen-grid",
+      "name": "Shwas Kavach: AI-Enabled Decentralised National Medical Oxygen Grid",
+      "funder": "Newttorr Pumps and Systems Private Limited (via Manthan-Utthan, PSA India)",
+      "url": "https://www.psa.gov.in/mission/manthan/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-12-22"
+      ],
+      "deadlineNote": "Launched 23 April 2026; applications close 22 December 2026 via the Manthan-Utthan platform.",
+      "region": "India",
+      "description": "R&D innovations call under the National Medical Oxygen Grid roadmap. Areas include AI-driven demand forecasting, IoT-enabled real-time monitoring, district-level containerised oxygen generation units, geospatial mapping for supply chains, oxygen cylinder banks for last-mile delivery, and a digital twin for simulation and emergency preparedness. 18-month roadmap from pilot to national scale."
+    },
+    {
+      "id": "cht-mission-oriented-technology-eoi",
+      "name": "CHT Expression of Interest: Mission-Oriented Technology Development",
+      "funder": "Centre for High Technology (CHT), Ministry of Petroleum & Natural Gas, Government of India",
+      "url": "https://cht.gov.in/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-12-31"
+      ],
+      "deadlineNote": "Launched 29 June 2026 via Manthan-Utthan; applications close 31 December 2026. Industry market-ready innovation track.",
+      "region": "India",
+      "description": "EOI for mission-oriented technology development in the hydrocarbon sector: refinery processes, petroleum products, catalysts, and technology modernisation. CHT is the technology cell of the Ministry of Petroleum & Natural Gas, chartered to build indigenous capability and self-reliance."
     }
   ]
 }
