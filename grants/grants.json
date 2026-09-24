@@ -5311,6 +5311,70 @@
       "deadlineNote": "Launched 29 June 2026 via Manthan-Utthan; applications close 31 December 2026. Industry market-ready innovation track.",
       "region": "India",
       "description": "EOI for mission-oriented technology development in the hydrocarbon sector: refinery processes, petroleum products, catalysts, and technology modernisation. CHT is the technology cell of the Ministry of Petroleum & Natural Gas, chartered to build indigenous capability and self-reliance."
+    },
+    {
+      "id": "hhmi-hanna-gray-fellows",
+      "name": "HHMI Hanna H. Gray Fellows Program",
+      "funder": "Howard Hughes Medical Institute (HHMI)",
+      "url": "https://www.hhmi.org/programs/hanna-h-gray-fellows",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "From 2028 competition onwards, Hanna Gray Fellows and Freeman Hrabowski Scholars run as a single combined competition opening 3 November 2026. Applicants must be in a mentored postdoctoral position (or accepted to join a lab in the US) with no more than 7 years of postdoctoral experience at the deadline.",
+      "region": "United States (host labs)",
+      "amount": "USD 80,000 salary + USD 20,000 expense allowance per year",
+      "duration": "2-4 years (Postdoctoral Training Phase) + Faculty Phase",
+      "description": "Postdoc-to-faculty transition programme for early-career scientists from historically excluded backgrounds pursuing careers in the biomedical and life sciences. Multi-phase support carries fellows from postdoc through faculty appointment."
+    },
+    {
+      "id": "nih-k99-r00-pathway-to-independence",
+      "name": "NIH Pathway to Independence Award (K99/R00)",
+      "funder": "National Institutes of Health",
+      "url": "https://grants.nih.gov/grants/guide/pa-files/PA-24-194.html",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-10-12"
+      ],
+      "deadlineNote": "Standard receipt dates: 12 February, 12 June, 12 October. Candidates must have no more than 4 years of postdoctoral experience at the time of initial submission. Recent NOT-OD-26-021 (corrected NOT-OD-26-042) provides a short automatic eligibility extension to offset the fall 2025 appropriations lapse.",
+      "region": "United States (with international postdoc eligibility for some institutes)",
+      "amount": "K99 phase up to USD 90K/yr salary + research costs; R00 phase up to USD 249K/yr direct costs",
+      "duration": "K99: up to 2 years (mentored); R00: up to 3 years (independent)",
+      "description": "Two-phase award to accelerate promising postdocs to tenure-track independent research positions. Mentored K99 phase followed by independent R00 phase activated upon a faculty appointment. Companion Independent Clinical Trial Allowed track (PA-24-193) available."
+    },
+    {
+      "id": "ugc-faculty-recharge-programme",
+      "name": "UGC Faculty Recharge Programme (UGC-FRP)",
+      "funder": "University Grants Commission (UGC), Government of India",
+      "url": "https://ugcfrps.ac.in/uohyd/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling / periodic calls. Positions at Assistant Professor, Associate Professor, and Professor levels. Compensation at par with Central University appointees. NET/PhD required.",
+      "region": "India",
+      "duration": "5 years initial (extendible in 5-year peer-evaluated terms)",
+      "description": "Inducts outstanding candidates into Indian universities in basic sciences (Physics, Mathematics, Chemistry, Biology) and Engineering and Earth Sciences, at faculty levels, to strengthen research and teaching in interdisciplinary and frontier areas."
+    },
+    {
+      "id": "klingenstein-fellowship-neuroscience",
+      "name": "Klingenstein Fellowship Awards in Neuroscience",
+      "funder": "Esther A. & Joseph Klingenstein Fund",
+      "url": "https://klingenstein.org/esther-a-joseph-klingenstein-fund/neuroscience/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-02-01"
+      ],
+      "deadlineNote": "Annual cycle; deadline 1 February. Previously the Klingenstein-Simons partnership (2013-2024); now run solely by the Klingenstein Fund. For early-career tenure-track investigators in basic or clinical neuroscience.",
+      "region": "United States",
+      "amount": "USD 150,000 per year (USD 450,000 total)",
+      "duration": "3 years (starting 1 July)",
+      "description": "Supports high-risk, high-reward projects by early-career investigators in cellular and molecular neuroscience, neural systems, and translational research on neurological and psychiatric disorders. Funds may be used for salary, research assistants, equipment, or any research-related purpose."
     }
   ]
 }
