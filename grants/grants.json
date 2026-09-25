@@ -5375,6 +5375,76 @@
       "amount": "USD 150,000 per year (USD 450,000 total)",
       "duration": "3 years (starting 1 July)",
       "description": "Supports high-risk, high-reward projects by early-career investigators in cellular and molecular neuroscience, neural systems, and translational research on neurological and psychiatric disorders. Funds may be used for salary, research assistants, equipment, or any research-related purpose."
+    },
+    {
+      "id": "aasm-strategic-research-grant",
+      "name": "AASM Foundation Strategic Research Grant",
+      "funder": "American Academy of Sleep Medicine Foundation",
+      "url": "https://foundation.aasm.org/strategic-research-award/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-10-19"
+      ],
+      "deadlineNote": "Letter of intent closes 19 October 2026. Three categories: I (up to USD 250K over 3 years), II (up to USD 100K over 2 years), III (up to USD 50K over 1 year). Master's degree or higher required. International applicants eligible if sponsoring organisation can receive USD. OFAC-sanctioned locations excluded.",
+      "region": "Global",
+      "amount": "Cat-I up to USD 250,000; Cat-II up to USD 100,000; Cat-III up to USD 50,000",
+      "duration": "1-3 years by category",
+      "description": "Investigator-initiated research addressing gaps in patient-centred diagnosis and care for sleep disorders. Recent cycles have prioritised obstructive sleep apnea research gaps, AASM strategic-plan goals, dissemination and implementation research, and sleep health disparities."
+    },
+    {
+      "id": "clean-air-fund-black-carbon-cold-climate",
+      "name": "Clean Air Fund - Black Carbon Reduction in Cold-Climate LMICs",
+      "funder": "Clean Air Fund",
+      "url": "https://www.cleanairfund.org/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-10-23"
+      ],
+      "deadlineNote": "Expressions of interest close 23 October 2026 at 18:00 BST. Earliest project start 1 March 2027. Applicants receiving, seeking, or employed on fossil-fuel or tobacco-industry research funding are ineligible. Mechanistic or toxicology studies, randomised controlled trials, and new technology deployment are excluded.",
+      "region": "Global (cold-climate LMICs)",
+      "amount": "Up to GBP 220,000 (~USD 300,000)",
+      "duration": "Up to 3 years",
+      "description": "Field studies measuring real-world black-carbon reductions and associated health and climate benefits from cleaner space-heating or industrial interventions in inhabited cold-climate regions of low- and middle-income countries. Projects should assess emissions under actual use, health and climate outcomes, and, where possible, community acceptance."
+    },
+    {
+      "id": "conservation-food-health-foundation-grants",
+      "name": "Conservation, Food & Health Foundation Grants Program",
+      "funder": "Conservation, Food & Health Foundation",
+      "url": "https://cfhfoundation.org/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-12-22"
+      ],
+      "deadlineNote": "Next concept-application window opens 15 October 2026 and closes 22 December 2026. Government and religious bodies may participate only as partners.",
+      "region": "Asia and other developing regions",
+      "amount": "No formal min/max; most grants USD 25,000-50,000 per year",
+      "duration": "1 or 2 years",
+      "description": "Applied research, pilot projects, training, and technical assistance in developing regions across three priorities: biodiversity and climate resilience, sustainable agriculture and food systems, and community-level public health. Open to universities, non-profits, NGOs, and civil-society and community-based organisations."
+    },
+    {
+      "id": "ncbs-past-cohort-2",
+      "name": "Program for the Archiving of Science and Technology (PAST) - Cohort 2",
+      "funder": "Archives at NCBS, National Centre for Biological Sciences",
+      "url": "https://archives.ncbs.res.in/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-10-23"
+      ],
+      "deadlineNote": "Applications close 23 October 2026. Projects run 1 February 2027 to 31 January 2028. Indian-citizen lead applicant with a legally registered host organisation in India; digitised collections must be openly accessible through the Archives at NCBS.",
+      "region": "India",
+      "amount": "Up to INR 12,00,000 (inclusive of all taxes)",
+      "duration": "12 months",
+      "description": "Twelve-month projects to identify, appraise, describe, digitise, and preserve at-risk archival material relating to the history of science and technology in India from roughly 1850 to 2000. Priority for rare, endangered, underrepresented, or marginalised STEM histories. Includes structured archival training and expert guidance."
     }
   ]
 }
