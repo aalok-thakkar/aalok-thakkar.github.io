@@ -5445,6 +5445,75 @@
       "amount": "Up to INR 12,00,000 (inclusive of all taxes)",
       "duration": "12 months",
       "description": "Twelve-month projects to identify, appraise, describe, digitise, and preserve at-risk archival material relating to the history of science and technology in India from roughly 1850 to 2000. Priority for rare, endangered, underrepresented, or marginalised STEM histories. Includes structured archival training and expert guidance."
+    },
+    {
+      "id": "ugc-dae-csr-collaborative-2026",
+      "name": "UGC-DAE CSR Collaborative Research Scheme 2026",
+      "funder": "UGC-DAE Consortium for Scientific Research",
+      "url": "https://www.csr.res.in/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-10-15"
+      ],
+      "deadlineNote": "Proposals close 15 October 2026 via the user portal. Each researcher may submit one proposal per call. Proposal must justify the choice of UGC-DAE CSR or DAE facility.",
+      "region": "India",
+      "amount": "In-kind facility access plus travel and local support",
+      "duration": "3 years",
+      "description": "Three-year collaborative research using UGC-DAE CSR in-house instruments or major DAE facilities, including synchrotrons at RRCAT, the Dhruva reactor at BARC, the cyclotron at VECC, IGCAR facilities, and centre-specific advanced instruments. Open to permanent faculty at UGC-approved or NAAC-accredited institutions and scientists at Government of India-recognised research bodies."
+    },
+    {
+      "id": "global-brain-care-scholars-2026",
+      "name": "Global Brain Care Scholars Program",
+      "funder": "Ban Ki-moon Foundation, Paris Brain Institute, and Vascular Brain Health Institute",
+      "url": "https://institutducerveau-icm.org/en/",
+      "audience": [
+        "undergrad-early",
+        "phd",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-10-06"
+      ],
+      "deadlineNote": "Applications close 6 October 2026. Programme runs October 2026 to September 2027. Mandatory Paris winter school; local Changemaker Project required to unlock the seed grant.",
+      "region": "Global (India eligible)",
+      "amount": "Full cost coverage for the Paris winter school; EUR 800 seed grant on project approval; additional conference support for top three scholars",
+      "duration": "12 months",
+      "description": "Twelve-month hybrid scholarship for ten young professionals working on prevention of stroke, dementia, and depression in underserved communities. Includes a fully funded Paris winter school, virtual workshops, mentoring, and a seed grant for a localised Changemaker Project. Applicants aged 20-35 with a master's degree, B2 English, and relevant experience in brain-health research, care, advocacy, policy, or digital innovation."
+    },
+    {
+      "id": "company-of-biologists-travelling-fellowships",
+      "name": "Company of Biologists Travelling Fellowships",
+      "funder": "The Company of Biologists",
+      "url": "https://www.biologists.com/travelling-fellowships/",
+      "audience": [
+        "phd",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-10-23"
+      ],
+      "deadlineNote": "Next round closes 23 October 2026. Visits must occur within six months of the funding decision and cannot have started before it. One application per person per laboratory per round per journal. Training courses and retrospective work are excluded.",
+      "region": "Global",
+      "amount": "Up to GBP 3,000",
+      "duration": "Single collaborative visit within 6 months of decision",
+      "description": "Travel support for graduate students and postdoctoral researchers of any nationality to undertake a collaborative laboratory visit relevant to Development, Journal of Cell Science, or Journal of Experimental Biology. Awards may cover travel, accommodation, and related expenses. Applicants apply through one journal per round."
+    },
+    {
+      "id": "gerda-henkel-phd-scholarships",
+      "name": "Gerda Henkel Foundation PhD Scholarships",
+      "funder": "Gerda Henkel Foundation",
+      "url": "https://www.gerda-henkel-stiftung.de/phd_scholarships",
+      "audience": [
+        "phd"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; check foundation website for the current round.",
+      "region": "Global",
+      "amount": "Doctoral scholarship support (monthly stipend plus material and travel allowances)",
+      "duration": "Up to 2 years",
+      "description": "Doctoral scholarships in the historical humanities, including history of science, prehistory, early history, archaeology, art history, and legal history. Relevant for history-of-science PhD candidates pursuing dissertation research."
     }
   ]
 }
