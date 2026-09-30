@@ -5514,6 +5514,365 @@
       "amount": "Doctoral scholarship support (monthly stipend plus material and travel allowances)",
       "duration": "Up to 2 years",
       "description": "Doctoral scholarships in the historical humanities, including history of science, prehistory, early history, archaeology, art history, and legal history. Relevant for history-of-science PhD candidates pursuing dissertation research."
+    },
+    {
+      "id": "dst-csri",
+      "name": "Cognitive Science Research Initiative (CSRI)",
+      "funder": "Department of Science and Technology (DST), Government of India",
+      "url": "https://dst.gov.in/cognitive-science-research-initiative-csri",
+      "audience": [
+        "phd",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call for R&D projects and post-doctoral fellowships; schools and conference support accepted year-round.",
+      "region": "India",
+      "amount": "Project grants covering equipment, manpower, and consumables; 2-year post-doctoral fellowships",
+      "duration": "Up to 3 years for projects; 2 years for PDF",
+      "description": "Supports interdisciplinary research in cognitive science, including cognitive neuroscience, computational intelligence, language and cognition, and cognitive disorders. Open to academic and research institutions. Post-doctoral fellow eligibility below age 40."
+    },
+    {
+      "id": "drdo-tdf",
+      "name": "Technology Development Fund (TDF)",
+      "funder": "DRDO, Ministry of Defence, Government of India",
+      "url": "https://tdf.drdo.gov.in/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling. RFPs issued through the year on the TDF portal, each with its own submission window.",
+      "region": "India",
+      "amount": "Grant-in-aid up to 90% of project cost, capped at INR 50 crore",
+      "duration": "Typically 1 to 3 years",
+      "description": "Funds Indian MSMEs and startups (with academic partners permitted) to develop defence and dual-use technologies from TRL 3 onwards. Priorities include import substitution and futuristic defence technology under the Make in India framework."
+    },
+    {
+      "id": "birac-pace",
+      "name": "Partnership for Accelerating Clinical trials and Entrepreneurship (PACE), SBIRI, and BIPP under BIRAC i4",
+      "funder": "Biotechnology Industry Research Assistance Council (BIRAC), Department of Biotechnology",
+      "url": "https://birac.nic.in/cfp.php",
+      "audience": [
+        "phd",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Periodic joint calls under BIRAC's i4 framework; check the portal for current cycles.",
+      "region": "India",
+      "amount": "Varies by scheme; PACE academia-industry projects typically INR 1 to 2 crore",
+      "duration": "18 to 36 months per phase",
+      "description": "PACE funds academia developing biotech products of societal value with an industrial validation partner. SBIRI and BIPP support small business and industry-led biotech innovation. Applicants apply jointly through the BIRAC portal."
+    },
+    {
+      "id": "birac-sparsh",
+      "name": "Social Innovation Programme for Products: Affordable and Relevant to Societal Health (SPARSH)",
+      "funder": "Biotechnology Industry Research Assistance Council (BIRAC), Department of Biotechnology",
+      "url": "https://birac.nic.in/desc_new.php?id=58",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling. SIIP fellowship and SPARSH Category A grants advertised on the BIRAC portal.",
+      "region": "India",
+      "amount": "Up to INR 50 lakh (Category A); SIIP fellowship INR 50,000/month plus INR 5 lakh kick-start",
+      "duration": "18 months",
+      "description": "Funds affordable healthcare product development targeting societal health problems. Includes the Social Innovation Immersion Programme (SIIP) fellowship for individuals identifying community health gaps and developing biotech solutions."
+    },
+    {
+      "id": "dst-wise-phd",
+      "name": "WISE Fellowship for PhD (WISE-KIRAN)",
+      "funder": "DST WISE-KIRAN Division, Government of India",
+      "url": "https://dst.gov.in/scientific-programmes/wise-kiran",
+      "audience": [
+        "phd"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call, typically closes December. Related tracks include WISE-PDF (post-doctoral), WISE-SCOPE (societal-challenges re-entry), and WIDUSHI (senior).",
+      "region": "India",
+      "amount": "JRF-equivalent stipend plus contingency",
+      "duration": "Up to 5 years",
+      "description": "Supports women aged 27 to 45 pursuing PhDs in basic and applied sciences at Indian institutions. Part of the WISE-KIRAN umbrella that also runs post-doctoral, re-entry, and senior tracks."
+    },
+    {
+      "id": "dbt-jrf-bet",
+      "name": "DBT Junior Research Fellowship via Biotechnology Eligibility Test (BET)",
+      "funder": "Department of Biotechnology (DBT) / Regional Centre for Biotechnology",
+      "url": "https://rcb.res.in/BET/",
+      "audience": [
+        "phd"
+      ],
+      "deadlines": [
+        "2027-04-09"
+      ],
+      "deadlineNote": "Annual exam. BET 2026 closed 9 April 2026; the next cycle is expected March or April 2027.",
+      "region": "India",
+      "amount": "INR 37,000/month (Cat-I first two years), INR 42,000/month as SRF, plus contingency",
+      "duration": "Up to 5 years (2 as JRF, 3 as SRF)",
+      "description": "National fellowship for PhD research in biotechnology and life sciences at recognised Indian institutions. Category-I holders may join any institution; Category-II are placed at DBT-approved departments."
+    },
+    {
+      "id": "csir-ugc-net-jrf",
+      "name": "CSIR-UGC NET Junior Research Fellowship",
+      "funder": "CSIR-HRDG (Human Resource Development Group)",
+      "url": "https://csirnet.nta.ac.in/",
+      "audience": [
+        "phd"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Biannual (June and December cycles) via the NTA CSIR-UGC NET portal.",
+      "region": "India",
+      "amount": "INR 37,000/month (JRF, 2 years) rising to INR 42,000/month (SRF), plus INR 20,000/year contingency",
+      "duration": "Up to 5 years",
+      "description": "Fellowships awarded on the basis of the CSIR-UGC NET exam for PhD study in chemical, life, mathematical, earth, and physical sciences (and engineering) at CSIR labs, universities, and IITs across India."
+    },
+    {
+      "id": "dst-inspire-fellowship-phd",
+      "name": "INSPIRE Fellowship for PhD",
+      "funder": "Department of Science and Technology (DST), Government of India",
+      "url": "https://online-inspire.gov.in/",
+      "audience": [
+        "phd"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call, typically opens April or May with a four-week window.",
+      "region": "India",
+      "amount": "JRF-equivalent stipend plus research contingency",
+      "duration": "Up to 5 years",
+      "description": "Direct PhD fellowship (no entrance exam) for first-rank postgraduates in basic and applied sciences with minimum 70% marks, or for INSPIRE Scholars. Age limit 22 to 27 years at application."
+    },
+    {
+      "id": "meity-visvesvaraya-phd-phase2",
+      "name": "Visvesvaraya PhD Scheme for Electronics and IT, Phase II",
+      "funder": "Ministry of Electronics and Information Technology (MeitY), Government of India",
+      "url": "https://phd.dic.gov.in/",
+      "audience": [
+        "phd",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual admissions cycle at partner institutions. Next full-time cohort expected mid-2027.",
+      "region": "India",
+      "amount": "INR 38,750/month (yrs 1-2), INR 43,750/month (yrs 3-5), plus 8% HRA and INR 1.2 lakh/year contingency",
+      "duration": "Up to 5 years (PhD); PDF and Young Faculty Research Fellowships also supported",
+      "description": "Supports 1,000 full-time and 150 part-time PhD candidates plus 225 post-doctoral and 50 young-faculty fellowships in ESDM and IT/ITES emerging areas including AI, cybersecurity, quantum, VLSI, and HPC through 2030."
+    },
+    {
+      "id": "moe-pmrf-direct",
+      "name": "Prime Minister's Research Fellowship (PMRF), Direct and Lateral Entry",
+      "funder": "Ministry of Education (MoE), Government of India",
+      "url": "https://www.pmrf.in/",
+      "audience": [
+        "phd"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Two cycles per year. May 2026 cycle closed mid-April 2026; the December 2026 cycle closes mid-November 2026.",
+      "region": "India",
+      "amount": "INR 70,000 to 80,000/month plus INR 2 lakh/year research grant",
+      "duration": "Up to 5 years",
+      "description": "PhD fellowship at IITs, IISc, IISERs, NITs, and select institutions in science and technology. Direct entry from top UG programmes; Lateral entry for early PhD scholars. Distinct from the ANRF-CII PMRF-DR industry-partnered doctoral scheme."
+    },
+    {
+      "id": "iusstf-base-solar-fellowship",
+      "name": "Bhaskara Advanced Solar Energy (BASE) Fellowship",
+      "funder": "Indo-US Science and Technology Forum (IUSSTF) / DST",
+      "url": "https://iusstf.org/bhaskara-advanced-solar-energy-fellowship",
+      "audience": [
+        "phd",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual programme. 2026-27 dates announced via the IUSSTF portal.",
+      "region": "India-USA",
+      "amount": "Monthly stipend, international return airfare, and contingency allowance",
+      "duration": "3 to 6 months (internships); 3 to 12 months (fellowships)",
+      "description": "Supports Indian PhD students (up to 32 years) and Indian PhD-holders (up to 40 years) working in solar energy for research stints at US institutions. A parallel US track brings US researchers to India."
+    },
+    {
+      "id": "iusstf-wistemm",
+      "name": "Indo-US Fellowship for Women in STEMM (WISTEMM)",
+      "funder": "Indo-US Science and Technology Forum (IUSSTF) / DST",
+      "url": "https://iusstf.org/indo-u-s-fellowship-for-women-in-stemm-wistemm-",
+      "audience": [
+        "phd",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call. Separate Women Overseas Fellowship and Women Student Internship tracks; check the IUSSTF portal for the current cycle.",
+      "region": "India-USA",
+      "amount": "Monthly stipend, international airfare, and contingency",
+      "duration": "3 to 6 months",
+      "description": "Sends Indian women scientists and engineers to collaborate at US institutions. Student Internship track for PhD candidates aged 21 to 35; Fellowship track for PhD-holders aged 27 to 45 holding a regular academic or R&D position in India."
+    },
+    {
+      "id": "dst-fist",
+      "name": "Fund for Improvement of S&T Infrastructure (FIST)",
+      "funder": "Department of Science and Technology (DST), Government of India",
+      "url": "https://dst.gov.in/scientific-programmes/scientific-engineering-research/fund-improvement-st-infrastructure-higher-educational-institutions-fist",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call on the DST online portal; the most recent round opened in May 2025 for universities and HEIs.",
+      "region": "India",
+      "amount": "INR 1.5 crore (Level 0) to INR 10 crore (Level 3)",
+      "duration": "5 years",
+      "description": "Departmental infrastructure grants for science, medical, agriculture, and engineering departments (with 3+ years of PG research) in UGC/AICTE-recognised universities and higher educational institutions. Supports equipment, lab modernisation, computational facilities, and networking."
+    },
+    {
+      "id": "weizmann-outstanding-postdoc",
+      "name": "Outstanding Postdoctoral Program",
+      "funder": "Weizmann Institute of Science, Israel",
+      "url": "https://info.weizmann.ac.il/en/outstanding-postdoctoral-program/",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-11-15"
+      ],
+      "deadlineNote": "Annual 15 November deadline for the following academic year.",
+      "region": "Global (India eligible; hosted in Israel)",
+      "amount": "Enhanced postdoctoral stipend (approximately USD 65,000/year plus benefits)",
+      "duration": "Up to 3 years",
+      "description": "Weizmann fellowship for international postdocs (including CS and mathematics) within four years of their PhD. Open to Indian nationals with a PhD from a non-Weizmann institution. The host lab at Weizmann must be identified before submission."
+    },
+    {
+      "id": "ias-princeton-school-of-math",
+      "name": "IAS School of Mathematics Membership",
+      "funder": "Institute for Advanced Study, Princeton",
+      "url": "https://www.ias.edu/math/apply/membership",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-12-01"
+      ],
+      "deadlineNote": "Annual 1 December deadline for the following academic year. School of Natural Sciences (15 November) and School of Social Science (15 October) run parallel calls.",
+      "region": "Global (India eligible; hosted at IAS)",
+      "amount": "Stipend plus housing subsidy; visitor tier available without stipend",
+      "duration": "One term to a full academic year",
+      "description": "Open membership for mathematicians and theoretical computer scientists at any career stage; particularly relevant for logic, foundations, and theoretical CS given the annual thematic year. India-based researchers regularly hold memberships."
+    },
+    {
+      "id": "fields-institute-research-fellowship",
+      "name": "Fields Research Fellowship",
+      "funder": "Fields Institute for Research in Mathematical Sciences, Toronto",
+      "url": "https://www.fields.utoronto.ca/honours-and-fellowships/fields-research-fellowships",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-01-15",
+        "2027-05-15",
+        "2027-09-15"
+      ],
+      "deadlineNote": "Rolling with three fixed deadlines per year (15 Jan, 15 May, 15 Sep). Submit at least three months before proposed start.",
+      "region": "Global (India eligible; residence in Canada)",
+      "amount": "Travel plus local support for a short research visit",
+      "duration": "1 to 3 months",
+      "description": "Short research visit for faculty and research scientists in mathematical sciences, either in residence at Fields or with a collaborator at a Fields Principal Sponsoring University. India-based mathematicians, logicians, and theoretical CS researchers can apply directly with a cover letter, CV, and short proposal."
+    },
+    {
+      "id": "renaissance-ai-for-math-fund",
+      "name": "AI for Math Fund",
+      "funder": "Renaissance Philanthropy (with XTX Markets and others)",
+      "url": "https://www.renaissancephilanthropy.org/ai-for-math-fund",
+      "audience": [
+        "phd",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "First round abstracts closed 30 March 2026 with decisions in August 2026. A further round is expected; watch the fund page for the next call.",
+      "region": "Global (India eligible)",
+      "amount": "USD 100K to 1M per project",
+      "duration": "12 to 24 months",
+      "description": "USD 31.5M fund supporting projects that apply AI and machine learning to mathematics, including autoformalisation, theorem proving, and mathematical discovery. Open to individuals and teams worldwide including India-based researchers, students, and postdocs. Strong fit for logic, CS, and math researchers."
+    },
+    {
+      "id": "national-geographic-level-1-grant",
+      "name": "National Geographic Society Level I Grant",
+      "funder": "National Geographic Society",
+      "url": "https://www.nationalgeographic.org/funding-opportunities/grants/what-we-fund/",
+      "audience": [
+        "phd",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling review cycles multiple times per year, with proposals due each quarter.",
+      "region": "Global (India eligible)",
+      "amount": "Up to USD 20,000",
+      "duration": "Up to 1 year",
+      "description": "Project grants for individuals in science, conservation, technology, education, and storytelling, aligned with focus areas including Human Ingenuity (which covers CS/AI, human-centred tech, and computational tools). Open internationally. Indian applicants apply directly; a local collaborator is required only when working outside their home country."
+    },
+    {
+      "id": "kaust-global-fellowship",
+      "name": "KAUST Global Fellowship Program",
+      "funder": "King Abdullah University of Science and Technology (KAUST), Saudi Arabia",
+      "url": "https://cemse.kaust.edu.sa/kgfp",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-10-01"
+      ],
+      "deadlineNote": "Annual application window with a 1 October cut-off.",
+      "region": "Global (India eligible; hosted at KAUST)",
+      "amount": "Full salary plus benefits and an independent research budget",
+      "duration": "3 years",
+      "description": "Postdoctoral fellowship for early-career researchers to pursue independent research at KAUST, with strong CS, AI, and mathematics divisions. Open to applicants from any country including India."
+    },
+    {
+      "id": "bessel-research-award-humboldt",
+      "name": "Friedrich Wilhelm Bessel Research Award",
+      "funder": "Alexander von Humboldt Foundation",
+      "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/friedrich-wilhelm-bessel-research-award",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Nominations accepted year-round. Approximately 20 awards per year, with a six-month review.",
+      "region": "Global (India eligible; hosted in Germany)",
+      "amount": "EUR 60,000 award money",
+      "duration": "Research stay of up to 12 months in Germany",
+      "description": "Mid-career award for internationally recognised researchers up to 18 years post-PhD, to spend up to a year with German collaborators. Nomination-based via a German host academic; India-based CS and logic researchers with strong research profiles are directly eligible."
+    },
+    {
+      "id": "dfg-mercator-fellowship",
+      "name": "DFG Mercator Fellowship (Mercator Module)",
+      "funder": "Deutsche Forschungsgemeinschaft (DFG)",
+      "url": "https://www.dfg.de/en/research-funding/programmes/international-cooperation/mercator-fellows",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling. Embedded in DFG project proposals (Research Grants, Emmy Noether, CRC, etc.), so tied to those proposal deadlines.",
+      "region": "Global (India eligible; visits to Germany)",
+      "amount": "Covers travel and residence during German stays plus a lump sum",
+      "duration": "Flexible; several visits over the project lifetime",
+      "description": "Enables India-based researchers to join a DFG-funded German project as a long-term collaborator through extended research stays in Germany, awarded via a German PI's proposal. Broadly applicable to CS and logic collaborations with German groups."
+    },
+    {
+      "id": "toyota-foundation-international-grant",
+      "name": "Toyota Foundation International Grant Program",
+      "funder": "The Toyota Foundation, Japan",
+      "url": "https://www.toyotafound.or.jp/english/program/international.html",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call opening in April with a late-May deadline. Watch the site for the 2027 round.",
+      "region": "Asia (India eligible; project must span 2 or more Asian countries)",
+      "amount": "Up to JPY 10,000,000 (approx USD 65,000) for two-year projects; JPY 5,000,000 for one-year",
+      "duration": "1 to 2 years",
+      "description": "Grants for cross-border Asian collaboration on shared societal issues, including science policy, technology in society, and computational approaches to public problems. India is on the eligible-country list (with Bangladesh, Bhutan, Maldives, Nepal, Pakistan, Sri Lanka); projects must be led jointly across at least two eligible countries."
     }
   ]
 }
