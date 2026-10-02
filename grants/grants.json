@@ -1508,17 +1508,19 @@
     {
       "id": "cifar-azrieli-global-scholars",
       "name": "CIFAR Azrieli Global Scholars Program",
-      "funder": "Canadian Institute for Advanced Research",
+      "funder": "Canadian Institute for Advanced Research (CIFAR) and Azrieli Foundation",
       "url": "https://cifar.ca/next-generation/global-scholars/",
       "audience": [
         "faculty"
       ],
-      "deadlines": [],
-      "deadlineNote": "Annual cycle; next cycle expected fall 2026.",
-      "region": "International",
-      "amount": "CAD $100k unrestricted research support",
+      "deadlines": [
+        "2026-11-04"
+      ],
+      "deadlineNote": "2027-29 cohort deadline is 4 November 2026 (noon ET). Term runs 1 April 2027 to 31 March 2029. Applicants must hold a secure full-time research or higher-education position with PI responsibility throughout the term and work on themes aligned with a recruiting CIFAR programme.",
+      "region": "Global (India eligible)",
+      "amount": "CAD 100,000 unrestricted research support",
       "duration": "2 years",
-      "description": "Supports early-career researchers (within 5 years of first PI position) joining a CIFAR research program for interdisciplinary collaboration."
+      "description": "Supports early-career independent investigators (first PI position between July 2022 and December 2026) pursuing high-risk, high-reward interdisciplinary research by joining a CIFAR research programme. Applicants may be based in any country."
     },
     {
       "id": "iarcs-acm-india-travel-grant",
@@ -4985,12 +4987,14 @@
       "audience": [
         "faculty"
       ],
-      "deadlines": [],
-      "deadlineNote": "Subsumes the earlier EMEQ (Empowerment and Equity Opportunities for Excellence in Science) scheme. For Indian nationals belonging to SC/ST categories in regular academic/lab positions.",
+      "deadlines": [
+        "2026-11-03"
+      ],
+      "deadlineNote": "2026 window closes 3 November 2026. Subsumes the earlier EMEQ scheme. For Indian nationals in SC/ST categories in regular academic or lab positions. Applicants must have at least four years of service remaining, no ongoing IRG or EMEQ project, and apply without a co-investigator.",
       "region": "India",
-      "amount": "Up to INR 60 lakh + overheads",
-      "duration": "3 years",
-      "description": "Research grant for SC/ST scientists to conduct frontier research in science and engineering at Indian academic institutions, national labs, and recognised R&D organisations."
+      "amount": "Up to INR 60 lakh excluding institutional overheads",
+      "duration": "Up to 3 years",
+      "description": "Research grant for SC/ST scientists to conduct frontier research in science and engineering at Indian academic institutions, national labs, and recognised R&D organisations. Includes flexible recurring support plus international travel and publication or patent costs. Open to PhD-holders in Science or Engineering and MD/MS/MDS."
     },
     {
       "id": "iitm-cold-winter-school-2026",
@@ -5873,6 +5877,56 @@
       "amount": "Up to JPY 10,000,000 (approx USD 65,000) for two-year projects; JPY 5,000,000 for one-year",
       "duration": "1 to 2 years",
       "description": "Grants for cross-border Asian collaboration on shared societal issues, including science policy, technology in society, and computational approaches to public problems. India is on the eligible-country list (with Bangladesh, Bhutan, Maldives, Nepal, Pakistan, Sri Lanka); projects must be led jointly across at least two eligible countries."
+    },
+    {
+      "id": "drdo-dia-coe-2026",
+      "name": "DRDO DIA-CoE Research Problems September 2026",
+      "funder": "Directorate of Futuristic Technology Management (DFTM), DRDO, Government of India",
+      "url": "https://drdo.gov.in/drdo/dia-coe",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-12-31"
+      ],
+      "deadlineNote": "Notice valid through December 2026 for 19 specified research problems. Proposals routed to the relevant DIA-CoE research vertical. No fixed award ceiling or duration stated.",
+      "region": "India",
+      "amount": "See call details",
+      "duration": "See call details",
+      "description": "Multi-institutional, multidisciplinary research proposals addressing 19 defence research problems through the DRDO Industry Academia-Centre of Excellence (DIA-CoE) network. Topics include stealth materials, aerospace modelling, radar and signal processing, autonomous navigation, power electronics, semiconductor detectors, and fuzing. Open to Indian academia and national research institutes using the official proposal forms."
+    },
+    {
+      "id": "tnq-inspiring-science-awards-2027",
+      "name": "TNQ Inspiring Science Awards (ISA) 2027",
+      "funder": "TNQ Foundation",
+      "url": "https://tnqfoundation.org/isa/",
+      "audience": [
+        "phd",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-10-31"
+      ],
+      "deadlineNote": "Applications close 31 October 2026. Eligible papers must have been first published between 1 October 2025 and 30 September 2026, with the applicant as first or co-first author.",
+      "region": "India",
+      "amount": "Apple laptop, medal, and citation for eight finalists; winner also receives a conference travel fellowship",
+      "duration": "One-time award",
+      "description": "Annual award recognising the best full-length life-sciences research paper by a student from India. Open to PhD researchers and postdoctoral fellows within four years of their postdoctoral programme, where the work was conducted at an India-based institution."
+    },
+    {
+      "id": "asm-future-leaders-mentorship-2027",
+      "name": "ASM Future Leaders Mentorship Fellowship",
+      "funder": "American Society for Microbiology (ASM)",
+      "url": "https://asm.org/membership/awards/asm-future-leaders-mentorship-fellowship",
+      "audience": [
+        "phd"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2027 cohort opens February 2027 with applications due in March 2027. Exact date not announced.",
+      "region": "Global (India eligible; online)",
+      "amount": "Structured mentoring, leadership and professional-development training, networking and collaboration opportunities",
+      "duration": "2 years",
+      "description": "Two-year online programme pairing master's and doctoral students in microbial sciences with experienced mentors across academia, industry, government, and other sectors. Fellows must be ASM members for 2027, hold master's or doctoral student status, show a strong microbial-sciences background, and commit to the full two-year term."
     }
   ]
 }
