@@ -704,61 +704,58 @@ details.news-archive > summary:hover { color: var(--text); }
 }
 
 /* ======================================================================
- * /publications/ - per-entry abstract and bibtex toggles
+ * /publications/ - minimal list layout
  * ==================================================================== */
-.indented.pub { margin: var(--sp-4) 0; }
-.pub-toggles {
-  display: block;
-  margin-top: var(--sp-2);
-  font-size: 0.85em;
+.pub {
+  margin: var(--sp-3) 0;
+  line-height: 1.55;
+  padding-left: 0;
+}
+.pub-links {
+  color: var(--text-muted);
+  font-size: 0.92em;
+}
+.pub-links a {
+  color: var(--text-muted);
+  border-bottom: none;
+}
+.pub-links a:hover {
+  color: var(--accent);
 }
 details.pub-detail {
-  display: inline-block;
-  margin-right: var(--sp-4);
-  vertical-align: top;
+  display: inline;
 }
 details.pub-detail > summary {
+  display: inline;
   cursor: pointer;
-  color: var(--text-muted);
   list-style: none;
-  user-select: none;
-  letter-spacing: 0.05em;
+  color: var(--text-muted);
   transition: color var(--t-fast);
 }
 details.pub-detail > summary::-webkit-details-marker { display: none; }
-details.pub-detail > summary::before {
-  content: "+ ";
-  display: inline-block;
-  font-weight: 500;
-  width: 1em;
-}
-details.pub-detail[open] > summary::before { content: "\2212 "; }
-details.pub-detail > summary:hover { color: var(--text); }
-details.pub-detail[open] { display: block; }
+details.pub-detail > summary::marker { content: ""; }
+details.pub-detail > summary:hover { color: var(--accent); }
+details.pub-detail[open] > summary { color: var(--accent); }
+.pub-abstract-body,
 .pub-bibtex {
   display: block;
-  margin: var(--sp-2) 0 var(--sp-3) var(--sp-3);
-  padding: var(--sp-3) var(--sp-4);
-  background: var(--accent-soft);
-  border-left: 3px solid var(--accent);
-  border-radius: 0;
-  font-family: ui-monospace, "SF Mono", Consolas, Menlo, monospace;
-  font-size: 0.78em;
-  line-height: 1.5;
-  color: var(--text);
-  overflow-x: auto;
-  white-space: pre;
+  margin: var(--sp-2) 0 var(--sp-3) 0;
+  padding: 0;
+  color: var(--text-muted);
   max-width: 42em;
+  background: transparent;
+  border: none;
 }
 .pub-abstract-body {
-  display: block;
-  margin: var(--sp-2) 0 var(--sp-3) var(--sp-3);
-  padding: 0 0 0 var(--sp-3);
-  border-left: 2px solid var(--border);
-  color: var(--text-muted);
   font-size: 0.95em;
   line-height: 1.55;
-  max-width: 42em;
+}
+.pub-bibtex {
+  font-family: ui-monospace, "SF Mono", Consolas, Menlo, monospace;
+  font-size: 0.8em;
+  line-height: 1.5;
+  white-space: pre;
+  overflow-x: auto;
 }
 
 @media (max-width: 768px) {
