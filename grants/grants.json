@@ -1011,12 +1011,14 @@
       "audience": [
         "faculty"
       ],
-      "deadlines": [],
-      "deadlineNote": "Twice-yearly calls; Spring 2026 call closed May 13, 2026. Next call expected fall 2026.",
+      "deadlines": [
+        "2026-11-04"
+      ],
+      "deadlineNote": "Fall 2026 call closes 4 November 2026. One proposal per PI per call period. PI must be full-time faculty at an accredited institution or a permanent researcher at a legally recognised non-profit/NGO.",
       "region": "Global",
-      "amount": "Unrestricted cash + AWS promotional credits",
+      "amount": "Up to USD 80,000 (unrestricted institutional gift, may include AWS promotional credits)",
       "duration": "1 year typical",
-      "description": "Funds academic researchers across themes including Agentic AI, AI for Information Security, Robotics, Build on Trainium (kernels and post-training), Amazon 2030, and Amazon Security. Awardees get an Amazon scientific contact and training resources."
+      "description": "Funds academic and non-profit researchers across nine areas including agentic AI, information security, automated reasoning, cryptography, multilingual AI evaluation, multimodal perception, and AWS Trainium. Awardees receive an Amazon research contact and training resources."
     },
     {
       "id": "aws-cloud-credit-for-research",
@@ -5927,6 +5929,41 @@
       "amount": "Structured mentoring, leadership and professional-development training, networking and collaboration opportunities",
       "duration": "2 years",
       "description": "Two-year online programme pairing master's and doctoral students in microbial sciences with experienced mentors across academia, industry, government, and other sectors. Fellows must be ASM members for 2027, hold master's or doctoral student status, show a strong microbial-sciences background, and commit to the full two-year term."
+    },
+    {
+      "id": "dhr-hrd-health-research-2026-27",
+      "name": "DHR Human Resource Development Sub-Scheme for Health Research 2026-27",
+      "funder": "Department of Health Research (DHR), Ministry of Health & Family Welfare, Government of India",
+      "url": "https://dhr.gov.in/schemes/human-resource-development-health-research",
+      "audience": [
+        "faculty",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-11-30"
+      ],
+      "deadlineNote": "Proposals due via DHR e-PMS portal by 5:00 PM on 30 November 2026. Current call restricted to applicants from Northeastern states: Arunachal Pradesh, Assam, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura.",
+      "region": "India (Northeastern states)",
+      "amount": "See call details",
+      "duration": "See call details",
+      "description": "Capacity-building programme for advanced medical and health research. Covers the Women Scientist Fellowship Programme and the NRI/PIO/OCI Research Support Programme under the HRD Sub-Scheme. 2026-27 call limited to applicants from the eight Northeastern states."
+    },
+    {
+      "id": "mcqst-junior-researcher-start-2026",
+      "name": "MCQST Junior Researcher START Fellowship",
+      "funder": "Munich Center for Quantum Science and Technology (MCQST)",
+      "url": "https://www.mcqst.de/career/opportunities/mcqst-start-fellowship.html",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-10-24"
+      ],
+      "deadlineNote": "Applications close 23:59 CEST on 24 October 2026. Applicants need a PhD in physics, mathematics, computer science, chemistry, engineering, or related field and under four years of postdoctoral experience at the deadline. Only one application per MCQST PI or research group.",
+      "region": "Global (hosted at MCQST, Munich)",
+      "amount": "Up to EUR 300,000 (salary, staff, equipment, consumables, travel)",
+      "duration": "2 years",
+      "description": "Independent-project fellowship for outstanding early-career researchers in quantum science and technology. Applicants must secure an MCQST PI host who provides infrastructure and a support letter."
     }
   ]
 }
