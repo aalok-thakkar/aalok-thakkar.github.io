@@ -5964,6 +5964,57 @@
       "amount": "Up to EUR 300,000 (salary, staff, equipment, consumables, travel)",
       "duration": "2 years",
       "description": "Independent-project fellowship for outstanding early-career researchers in quantum science and technology. Applicants must secure an MCQST PI host who provides infrastructure and a support letter."
+    },
+    {
+      "id": "syngene-early-career-2026-27",
+      "name": "Syngene Early Career Research Grants 2026-27",
+      "funder": "Syngene International Limited",
+      "url": "https://www.syngeneintl.com/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-30"
+      ],
+      "deadlineNote": "Applications close 30 November 2026. Three grants awarded. PhD in science and no more than eight years post-PhD as of December 2026. Permanent institutional position required; postdoctoral researchers not eligible. Institution must hold a CSR Registration Number.",
+      "region": "India",
+      "amount": "INR 50 lakh per grant (excludes institutional overheads); three grantees",
+      "duration": "See call details",
+      "description": "Early-career research grants for innovative work spanning biology, chemistry, computation, and technology relevant to drug discovery and healthcare. Open to permanently appointed junior faculty, assistant professors, and junior research faculty in life sciences at Indian research institutes or universities."
+    },
+    {
+      "id": "pfizer-atm-avi-rwe-2026",
+      "name": "Pfizer Real World Evidence on Early Appropriate Use of Aztreonam-Avibactam (ATM-AVI)",
+      "funder": "Pfizer",
+      "url": "https://www.cybergrants.com/pfizer/CGR_Open",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-25"
+      ],
+      "deadlineNote": "Proposals due 23:59 EST on 25 November 2026. Projects expected to run June 2027 to December 2028. Applications must come from organisations, not individuals. Indian organisations require a valid FCRA certificate and IRB/IEC approval before project start.",
+      "region": "Global (India eligible)",
+      "amount": "Up to USD 50,000 per project; 2 to 3 awards; indirect costs capped at 28%",
+      "duration": "Up to 18 months",
+      "description": "Real-world clinical studies evaluating the impact of early, appropriate aztreonam-avibactam use guided by rapid diagnostics in adults with suspected or documented CRE or Stenotrophomonas maltophilia infection. PI must be an employee or contractor with an MD, PhD, equivalent research doctorate, advanced nursing, pharmacy, or microbiology degree."
+    },
+    {
+      "id": "wcrf-regular-grant-2026-27",
+      "name": "World Cancer Research Fund Regular Grant Programme 2026-27",
+      "funder": "World Cancer Research Fund International",
+      "url": "https://www.wcrf.org/researchers/our-funding/funding-opportunities/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-13"
+      ],
+      "deadlineNote": "Letters of intent due 17:00 GMT on 13 November 2026. Lead applicant must hold a research position at the host institution for the full project duration. Proposals must address at least one 2026-27 priority area within cancer prevention or survivorship.",
+      "region": "Global",
+      "amount": "Investigator-initiated grants up to GBP 500,000; pilot and feasibility grants up to GBP 60,000",
+      "duration": "Up to 4 years (investigator-initiated); up to 2 years (pilot/feasibility)",
+      "description": "Research on diet, nutrition, body composition, physical activity, and sleep in cancer prevention or survivorship. Eligible organisations may be located anywhere in the world."
     }
   ]
 }
