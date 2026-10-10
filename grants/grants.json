@@ -1680,10 +1680,12 @@
         "students",
         "postdocs"
       ],
-      "deadlines": [],
-      "deadlineNote": "Annual cycle; nomination via Academic Partners or Open Application. Disciplines rotate (Physics, Chemistry, Physiology/Medicine, with Economics added every third year).",
+      "deadlines": [
+        "2026-10-23"
+      ],
+      "deadlineNote": "76th Lindau Nobel Laureate Meeting (27 June to 2 July 2027, dedicated to Physiology/Medicine): Indian students and young researchers apply via the MeitY UPMS portal (https://upms.meity.gov.in/schemes) by 23 October 2026. Open Application via the Lindau website is also available. Disciplines rotate (Physics, Chemistry, Physiology/Medicine, with Economics added every third year).",
       "region": "Lindau, Germany",
-      "description": "Selective meeting bringing several hundred young scientists (undergraduates, PhD students, postdocs) into week-long exchange with Nobel Laureates. Two routes: Academic Partner nomination or open application via the Lindau website."
+      "description": "Selective meeting bringing several hundred young scientists (undergraduates, PhD students, postdocs) into week-long exchange with Nobel Laureates. Two routes: Academic Partner nomination (for India, via MeitY/DST) or open application via the Lindau website."
     },
     {
       "id": "ieee-merwin-scholarship",
