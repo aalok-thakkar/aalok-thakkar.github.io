@@ -1007,16 +1007,16 @@
       "id": "amazon-research-awards",
       "name": "Amazon Research Awards (ARA)",
       "funder": "Amazon Science",
-      "url": "https://www.amazon.science/research-awards",
+      "url": "https://www.amazon.science/research-awards/call-for-proposals",
       "audience": [
         "faculty"
       ],
       "deadlines": [
         "2026-11-04"
       ],
-      "deadlineNote": "Fall 2026 call closes 4 November 2026. One proposal per PI per call period. PI must be full-time faculty at an accredited institution or a permanent researcher at a legally recognised non-profit/NGO.",
+      "deadlineNote": "Fall 2026 call closes 23:59 Pacific Time on 4 November 2026. One proposal per PI per call period. PI must be full-time faculty at an accredited institution or a permanent researcher at a legally recognised non-profit/NGO.",
       "region": "Global",
-      "amount": "Up to USD 80,000 (unrestricted institutional gift, may include AWS promotional credits)",
+      "amount": "Unrestricted institutional gift (cash plus AWS promotional credits); funding and credits vary by research area, see the call page for per-topic ceilings",
       "duration": "1 year typical",
       "description": "Funds academic and non-profit researchers across nine areas including agentic AI, information security, automated reasoning, cryptography, multilingual AI evaluation, multimodal perception, and AWS Trainium. Awardees receive an Amazon research contact and training resources."
     },
@@ -5971,7 +5971,7 @@
       "id": "syngene-early-career-2026-27",
       "name": "Syngene Early Career Research Grants 2026-27",
       "funder": "Syngene International Limited",
-      "url": "https://www.syngeneintl.com/",
+      "url": "https://www.syngeneintl.com/about-us/corporate-social-responsibility/syngene-early-career-research-awards-2026/",
       "audience": [
         "faculty"
       ],
@@ -6017,6 +6017,41 @@
       "amount": "Investigator-initiated grants up to GBP 500,000; pilot and feasibility grants up to GBP 60,000",
       "duration": "Up to 4 years (investigator-initiated); up to 2 years (pilot/feasibility)",
       "description": "Research on diet, nutrition, body composition, physical activity, and sleep in cancer prevention or survivorship. Eligible organisations may be located anywhere in the world."
+    },
+    {
+      "id": "icmr-first-in-the-world-2026",
+      "name": "ICMR First in the World Challenge 2026",
+      "funder": "Indian Council of Medical Research (ICMR)",
+      "url": "https://www.icmr.gov.in/icmrobject/uploads/Call/1790846907_call_fiw_2026.pdf",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-30"
+      ],
+      "deadlineNote": "Applications close 5:30 PM on 30 November 2026.",
+      "region": "India",
+      "amount": "See call details",
+      "duration": "See call details",
+      "description": "Supports genuinely novel biomedical and health-technology innovations from proof of concept to final product. Targets high-risk, high-reward research that could lead to first-in-the-world outcomes in medicine and health."
+    },
+    {
+      "id": "unesco-al-fozan-stem-2026",
+      "name": "UNESCO-Al Fozan International Prize for Young Scientists in STEM",
+      "funder": "UNESCO and Al Fozan Foundation",
+      "url": "https://www.unesco.org/en/prizes/al-fozan/nomination-process",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-30"
+      ],
+      "deadlineNote": "Nominations close midnight (UTC+1) on 30 November 2026. Eligible institutional nomination required; self-nominations are not accepted.",
+      "region": "Global",
+      "amount": "Prize for recognition of scientific contribution (see nomination page for current prize value)",
+      "duration": "One-time award",
+      "description": "Biennial UNESCO prize recognising five young scientists under 40 for outstanding contributions in science, technology, engineering, and mathematics (STEM). Candidates must be nominated by an eligible institution, government, or professional body."
     }
   ]
 }
