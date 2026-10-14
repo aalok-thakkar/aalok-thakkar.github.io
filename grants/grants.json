@@ -6020,7 +6020,7 @@
     },
     {
       "id": "icmr-first-in-the-world-2026",
-      "name": "ICMR First in the World Challenge 2026",
+      "name": "ICMR First in the World Challenge Grants 2026",
       "funder": "Indian Council of Medical Research (ICMR)",
       "url": "https://www.icmr.gov.in/icmrobject/uploads/Call/1790846907_call_fiw_2026.pdf",
       "audience": [
@@ -6029,11 +6029,11 @@
       "deadlines": [
         "2026-11-30"
       ],
-      "deadlineNote": "Applications close 5:30 PM on 30 November 2026.",
+      "deadlineNote": "Applications close 5:30 PM on 30 November 2026 via e-PMS. Open to scientists at Indian government medical colleges, INIs, ICMR institutes, universities, recognised R&D laboratories, NGOs (with required registrations), start-ups, MSMEs, and industry. At least one co-PI from the PI's institution is mandatory.",
       "region": "India",
-      "amount": "See call details",
-      "duration": "See call details",
-      "description": "Supports genuinely novel biomedical and health-technology innovations from proof of concept to final product. Targets high-risk, high-reward research that could lead to first-in-the-world outcomes in medicine and health."
+      "amount": "Up to INR 1 crore (proof of concept), 4 crore (prototype), or 8 crore (final product or implementation model)",
+      "duration": "Up to 2, 3, or 4 years by stage",
+      "description": "Supports high-risk, high-reward biomedical and health-technology ideas that have not previously been thought of, tested, or tried anywhere. Three stages: proof of concept, prototype development, final product or implementation model. Applicants may apply individually or in teams."
     },
     {
       "id": "unesco-al-fozan-stem-2026",
@@ -6052,6 +6052,74 @@
       "amount": "Prize for recognition of scientific contribution (see nomination page for current prize value)",
       "duration": "One-time award",
       "description": "Biennial UNESCO prize recognising five young scientists under 40 for outstanding contributions in science, technology, engineering, and mathematics (STEM). Candidates must be nominated by an eligible institution, government, or professional body."
+    },
+    {
+      "id": "mathworks-research-proposals-2026",
+      "name": "MathWorks Call for Research Proposals",
+      "funder": "MathWorks",
+      "url": "https://www.mathworks.com/academia/research/research-grants.html",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-02"
+      ],
+      "deadlineNote": "Applications close 2 November 2026. Applicant must be the PI and include a letter of intent from a commercial partner.",
+      "region": "Global",
+      "amount": "Unrestricted research gift (see call for current ceiling)",
+      "duration": "1 year, not extendable",
+      "description": "One-year research gifts for industry-relevant projects that use MATLAB or Simulink and advance AI-enabled engineering. Priority areas include aerospace and UAV systems, automotive and electric vehicles, wireless and radar, energy, robotics and autonomous systems, medical devices, and semiconductors. Open to current full-time faculty at accredited doctoral institutions."
+    },
+    {
+      "id": "fcdo-srhr-research-centre-2026",
+      "name": "FCDO SRHR Applied Research Centre",
+      "funder": "UK Foreign, Commonwealth & Development Office (FCDO)",
+      "url": "https://www.gov.uk/government/organisations/foreign-commonwealth-development-office",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-30"
+      ],
+      "deadlineNote": "Applications close 30 November 2026. Centre runs July 2027 to March 2032. Lead must be an academic or non-profit legal entity; a private university may lead only through a clearly defined non-profit division. Consortiums should cover at least six LMICs.",
+      "region": "LMICs (India eligible as LMIC lead)",
+      "amount": "Up to GBP 12 million",
+      "duration": "July 2027 to March 2032",
+      "description": "Establish an applied research centre addressing evidence gaps in sexual and reproductive health and rights (SRHR). The centre will conduct demand-led research, strengthen capacity, and support evidence use across at least six low- and middle-income countries. A single LMIC institution or LMIC-led consortium may apply."
+    },
+    {
+      "id": "dbt-emerging-frontiers-biotech-2026",
+      "name": "DBT Emerging Frontiers in Biotechnology (EFB) 2026",
+      "funder": "Department of Biotechnology (DBT), Government of India",
+      "url": "https://dbtindia.gov.in/schemes-programmes/research-development",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-15"
+      ],
+      "deadlineNote": "Applications close 15 November 2026. Industries and start-ups are not eligible.",
+      "region": "India",
+      "amount": "Up to INR 100 lakh per project",
+      "duration": "See call details",
+      "description": "Investigator-led competitive research grants under two verticals: Biomedical Sciences (human health and disease, vaccines, diagnostics, drug development, genomics, biosensors) and Biological Sciences (plant, agricultural, and animal biotech, bio-energy, bio-resources, environmental biology). Open to researchers at academic institutions and R&D organisations."
+    },
+    {
+      "id": "csir-travel-grant-scheme",
+      "name": "CSIR Travel Grant Scheme",
+      "funder": "Council of Scientific and Industrial Research - Human Resource Development Group (CSIR-HRDG)",
+      "url": "https://csirhrdg.res.in/Home/Index/1/Default/3209/82",
+      "audience": [
+        "phd",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling. Applications must arrive 2 to 4 months before the event. No CSIR travel assistance in the prior three years.",
+      "region": "India",
+      "amount": "Up to full actual airfare from the nearest Indian airport to the event and back",
+      "duration": "Per event",
+      "description": "Travel support for young Indian researchers, research associates, resident doctors, emeritus scientists, and other non-regular researchers presenting at international scientific events. Applicants need relevant qualifications, refereed publications, an accepted lead- or single-author paper or invited chair/keynote role, and institutional endorsement."
     }
   ]
 }
