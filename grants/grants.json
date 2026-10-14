@@ -6120,6 +6120,161 @@
       "amount": "Up to full actual airfare from the nearest Indian airport to the event and back",
       "duration": "Per event",
       "description": "Travel support for young Indian researchers, research associates, resident doctors, emeritus scientists, and other non-regular researchers presenting at international scientific events. Applicants need relevant qualifications, refereed publications, an accepted lead- or single-author paper or invited chair/keynote role, and institutional endorsement."
+    },
+    {
+      "id": "qualcomm-innovation-fellowship-india",
+      "name": "Qualcomm Innovation Fellowship India",
+      "funder": "Qualcomm",
+      "url": "https://www.qualcomm.com/research/university-relations/innovation-fellowship/2026-india",
+      "audience": [
+        "phd"
+      ],
+      "deadlines": [
+        "2027-04-20"
+      ],
+      "deadlineNote": "Annual window opens around March and closes mid-April. The 2026-27 round closed 20 April 2026; next round projected March to April 2027.",
+      "region": "India",
+      "amount": "INR 10 lakh per winning team per year, renewable once",
+      "duration": "1 year, up to 2 with renewal",
+      "description": "Fellowship for PhD and master's teams at 16 eligible Indian institutes including IISc, IITs, IIITs, and ISI Kolkata, with a Qualcomm research mentor. Covers CS, AI, systems, and signal processing. Requires a short research proposal and faculty endorsement."
+    },
+    {
+      "id": "simons-berkeley-research-fellowship",
+      "name": "Simons-Berkeley Research Fellowship",
+      "funder": "Simons Institute for the Theory of Computing, UC Berkeley",
+      "url": "https://simons.berkeley.edu/research-fellowship-call-applications",
+      "audience": [
+        "phd",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-11-15"
+      ],
+      "deadlineNote": "Fall 2027 call expected to open September 2026 with a mid-November 2026 deadline, following the Fall 2026 and Spring 2027 pattern.",
+      "region": "Global (India eligible)",
+      "amount": "Competitive stipend, housing, and visa support",
+      "duration": "One semester at Berkeley",
+      "description": "Semester-long fellowship for theoretical computer scientists and mathematicians within five years of their PhD. Fellows participate in a Simons Institute programme on topics such as pseudorandomness, high-dimensional expanders, or symmetry in computation. India-based postdocs are eligible subject to home-institution approval."
+    },
+    {
+      "id": "dagstuhl-seminar-proposals",
+      "name": "Dagstuhl Seminar Proposals",
+      "funder": "Schloss Dagstuhl, Leibniz Center for Informatics",
+      "url": "https://www.dagstuhl.de/dsproposal",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-01",
+        "2027-04-15"
+      ],
+      "deadlineNote": "Two windows per year, around 1 November and 15 April, submitted through DOSA. The November 2026 window is the hybrid-seminars call.",
+      "region": "Global (India eligible)",
+      "amount": "Full travel and accommodation for invited participants",
+      "duration": "5-day on-site seminar for up to 48 participants",
+      "description": "Teams of three to four computer scientists from different institutions can propose a week-long seminar at Dagstuhl, Germany, around a well-defined research theme. India-based researchers can serve as organisers and name invited participants, with Dagstuhl paying local costs for all invitees. Hybrid proposals require a separate concept section addressing time-zone and remote participation issues."
+    },
+    {
+      "id": "mfo-oberwolfach-workshop-proposals",
+      "name": "Oberwolfach Workshop Proposals",
+      "funder": "Mathematisches Forschungsinstitut Oberwolfach (MFO)",
+      "url": "https://www.mfo.de/scientific-program/meetings/proposal-guidelines",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-07-31"
+      ],
+      "deadlineNote": "Annual 31 July deadline for workshops two years later. The next window closes 31 July 2027 for 2029 workshops.",
+      "region": "Global (India eligible)",
+      "amount": "Full lodging and meals at MFO for all participants",
+      "duration": "5-day workshop with up to 48 participants",
+      "description": "Mathematicians can propose a full, half-size, or mini-workshop at the Oberwolfach institute. Proposals need a scientific focus, suggested participant list, and organiser team; female participation and representation are strongly encouraged. India-based mathematicians can lead or co-lead proposals. Distinct from the Research in Pairs (OWRF) scheme."
+    },
+    {
+      "id": "mitacs-globalink-research-internship",
+      "name": "Mitacs Globalink Research Internship",
+      "funder": "Mitacs with AICTE",
+      "url": "https://www.mitacs.ca/our-programs/globalink-research-internship-students/",
+      "audience": [
+        "undergrad-early"
+      ],
+      "deadlines": [
+        "2027-09-15"
+      ],
+      "deadlineNote": "Annual call runs July to mid-September. The 2027 cycle closed 16 September 2026; next cycle projected mid-September 2027 for summer 2028 placements.",
+      "region": "India-Canada",
+      "amount": "Round-trip airfare, housing, and student fees covered",
+      "duration": "12-week summer research placement",
+      "description": "Research internship at a Canadian university for Indian BE and BTech students in their third or fourth year, matched to a Canadian faculty host. Students apply to three to ten projects across three or more provinces, with a minimum 70% cumulative GPA. The India track funded through AICTE supports about 300 interns per year."
+    },
+    {
+      "id": "infosys-prize",
+      "name": "Infosys Prize",
+      "funder": "Infosys Science Foundation",
+      "url": "https://www.infosysprize.org/about-the-prize/statutes.html",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-06-30"
+      ],
+      "deadlineNote": "Nominations usually open March to June each year for the November announcement. Expect a 2027 window roughly March to June 2027.",
+      "region": "Global (India eligible)",
+      "amount": "USD 100,000 purse plus medal and citation",
+      "duration": "One-time prize",
+      "description": "Annual prize for researchers of Indian origin working anywhere, or any researcher whose work impacts India, aged 40 or under. The Mathematical Sciences category explicitly covers mathematics, statistics, and theoretical computer science. Nominations come from senior researchers, not the candidate; the prize covers six categories including Physical Sciences and Engineering."
+    },
+    {
+      "id": "snsf-scientific-exchanges",
+      "name": "SNSF Scientific Exchanges (as invited guest)",
+      "funder": "Swiss National Science Foundation",
+      "url": "https://www.snf.ch/en/XIZpfY3iQ6uPCS36/funding/careers/scientific-exchanges",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling, but submissions must reach SNSF 4 to 12 months before the planned visit or event.",
+      "region": "India-Switzerland (co-PI route)",
+      "amount": "Travel plus CHF 200/day for foreign speakers; research-visit per diem at Swiss rates",
+      "duration": "Up to 6 months for a research visit, up to 5 days for an event",
+      "description": "An India-based researcher cannot apply directly, but Swiss hosts can bring them in as a visiting guest for up to six months or as a speaker at a workshop. Both the host and the visitor must hold a PhD for research visits; PhD students are eligible for event invitations. Useful for India-Switzerland collaborations with an existing Swiss counterpart."
+    },
+    {
+      "id": "simons-pivot-fellowship",
+      "name": "Simons Pivot Fellowship",
+      "funder": "Simons Foundation",
+      "url": "https://www.simonsfoundation.org/grant/pivot-fellowship/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-05-14"
+      ],
+      "deadlineNote": "Annual mid-May deadline. 2026 round closed 14 May 2026; next round projected May 2027.",
+      "region": "Global (India eligible)",
+      "amount": "Full academic-year salary plus USD 10,000 research allowance; follow-on award up to USD 1.5M",
+      "duration": "1-year training year, with a 5-year follow-on grant for selected fellows",
+      "description": "Supports faculty with a PhD or MD who want to pivot into a new field in natural sciences, engineering, mathematics, data science, or computer science. The fellow spends a year training with a mentor in the target field; the mentor receives USD 50,000. Open to faculty at institutions worldwide including India, subject to the home institution granting a full year of leave."
+    },
+    {
+      "id": "isaac-newton-institute-programme-proposals",
+      "name": "Isaac Newton Institute Programme Proposals",
+      "funder": "Isaac Newton Institute for Mathematical Sciences, Cambridge",
+      "url": "https://www.newton.ac.uk/propose",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-01-31",
+        "2027-07-31"
+      ],
+      "deadlineNote": "Two review windows per year, 31 January and 31 July, for programmes running two to three years later.",
+      "region": "Global (India eligible)",
+      "amount": "Participant travel and subsistence at INI during the programme",
+      "duration": "4-week, 4-month, or 6-month programmes",
+      "description": "Mathematicians and theoretical computer scientists can propose a thematic research programme at INI in Cambridge, co-organised with other senior researchers. Proposals cover mathematical sciences and cross-disciplinary mathematics, including statistics, data science, and mathematical biology. India-based researchers can co-organise and visit INI during the programme, which usually hosts around 50 visiting fellows."
     }
   ]
 }
