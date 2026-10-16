@@ -6275,6 +6275,74 @@
       "amount": "Participant travel and subsistence at INI during the programme",
       "duration": "4-week, 4-month, or 6-month programmes",
       "description": "Mathematicians and theoretical computer scientists can propose a thematic research programme at INI in Cambridge, co-organised with other senior researchers. Proposals cover mathematical sciences and cross-disciplinary mathematics, including statistics, data science, and mathematical biology. India-based researchers can co-organise and visit INI during the programme, which usually hosts around 50 visiting fellows."
+    },
+    {
+      "id": "global-eba-fund-medium-size-2026",
+      "name": "Global EbA Fund Medium-size Grants",
+      "funder": "Global EbA Fund (IUCN and GIZ)",
+      "url": "https://globalebafund.org/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-16"
+      ],
+      "deadlineNote": "Applications close 16 November 2026. Projects must qualify as ecosystem-based adaptation, build on existing work, partner with local institutions, and target global, thematic, or ODA-eligible contexts. Government entities may collaborate but cannot receive grant funds.",
+      "region": "Global (ODA-eligible countries, India eligible)",
+      "amount": "Up to USD 500,000 per grant",
+      "duration": "Up to 24 months",
+      "description": "Collaborative, innovative projects that scale ecosystem-based adaptation through enabling environments, finance, human security, and policy alignment. Open to universities, research institutes, legally recognised NGOs, INGOs, IGOs, community-based and Indigenous Peoples' organisations, eligible private-sector companies, and consortia."
+    },
+    {
+      "id": "laura-bassi-scholarship-winter-2026",
+      "name": "Laura Bassi Scholarship (Winter 2026)",
+      "funder": "Bassi Foundation",
+      "url": "https://editing.press/bassi",
+      "audience": [
+        "phd",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-15"
+      ],
+      "deadlineNote": "Applications close 15 November 2026. Awards editorial assistance (not cash). Open worldwide without institutional, departmental, or national restrictions.",
+      "region": "Global",
+      "amount": "Editorial assistance valued at USD 750 (master's), USD 2,500 (doctoral), USD 500 (junior academics), or USD 5,000 toward open-access charges for eligible book authors and editors",
+      "duration": "See call details",
+      "description": "Funds editorial assistance for research on neglected topics in any discipline. Open to currently enrolled master's and doctoral candidates, and to academics within five years of starting full-time employment. The separate Bassi Foundation Press award supports eligible book authors and editors through an open-access publication charge."
+    },
+    {
+      "id": "dbt-translational-biotech-networks-2026",
+      "name": "DBT Translational Biotechnology Research Networks",
+      "funder": "Department of Biotechnology (DBT), Government of India",
+      "url": "https://dbtepromis.gov.in/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-09-07"
+      ],
+      "deadlineNote": "Rolling advertisement remains current through 7 September 2027. Letter of Intent submitted as a concept note of up to 500 words via DBT's e-ProMIS portal.",
+      "region": "India",
+      "amount": "See call details",
+      "duration": "See call details",
+      "description": "Concise, high-impact biotechnology ideas that either bridge discovery and application through a clear translation pathway, proof of concept, and scale-up potential, or pursue discovery-driven frontier science with transformative potential. Scope includes health and life sciences; agriculture, food, and bioresources; environment, climate, and sustainability; industrial biotechnology; synthetic biology, genomics, engineering biology, and computational biology."
+    },
+    {
+      "id": "jawaharlal-nehru-fellowship",
+      "name": "Jawaharlal Nehru Fellowship",
+      "funder": "Jawaharlal Nehru Memorial Fund",
+      "url": "https://jnmf.in/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling. Applications accepted on a continuing basis. One fellowship awarded annually.",
+      "region": "India",
+      "amount": "INR 1,00,000 per month plus up to INR 75,000/year for secretarial assistance, travel, and contingencies",
+      "duration": "2 years",
+      "description": "Two years of freedom to pursue original and creative work. Open to Indian citizens across sciences, humanities, and public life, including scholars in any discipline, writers, journalists, artists, and civil servants."
     }
   ]
 }
