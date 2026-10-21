@@ -6412,6 +6412,79 @@
       "amount": "EUR 32,000 per fellowship (seven fellowships)",
       "duration": "12 months",
       "description": "Seven early-career biomedical fellowships across dermatology, endocrinology, fertility and urology, orthopaedics and pain medicine, and healthy ageing. Open to applicants of any nationality holding a degree in medicine, biology, pharmacy, biotechnology, or bioengineering. Eligible categories: PhD students, PhD holders, postdoctoral researchers, and medical residents."
+    },
+    {
+      "id": "assistech-collaborate-2026",
+      "name": "AssisTech Foundation Student Innovation Challenge: collaborATe 2026",
+      "funder": "AssisTech Foundation (ATF)",
+      "url": "https://www.psa.gov.in/mission/manthan/",
+      "audience": [
+        "undergrad-early",
+        "phd"
+      ],
+      "deadlines": [
+        "2026-10-30"
+      ],
+      "deadlineNote": "Applications close 30 October 2026. Listed under the PSA Manthan platform.",
+      "region": "India",
+      "amount": "See call details",
+      "duration": "See call details",
+      "description": "Student innovation challenge for assistive technologies addressing accessibility and disability. Open to student teams developing hardware, software, or systems that improve quality of life for persons with disabilities."
+    },
+    {
+      "id": "temasek-green-future-innovation-2026",
+      "name": "Temasek Foundation Green Future Innovation Challenge",
+      "funder": "Temasek Foundation",
+      "url": "https://gfic.cn",
+      "audience": [
+        "phd",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-02-04"
+      ],
+      "deadlineNote": "Applications close 4 February 2027.",
+      "region": "Global",
+      "amount": "See call details",
+      "duration": "See call details",
+      "description": "Challenge for green and sustainable innovation addressing climate, environmental, and ecological problems. Open to applicants worldwide. Delivered in partnership with regional institutions."
+    },
+    {
+      "id": "temasek-liveability-challenge-2027",
+      "name": "The Liveability Challenge",
+      "funder": "Temasek Foundation",
+      "url": "https://www.theliveabilitychallenge.org/",
+      "audience": [
+        "phd",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-02-12"
+      ],
+      "deadlineNote": "Applications close 12 February 2027.",
+      "region": "Global",
+      "amount": "Funding and mentorship for selected finalists",
+      "duration": "See call details",
+      "description": "Global search for solutions addressing urban liveability challenges including energy, food, water, decarbonisation, and the built environment. Finalists receive funding and support to deploy their solutions in Singapore and beyond."
+    },
+    {
+      "id": "campco-cocoa-varieties-2026",
+      "name": "CAMPCO Development of All-Season Cocoa Varieties for the Belt",
+      "funder": "The Central Arecanut and Cocoa Marketing and Processing Co-operative Ltd (CAMPCO)",
+      "url": "https://www.psa.gov.in/mission/manthan/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-06"
+      ],
+      "deadlineNote": "Applications close 6 November 2026. Listed under the PSA Manthan platform.",
+      "region": "India",
+      "amount": "See call details",
+      "duration": "See call details",
+      "description": "Agricultural research call for developing suitable all-season cocoa varieties for the Indian cocoa belt. Open to researchers at Indian institutions working in plant breeding, crop science, and agricultural biotechnology."
     }
   ]
 }
