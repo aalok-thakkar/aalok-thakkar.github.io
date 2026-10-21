@@ -6343,6 +6343,75 @@
       "amount": "INR 1,00,000 per month plus up to INR 75,000/year for secretarial assistance, travel, and contingencies",
       "duration": "2 years",
       "description": "Two years of freedom to pursue original and creative work. Open to Indian citizens across sciences, humanities, and public life, including scholars in any discipline, writers, journalists, artists, and civil servants."
+    },
+    {
+      "id": "bbsrc-bioinformatics-26bbr",
+      "name": "BBSRC Bioinformatics and Biological Resources Fund (26BBR)",
+      "funder": "Biotechnology and Biological Sciences Research Council (BBSRC), UK Research and Innovation",
+      "url": "https://www.ukri.org/opportunity/bioinformatics-and-biological-resources-fund/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-19"
+      ],
+      "deadlineNote": "Applications close 19 November 2026. Project lead must be at a UK research organisation eligible for BBSRC funding. India-based researchers may participate as international project partners only.",
+      "region": "UK (India as international partner)",
+      "amount": "Up to GBP 2 million full economic cost; BBSRC funds 80% up to GBP 1.6 million",
+      "duration": "Up to 5 years",
+      "description": "Supports community bioinformatics or biological resources serving UK bioscience, including databases, software, and biological materials. Useful route for Indian collaborators partnering with UK PIs."
+    },
+    {
+      "id": "epsrc-stfc-nqs-mission-2",
+      "name": "NQS Mission 2: Components, Systems, and Architectures",
+      "funder": "EPSRC and STFC, UK Research and Innovation",
+      "url": "https://www.ukri.org/opportunity/nqs-mission-2-components-systems-and-architectures/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-24"
+      ],
+      "deadlineNote": "Applications close 24 November 2026. Latest start date 31 May 2027. An eligible UK research organisation must lead. India-based researchers may participate as international project partners only.",
+      "region": "UK (India as international partner)",
+      "amount": "Up to GBP 2.56 million full economic cost; EPSRC funds 80%",
+      "duration": "Up to 33 months",
+      "description": "Research on quantum-networking components, systems, and architectures, including nodes, routers, memories, repeaters, photonics, integration, security, and distributed capability. Part of the UK National Quantum Strategy. Useful route for Indian quantum groups partnering with UK PIs."
+    },
+    {
+      "id": "ukri-enabling-ai-adoption-2026",
+      "name": "UKRI Enabling AI Adoption across Science and Engineering",
+      "funder": "UK Research and Innovation (UKRI)",
+      "url": "https://www.ukri.org/opportunity/enabling-ai-adoption-across-science-and-engineering/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-12-01"
+      ],
+      "deadlineNote": "Applications close 1 December 2026. Fixed start date 26 April 2027. An eligible UK research organisation must lead. Indian researchers may participate as international project partners only.",
+      "region": "UK (India as international partner)",
+      "amount": "Up to GBP 250,000 full economic cost; UKRI funds 80%",
+      "duration": "Up to 1 year",
+      "description": "Exploratory collaborations between AI specialists and domain researchers addressing important scientific and engineering challenges. Useful route for Indian AI or domain-science groups partnering with UK PIs."
+    },
+    {
+      "id": "ibsa-foundation-fellowships-2026",
+      "name": "IBSA Foundation Fellowships 2026",
+      "funder": "IBSA Foundation for Scientific Research",
+      "url": "https://www.ibsafoundation.org/en/activities/scientific-research/fellowships",
+      "audience": [
+        "phd",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2027-01-31"
+      ],
+      "deadlineNote": "Applications close 31 January 2027. Applicants must be under 40 on that date. Permanent professors are ineligible.",
+      "region": "Global",
+      "amount": "EUR 32,000 per fellowship (seven fellowships)",
+      "duration": "12 months",
+      "description": "Seven early-career biomedical fellowships across dermatology, endocrinology, fertility and urology, orthopaedics and pain medicine, and healthy ageing. Open to applicants of any nationality holding a degree in medicine, biology, pharmacy, biotechnology, or bioengineering. Eligible categories: PhD students, PhD holders, postdoctoral researchers, and medical residents."
     }
   ]
 }
