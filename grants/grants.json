@@ -4232,18 +4232,21 @@
     },
     {
       "id": "indiaai-fellowship-phd",
-      "name": "IndiaAI Fellowship (PhD)",
-      "funder": "IndiaAI Mission, Ministry of Electronics and Information Technology (MeitY)",
+      "name": "IndiaAI Fellowship (UG, PG, PhD)",
+      "funder": "IndiaAI, Digital India Corporation, Ministry of Electronics and Information Technology (MeitY)",
       "url": "https://fellowship.indiaai.gov.in/",
       "audience": [
-        "students"
+        "undergrad-early",
+        "phd"
       ],
-      "deadlines": [],
-      "deadlineNote": "Annual cycle; 2026 round closed 28 February 2026. 100 PhD fellowships per year. Next call expected early 2027. Also supports UG (INR 1 lakh) and PG (M.Tech) tiers.",
-      "region": "India (top-50 NIRF ranked research institutes)",
-      "amount": "INR 70,000/month (years 1-2), INR 75,000/month (year 3), INR 80,000/month (years 4-5) + INR 2 lakh/year research grant",
-      "duration": "Up to 5 years",
-      "description": "PhD fellowship for full-time scholars researching Artificial Intelligence at India's top NIRF-ranked institutions. Structured to bridge theoretical AI research and practical applications, aligned with IndiaAI Mission priorities."
+      "deadlines": [
+        "2026-11-30"
+      ],
+      "deadlineNote": "2026 cycle closes 30 November 2026. Three tracks: UG/Integrated Dual Degree final-year, PG (two to four remaining semesters), and new full-time PhD scholars. Institutional nomination and endorsement required. PhD applicants must not receive another scholarship or salary.",
+      "region": "India",
+      "amount": "UG/Integrated Dual Degree up to INR 1 lakh. PG up to INR 1-2 lakh by entry semester. PhD: INR 70,000/month (years 1-2), INR 75,000/month (year 3), INR 80,000/month (years 4-5), plus INR 2 lakh/year research contingency and INR 25,000/year institutional overhead.",
+      "duration": "UG final year; PG remaining semesters; PhD up to 5 years or completion",
+      "description": "Fellowship for full-time students undertaking AI-related projects and research at UG, PG, and doctoral levels. Supports work at India's top NIRF-ranked institutions, aligned with IndiaAI Mission priorities."
     },
     {
       "id": "fens-ibro-perc-exchange-fellowships",
@@ -6485,6 +6488,57 @@
       "amount": "See call details",
       "duration": "See call details",
       "description": "Agricultural research call for developing suitable all-season cocoa varieties for the Indian cocoa belt. Open to researchers at Indian institutions working in plant breeding, crop science, and agricultural biotechnology."
+    },
+    {
+      "id": "rn-cbm-seed-grants-2026",
+      "name": "Rohini Nilekani Centre for Brain and Mind Seed Grants",
+      "funder": "Rohini Nilekani Centre for Brain and Mind, NCBS and NIMHANS",
+      "url": "https://www.rncbm.org/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-12-01"
+      ],
+      "deadlineNote": "Applications close 1 December 2026. Applicants must be faculty at a research institute or university with DSIR certification, with at least 5 years of service remaining to superannuation.",
+      "region": "India",
+      "amount": "Up to INR 25 lakh",
+      "duration": "18 months",
+      "description": "Supports research into the biological basis of mental illness and improving diagnosis and clinical management. Open across disciplines as long as the proposal aligns with RN-CBM objectives. Prior experience in stem cells or neuroscience is not required; RN-CBM supports skills and training acquisition during the project."
+    },
+    {
+      "id": "anrs-emergences-prfi-2026",
+      "name": "ANRS MIE Emergences PRFI 2026",
+      "funder": "ANRS Emerging Infectious Diseases (ANRS MIE), France",
+      "url": "https://anrs.fr/en/calls-for-proposals/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-01-07"
+      ],
+      "deadlineNote": "Applications close 7 January 2027. Proposals must be jointly led by a French team and a team in a World Bank low- or middle-income country. India qualifies as lower-middle-income and may be the international partner.",
+      "region": "India-France (and other LMICs)",
+      "amount": "See call details",
+      "duration": "Up to 36 months",
+      "description": "Collaborative research on emerging and re-emerging infectious diseases, especially viral haemorrhagic fevers, respiratory viruses, and arboviruses. Projects may span basic, translational, clinical, public-health, or humanities and social-science approaches."
+    },
+    {
+      "id": "sonar-research-grant-program",
+      "name": "Sonar Research Grant Program",
+      "funder": "SonarSource",
+      "url": "https://www.sonarsource.com/company/research-grant/",
+      "audience": [
+        "phd",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling. Applications accepted while quantities remain available.",
+      "region": "Global",
+      "amount": "In-kind access to SonarQube commercial licences (Cloud Enterprise and Advanced Security). Programme commitment totals USD 2.8M; per-award value not stated.",
+      "duration": "See call details",
+      "description": "In-kind SonarQube access for academic software-engineering research. Priority topics include code quality and developer productivity, technical debt, and AI-enabled remediation. Open to accredited universities and research institutions, including research leaders, professors, postdoctoral researchers, PhD candidates, and graduate researchers."
     }
   ]
 }
