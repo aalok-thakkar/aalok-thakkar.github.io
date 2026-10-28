@@ -2420,23 +2420,6 @@
       "description": "Early-stage grant for Kerala-based innovators with technology-based ideas at ideation, design or proof-of-concept stage. Disbursed in milestone tranches; requires company incorporation (Pvt Ltd/LLP/OPC) before fund release."
     },
     {
-      "id": "natgeo-level-i-grant",
-      "name": "National Geographic Society Level I Grant",
-      "funder": "National Geographic Society",
-      "url": "https://www.nationalgeographic.org/funding-opportunities/grants/",
-      "audience": [
-        "students",
-        "postdocs",
-        "faculty"
-      ],
-      "deadlines": [],
-      "deadlineNote": "Quarterly application cycles; check funder site for next cycle window",
-      "region": "Global",
-      "amount": "Up to USD 20,000",
-      "duration": "Up to 2 years",
-      "description": "Entry-level grant for emerging conservationists, scientists, educators, storytellers, and technologists addressing the Society's focus areas - Ocean, Land, Wildlife, Human History & Culture, and Human Ingenuity. Aimed at applicants new to National Geographic funding."
-    },
-    {
       "id": "natgeo-level-ii-grant",
       "name": "National Geographic Society Level II Grant",
       "funder": "National Geographic Society",
@@ -2824,23 +2807,6 @@
       "amount": "$10,000 - $100,000 per grant; ~$3M total/year",
       "duration": "Project-dependent",
       "description": "Project funding plus office and compute resources at Foresight's AI safety hubs for work on AI safety, private/decentralized AI, evaluation, and AI-driven science. Priority for grantees who will be in-person members of the nodes."
-    },
-    {
-      "id": "anthropic-fellows-program-2026",
-      "name": "Anthropic Fellows Program (July 2026 cohort)",
-      "funder": "Anthropic",
-      "url": "https://alignment.anthropic.com/2025/anthropic-fellows-program-2026/",
-      "audience": [
-        "students",
-        "postdocs",
-        "faculty"
-      ],
-      "deadlines": [],
-      "deadlineNote": "Two 2026 cohorts (May and July); applications via Greenhouse portal. Check site for exact deadline window.",
-      "region": "Global (remote-friendly)",
-      "amount": "$3,850/week stipend + ~$15,000/month compute",
-      "duration": "4 months",
-      "description": "Mentored empirical AI safety research with Anthropic researchers on scalable oversight, adversarial robustness, AI control, mechanistic interpretability, model organisms, AI security, and model welfare. ~40% of first cohort transitioned to full-time Anthropic safety roles."
     },
     {
       "id": "sff-hsee-2026",
@@ -3562,21 +3528,6 @@
       "description": "Postdoctoral fellowships at ARIES, Nainital, with research in observational astronomy, solar physics, stellar physics, galaxies, and atmospheric science, including access to the 3.6 m Devasthal Optical Telescope."
     },
     {
-      "id": "camille-dreyfus-teacher-scholar",
-      "name": "Camille Dreyfus Teacher-Scholar Awards",
-      "funder": "Camille and Henry Dreyfus Foundation",
-      "url": "https://www.dreyfus.org/camille-dreyfus-teacher-scholar/",
-      "audience": [
-        "faculty"
-      ],
-      "deadlines": [],
-      "deadlineNote": "Annual call; 2026 deadline (Feb 3) has passed. 2027 call expected to open late 2026 with February 2027 deadline.",
-      "region": "United States",
-      "amount": "$100,000 unrestricted research grant",
-      "duration": "5 years (unrestricted use)",
-      "description": "Early-career chemistry, biochemistry, materials chemistry, or chemical engineering faculty at PhD-granting institutions within their first six years of independent academic appointment. One nomination per institution; recognizes outstanding scholarship combined with commitment to education."
-    },
-    {
       "id": "henry-dreyfus-teacher-scholar",
       "name": "Henry Dreyfus Teacher-Scholar Awards",
       "funder": "Camille and Henry Dreyfus Foundation",
@@ -4136,37 +4087,6 @@
       "description": "~145 fellowships annually across all disciplines including sciences, engineering, and mathematics. Trust contributes salary; host institution provides the balance. Applicants must be within 4 years of PhD (with allowances). Fellowships commence between September and May."
     },
     {
-      "id": "royal-society-newton-international",
-      "name": "Royal Society Newton International Fellowships",
-      "funder": "The Royal Society",
-      "url": "https://royalsociety.org/grants/newton-international/",
-      "audience": [
-        "postdocs"
-      ],
-      "deadlines": [],
-      "deadlineNote": "Annual cycle; 2026 round closed 11 March 2026. Next call typically opens mid-January with an early-March deadline; institutional internal deadlines run earlier.",
-      "region": "United Kingdom (host institutions); applicants global",
-      "amount": "Up to GBP 280,000",
-      "duration": "2 years",
-      "description": "Postdoctoral fellowships for early-career, non-UK-based researchers in the natural, physical and social sciences to conduct research at UK host institutions. Eligibility rules and sponsor limits changed from the 2026 round."
-    },
-    {
-      "id": "humboldt-research-fellowship-postdoc",
-      "name": "Alexander von Humboldt Research Fellowship for Postdoctoral Researchers",
-      "funder": "Alexander von Humboldt Foundation",
-      "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
-      "audience": [
-        "postdocs",
-        "faculty"
-      ],
-      "deadlines": [],
-      "deadlineNote": "Rolling with three selection meetings per year (March, July, November). Application windows open 15 March, 15 July, and 15 November each year; the 800-application cap can close a window early.",
-      "region": "Germany (host); applicants global",
-      "amount": "EUR 3,000/month (postdoc) or EUR 3,600/month (experienced researcher) + allowances",
-      "duration": "6-24 months",
-      "description": "Long-term Humboldt fellowship for researchers from any country and any discipline (natural sciences, engineering, humanities) to conduct long-term research in Germany hosted by a collaborator of their choice. Experienced Researcher variant available for those up to 12 years post-PhD."
-    },
-    {
       "id": "nasa-postdoctoral-program",
       "name": "NASA Postdoctoral Program (NPP)",
       "funder": "NASA / ORAU",
@@ -4236,8 +4156,7 @@
       "funder": "IndiaAI, Digital India Corporation, Ministry of Electronics and Information Technology (MeitY)",
       "url": "https://fellowship.indiaai.gov.in/",
       "audience": [
-        "undergrad-early",
-        "phd"
+        "students"
       ],
       "deadlines": [
         "2026-11-30"
@@ -5480,8 +5399,7 @@
       "funder": "Ban Ki-moon Foundation, Paris Brain Institute, and Vascular Brain Health Institute",
       "url": "https://institutducerveau-icm.org/en/",
       "audience": [
-        "undergrad-early",
-        "phd",
+        "students",
         "postdocs"
       ],
       "deadlines": [
@@ -5499,7 +5417,7 @@
       "funder": "The Company of Biologists",
       "url": "https://www.biologists.com/travelling-fellowships/",
       "audience": [
-        "phd",
+        "students",
         "postdocs"
       ],
       "deadlines": [
@@ -5517,7 +5435,7 @@
       "funder": "Gerda Henkel Foundation",
       "url": "https://www.gerda-henkel-stiftung.de/phd_scholarships",
       "audience": [
-        "phd"
+        "students"
       ],
       "deadlines": [],
       "deadlineNote": "Annual cycle; check foundation website for the current round.",
@@ -5532,7 +5450,7 @@
       "funder": "Department of Science and Technology (DST), Government of India",
       "url": "https://dst.gov.in/cognitive-science-research-initiative-csri",
       "audience": [
-        "phd",
+        "students",
         "postdocs",
         "faculty"
       ],
@@ -5564,7 +5482,7 @@
       "funder": "Biotechnology Industry Research Assistance Council (BIRAC), Department of Biotechnology",
       "url": "https://birac.nic.in/cfp.php",
       "audience": [
-        "phd",
+        "students",
         "postdocs",
         "faculty"
       ],
@@ -5597,7 +5515,7 @@
       "funder": "DST WISE-KIRAN Division, Government of India",
       "url": "https://dst.gov.in/scientific-programmes/wise-kiran",
       "audience": [
-        "phd"
+        "students"
       ],
       "deadlines": [],
       "deadlineNote": "Annual call, typically closes December. Related tracks include WISE-PDF (post-doctoral), WISE-SCOPE (societal-challenges re-entry), and WIDUSHI (senior).",
@@ -5612,7 +5530,7 @@
       "funder": "Department of Biotechnology (DBT) / Regional Centre for Biotechnology",
       "url": "https://rcb.res.in/BET/",
       "audience": [
-        "phd"
+        "students"
       ],
       "deadlines": [
         "2027-04-09"
@@ -5629,7 +5547,7 @@
       "funder": "CSIR-HRDG (Human Resource Development Group)",
       "url": "https://csirnet.nta.ac.in/",
       "audience": [
-        "phd"
+        "students"
       ],
       "deadlines": [],
       "deadlineNote": "Biannual (June and December cycles) via the NTA CSIR-UGC NET portal.",
@@ -5644,7 +5562,7 @@
       "funder": "Department of Science and Technology (DST), Government of India",
       "url": "https://online-inspire.gov.in/",
       "audience": [
-        "phd"
+        "students"
       ],
       "deadlines": [],
       "deadlineNote": "Annual call, typically opens April or May with a four-week window.",
@@ -5659,7 +5577,7 @@
       "funder": "Ministry of Electronics and Information Technology (MeitY), Government of India",
       "url": "https://phd.dic.gov.in/",
       "audience": [
-        "phd",
+        "students",
         "postdocs",
         "faculty"
       ],
@@ -5676,7 +5594,7 @@
       "funder": "Ministry of Education (MoE), Government of India",
       "url": "https://www.pmrf.in/",
       "audience": [
-        "phd"
+        "students"
       ],
       "deadlines": [],
       "deadlineNote": "Two cycles per year. May 2026 cycle closed mid-April 2026; the December 2026 cycle closes mid-November 2026.",
@@ -5691,7 +5609,7 @@
       "funder": "Indo-US Science and Technology Forum (IUSSTF) / DST",
       "url": "https://iusstf.org/bhaskara-advanced-solar-energy-fellowship",
       "audience": [
-        "phd",
+        "students",
         "postdocs",
         "faculty"
       ],
@@ -5708,7 +5626,7 @@
       "funder": "Indo-US Science and Technology Forum (IUSSTF) / DST",
       "url": "https://iusstf.org/indo-u-s-fellowship-for-women-in-stemm-wistemm-",
       "audience": [
-        "phd",
+        "students",
         "postdocs",
         "faculty"
       ],
@@ -5794,7 +5712,7 @@
       "funder": "Renaissance Philanthropy (with XTX Markets and others)",
       "url": "https://www.renaissancephilanthropy.org/ai-for-math-fund",
       "audience": [
-        "phd",
+        "students",
         "postdocs",
         "faculty"
       ],
@@ -5811,7 +5729,7 @@
       "funder": "National Geographic Society",
       "url": "https://www.nationalgeographic.org/funding-opportunities/grants/what-we-fund/",
       "audience": [
-        "phd",
+        "students",
         "postdocs",
         "faculty"
       ],
@@ -5908,7 +5826,7 @@
       "funder": "TNQ Foundation",
       "url": "https://tnqfoundation.org/isa/",
       "audience": [
-        "phd",
+        "students",
         "postdocs"
       ],
       "deadlines": [
@@ -5926,7 +5844,7 @@
       "funder": "American Society for Microbiology (ASM)",
       "url": "https://asm.org/membership/awards/asm-future-leaders-mentorship-fellowship",
       "audience": [
-        "phd"
+        "students"
       ],
       "deadlines": [],
       "deadlineNote": "2027 cohort opens February 2027 with applications due in March 2027. Exact date not announced.",
@@ -6113,7 +6031,7 @@
       "funder": "Council of Scientific and Industrial Research - Human Resource Development Group (CSIR-HRDG)",
       "url": "https://csirhrdg.res.in/Home/Index/1/Default/3209/82",
       "audience": [
-        "phd",
+        "students",
         "postdocs",
         "faculty"
       ],
@@ -6130,7 +6048,7 @@
       "funder": "Qualcomm",
       "url": "https://www.qualcomm.com/research/university-relations/innovation-fellowship/2026-india",
       "audience": [
-        "phd"
+        "students"
       ],
       "deadlines": [
         "2027-04-20"
@@ -6147,7 +6065,7 @@
       "funder": "Simons Institute for the Theory of Computing, UC Berkeley",
       "url": "https://simons.berkeley.edu/research-fellowship-call-applications",
       "audience": [
-        "phd",
+        "students",
         "postdocs"
       ],
       "deadlines": [
@@ -6200,7 +6118,7 @@
       "funder": "Mitacs with AICTE",
       "url": "https://www.mitacs.ca/our-programs/globalink-research-internship-students/",
       "audience": [
-        "undergrad-early"
+        "students"
       ],
       "deadlines": [
         "2027-09-15"
@@ -6302,7 +6220,7 @@
       "funder": "Bassi Foundation",
       "url": "https://editing.press/bassi",
       "audience": [
-        "phd",
+        "students",
         "postdocs",
         "faculty"
       ],
@@ -6404,7 +6322,7 @@
       "funder": "IBSA Foundation for Scientific Research",
       "url": "https://www.ibsafoundation.org/en/activities/scientific-research/fellowships",
       "audience": [
-        "phd",
+        "students",
         "postdocs"
       ],
       "deadlines": [
@@ -6422,8 +6340,7 @@
       "funder": "AssisTech Foundation (ATF)",
       "url": "https://www.psa.gov.in/mission/manthan/",
       "audience": [
-        "undergrad-early",
-        "phd"
+        "students"
       ],
       "deadlines": [
         "2026-10-30"
@@ -6440,7 +6357,7 @@
       "funder": "Temasek Foundation",
       "url": "https://gfic.cn",
       "audience": [
-        "phd",
+        "students",
         "postdocs",
         "faculty"
       ],
@@ -6459,7 +6376,7 @@
       "funder": "Temasek Foundation",
       "url": "https://www.theliveabilitychallenge.org/",
       "audience": [
-        "phd",
+        "students",
         "postdocs",
         "faculty"
       ],
@@ -6529,7 +6446,7 @@
       "funder": "SonarSource",
       "url": "https://www.sonarsource.com/company/research-grant/",
       "audience": [
-        "phd",
+        "students",
         "postdocs",
         "faculty"
       ],
