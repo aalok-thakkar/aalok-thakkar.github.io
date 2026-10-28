@@ -27,10 +27,10 @@
   --text-muted: #6e6e74;
   --text-faint: #b3b3b8;
   --border: #ebeae5;
-  --accent: #2a5cb8;
-  --accent-soft: rgba(42, 92, 184, 0.10);
-  --accent-tint: rgba(42, 92, 184, 0.035);
-  --accent-hover: #4b7dd6;
+  --accent: #2d6a45;
+  --accent-soft: rgba(45, 106, 69, 0.10);
+  --accent-tint: rgba(45, 106, 69, 0.035);
+  --accent-hover: #3f8a5c;
 
   /* Audience colours (used by /grants/) */
   --aud-students: #2a5cb8;
@@ -59,16 +59,16 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #0f0f11;
-    --bg-elev: #1a1a1d;
-    --text: #e8e8ea;
-    --text-muted: #9a9aa0;
-    --text-faint: #54545a;
-    --border: #2a2a2c;
-    --accent: #8db1ff;
-    --accent-soft: rgba(141, 177, 255, 0.14);
-    --accent-tint: rgba(141, 177, 255, 0.05);
-    --accent-hover: #b3c8ff;
+    --bg: #0e1a14;
+    --bg-elev: #15241c;
+    --text: #e5ece6;
+    --text-muted: #9bab9f;
+    --text-faint: #4e6056;
+    --border: #22352a;
+    --accent: #9fd8ac;
+    --accent-soft: rgba(159, 216, 172, 0.14);
+    --accent-tint: rgba(159, 216, 172, 0.05);
+    --accent-hover: #c3ebcb;
     --shadow-lg: 0 12px 36px rgba(0, 0, 0, 0.5);
 
     /* Audience colours (dark) */
@@ -345,7 +345,7 @@ abbr[title] {
   left: 0;
   top: 0.18em;
   width: 2.75em;
-  color: var(--text-faint);
+  color: var(--text-muted);
   font-variant: small-caps;
   font-weight: 500;
   font-size: 0.85em;
@@ -559,7 +559,7 @@ details.news-archive > summary:hover { color: var(--text); }
   transition: background var(--t-fast);
 }
 .cal-cell.is-blank { background: var(--bg-elev); opacity: 0.4; }
-.cal-cell.is-past .cal-num { color: var(--text-faint); }
+.cal-cell.is-past .cal-num { color: var(--text-muted); }
 .cal-cell.is-today {
   background: var(--accent-tint);
   outline: 1px solid var(--accent);
