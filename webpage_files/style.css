@@ -251,6 +251,7 @@ figcaption {
   border-radius: var(--radius-sm);
 }
 .research-cell h3 { margin-top: 0; }
+.research-cell:last-child:nth-child(odd) { grid-column: 1 / -1; }
 
 /* ===== Tables (course calendars, lecture lists) ===== */
 table {

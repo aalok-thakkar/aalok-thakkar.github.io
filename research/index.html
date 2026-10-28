@@ -34,102 +34,72 @@
 
       <div>
         <p>
-          My research focuses on <span class="tooltip" tabindex="0">logic in computer science<span class="tooltiptext">The study of formal systems for reasoning about truth, inference, and computation.</span></span> and its applications to <span class="tooltip" tabindex="0">programming languages<span class="tooltiptext">The design, semantics, and implementation of languages used to express computational processes.</span></span>, <span class="tooltip" tabindex="0">automata theory<span class="tooltiptext">The study of abstract models of computation and formal languages.</span></span>, and <span class="tooltip" tabindex="0">trustworthy AI<span class="tooltiptext">Methods for ensuring that AI systems are reliable, fair, transparent, and aligned with human intent.</span></span>. Recently, I have also been exploring interdisciplinary questions in <span class="tooltip" tabindex="0">computational sustainability<span class="tooltiptext">The application of computational methods to problems in environmental and social sustainability.</span></span> and CS pedagogy.
+          My research focuses on <span class="tooltip" tabindex="0">logic in computer science<span class="tooltiptext">The study of formal systems for reasoning about truth, inference, and computation.</span></span> and its applications to <span class="tooltip" tabindex="0">programming languages<span class="tooltiptext">The design, semantics, and implementation of languages used to express computational processes.</span></span> and <span class="tooltip" tabindex="0">automata theory<span class="tooltiptext">The study of abstract models of computation and formal languages.</span></span>. I also work on pedagogy and on interdisciplinary questions in <span class="tooltip" tabindex="0">computational sustainability<span class="tooltiptext">The application of computational methods to problems in environmental and social sustainability.</span></span>.
         </p>
 
         <div class="research-grid">
           <div class="research-cell">
           <h3 class="section-title" style="text-align: center">Formal Methods and Logic</h3>
-          <p>My doctoral research focused on
-            automated program synthesis. A good starting point to learn about this 
-            work is <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2017/10/program_synthesis_now.pdf" target="_blank">this survey</a>. In program synthesis, I am looking
-            at the following two questions:</p>
+          <p>The following three tracks are active areas of research:</p>
             <ol>
               <li>
-                Given a set of specifications, how do we find a program that 
-                satisfies a maximal subset of the specifications?
+                Program synthesis. How do we construct a program from a specification? My doctoral work synthesised relational queries from input-output examples (<a href="https://doi.org/10.1145/3453483.3454098" target="_blank">PLDI 2021</a>, <a href="https://doi.org/10.14778/3626292.3626306" target="_blank">VLDB 2023</a>, <a href="https://doi.org/10.1145/3622847" target="_blank">OOPSLA 2023</a>). I now study what to synthesise when the specifications cannot all be met: a program that satisfies a maximal subset of them. <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2017/10/program_synthesis_now.pdf" target="_blank">This survey</a> is a good introduction to the area.
               </li>
               <li>
-                Given a database transformation, how can we 
-                generate a query on the transformed database that is 
-                equivalent to a specified query on the original database? 
+                Reliability estimation. Given a program and its operational input distribution, how often does a condition of interest hold? We combine symbolic and statistical methods to answer this with a certified error bound (<a href="https://arxiv.org/abs/2609.20037" target="_blank">ATVA 2026</a>, Distinguished Paper, with Arnab Ray).
+              </li>
+              <li>
+                DiagonaLean. With <a href="https://krea.edu.in/about/faculty/sias/prathamesh-t-v-h/" target="_blank">TVH Prathamesh</a> and Akhilesh Balaji, we are building frameworks and tactics for formalising undecidability results in Lean 4 (<a href="https://fmindia.cmi.ac.in/rhpl2026" target="_blank">RHPL 2026</a>).
               </li>
             </ol>
 
-          <p>Beyond program synthesis, I am interested in various aspects of
-          automata theory, logic, formal methods, and probabilistic programming.
-          These projects are supported by ANRF as a part of the Prime Minister Early Career Research Grant.</p>
+          <p>In general, I am interested in programming languages, logic, and formal methods.</p>
+
+          <p>These projects are supported by ANRF through the Prime Minister Early Career Research Grant, and by an Ashoka VSAC Young Faculty Grant.</p>
 
           </div>
           <div class="research-cell">
-          <h3 class="section-title" style="text-align: center">Trustworthy AI</h3>
-          <p>I am exploring several aspects of trustworthy AI:</p>
+          <h3 class="section-title" style="text-align: center">Pedagogy</h3>
+          <p>I design curricula and tools for teaching computer science when AI tools can write most introductory code:</p>
             <ol>
               <li>
-                In collaboration with <a href="https://moolya.com" target="_blank">Moolya</a>, 
-                we are developing methods to evaluate real-world AI systems, 
-                identify failure modes, and ensure reliable behavior under diverse scenarios.
+                Correctness first. Students write specifications and proofs alongside code, so that working code is not taken as a proxy for understanding (<a href="https://arxiv.org/abs/2507.22085" target="_blank">BOOP, COMPUTE 2025</a>; <a href="https://doi.org/10.1145/3803400.3809367" target="_blank">ITiCSE 2026</a>).
               </li>
               <li>
-                AI Safety for Bharat: Supported by the EkStep Foundation’s Data &amp; AI Adoption Fellowship, this project aims to create context-appropriate safety benchmarks tailored to the Indian ecosystem. This work is conducted jointly with
-                <a href="https://www.ashoka.edu.in/profile/debayan-gupta/" target="_blank">Debayan Gupta</a> and 
-                <a href="https://sites.google.com/ashoka.edu.in/anirbansen/home?authuser=0" target="_blank">Anirban Sen</a>. 
+                Socratic tutors. LLM tutors that withhold direct solutions and track student misconceptions across a dialogue (<a href="https://arxiv.org/abs/2512.03501" target="_blank">COMPUTE 2025</a>; <a href="https://doi.org/10.1145/3803400.3809368" target="_blank">ITiCSE 2026</a>).
               </li>
               <li>
-                We are investigating how enforcing Lipschitz continuity in transformer architectures can improve robustness, stability, and certifiability of large language models under adversarial or distribution-shifted inputs.
+                Accessibility. Making computer science courses accessible to students with visual impairments (<a href="https://arxiv.org/abs/2508.05056" target="_blank">COMPUTE 2025</a>).
+              </li>
+              <li>
+                Circle of Joy. Using AI to assist English language learning, with Devapriya Roy and Annie Baxi, supported by an Ashoka VSAC Transdisciplinary Research Grant.
+              </li>
+              <li>
+                Ancient algorithms. Teaching algorithms through their history in Indian mathematics (<a href="https://arxiv.org/abs/2512.03507" target="_blank">COMPUTE 2025</a>).
               </li>
             </ol>
 
-          </div>
-          <div class="research-cell">
-          <h3 class="section-title" style="text-align: center">CS Pedagogy</h3>
-          <p>I am interested in the impact of AI on computer 
-            science education and in developing curricula and tools that are 
-            relevant to the modern learning environment. This includes:</p>
-            <ol>
-              <li>
-                Designing courses that emphasize conceptual understanding, 
-                formal methods, and systems thinking to go beyond what AI tools 
-                can solve automatically. We have built the <a href="https://www.arxiv.org/abs/2507.22085" target="_blank">BOOP framework</a> for this.
-              </li>
-              <li>
-                Developing intelligent assistants and teaching tools that guide learning while preserving active engagement and critical thinking.
-              </li>
-              <li>
-                Creating educational resources and platforms that are accessible 
-                to all students, including those with disabilities. More details <a href="https://www.arxiv.org/abs/2508.05056" target="_blank">here</a>.
-               </li>
-            </ol>
-
-            <p>These projects are supported by <a href="https://www.mphasis.com/home.html" target="_blank">Mphasis Foundation</a> as a part of the <a href="https://www.ashoka.edu.in/page/mphasis-lab/" target="_blank">Mphasis AI & Applied Tech Lab at Ashoka</a>.</p>
+            <p>Apart from Circle of Joy, these projects are supported by the <a href="https://www.mphasis.com/home.html" target="_blank">Mphasis Foundation</a> through the <a href="https://mphasislab.ashoka.edu.in/" target="_blank">Mphasis AI &amp; Applied Tech Lab at Ashoka</a>.</p>
           </div>
           <div class="research-cell">
           <h3 class="section-title" style="text-align: center">Computational Sustainability</h3>
-          <p>I am working on two projects that bring together computation and the environment:</p>
+          <p>I work on projects that bring together computation and the environment:</p>
 
             <ol>
               <li>
-                Darjeeling Revival Project: We are developing statistical 
-                models to estimate carbon captured by Enhanced Rock Weathering 
-                (ERW) in Northern Bengal. 
+                Darjeeling Revival Project. We develop statistical models to estimate carbon captured by enhanced rock weathering in northern Bengal, supported by <a href="https://altcarbon.com" target="_blank">Alt Carbon</a> through the Darjeeling Revival Fellowship.
               </li>
               <li>
-                OpenGIS India: This is a project in collaboration with
-                <a href="https://www.ashoka.edu.in/profile/meghna-agarwala-3/" target="_blank">
-                  Meghna Agarwala
-                </a>, where we use GIS and remote sensing to study forest dynamics, 
-                changing land usage and forest fire patterns, floods 
-                and river dynamics, and animal-human conflicts across India. 
+                Animal acoustics. With <a href="https://www.ashoka.edu.in/profile/meghna-agarwala-3/" target="_blank">Meghna Agarwala</a> and Nandini Chatterjee Singh, we detect elephant vocalisations in field recordings, supported by an Ashoka VSAC Transdisciplinary Research Grant.
+              </li>
+              <li>
+                OpenGIS India. With <a href="https://www.ashoka.edu.in/profile/meghna-agarwala-3/" target="_blank">Meghna Agarwala</a>, we use GIS and remote sensing to study forest dynamics, land use, forest fires, floods and river dynamics, and human-animal conflict across India.
               </li>
             </ol>
-
-            <p>Some of these projects are supported by 
-                <a href="https://www.alt-carbon.com" target="_blank">Alt Carbon</a> as a part of the Darjeeling Revival Fellowship.</p>
           </div>
         </div>
-
-            </div>
       </div>
+    </div>
 
 
 
