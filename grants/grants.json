@@ -1,6 +1,6 @@
 {
-  "_comment": "Source of truth for /grants/. 'deadlines' is an array of upcoming ISO dates; leave empty for rolling deadlines (the entry will appear under 'Rolling & annually recurring').",
-  "lastUpdated": "2026-07-03",
+  "_comment": "Source of truth for /grants/. 'deadlines' holds only officially announced upcoming ISO dates; leave it empty for rolling calls or when the next date is not announced (the entry then appears under 'Rolling or date to be announced').",
+  "lastUpdated": "2026-10-28",
   "grants": [
     {
       "id": "nsf-grfp",
@@ -3041,12 +3041,8 @@
         "faculty",
         "students"
       ],
-      "deadlines": [
-        "2026-11-01",
-        "2026-11-08",
-        "2027-03-14"
-      ],
-      "deadlineNote": "Each trimester program runs its own call for participation. Open calls: Nonlinear Evolution Equations with Noise (1 November 2026), Junior Trimester Program in Extremal and Probabilistic Combinatorics, first round (8 November 2026), and Nonstandard Discretizations of PDEs (14 March 2027).",
+      "deadlines": [],
+      "deadlineNote": "HIM lists upcoming trimester programmes for 2027 and 2028; each programme page gives its own application deadline.",
       "region": "Bonn, Germany",
       "amount": "Monthly fellowship covering living costs; varies by program",
       "duration": "13-15 weeks (one trimester)",
@@ -3354,15 +3350,15 @@
       "id": "rsc-research-fund",
       "name": "Royal Society of Chemistry Research Fund",
       "funder": "Royal Society of Chemistry",
-      "url": "https://www.rsc.org/prizes-funding/funding/find-funding/research-fund/",
+      "url": "https://www.rsc.org/funding-and-support/funding/research-fund",
       "audience": [
         "faculty",
         "postdocs"
       ],
       "deadlines": [
-        "2026-11-30"
+        "2027-03-15"
       ],
-      "deadlineNote": "Round 2 closes Nov 30, 2026; Round 1 (closed Jun 15, 2026) decisions early Sep 2026.",
+      "deadlineNote": "Applications open 30 November 2026 and close 15 March 2027, 14:00 UK time.",
       "region": "International (RSC members)",
       "amount": "Up to £5,000",
       "duration": "12 months",
@@ -4697,9 +4693,9 @@
         "faculty"
       ],
       "deadlines": [
-        "2026-11-18"
+        "2026-12-02"
       ],
-      "deadlineNote": "Annual mid-November deadline; each scientific discipline is eligible only every other year. 2026 (even year) supports chemistry, computer sciences, earth/ocean/atmospheric sciences, economics, energy, environmental, materials, mathematical sciences, physics, sociology/anthropology, and psychology (excluding psychobiology).",
+      "deadlineNote": "Online submission opens mid-November; the submission deadline is 2 December 2026.",
       "region": "USA + Israel (joint teams)",
       "amount": "Typical annual awards USD 25-55K per side (up to USD 300,000 total over 4 years, experimental)",
       "duration": "4 years",
@@ -5390,7 +5386,7 @@
       "id": "tnq-inspiring-science-awards-2027",
       "name": "TNQ Inspiring Science Awards (ISA) 2027",
       "funder": "TNQ Foundation",
-      "url": "https://tnqfoundation.org/isa/",
+      "url": "https://indiabioscience.org/grants/tnq-inspiring-science-awards-isa-2027",
       "audience": [
         "students",
         "postdocs"
@@ -5964,14 +5960,14 @@
       "id": "rn-cbm-seed-grants-2026",
       "name": "Rohini Nilekani Centre for Brain and Mind Seed Grants",
       "funder": "Rohini Nilekani Centre for Brain and Mind, NCBS and NIMHANS",
-      "url": "https://www.rncbm.org/",
+      "url": "https://www.ncbs.res.in/cbm/funding-opportunities",
       "audience": [
         "faculty"
       ],
       "deadlines": [
         "2026-12-01"
       ],
-      "deadlineNote": "Applications close 1 December 2026. Applicants must be faculty at a research institute or university with DSIR certification, with at least 5 years of service remaining to superannuation.",
+      "deadlineNote": "Ashoka's research office lists a 1 December 2026 deadline; the call is not yet posted on CBM's funding page. Applicants must be faculty at a DSIR-certified institution with at least 5 years of service remaining.",
       "region": "India",
       "amount": "Up to INR 25 lakh",
       "duration": "18 months",
@@ -6010,6 +6006,2049 @@
       "amount": "In-kind access to SonarQube commercial licences (Cloud Enterprise and Advanced Security). Programme commitment totals USD 2.8M; per-award value not stated.",
       "duration": "See call details",
       "description": "In-kind SonarQube access for academic software-engineering research. Priority topics include code quality and developer productivity, technical debt, and AI-enabled remediation. Open to accredited universities and research institutions, including research leaders, professors, postdoctoral researchers, PhD candidates, and graduate researchers."
+    },
+    {
+      "id": "science-academies-srfp-2027",
+      "name": "Science Academies' Summer Research Fellowship Programme 2027",
+      "funder": "Indian Academy of Sciences (IASc), Indian National Science Academy (INSA) and National Academy of Sciences, India (NASI)",
+      "url": "https://webjapps.ias.ac.in/fellowship2027/",
+      "audience": [
+        "students",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-30"
+      ],
+      "deadlineNote": "Online applications close 30 November 2026.",
+      "region": "India",
+      "amount": "Monthly living stipend plus round-trip train fare",
+      "duration": "Two months during calendar year 2027, preferably in summer",
+      "description": "The three national science academies place students and college or university teachers in India with research guides at Indian institutions for a two-month project. Applicants must be studying or teaching at a recognised university or college in India; students need a teacher's recommendation."
+    },
+    {
+      "id": "icts-summer-research-program",
+      "name": "ICTS Summer Research Program",
+      "funder": "International Centre for Theoretical Sciences (ICTS-TIFR)",
+      "url": "https://www.icts.res.in/academic/summer-research-program",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2026-12-15"
+      ],
+      "deadlineNote": "Applications due 15 December 2026, 5:00 PM IST; referee details due 31 December 2026.",
+      "region": "India (Bengaluru)",
+      "amount": "Stipend and accommodation",
+      "duration": "About two months, typically mid-May to mid-July",
+      "description": "Summer research projects at ICTS Bengaluru with faculty in theoretical physics, mathematics, biology and related areas. Open to undergraduates in science, mathematics or engineering who have finished their second, third or fourth year, and to master's students and recent graduates; Indian and foreign nationals may apply."
+    },
+    {
+      "id": "iisc-institute-postdoctoral-fellowship",
+      "name": "IISc Post-Doctoral Fellowship (IPDF)",
+      "funder": "Indian Institute of Science (IISc), Bengaluru",
+      "url": "https://www.iisc.ac.in/careers/post-doctoral-fellowship/",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-12-31"
+      ],
+      "deadlineNote": "Rolling; applications are reviewed at the 30 June and 31 December cut-offs, with decisions about six weeks later.",
+      "region": "India",
+      "amount": "INR 80,000 per month plus HRA and INR 2 lakh per year research grant (INR 50,000 per month and no grant if selected before thesis defence)",
+      "duration": "One year, extendable by one year",
+      "description": "Institute postdoctoral fellowship for early-career researchers to work with an IISc faculty host in any department. Candidates need a PhD (or proof of thesis submission) and should preferably be under 32; Indian nationals, OCI holders and foreign nationals are eligible."
+    },
+    {
+      "id": "imsc-postdoctoral-fellowship",
+      "name": "IMSc Postdoctoral Fellowship",
+      "funder": "The Institute of Mathematical Sciences (IMSc), Chennai",
+      "url": "https://www.imsc.res.in/post_doctoral_programme",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling; applications accepted all year and committees meet two or three times a year.",
+      "region": "India (Chennai)",
+      "amount": "INR 58,000 to 67,000 per month, plus INR 60,000 per year contingency, medical cover and housing or 30% HRA",
+      "duration": "One year, extendable by one more year",
+      "description": "Postdoctoral positions at IMSc in theoretical physics, mathematics, theoretical computer science and computational biology. Applicants must have submitted their PhD thesis by the time of appointment; the defence need not be complete."
+    },
+    {
+      "id": "rri-postdoctoral-fellowship",
+      "name": "RRI Postdoctoral Fellowship",
+      "funder": "Raman Research Institute (RRI), Bengaluru",
+      "url": "https://www.rri.res.in/careers/post-doctoral-fellowships",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "No fixed deadline listed; apply through the RRI careers portal.",
+      "region": "India (Bengaluru)",
+      "amount": "INR 58,000 to 67,000 per month plus HRA (INR 48,000 until PhD requirements are met)",
+      "duration": "Up to 3 years, renewed annually",
+      "description": "Postdoctoral positions at RRI in astronomy and astrophysics, light and matter physics, soft condensed matter and theoretical physics, with no teaching duties. Applicants submit a CV, publication list and research statements through the institute portal; RRI also encourages applicants to seek ANRF N-PDF support."
+    },
+    {
+      "id": "nbhm-doctoral-masters-scholarships",
+      "name": "NBHM Doctoral and Master's Scholarships",
+      "funder": "National Board for Higher Mathematics (NBHM), Department of Atomic Energy",
+      "url": "https://www.imsc.res.in/~nbhm/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2027 application dates not yet announced; the written test is tentatively scheduled for 30 January 2027. The 2026 portal closed on 25 December 2025.",
+      "region": "India",
+      "amount": "Doctoral stipend INR 37,000 per month for the first two years (2026 rates), rising thereafter",
+      "duration": "Duration of the PhD or master's programme",
+      "description": "National scholarships for PhD and master's study in mathematics at Indian institutions, selected by written test and interview. Open to students in India planning doctoral or master's work in mathematics; doctoral scholars work under an approved guide at an institution of their choice."
+    },
+    {
+      "id": "iucaa-associateship-programme",
+      "name": "IUCAA Associateship Programme",
+      "funder": "Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune",
+      "url": "https://www.iucaa.in/en/university-programmes",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call; the page states no current dates. Past calls opened in March and closed at the end of May.",
+      "region": "India",
+      "amount": "Travel and local living expenses for visits to IUCAA",
+      "duration": "Three years",
+      "description": "Lets faculty at Indian universities and postgraduate college departments make short and long visits to IUCAA to build research in astronomy and astrophysics. Associates keep their duties at their parent institution."
+    },
+    {
+      "id": "icmr-centres-advanced-research-2026",
+      "name": "ICMR Centres for Advanced Research (CAR) Special Calls 2026",
+      "funder": "Indian Council of Medical Research (ICMR)",
+      "url": "https://www.icmr.gov.in/call-for-proposals",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-13"
+      ],
+      "deadlineNote": "Two special calls (Priority Medical Devices and Diagnostic Technologies; NIRMAN-AT Assistive Technology) close 13 November 2026, 17:00 IST.",
+      "region": "India",
+      "amount": "Up to INR 15 crore per centre",
+      "duration": "Up to 5 years",
+      "description": "ICMR funds multi-technology Centres for Advanced Research that take medical devices, diagnostics and assistive technologies to translation. The medical devices call is limited to regular faculty at the top 25 NIRF 2025 institutions; the assistive technology call is open to institutions eligible for ICMR extramural support. A Co-PI from the PI's institute is mandatory."
+    },
+    {
+      "id": "igstc-industrial-fellowships",
+      "name": "IGSTC Industrial Fellowships",
+      "funder": "Indo-German Science & Technology Centre (IGSTC), DST and BMBF",
+      "url": "https://www.igstc.org/home/industrial_fellowships",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2026 call closed (results expected around October 2026); next call not yet announced.",
+      "region": "Germany (for India-based researchers)",
+      "amount": "EUR 1,500 per month (PhD) or EUR 2,500 per month (postdoc), plus travel, visa and medical insurance",
+      "duration": "Up to 6 months (PhD) or up to 12 months (postdoc)",
+      "description": "Places Indian PhD students and fresh PhDs in German industry or industrial research organisations for applied research. PhD students must have completed one year of a PhD in India and be 30 or younger; postdocs must be 35 or younger and within three years of a PhD from an Indian institution. Applicants arrange a German industrial host."
+    },
+    {
+      "id": "igstc-pecfar",
+      "name": "Paired Early Career Fellowship in Applied Research (PECFAR)",
+      "funder": "Indo-German Science & Technology Centre (IGSTC), DST and BMBF",
+      "url": "https://www.igstc.org/home/pecfar",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2026 call closed (results expected around October 2026); next call not yet announced.",
+      "region": "India and Germany",
+      "amount": "One-time grant covering travel, accommodation and fellowship",
+      "duration": "Up to 2 months",
+      "description": "Funds a pair of early-career researchers, one Indian and one German, to make short visits to each other's country to build an applied STEM collaboration. The pair submits a joint proposal with acceptance letters from both host institutions."
+    },
+    {
+      "id": "iusstf-sn-bose-scholars",
+      "name": "S.N. Bose Scholars Program",
+      "funder": "Indo-U.S. Science and Technology Forum (IUSSTF)",
+      "url": "https://iusstf.org/s-n-bose-scholars-program",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call; next dates not yet posted.",
+      "region": "United States (for Indian students)",
+      "amount": "Stipend, health insurance and airfare",
+      "duration": "Summer research internship",
+      "description": "Sends Indian bachelor's and master's students to US universities for summer research internships. Eligible fields are atmospheric and earth sciences, chemical sciences, engineering sciences, mathematical and computational sciences, and physical sciences; biology students apply to the Khorana Program instead."
+    },
+    {
+      "id": "iusstf-khorana-program",
+      "name": "Khorana Program for Scholars",
+      "funder": "Indo-U.S. Science and Technology Forum (IUSSTF) and Department of Biotechnology (DBT)",
+      "url": "https://iusstf.org/khorana-program-for-scholars",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call, previously due in early October; next dates not yet posted.",
+      "region": "United States (for Indian students)",
+      "amount": "Round-trip airfare, stipend and health insurance",
+      "duration": "10 to 12 weeks, mid-May to end of July",
+      "description": "Summer research internships at US institutions for Indian students in biotechnology and allied fields. Applicants must be in a pre-final year of a B.Tech, M.Tech, B.Sc, M.Sc, MBBS or similar degree with a CGPA of 8.0 or higher (65% for MBBS); first-year, final-year and PhD students are not eligible."
+    },
+    {
+      "id": "ictp-associates-programme",
+      "name": "ICTP Associates Programme (Junior, Regular, Senior)",
+      "funder": "Abdus Salam International Centre for Theoretical Physics (ICTP)",
+      "url": "https://www.ictp.it/home/associates-programme",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-01-31"
+      ],
+      "deadlineNote": "Applications for 2028 Associates close 31 January 2027.",
+      "region": "Italy (Trieste), for scientists in developing countries",
+      "amount": "Travel fares for visits (Junior and Regular); fixed allocation for living and travel (Senior)",
+      "duration": "Six years",
+      "description": "Gives PhD scientists working in developing countries, including India, repeated research visits to ICTP. Junior Associates are up to 35, Regular 36 to 45, and Senior 46 to 65; Junior and Regular Associates make three visits of 30 to 60 days each."
+    },
+    {
+      "id": "ictp-hecap-postdoc-2027",
+      "name": "ICTP Postdoctoral Positions in High Energy, Cosmology and Astroparticle Physics 2027",
+      "funder": "Abdus Salam International Centre for Theoretical Physics (ICTP)",
+      "url": "https://www.ictp.it/opportunity/2027-postdoctoral-opportunities",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-11-22"
+      ],
+      "deadlineNote": "Apply via AcademicJobsOnline (job 33129) by 22 November 2026 for full consideration.",
+      "region": "Italy (Trieste)",
+      "amount": "Salaried postdoctoral position",
+      "duration": "2+1 years from October 2027",
+      "description": "Postdoctoral positions in the ICTP HECAP section, separate from the ICTP mathematics postdocs already listed. The listing sets no nationality restriction, so recent PhDs from India can apply with a CV, research statement, publication list and three letters."
+    },
+    {
+      "id": "ictp-postgraduate-diploma",
+      "name": "ICTP Postgraduate Diploma Programme",
+      "funder": "Abdus Salam International Centre for Theoretical Physics (ICTP)",
+      "url": "https://www.ictp.it/opportunity/ictp-postgraduate-diploma-programme",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2027-28 call to be announced.",
+      "region": "Italy (Trieste)",
+      "amount": "Tuition-free; about 10 scholarships a year for students from developing countries cover travel and living costs",
+      "duration": "One year (1 September to 31 August)",
+      "description": "A one-year pre-PhD programme in condensed matter physics, high energy physics, mathematics, earth system physics or quantitative life sciences. Applicants should generally be under 28 with an MSc-equivalent degree and come from a UN, UNESCO or IAEA member country, which includes India."
+    },
+    {
+      "id": "embo-global-investigator-network",
+      "name": "EMBO Global Investigator Network",
+      "funder": "European Molecular Biology Organization (EMBO)",
+      "url": "https://www.embo.org/funding/fellowships-grants-and-career-support/global-investigator-network/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call; the last deadline was 1 May. Next date not yet announced.",
+      "region": "Chile, India, Japan, Singapore, Taiwan",
+      "amount": "Funding for networking and travel, plus training, mentoring and EMBO events",
+      "duration": "Four years",
+      "description": "Supports group leaders in the life sciences within their first six years of running a lab in one of the listed countries. India-based PIs are eligible and join the network of EMBO Young Investigators and Global Investigators."
+    },
+    {
+      "id": "embl-international-phd-programme",
+      "name": "EMBL International PhD Programme",
+      "funder": "European Molecular Biology Laboratory (EMBL)",
+      "url": "https://www.embl.org/about/info/embl-international-phd-programme/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Two recruitment rounds a year; the next round is expected to open toward the end of January.",
+      "region": "Europe (EMBL sites)",
+      "amount": "PhD position at EMBL",
+      "duration": "Duration of PhD",
+      "description": "PhD positions at EMBL sites in molecular biology, computational biology and related areas. Recruitment is international, with current students from 48 nationalities, so graduates from India can apply."
+    },
+    {
+      "id": "erc-synergy-grant",
+      "name": "ERC Synergy Grant",
+      "funder": "European Research Council (ERC)",
+      "url": "https://erc.europa.eu/apply-grant/synergy-grant",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-05-11"
+      ],
+      "deadlineNote": "ERC-2027-SyG opens 17 February 2027 and closes 11 May 2027.",
+      "region": "EU and associated countries; one PI may be outside",
+      "amount": "Up to EUR 10 million, plus up to EUR 4 million for start-up, equipment or major costs",
+      "duration": "Six years",
+      "description": "Funds a group of two to four PIs working jointly on an ambitious research problem. One PI in the group may be hosted by an institution outside the EU and associated countries, so an India-based researcher can be a funded co-PI alongside European partners."
+    },
+    {
+      "id": "swiss-government-excellence-scholarships",
+      "name": "Swiss Government Excellence Scholarships (Research Fellowship and PhD)",
+      "funder": "Federal Commission for Scholarships for Foreign Students (FCS), Swiss State Secretariat for Education, Research and Innovation (SERI)",
+      "url": "https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships-at-a-glance",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2026-11-10"
+      ],
+      "deadlineNote": "For India: call opened 20 August 2026; deadline 10 November 2026, 11:59 PM Swiss time (via Embassy of Switzerland, New Delhi).",
+      "region": "Switzerland (for Indian applicants)",
+      "amount": "CHF 2,450 per month",
+      "duration": "Research fellowship 6 to 12 months; PhD 12 months renewable up to 36 months, from 1 September 2027",
+      "description": "Swiss Government scholarships for research at Swiss universities, ETH Zurich, EPFL and federal research institutes, in any discipline. Indian applicants may apply for a one-year research fellowship during doctoral studies or a full PhD scholarship, with a Swiss supervisor's support and an age limit of 35."
+    },
+    {
+      "id": "gates-cambridge-scholarship",
+      "name": "Gates Cambridge Scholarship",
+      "funder": "Gates Cambridge Trust, University of Cambridge",
+      "url": "https://www.gatescambridge.org/apply/timeline/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2026-12-08",
+        "2027-01-06"
+      ],
+      "deadlineNote": "For non-US applicants, the deadline is 8 December 2026 or 6 January 2027 depending on the course funding deadline in the Cambridge course directory.",
+      "region": "United Kingdom (Cambridge)",
+      "amount": "Scholarship for postgraduate study; coverage set out by Gates Cambridge",
+      "duration": "PhD (up to 4 years) or one-year postgraduate course",
+      "description": "Postgraduate scholarships at the University of Cambridge for citizens of any country outside the UK, including India, across all subjects including the sciences. Fundable courses are the PhD, the MLitt and one-year postgraduate courses."
+    },
+    {
+      "id": "inlaks-shivdasani-scholarships",
+      "name": "Inlaks Shivdasani Foundation Scholarships",
+      "funder": "Inlaks Shivdasani Foundation",
+      "url": "https://www.inlaksfoundation.org/scholarships/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2026 cycle closed; 2027 dates not yet announced (past cycles closed in spring).",
+      "region": "Top universities in the US, UK and Europe (for Indian residents)",
+      "amount": "Up to USD 120,000 covering tuition, living costs, travel, visa and health",
+      "duration": "Nine months to four years",
+      "description": "Scholarships for Indian passport holders resident in India to pursue master's or PhD study at leading overseas universities. Mathematics, the sciences and environment are eligible; computer science, engineering (except at Imperial College London) and medicine are excluded."
+    },
+    {
+      "id": "max-planck-partner-groups",
+      "name": "Max Planck Partner Groups",
+      "funder": "Max Planck Society (MPG)",
+      "url": "https://www.mpg.de/272644/partner-groups",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "No fixed call; proposed by the Max Planck Institute where the researcher worked.",
+      "region": "Partner institutions abroad, including India",
+      "amount": "MPG funding for the partner group",
+      "duration": "Up to five years",
+      "description": "Supports early-career researchers who, after a stay at a Max Planck Institute, set up a group at a partner institution, preferably in their home country, keeping links with the Max Planck host. India-based researchers with a recent Max Planck stay are eligible; MPG lists a regional contact for India."
+    },
+    {
+      "id": "cern-doctoral-studentship",
+      "name": "CERN Doctoral Studentship Programme",
+      "funder": "CERN (European Organization for Nuclear Research)",
+      "url": "https://careers.cern/programmes/doctoral-studentship/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Positions are posted on the CERN careers site through the year; no position open at the time of checking.",
+      "region": "Switzerland and France (CERN)",
+      "amount": "CHF 3,907 per month net allowance",
+      "duration": "6 months to 3 years",
+      "description": "Lets PhD students enrolled at a university do their doctoral research at CERN in physics, engineering or computing. Applicants must be nationals of a CERN Member or Associate Member State; India is an Associate Member State, so Indian PhD students are eligible."
+    },
+    {
+      "id": "icgeb-arturo-falaschi-fellowships",
+      "name": "ICGEB Arturo Falaschi PhD, Postdoctoral and SMART Fellowships",
+      "funder": "International Centre for Genetic Engineering and Biotechnology (ICGEB)",
+      "url": "https://www.icgeb.org/fellowship/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2027-03-31"
+      ],
+      "deadlineNote": "Next call opens January 2027 with a final deadline of 31 March 2027. A second call usually runs in the second half of the year.",
+      "region": "ICGEB Member States (includes India); research at ICGEB Trieste, New Delhi or Cape Town",
+      "amount": "Monthly stipend plus travel and health insurance (amount varies by fellowship type)",
+      "duration": "Short-term (up to 12 months) to long-term (PhD and postdoctoral, about 2 years)",
+      "description": "Pre-doctoral and postdoctoral fellowships for nationals of ICGEB Member States to do life-science research at ICGEB laboratories, plus SMART fellowships for South-South mobility. India is an ICGEB Member State and hosts the New Delhi component, so Indian nationals can apply."
+    },
+    {
+      "id": "tdr-ir-leadership-fellowship",
+      "name": "TDR Implementation Research Leadership Fellowship Programme for Public Health Impact",
+      "funder": "WHO Special Programme for Research and Training in Tropical Diseases (TDR), hosted at Universitas Gadjah Mada",
+      "url": "https://tdr.who.int/newsroom/news/item/11-12-2024-tdr-launches-leadership-programme-on-implementation-science",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call; the 2026/2027 deadline was 30 January 2026. The next call is not yet announced.",
+      "region": "Nationals and residents of LMICs in the WHO South-East Asia, Western Pacific and Eastern Mediterranean Regions (includes India)",
+      "amount": "Fully funded in-person fellowship",
+      "duration": "6 months",
+      "description": "Leadership training in implementation research for researchers and public health practitioners under 40, focused on infectious diseases of poverty, antimicrobial resistance, epidemics and climate effects on health. The 2026/2027 call was open to LMICs in the WHO South-East Asia Region, which includes India; eligible regions vary by cycle."
+    },
+    {
+      "id": "bbrf-young-investigator",
+      "name": "BBRF Young Investigator Grants",
+      "funder": "Brain & Behavior Research Foundation",
+      "url": "https://bbrfoundation.org/grants-prizes/narsad-young-investigator-grants",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call; the 2026 window ran 4 February to 4 March 2026. The 2027 dates are not yet announced.",
+      "region": "Worldwide; no citizenship or location restriction",
+      "amount": "Up to USD 35,000 per year (USD 70,000 total)",
+      "duration": "2 years",
+      "description": "Supports early-career researchers in psychiatry and brain and behaviour research who hold a doctoral degree and a research position. Applicants may be based anywhere in the world, so researchers at Indian institutions can apply."
+    },
+    {
+      "id": "brightfocus-macular-degeneration",
+      "name": "BrightFocus Macular Degeneration Research Grants",
+      "funder": "BrightFocus Foundation",
+      "url": "https://www.brightfocus.org/MDR-RFP",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; FY27 letters of intent were due 30 July 2026 and invited full proposals are due 10 December 2026. The next LOI window is not yet announced.",
+      "region": "US and international researchers",
+      "amount": "Postdoctoral USD 200,000; New Investigator up to USD 450,000; Standard up to USD 300,000",
+      "duration": "2 to 3 years",
+      "description": "Funds research on the causes and treatment of age-related macular degeneration through postdoctoral, new investigator and standard awards. BrightFocus funds both US and international researchers, so applicants at Indian institutions can apply."
+    },
+    {
+      "id": "brightfocus-national-glaucoma",
+      "name": "BrightFocus National Glaucoma Research Grants",
+      "funder": "BrightFocus Foundation",
+      "url": "https://www.brightfocus.org/NGR-RFP",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; the FY27 proposal window closed 24 September 2026. The next window is not yet announced.",
+      "region": "US and international researchers",
+      "amount": "Postdoctoral up to USD 125,000; Standard up to USD 150,000",
+      "duration": "Up to 2 years",
+      "description": "Funds research on the causes, prevention and treatment of glaucoma through standard and postdoctoral awards. The programme accepts US and international researchers, so applicants at Indian institutions can apply."
+    },
+    {
+      "id": "thrasher-early-career-award",
+      "name": "Thrasher Research Fund Early Career Award",
+      "funder": "Thrasher Research Fund",
+      "url": "https://www.thrasherresearch.org/early-career-award",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Two cycles a year (spring concept papers in March, fall in September). The 2027 spring date is not yet announced.",
+      "region": "Worldwide; institutions inside and outside the US",
+      "amount": "Up to USD 25,000 direct costs plus 7% indirect",
+      "duration": "Up to 2 years",
+      "description": "Small grants for early-career physicians and postdocs doing paediatric health research, with a mentor. There are no citizenship restrictions and institutions outside the US are eligible, so researchers in India can apply."
+    },
+    {
+      "id": "worldwide-cancer-research-grant-round",
+      "name": "Worldwide Cancer Research Grant Round",
+      "funder": "Worldwide Cancer Research",
+      "url": "https://www.worldwidecancerresearch.org/for-researchers/our-application-process/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "One grant round a year; the next round is in 2027 (the 2026 round closed 2 April 2026). Dates are not yet announced.",
+      "region": "Worldwide; PI at a not-for-profit research institution",
+      "amount": "Project grant (amount set in the annual handbook)",
+      "duration": "Multi-year (set by the call)",
+      "description": "Funds discovery research on any cancer type at not-for-profit institutions anywhere in the world. Principal investigators based in India can apply."
+    },
+    {
+      "id": "cancer-grand-challenges",
+      "name": "Cancer Grand Challenges",
+      "funder": "Cancer Research UK and the National Cancer Institute (US)",
+      "url": "https://www.cancergrandchallenges.org/apply",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-24"
+      ],
+      "deadlineNote": "Applications for the current challenge close 24 November 2026.",
+      "region": "International teams; no more than 70% of activity in one country",
+      "amount": "Up to USD 34 million per team",
+      "duration": "Multi-year (set by the call)",
+      "description": "Funds international, interdisciplinary teams to tackle defined challenges in cancer research. Teams need not be UK or US led, so researchers in India can lead or join a team, provided no single country accounts for more than 70% of the work."
+    },
+    {
+      "id": "cri-irvington-postdoctoral",
+      "name": "CRI Irvington Postdoctoral Fellowship",
+      "funder": "Cancer Research Institute",
+      "url": "https://www.cancerresearch.org/cri-irvington-postdoctoral-fellowship",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2027-03-01"
+      ],
+      "deadlineNote": "Deadlines on 1 March and 1 September each year, 11:59 pm US Eastern.",
+      "region": "Worldwide; any non-profit host institution",
+      "amount": "Stipend USD 74,000 to 78,000 per year plus USD 5,000 annual allowance",
+      "duration": "3 years",
+      "description": "Supports postdoctoral research in immunology and cancer immunology. The fellowship can be held in the US or abroad at a non-profit institution with no citizenship restrictions, so it can be held at an Indian institution."
+    },
+    {
+      "id": "cri-immuno-informatics-postdoctoral",
+      "name": "CRI Immuno-Informatics Postdoctoral Fellowship",
+      "funder": "Cancer Research Institute",
+      "url": "https://www.cancerresearch.org/immuno-informatics-postdoctoral-fellowship",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2027-03-01"
+      ],
+      "deadlineNote": "Deadlines on 1 March and 1 September each year, 11:59 pm US Eastern.",
+      "region": "Worldwide; any non-profit host institution",
+      "amount": "Stipend USD 74,000 to 78,000 per year plus USD 5,000 annual allowance",
+      "duration": "3 years",
+      "description": "Supports early-career scientists building joint expertise in immunology and data science for cancer immunotherapy. The fellowship can be held in the US or abroad at a non-profit institution with no citizenship restrictions, so it can be held in India."
+    },
+    {
+      "id": "ibro-rising-stars-awards",
+      "name": "IBRO Rising Stars Awards",
+      "funder": "International Brain Research Organization (IBRO)",
+      "url": "https://ibro.org/grant/rising-stars-awards/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual window; the 2026 window ran 15 March to 15 April 2026 and the next is expected around the same time in 2027.",
+      "region": "IBRO regions including Asia-Pacific (India is in the APRC region)",
+      "amount": "Up to USD 10,000 for Asia-Pacific applicants",
+      "duration": "One-time start-up grant",
+      "description": "Start-up grants for neuroscientists setting up their first independent laboratory. India falls in IBRO's Asia-Pacific region; priority goes to researchers who trained abroad and have returned to a faculty post in their home country."
+    },
+    {
+      "id": "ibro-parenthood-grants",
+      "name": "IBRO Parenthood Grants",
+      "funder": "International Brain Research Organization (IBRO)",
+      "url": "https://ibro.org/grant/parenthood-grants/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "The next call opens in February 2027; the 2026 window was 1 July to 15 August.",
+      "region": "International, including Asia-Pacific (India)",
+      "amount": "Up to USD 2,000 for Asia-Pacific applicants",
+      "duration": "One-time grant",
+      "description": "Supports early-career neuroscience principal investigators (up to 7 years as PI) who are expecting or have recently welcomed a child, to keep their lab running. The programme is open to international applicants, and India is in IBRO's Asia-Pacific region."
+    },
+    {
+      "id": "jane-coffin-childs-fellowship",
+      "name": "Jane Coffin Childs Postdoctoral Fellowship",
+      "funder": "Jane Coffin Childs Memorial Fund for Medical Research",
+      "url": "https://www.jccfund.org/eligibilty-criteria/important-dates-and-documents/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2027-02-01"
+      ],
+      "deadlineNote": "Applications opened 1 October 2026 and close 1 February 2027 at 3:00 pm US Eastern.",
+      "region": "Any citizenship; non-US citizens must hold the fellowship at a US institution",
+      "amount": "Stipend and research allowance (see Terms of the Award)",
+      "duration": "Multi-year postdoctoral fellowship",
+      "description": "Postdoctoral fellowships in the basic medical and biological sciences related to cancer. Citizens of any country may apply, but non-US citizens, including Indian PhD graduates, must take up the fellowship in a US laboratory."
+    },
+    {
+      "id": "helen-hay-whitney-fellowship",
+      "name": "Helen Hay Whitney Foundation Postdoctoral Fellowship",
+      "funder": "Helen Hay Whitney Foundation",
+      "url": "https://hhwf.org/research-fellowship/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual deadline in mid-June (15 June in 2026). The 2027 date is not yet posted.",
+      "region": "Any citizenship; foreign citizens only for research in US laboratories",
+      "amount": "Stipend USD 73,000 to 77,000 per year plus USD 1,500 research allowance and child allowance",
+      "duration": "3 years",
+      "description": "Postdoctoral fellowships in the biomedical sciences for early-stage postdocs. Indian citizens can apply but must hold the fellowship in a US laboratory."
+    },
+    {
+      "id": "lsrf-postdoctoral-fellowship",
+      "name": "Life Sciences Research Foundation Postdoctoral Fellowship",
+      "funder": "Life Sciences Research Foundation (LSRF)",
+      "url": "https://www.lsrf.org/apply",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle; the portal opens 15 August and applications close 1 October (the 2026-27 deadline has passed).",
+      "region": "Any citizenship; non-US citizens must work in a US laboratory",
+      "amount": "USD 85,000 per year (USD 79,000 salary plus USD 6,000 research allowance)",
+      "duration": "3 years",
+      "description": "Postdoctoral fellowships across the life sciences, sponsored by companies, foundations and HHMI. Indian citizens can apply but must hold the award in a US laboratory."
+    },
+    {
+      "id": "bif-phd-fellowships",
+      "name": "Boehringer Ingelheim Fonds PhD Fellowships",
+      "funder": "Boehringer Ingelheim Fonds (BIF)",
+      "url": "https://bifonds.de/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2027-02-01",
+        "2027-06-01"
+      ],
+      "deadlineNote": "Three deadlines a year: 1 February, 1 June and 1 October. The portal opens about one month before each deadline.",
+      "region": "European citizens anywhere, or non-European citizens doing their PhD in Europe",
+      "amount": "Monthly stipend (basic EUR 1,650 plus country premium) and travel allowances",
+      "duration": "24 months, extendable by up to 18 months",
+      "description": "Fellowships for PhD students doing experimental basic biomedical research. Indian nationals are eligible if their PhD project is carried out in Europe, and must apply near the start of the PhD."
+    },
+    {
+      "id": "embl-eipod-linc",
+      "name": "EMBL EIPOD-LinC Postdoctoral Fellowships",
+      "funder": "European Molecular Biology Laboratory (EMBL)",
+      "url": "https://www.embl.org/about/info/postdoctoral-programme/eipod-linc-exploring-life-in-context/eipod-linc-application/",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2027-02-01"
+      ],
+      "deadlineNote": "Applications close 1 February 2027 at 23:59 CET; referee letters by 2 February.",
+      "region": "All nationalities; hosted at EMBL with a partner lab in an EMBL Member State",
+      "amount": "Fully funded postdoctoral fellowship",
+      "duration": "3 years",
+      "description": "Interdisciplinary postdoctoral fellowships studying life in context, co-supervised by EMBL and a Member State partner laboratory. The programme is open to researchers of all nationalities with up to eight years post-PhD, so researchers in India can apply."
+    },
+    {
+      "id": "nihr-global-advanced-fellowship",
+      "name": "NIHR Global Advanced Fellowships",
+      "funder": "National Institute for Health and Care Research (NIHR), UK",
+      "url": "https://www.nihr.ac.uk/career-development/research-career-funding-programmes/postdoctoral/global-advanced-fellowship",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Opens once a year in April; the Cohort 2 round ran 14 April to 30 June 2026. The 2027 dates are not yet announced.",
+      "region": "Researchers employed at LMIC institutions in sub-Saharan Africa or South Asia (includes India), or UK institutions",
+      "amount": "Up to GBP 750,000",
+      "duration": "2 to 5 years",
+      "description": "Postdoctoral fellowships for researchers who are not yet independent, for global health research that primarily benefits ODA-eligible countries. Applicants employed at Indian universities or research institutes are eligible and LMIC-based applicants receive strategic priority."
+    },
+    {
+      "id": "fogarty-global-brain-disorders",
+      "name": "Global Brain and Nervous System Disorders Research Across the Lifespan (R21 Exploratory Grants)",
+      "funder": "Fogarty International Center, NIH (with NINDS, NIMH, NIA, NICHD and other institutes)",
+      "url": "https://simpler.grants.gov/opportunity/360660",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Forecast opportunity PAR-26-144; NIH estimates an application due date of 15 November 2026, not yet confirmed.",
+      "region": "US institutions and LMIC institutions (includes India); each application needs a US and an LMIC partner",
+      "amount": "Not stated in the forecast",
+      "duration": "R21 exploratory grant (typically up to 2 years)",
+      "description": "Supports collaborative research on brain and nervous system disorders relevant to low- and middle-income countries across the lifespan. Institutions in India, as a lower-middle-income country, can apply as the LMIC partner organisation."
+    },
+    {
+      "id": "ias-cipher-research-grant",
+      "name": "CIPHER Research Grant Programme",
+      "funder": "International AIDS Society (IAS)",
+      "url": "https://www.iasociety.org/sites/default/files/CIPHER/CIPHER-Research-Grant-2026_Call-for-Letter-of-Intent_English.pdf",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call; the 2026/2027 letter-of-intent deadline was 30 September 2026. The next call is not yet announced.",
+      "region": "Nationals of low- and middle-income countries (includes India)",
+      "amount": "Up to USD 140,000",
+      "duration": "2 years",
+      "description": "Grants for early-stage investigators (terminal degree within 10 years) leading a project as principal investigator for the first time, on paediatric and adolescent HIV. Applicants need a passport from an LMIC, so Indian nationals are eligible."
+    },
+    {
+      "id": "keystone-global-health-awards",
+      "name": "Keystone Symposia Global Health Awards",
+      "funder": "Keystone Symposia on Molecular and Cellular Biology",
+      "url": "https://www.keystonesymposia.org/financial-aid/Global-Health-Awards",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-10"
+      ],
+      "deadlineNote": "Deadlines vary by meeting; for example, 10 November 2026 for the April 2027 Singapore meeting on the vaginal microbiome.",
+      "region": "Scientists from and living or working in low- and middle-income countries (includes India)",
+      "amount": "Travel award covers registration, lodging and airfare; virtual registration also offered",
+      "duration": "One meeting",
+      "description": "Travel awards and virtual registration for students, fellows, scientists and clinicians from LMICs to attend Keystone Symposia meetings. Researchers based in India are eligible."
+    },
+    {
+      "id": "iubmb-wood-whelan-fellowships",
+      "name": "IUBMB Wood-Whelan Research Fellowships",
+      "funder": "International Union of Biochemistry and Molecular Biology (IUBMB)",
+      "url": "https://iubmb.org/activities/fellowship-programs/iubmb-wood-whelan-research-fellowships/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2027-03-15"
+      ],
+      "deadlineNote": "Two deadlines a year: 15 March (travel July to December) and 15 September (travel January to June).",
+      "region": "Members of IUBMB adhering societies; India's adhering body is INSA, representing the Society of Biological Chemists (India)",
+      "amount": "Up to USD 7,000 for travel and living costs",
+      "duration": "1 to 4 months",
+      "description": "Short research visits for PhD students and researchers within five years of the PhD to work in another laboratory. Indian applicants are eligible through membership of the Society of Biological Chemists (India)."
+    },
+    {
+      "id": "addf-drug-development-rfps",
+      "name": "ADDF Drug Development, Biomarker and Prevention RFPs",
+      "funder": "Alzheimer's Drug Discovery Foundation (ADDF)",
+      "url": "https://www.alzdiscovery.org/research-and-grants/funding-opportunities",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Letters of intent for the current round have closed; invited full proposals are due 7 December 2026. Future rounds are not yet dated.",
+      "region": "Academic centres and biotech companies worldwide",
+      "amount": "Programme-related investment (amount by project)",
+      "duration": "By project",
+      "description": "Funds drug development, neuroimaging and CSF biomarker, and prevention studies for Alzheimer's disease and related dementias. ADDF funds academic centres and biotechs around the world, so Indian institutions can apply."
+    },
+    {
+      "id": "cepi-calls-for-proposals",
+      "name": "CEPI Calls for Proposals",
+      "funder": "Coalition for Epidemic Preparedness Innovations (CEPI)",
+      "url": "https://cepi.net/calls-for-proposals",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Calls open and close throughout the year on specific vaccine and preparedness topics; check the page for the current list.",
+      "region": "Worldwide; CEPI encourages applicants from the Global South",
+      "amount": "Varies by call",
+      "duration": "Varies by call",
+      "description": "Funds vaccine development and epidemic preparedness research through topic-specific calls. CEPI invites innovators worldwide and is particularly interested in developers and researchers in the Global South, including India."
+    },
+    {
+      "id": "eppendorf-science-prize-neurobiology",
+      "name": "Eppendorf and Science Prize for Neurobiology",
+      "funder": "Eppendorf and Science/AAAS",
+      "url": "https://www.eppendorf.com/bn-en/company-careers/scientific-awards/eppendorf-science-prize-for-neurobiology/entry-details-judging-procedures/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual deadline of 15 June in recent years; the 2027 date is not yet posted.",
+      "region": "Worldwide",
+      "amount": "USD 25,000 grand prize",
+      "duration": "One-time prize",
+      "description": "Prize for an early-career neurobiologist aged 35 or under with an MD or PhD from the last 10 years, judged on a 1,000-word essay about their recent research. The prize is open worldwide, so researchers in India can enter."
+    },
+    {
+      "id": "cure-epilepsy-grants",
+      "name": "CURE Epilepsy Research Grants (CURE Epilepsy Award, Catalyst Award)",
+      "funder": "CURE Epilepsy (Citizens United for Research in Epilepsy)",
+      "url": "https://www.cureepilepsy.org/grants-program",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Letters of intent are usually due in January (Award) and June (Catalyst and partnership awards). 2027 dates are not yet posted.",
+      "region": "International applicants welcome",
+      "amount": "Varies by mechanism",
+      "duration": "Varies by mechanism",
+      "description": "Funds research toward cures for epilepsy through several award mechanisms. International applicants are welcome, so researchers at Indian institutions can apply; postdoctoral fellows cannot apply for the main award."
+    },
+    {
+      "id": "lady-tata-international-awards",
+      "name": "Lady Tata Memorial Trust International Awards for Research in Leukaemia",
+      "funder": "Lady Tata Memorial Trust",
+      "url": "https://ladytatatrust.tatatrusts.org/",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call; the 2026-27 window ran 1 April to 31 May 2026. The 2027-28 dates are not yet announced.",
+      "region": "Any nationality",
+      "amount": "Up to GBP 36,000",
+      "duration": "1 year",
+      "description": "Personal support awards for research on the treatment, epidemiology, pathogenesis, immunology and genetics of leukaemia, for researchers usually within six years of the PhD. Awards are open to investigators of any nationality, with priority to those moving to another centre."
+    },
+    {
+      "id": "lady-tata-india-scholarships",
+      "name": "Lady Tata Memorial Trust Indian Awards (Junior Scholarship and Post-Doctoral Fellowship)",
+      "funder": "Lady Tata Memorial Trust",
+      "url": "https://ladytatatrust.tatatrusts.org/StaticPageIndia/Home/0/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call; applications for the 2026-27 year closed in February 2026. The next dates are not yet announced.",
+      "region": "Scholars working at Indian universities and institutes",
+      "amount": "Fellowship stipend (amount set by the Trust)",
+      "duration": "Junior Scholarship 5 years; Post-Doctoral Fellowship 2 years",
+      "description": "Scholarships for research in India on diseases of the blood, with special reference to leukaemia. The Junior Scholarship supports PhD study and the Post-Doctoral Fellowship supports early postdoctoral work at Indian institutions."
+    },
+    {
+      "id": "sun-pharma-science-foundation-fellowships",
+      "name": "Sun Pharma Science Foundation Research Fellowships and Science Scholar Fellowships",
+      "funder": "Sun Pharma Science Foundation",
+      "url": "https://sunpharmasciencefoundation.net/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual nominations; the 2026 window ran 15 May to 15 July 2026 (Clinical Research Fellowship 15 July to 15 September). 2027 dates are not yet announced.",
+      "region": "Indian scientists (including non-resident Indians with an Indian passport for Research Fellowships)",
+      "amount": "Research Fellowships INR 5 lakh each with trophy and citation",
+      "duration": "One-time award",
+      "description": "Nominated awards for original research in medical and pharmaceutical sciences by Indian scientists, plus Science Scholar Fellowships for young researchers under 30 and a Clinical Research Fellowship for early-career clinicians in India. Nominations come from heads of institutions."
+    },
+    {
+      "id": "alzheimers-association-research-grants",
+      "name": "Alzheimer's Association International Research Grant Program",
+      "funder": "Alzheimer's Association",
+      "url": "https://www.alz.org/research/for_researchers/grants/types-of-grants",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Several programmes with their own letter-of-intent dates, some restricted by region; check the programme list for current calls.",
+      "region": "Most programmes open to US and international researchers",
+      "amount": "Varies by programme",
+      "duration": "Varies by programme",
+      "description": "Funds Alzheimer's and dementia research at all career stages through a set of programmes with their own calls. Most grants are open to international researchers, so applicants in India can apply to programmes without a regional restriction."
+    },
+    {
+      "id": "icgeb-crp-research-grants",
+      "name": "ICGEB Collaborative Research Programme (CRP) Research Grants",
+      "funder": "International Centre for Genetic Engineering and Biotechnology (ICGEB)",
+      "url": "https://www.icgeb.org/grants/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-04-30"
+      ],
+      "deadlineNote": "The next call opens at the beginning of 2027 with a submission deadline of 30 April 2027. Applications need endorsement by the national Liaison Officer.",
+      "region": "PIs at universities or research institutes in ICGEB Member States (includes India; excludes Italy)",
+      "amount": "Up to EUR 25,000 per year",
+      "duration": "Up to 36 months",
+      "description": "Research grants for projects on scientific problems of relevance to the host country in life sciences and biotechnology, including an Early Career Return Grant track. Principal investigators at Indian universities and institutes are eligible since India is an ICGEB Member State."
+    },
+    {
+      "id": "ers-short-term-research-fellowship",
+      "name": "ERS Short-Term Research Training Fellowships",
+      "funder": "European Respiratory Society (ERS)",
+      "url": "https://www.ersnet.org/education-and-professional-development/funding-opportunities-fellowship-programmes/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Two calls a year, with deadlines around 1 April and 1 October. 2027 dates are not yet posted.",
+      "region": "ERS members of all nationalities, based in Europe or overseas",
+      "amount": "Monthly allowance for the training stay",
+      "duration": "Short-term visit (set in the call guidance)",
+      "description": "Short research visits to a host institution for early-career respiratory scientists and clinicians. The programme is open to ERS members of all nationalities based in Europe or overseas, so members in India can apply."
+    },
+    {
+      "id": "isn-fellowship-program",
+      "name": "ISN Fellowship Program",
+      "funder": "International Society of Nephrology (ISN)",
+      "url": "https://fellowship.theisn.org/prog/isn_fellowship",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual window; the 2026 window ran 1 July to 16 October 2026. The 2027 dates are not yet posted.",
+      "region": "ISN members living and working in low- and middle-income countries (includes India)",
+      "amount": "Training stipend and travel (set in programme guidelines)",
+      "duration": "Set in the programme guidelines",
+      "description": "Hands-on nephrology training at a host centre for young doctors from LMICs, who then return home to apply the skills. Applicants must be ISN members working in a World Bank low- or middle-income country, which includes India."
+    },
+    {
+      "id": "ash-global-research-award",
+      "name": "ASH Global Research Award",
+      "funder": "American Society of Hematology (ASH)",
+      "url": "https://www.hematology.org/awards/career-enhancement-and-training/global-research-award",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Letters of intent for the 2027 cycle closed 31 August 2026. The next LOI window is expected to open in March 2027.",
+      "region": "ASH members based outside the US and Canada",
+      "amount": "Up to USD 100,000 (one year) or USD 150,000 (longer projects)",
+      "duration": "Up to 3 years",
+      "description": "Research awards for haematology researchers based outside the US and Canada, with a local mentor and a global mentor. Researchers in India who are ASH members are eligible."
+    },
+    {
+      "id": "science-scilifelab-prize",
+      "name": "Science and SciLifeLab Prize for Young Scientists",
+      "funder": "Science/AAAS and SciLifeLab",
+      "url": "https://www.science.org/content/page/how-enter-science-scilifelab-prize-young-scientists",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual deadline in mid-year (15 July in 2026). The 2027 call is not yet posted.",
+      "region": "Worldwide",
+      "amount": "USD 30,000 grand prize; USD 10,000 for each category winner",
+      "duration": "One-time prize",
+      "description": "Essay prize for recent PhD graduates in cell and molecular biology, genomics and systems biology, ecology and environment, and molecular medicine, based on their thesis work. The prize is open to researchers from all countries, including PhD graduates from Indian institutions."
+    },
+    {
+      "id": "grass-fellowship",
+      "name": "Grass Fellowship",
+      "funder": "Grass Foundation (at the Marine Biological Laboratory, Woods Hole)",
+      "url": "https://grassfoundation.org/application-portal/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-12-01"
+      ],
+      "deadlineNote": "Applications for 2027 are due 1 December 2026; recommendation letters by 7 December 2026.",
+      "region": "International applicants accepted (valid US visa required for the fellowship)",
+      "amount": "Funded summer research residency",
+      "duration": "14 weeks",
+      "description": "Summer residency at the MBL in Woods Hole for late-stage PhD and MD students, postdocs and early faculty to run an independent neuroscience project. International fellows are accepted if they hold a valid visa, so researchers from India can apply."
+    },
+    {
+      "id": "pratiksha-emstar",
+      "name": "Pratiksha Trust EMSTAR (Extra-Mural Support for Transformational Aging Brain Research)",
+      "funder": "Pratiksha Trust (coordinated by the Centre for Brain Research, IISc)",
+      "url": "https://cbr-iisc.ac.in/emstar/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Calls are annual and announced on the programme page; no current deadline is posted.",
+      "region": "Lead investigators with salaried posts at eligible Indian institutions",
+      "amount": "Up to INR 5 crore",
+      "duration": "5 years",
+      "description": "Large grants for research on dementia and the aging brain, including cohort studies, AI and data science, the gut microbiome and neuroimmunology. The lead investigator must hold a post at an Indian institution; co-investigators can be abroad."
+    },
+    {
+      "id": "uicc-technical-fellowships",
+      "name": "UICC Technical Fellowships",
+      "funder": "Union for International Cancer Control (UICC)",
+      "url": "https://www.uicc.org/what-we-do/member-benefits/learning-and-development/fellowships/technical-fellowships",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call; the 2026 call ran 3 April to 4 June 2026. UICC says 2027 dates will be published soon.",
+      "region": "Cancer professionals worldwide (no regional restriction for this scheme)",
+      "amount": "Living costs and economy travel, calculated from UICC scales",
+      "duration": "2 weeks to 2 months",
+      "description": "Short visits to a host institution abroad for cancer professionals with at least a Master's degree (or medical or nursing equivalent) and five years of experience in cancer. UICC fellowships support applicants from all over the world, so professionals in India can apply; PhD and medical students are not eligible."
+    },
+    {
+      "id": "tcs-research-scholar-program",
+      "name": "TCS Research Scholar Program",
+      "funder": "Tata Consultancy Services (TCS Foundation)",
+      "url": "https://tcs.com/research-scholarship-program-computer-science-phds-india",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual cycle through invited institutes; the 2026 cycle closed 16 January 2026. Next call not yet posted.",
+      "region": "India",
+      "amount": "Monthly stipend (about Rs 91,000 in years 1-2, rising in years 3-4) plus research contingency; package stated by TCS as over Rs 47 lakh per scholar",
+      "duration": "Up to 4 years",
+      "description": "PhD fellowship for full-time computer science and related PhD scholars at invited Indian institutes, with mentoring from TCS Research. Applications go through the scholar's institute, not directly to TCS. Open only to scholars registered at Indian institutions."
+    },
+    {
+      "id": "schmidt-ai2050-fellowships",
+      "name": "AI2050 Fellowships (Early Career and Senior)",
+      "funder": "Schmidt Sciences",
+      "url": "https://ai2050.schmidtsciences.org/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Closed nominations; there is no open application.",
+      "region": "Global",
+      "amount": "Early Career: up to USD 300,000",
+      "duration": "2 years",
+      "description": "Fellowships for researchers working on hard problems in making AI beneficial to society, awarded to early-career and senior researchers. Selection is by closed nomination only. Fellows are drawn from around the world, and past cohorts include researchers at Indian institutions."
+    },
+    {
+      "id": "mats-program",
+      "name": "MATS (ML Alignment & Theory Scholars)",
+      "funder": "MATS Program",
+      "url": "https://www.matsprogram.org/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Winter 2027 applications closed; Summer and Autumn 2027 applicant dates not yet posted.",
+      "region": "Global (in person in Berkeley or London)",
+      "amount": "USD 1,250 per week stipend, USD 2,000 per week compute, housing, meals, travel and J1 visa covered if needed",
+      "duration": "12 weeks, with a funded 6-12 month extension available",
+      "description": "Mentored research programme in AI alignment, interpretability, security and governance, held in Berkeley and London. Travel and visa costs are covered, so applicants based in India can take part in person."
+    },
+    {
+      "id": "acm-india-anveshan-setu",
+      "name": "ACM India Anveshan Setu Fellowship",
+      "funder": "ACM India",
+      "url": "https://india.acm.org/research/anveshan-setu",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2026-27 cycle announced for visits between November 2026 and March 2027; check the official page for the application date.",
+      "region": "India",
+      "amount": "Stipend for travel and living costs during the visit (reported as up to Rs 60,000 for 2026-27)",
+      "duration": "4 or 8 weeks",
+      "description": "Funds PhD students in computer science and IT at Indian institutions to spend a research visit with a host faculty member at another Indian institution. Up to about 50 students are supported per cycle. Open only to PhD students in India who have not yet submitted their thesis."
+    },
+    {
+      "id": "msra-startrack-scholars",
+      "name": "Microsoft Research Asia StarTrack Scholars Program",
+      "funder": "Microsoft Research Asia",
+      "url": "https://www.microsoft.com/en-us/research/academic-program/microsoft-research-asia-startrack-program/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Previous cycle opened 15 October 2025 and closed 15 December 2025; next cycle dates not yet posted.",
+      "region": "Global (visit to MSR Asia)",
+      "amount": "Funded three-month research visit with compute, tools and data support",
+      "duration": "3 months",
+      "description": "Invites young faculty worldwide, within 7 years of the PhD, for a full-time three-month research visit to Microsoft Research Asia. Applicants must be at a university that collaborates with Microsoft Research and need recommendation letters. Faculty at Indian institutions are eligible."
+    },
+    {
+      "id": "acm-sighpc-computational-data-science-fellowship",
+      "name": "ACM SIGHPC Computational and Data Science Fellowships",
+      "funder": "ACM SIGHPC",
+      "url": "https://www.sighpc.org/opportunities/fellowships",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2027-04-30"
+      ],
+      "deadlineNote": "Nominations open 15 March 2027 and close 30 April 2027.",
+      "region": "Global",
+      "amount": "USD 20,000 per year, adjusted by country of degree",
+      "duration": "Up to 4 years (PhD) or 2 years (MS)",
+      "description": "Fellowships for graduate students in computational or data science who are women or from groups underrepresented in computing in their country, with preference for disciplines other than computer science. Faculty advisors nominate. Open to students at institutions anywhere in the world, including India."
+    },
+    {
+      "id": "ictp-imu-ramanujan-prize",
+      "name": "ICTP-IMU Ramanujan Prize for Young Mathematicians from Developing Countries",
+      "funder": "ICTP and International Mathematical Union",
+      "url": "https://ictp.it/opportunity/call-nominations-ictp-imu-ramanujan-prize",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Call listed as to be announced; past deadlines fell between February and March.",
+      "region": "Developing countries",
+      "amount": "USD 10,000",
+      "duration": "One-time prize",
+      "description": "Prize for a mathematician under 45 from a developing country who has done outstanding research in a developing country, in any branch of the mathematical sciences. Nominations are made online. Researchers based in India are eligible."
+    },
+    {
+      "id": "uk-aisi-alignment-project",
+      "name": "The Alignment Project",
+      "funder": "UK AI Security Institute with OpenAI, Microsoft and other partners",
+      "url": "https://alignmentproject.aisi.gov.uk/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Applications currently closed; next round not yet dated.",
+      "region": "Global",
+      "amount": "GBP 50,000 to 1,000,000, plus compute credits and support from AISI researchers",
+      "duration": "Project-based",
+      "description": "Funds research on AI alignment and control across disciplines, as an international coalition with over GBP 27 million committed. The first round funded projects in eight countries. The page does not restrict applicants by country, so researchers in India can apply when the next round opens."
+    },
+    {
+      "id": "ellis-phd-program",
+      "name": "ELLIS PhD Program",
+      "funder": "European Laboratory for Learning and Intelligent Systems (ELLIS)",
+      "url": "https://ellis.eu/research/phd-postdoc",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2026-10-31"
+      ],
+      "deadlineNote": "Central application for 2027 entry closes 31 October 2026.",
+      "region": "Europe",
+      "amount": "Funded PhD positions at participating institutions (terms set by the host)",
+      "duration": "Length of the PhD, including a 6-month exchange",
+      "description": "Central recruiting for machine learning PhD positions at 50 to 100 European institutions, with dual supervision across two countries and a research exchange. One application covers many labs. Applicants from India apply through the central portal."
+    },
+    {
+      "id": "mittag-leffler-junior-fellowships",
+      "name": "Institut Mittag-Leffler Junior Fellowships",
+      "funder": "Institut Mittag-Leffler, Royal Swedish Academy of Sciences",
+      "url": "https://www.mittag-leffler.se/calls/call-for-junior-fellowships/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-11-15"
+      ],
+      "deadlineNote": "Deadline for the spring 2028 programme on subelliptic and magnetic operators.",
+      "region": "Sweden",
+      "amount": "Monthly grant, free accommodation and one return trip",
+      "duration": "About 3.5 months (9 February to 19 May 2028)",
+      "description": "Fellowships for advanced graduate students and postdocs within 5 years of the PhD to join a semester programme in mathematics in Stockholm. Research interests must match the programme theme. Travel for one return trip is covered, so applicants from India can take part."
+    },
+    {
+      "id": "google-tpu-research-cloud",
+      "name": "TPU Research Cloud (TRC)",
+      "funder": "Google",
+      "url": "https://sites.research.google/trc/about/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling; submit an expression of interest.",
+      "region": "Global",
+      "amount": "Free access to a cluster of over 1,000 Cloud TPU devices",
+      "duration": "Project-based",
+      "description": "Gives machine learning researchers free Cloud TPU access in exchange for sharing results publicly and giving feedback to Google. Researchers apply through an expression-of-interest form. No country restriction is stated, and researchers in India can apply."
+    },
+    {
+      "id": "gemini-academic-program",
+      "name": "Gemini Academic Program",
+      "funder": "Google",
+      "url": "https://ai.google.dev/gemini-api/docs/gemini-for-research",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling; applications reviewed monthly.",
+      "region": "Global (Gemini API supported regions, including India)",
+      "amount": "Gemini API credits and higher rate limits",
+      "duration": "Project-based",
+      "description": "Provides Gemini API credits to academic researchers, with interest in evaluations, benchmarks and AI for scientific discovery. Applicants must be affiliated with an academic institution in a supported country. India is on the list of supported regions."
+    },
+    {
+      "id": "anthropic-external-researcher-access",
+      "name": "Anthropic External Researcher Access Program",
+      "funder": "Anthropic",
+      "url": "https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling; applications reviewed on the first Monday of each month.",
+      "region": "Global (where Claude is available)",
+      "amount": "USD 1,000 in API credits (more in rare cases)",
+      "duration": "One-time credit award",
+      "description": "Free Claude API credits for researchers working on AI safety and alignment topics. Research groups submit one application for a shared organisation account. Available in countries where Claude is offered, which includes India."
+    },
+    {
+      "id": "lambda-research-grant",
+      "name": "Lambda Research Grant",
+      "funder": "Lambda",
+      "url": "https://lambda.ai/research",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling; no closing date listed.",
+      "region": "Global",
+      "amount": "Up to USD 5,000 in GPU cloud credits",
+      "duration": "Project-based",
+      "description": "Cloud GPU credits for AI researchers, with some projects featured by Lambda. Applications go through an online form. No country restriction is stated."
+    },
+    {
+      "id": "cisco-research-gifts",
+      "name": "Cisco Research Open RFPs (Research Gifts)",
+      "funder": "Cisco Research",
+      "url": "https://research.cisco.com/research-funding",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling; proposals reviewed as received.",
+      "region": "Global",
+      "amount": "Not stated on the official page",
+      "duration": "1 year (gift funding)",
+      "description": "Research gifts on open topics including generative AI, LLM agents, AI security, post-quantum cryptography, quantum networking and networking systems. The PI must be full-time faculty or research staff; non-US institutions must show non-profit equivalency, so Indian universities can apply."
+    },
+    {
+      "id": "unitary-foundation-microgrants",
+      "name": "Unitary Foundation Microgrants",
+      "funder": "Unitary Foundation",
+      "url": "https://unitary.foundation/grants/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling.",
+      "region": "Global",
+      "amount": "Small grants (amount not stated on the page)",
+      "duration": "Project-based",
+      "description": "Small grants for open-source quantum computing software, education materials and related projects, with a short form and video application. No institutional affiliation is required. Grants have gone to recipients in more than 31 countries."
+    },
+    {
+      "id": "ims-travel-awards",
+      "name": "IMS Hannan Graduate Student and New Researcher Travel Awards",
+      "funder": "Institute of Mathematical Statistics (IMS)",
+      "url": "https://www.imstat.org/ims-awards/ims-hannan-graduate-student-travel-award/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2027-02-01"
+      ],
+      "deadlineNote": "Both awards close 1 February 2027.",
+      "region": "Global",
+      "amount": "Typically USD 400 to 1,000",
+      "duration": "One meeting",
+      "description": "Travel funding to present at an IMS-sponsored or co-sponsored meeting, for graduate students (Hannan award, IMS members) and researchers within 5 years of the PhD (New Researcher award). IMS membership is international, so statisticians in India can apply."
+    },
+    {
+      "id": "imu-simons-research-fellowship",
+      "name": "IMU-Simons Research Fellowship Program",
+      "funder": "International Mathematical Union (CDC) and Simons Foundation",
+      "url": "https://www.mathunion.org/cdc/grants/SRF",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-01-15"
+      ],
+      "deadlineNote": "15 January 2027 call is for visits starting 1 June 2027 to 1 June 2028; the page calls it the programme's last call.",
+      "region": "Developing countries (India is IMU Priority 2)",
+      "amount": "USD 5,000 to 15,000",
+      "duration": "1 to 3 months",
+      "description": "Funds research visits by mathematics faculty with a PhD who work in developing countries to institutions abroad. Applicants need a host contact and a research plan. India is listed as a Priority 2 developing country, so faculty in India are eligible."
+    },
+    {
+      "id": "imu-abel-visiting-scholar",
+      "name": "Abel Visiting Scholar Program for Graduate Students",
+      "funder": "International Mathematical Union (CDC) and Niels Henrik Abel Board",
+      "url": "https://www.mathunion.org/cdc/grants/AVSPGS",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2027-06-01"
+      ],
+      "deadlineNote": "Application system opens 15 November 2026; deadline 1 June 2027 for visits between February and December 2028.",
+      "region": "Developing countries (India is IMU Priority 2)",
+      "amount": "Up to USD 5,000",
+      "duration": "1 month",
+      "description": "Funds a one-month research visit abroad for mathematics PhD students under 35 in developing countries who have completed at least 24 months of the PhD. Conference attendance alone does not qualify. Students in India are eligible."
+    },
+    {
+      "id": "imu-cdc-graid",
+      "name": "IMU Graduate Research Assistantships in Developing Countries (GRAID)",
+      "funder": "International Mathematical Union (CDC)",
+      "url": "https://www.mathunion.org/cdc/grants/graid",
+      "audience": [
+        "students",
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-05-15"
+      ],
+      "deadlineNote": "Online form expected to open early 2027.",
+      "region": "IMU Priority 1 and 2 countries (includes India)",
+      "amount": "Up to USD 3,500 per year per team",
+      "duration": "Up to 4 years (PhD) or 2 years (Master's)",
+      "description": "Supports emerging mathematics research groups in developing countries to fund graduate research assistants. The applicant is a mathematics professor leading a group with an active international partner. India is a Priority 2 country, so groups in India can apply."
+    },
+    {
+      "id": "pivotal-research-fellowship",
+      "name": "Pivotal Research Fellowship",
+      "funder": "Pivotal Research",
+      "url": "https://www.pivotal-research.org/fellowship",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-11-01"
+      ],
+      "deadlineNote": "Q1 2027 cohort (18 January to 30 April 2027); applications close 1 November 2026.",
+      "region": "Global (in person in London)",
+      "amount": "GBP 15,000 (GBP 18,000 senior) plus GBP 1,800 per month housing and travel",
+      "duration": "15 weeks",
+      "description": "Full-time mentored AI safety research fellowship at the London Initiative for Safe AI. Visa sponsorship may be available through a partner, and travel to London is covered. Applicants from India can apply."
+    },
+    {
+      "id": "era-cambridge-fellowship",
+      "name": "ERA:AI Fellowship (Cambridge)",
+      "funder": "ERA Cambridge",
+      "url": "https://erafellowship.org/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Winter 2027 applications closed; next round not yet dated.",
+      "region": "Global (in person in Cambridge, UK)",
+      "amount": "Stipend, compute budget, meals, transport and visa costs",
+      "duration": "10 weeks",
+      "description": "Research fellowship in technical AI safety and AI governance where fellows lead a project with mentor support. ERA covers transport and visas and welcomes applicants from around the world, including India."
+    },
+    {
+      "id": "lasr-labs",
+      "name": "LASR Labs AI Safety Research Programme",
+      "funder": "London AI Safety Research (LASR) Labs",
+      "url": "https://www.lasrlabs.org/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Next cohort runs June to September 2027; application dates not yet posted.",
+      "region": "Global (in person in London)",
+      "amount": "GBP 15,000 stipend plus food, office space and travel",
+      "duration": "13 weeks",
+      "description": "Full-time programme in which teams of three or four take an AI safety research project from proposal to publication under a supervisor. Runs three times a year. The page states no nationality restriction; visa matters should be checked with LASR."
+    },
+    {
+      "id": "mbzuai-graduate-scholarships",
+      "name": "MBZUAI Graduate Admissions and Scholarships",
+      "funder": "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)",
+      "url": "https://mbzuai.ac.ae/study/admission-process",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2026-12-15"
+      ],
+      "deadlineNote": "Fall 2027 intake; final deadline 15 December 2026, 5 p.m. GST.",
+      "region": "UAE",
+      "amount": "Funding depends on programme and assistantship; PhD students supported in the first year",
+      "duration": "Length of MSc or PhD",
+      "description": "Graduate admissions for MSc and PhD programmes in AI fields at MBZUAI in Abu Dhabi, with funding tied to programme, standing and assistantships. Open to international applicants, including students from India."
+    },
+    {
+      "id": "mpim-bonn-guest-postdoc",
+      "name": "Max Planck Institute for Mathematics Guest Program and Postdoc Positions",
+      "funder": "Max Planck Institute for Mathematics, Bonn",
+      "url": "https://www.mpim-bonn.mpg.de/taxonomy/term/45/full",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Committee meets twice a year (summer and fall); the fall 2026 deadline was 16 October 2026 and the next date is not yet posted.",
+      "region": "Germany",
+      "amount": "Funded visits and postdoc positions (terms not stated on the page)",
+      "duration": "Weeks to several months (guests); up to 2 years (postdocs)",
+      "description": "Hosts about 700 visiting mathematicians a year, plus postdocs with a mentor. Applications need two recommendation letters. Open to mathematicians worldwide, including India."
+    },
+    {
+      "id": "aaai-27-student-scholar-volunteer",
+      "name": "AAAI-27 Student Scholar and Volunteer Program",
+      "funder": "Association for the Advancement of Artificial Intelligence (AAAI)",
+      "url": "https://aaai.org/conference/aaai/aaai-27/student-scholar-volunteer-program/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2026-12-04"
+      ],
+      "deadlineNote": "Application opens 30 November 2026 and closes 4 December 2026, 11:59 PM ET.",
+      "region": "Global (conference in Montreal, 16-23 February 2027)",
+      "amount": "Partial travel support; limited free registration for volunteers",
+      "duration": "One conference",
+      "description": "Partial travel support for full-time students who are AAAI members and have submitted a paper, with priority for accepted papers. Students at universities anywhere, including India, can apply."
+    },
+    {
+      "id": "acm-india-ecr-award",
+      "name": "ACM India Early Career Researcher Award",
+      "funder": "ACM India (supported by Persistent Foundation)",
+      "url": "https://awards.acm.org/acm-india-ecr/nominations",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "The 2025 cycle closed 15 September 2025; next nomination date not yet posted.",
+      "region": "India",
+      "amount": "Rs 15 lakh",
+      "duration": "One-time award",
+      "description": "Award for early-career computing researchers in India, roughly 6 to 12 years past their PhD. Self-nominations are not allowed. Open to researchers working in India."
+    },
+    {
+      "id": "breakthrough-new-horizons-mathematics",
+      "name": "New Horizons in Mathematics Prize",
+      "funder": "Breakthrough Prize Foundation",
+      "url": "https://breakthroughprize.org/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Public nominations for the 2027 prizes ran April to July 2026; the next cycle is not yet dated.",
+      "region": "Global",
+      "amount": "USD 100,000 (up to three prizes)",
+      "duration": "One-time prize",
+      "description": "Prize for early-career mathematicians, generally within 10 years of the PhD. Anyone may nominate a candidate online; self-nomination is not allowed. Mathematicians in India are eligible."
+    },
+    {
+      "id": "sastra-ramanujan-prize",
+      "name": "SASTRA Ramanujan Prize",
+      "funder": "SASTRA University",
+      "url": "https://qseries.org/sastra-prize",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "The 2026 deadline was 31 July 2026; the 2027 call is not yet posted.",
+      "region": "Global",
+      "amount": "USD 10,000",
+      "duration": "One-time prize",
+      "description": "Annual prize for mathematicians under 32 working in areas influenced by Ramanujan. Nominations include a CV, papers and three support letters. Open to mathematicians in any country, including India."
+    },
+    {
+      "id": "ictp-tril",
+      "name": "ICTP Training and Research in Italian Laboratories (TRIL)",
+      "funder": "Abdus Salam International Centre for Theoretical Physics (ICTP)",
+      "url": "https://www.ictp.it/opportunity/training-and-research-italian-laboratories-tril",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-12-31"
+      ],
+      "deadlineNote": "Call listed as open with a 31 December 2027 deadline; stays are arranged with the host Italian laboratory.",
+      "region": "Italy (applicants from developing countries)",
+      "amount": "EUR 1,300-1,600 per month depending on career stage, plus travel and health insurance",
+      "duration": "A few months to one year; up to 24 months with extensions",
+      "description": "Fellowships for scientists from developing countries to train and do research in Italian laboratories in physics and related fields. Applicants need at least a Master's degree and must live in a developing country when selected. Indian nationals resident in India qualify as developing-country applicants under ICTP rules."
+    },
+    {
+      "id": "aps-eps-ictp-atap-travel-fellowship",
+      "name": "APS-EPS-ICTP Travel Award Fellowship Programme (ATAP)",
+      "funder": "American Physical Society, European Physical Society and ICTP",
+      "url": "https://www.ictp.it/news/2026/2/aps-eps-ictp-travel-award-fellowship-programme-2026",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2026 round closed 31 March 2026; the call is annual and the 2027 round is not yet announced.",
+      "region": "Global (developing-country physicists visiting labs abroad)",
+      "amount": "Travel and subsistence for a two-month lab visit (three grants in 2026)",
+      "duration": "Two consecutive months",
+      "description": "Supports physicists from developing countries for a two-month research visit to a host laboratory to build collaborations. Candidates should preferably be under 45 and within 10 years of the PhD, and must plan to return home. Indian nationals working in India are eligible as developing-country applicants."
+    },
+    {
+      "id": "ictp-cmsp-postdoc",
+      "name": "ICTP Condensed Matter and Statistical Physics Postdoctoral Positions",
+      "funder": "Abdus Salam International Centre for Theoretical Physics (ICTP)",
+      "url": "https://www.ictp.it/opportunity/postdoctoral-positions-3",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2026 call closed 28 February 2026; the call is annual and the next round is not yet announced.",
+      "region": "Trieste, Italy",
+      "amount": "Internationally competitive salary and benefits (amount not published)",
+      "duration": "Two years, renewable for one more year",
+      "description": "Postdoctoral positions in ICTP's Condensed Matter and Statistical Physics section for applicants with a PhD in physics. Applicants of any nationality may apply, so researchers from India are eligible. ICTP's other science sections post separate postdoctoral calls on the same opportunities pages."
+    },
+    {
+      "id": "ictp-scientific-calendar-schools",
+      "name": "ICTP Schools, Workshops and Conferences (participant support)",
+      "funder": "Abdus Salam International Centre for Theoretical Physics (ICTP)",
+      "url": "https://www.ictp.it/home/scientific-calendar",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Each of the 72 activities in the 2027 calendar has its own application deadline on its event page; several close between November 2026 and early 2027.",
+      "region": "Trieste and worldwide",
+      "amount": "No registration fee; limited financial support for participants from developing countries",
+      "duration": "Typically one to three weeks per activity",
+      "description": "ICTP runs schools, colleges and workshops in physics, earth system science, quantitative life sciences and related areas, free of charge, with some financial assistance for participants from developing countries. Researchers and students based in India can apply to individual activities through the ICTP portal."
+    },
+    {
+      "id": "iau-gruber-fellowship",
+      "name": "IAU Gruber Foundation Fellowship",
+      "funder": "International Astronomical Union and the Gruber Foundation",
+      "url": "https://iau.org/IAU/News/Ann2026/GruberFellowship2027.aspx",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2027-03-22"
+      ],
+      "deadlineNote": "2027 call published 31 August 2026; applications and two reference letters due 22 March 2027, 23:59 Paris time.",
+      "region": "Global",
+      "amount": "USD 25,000 each (three fellowships)",
+      "duration": "One year",
+      "description": "Fellowships for early-career astronomers within three years of the PhD, including final-year PhD students with a postdoc offer. The host institution must be in a different country from the PhD or previous postdoc institution. There are no nationality restrictions, and preference may go to candidates from countries in difficult economic situations, so Indian astronomers can apply."
+    },
+    {
+      "id": "cern-summer-student-programme",
+      "name": "CERN Summer Student Programme",
+      "funder": "CERN",
+      "url": "https://careers.cern/summer",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Applications for summer 2027 not yet posted; past rounds closed in late January (26 January 2026 for the 2026 round).",
+      "region": "Geneva, Switzerland",
+      "amount": "CHF 94 net per calendar day; travel may be covered",
+      "duration": "8 to 13 weeks",
+      "description": "Summer placements at CERN for Bachelor's and Master's students in physics, engineering, computer science or mathematics with at least six semesters of study. India is a CERN Associate Member State, so Indian students can apply; non-member-state placements may be limited to 8 weeks."
+    },
+    {
+      "id": "fulbright-nehru-doctoral-research",
+      "name": "Fulbright-Nehru Doctoral Research Fellowships",
+      "funder": "United States-India Educational Foundation (USIEF)",
+      "url": "https://www.usief.org.in/fulbright-fellowships/fellowships-for-indian-citizen/fulbright-nehru-doctoral-research-fellowships",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2027-28 round closed 1 July 2026; the next round is expected to open in early 2027 but no date is posted.",
+      "region": "United States (for Indian PhD students)",
+      "amount": "Monthly stipend, round-trip airfare, J-1 visa support, accident and sickness cover",
+      "duration": "Six to nine months",
+      "description": "Research stays at US institutions for Indian citizens registered for a PhD at an Indian institution. Priority fields include critical minerals, energy security, space (astrophysics, planetary science), semiconductors, quantum computing and aerospace engineering. Researchers at CSIR, ICAR, DRDO, ISRO, IISc and IITs are eligible, but central and state government employees are not."
+    },
+    {
+      "id": "inlaks-ravi-sankaran-grant",
+      "name": "Inlaks-Ravi Sankaran Grant for Field Biology, Ecology and Conservation",
+      "funder": "Inlaks Shivdasani Foundation",
+      "url": "https://inlaksfoundation.org/opportunities/grants/the-inlaks-ravi-sankaran-small-grant-for-conservation-the-environment/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2026 round closed; annual call, past rounds closed around late May. 2027 dates not yet posted.",
+      "region": "India",
+      "amount": "Up to INR 300,000 per year",
+      "duration": "Up to one year, with possible follow-up funding",
+      "description": "Seed grants for young people starting a short research or implementation project in field biology, ecology or conservation in India. Applicants must be Indian citizens living in India with a Bachelor's degree and born on or after 1 January 1996 (2026 rule)."
+    },
+    {
+      "id": "inlaks-ravi-sankaran-internship",
+      "name": "Inlaks-Ravi Sankaran Internship for Field Biology, Ecology and Conservation",
+      "funder": "Inlaks Shivdasani Foundation",
+      "url": "https://inlaksfoundation.org/opportunities/internships/the-inlaks-ravi-sankaran-internship/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2026 round closed; shortlisting was in April and interviews in May. 2027 dates not yet posted.",
+      "region": "Overseas placement (applicants from India)",
+      "amount": "Up to USD 10,000 total for living allowance, fees and airfare",
+      "duration": "Six weeks to three months",
+      "description": "Funds an overseas placement at a recognised conservation institution for young Indian conservationists. Applicants must be Indian passport holders living in India, hold a Bachelor's degree and show prior field involvement in wildlife ecology or conservation."
+    },
+    {
+      "id": "alma-call-for-proposals",
+      "name": "ALMA Call for Proposals (observing time)",
+      "funder": "Atacama Large Millimeter/submillimeter Array (ESO, NRAO, NAOJ)",
+      "url": "https://almascience.eso.org/proposing/call-for-proposals",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Cycle 13 closed 23 April 2026; the Cycle 14 call is expected in early 2027 but dates are not yet announced.",
+      "region": "Global (telescope time in Chile)",
+      "amount": "Telescope time (no cash award)",
+      "duration": "One observing cycle (October to September)",
+      "description": "Annual competitive call for observing time on ALMA. Under ALMA's open-skies policy, astronomers at institutions outside the partner regions, including India, can submit proposals as PI. Proposals go through distributed peer review."
+    },
+    {
+      "id": "eso-observing-time",
+      "name": "ESO Call for Proposals (observing time)",
+      "funder": "European Southern Observatory (ESO)",
+      "url": "https://www.eso.org/sci/observing/phase1.html",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "ESO now issues one call per year; the next call date is not yet announced (the Period 117 call closed 23 September 2025).",
+      "region": "Global (telescope time in Chile)",
+      "amount": "Telescope time on VLT, VLTI, APEX and other ESO facilities",
+      "duration": "One yearly observing cycle",
+      "description": "Competitive call for observing time on ESO telescopes, reviewed through distributed peer review. Astronomers outside ESO member states, including those based in India, can submit proposals."
+    },
+    {
+      "id": "gmrt-observing-proposals",
+      "name": "GMRT Call for Observing Proposals",
+      "funder": "National Centre for Radio Astrophysics (NCRA-TIFR)",
+      "url": "https://www.ncra.tifr.res.in/gmrt/gtac",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Standing tentative schedule: announcement 15 December and proposals 15 January for the April-September period; announcement 15 June and proposals 15 July for October-March. Cycle 52 not yet announced.",
+      "region": "India (open to international users)",
+      "amount": "Telescope time on the upgraded Giant Metrewave Radio Telescope",
+      "duration": "One observing cycle (about six months)",
+      "description": "Twice-yearly call for observing time on the GMRT near Pune, one of the largest low-frequency radio telescopes. Proposals are reviewed by the GMRT Time Allocation Committee and are open to astronomers in India and abroad."
+    },
+    {
+      "id": "eso-studentship",
+      "name": "ESO Studentship Programme",
+      "funder": "European Southern Observatory (ESO)",
+      "url": "https://www.eso.org/sci/activities/FeSt-overview/ESOstudentship.html",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2027-04-20"
+      ],
+      "deadlineNote": "Two rounds a year, 20 April and 20 October; apply through recruitment.eso.org.",
+      "region": "Garching (Germany) and Santiago (Chile)",
+      "amount": "Monthly stipend and benefits (see ESO remuneration page)",
+      "duration": "One to two years",
+      "description": "Research stays at ESO for PhD students enrolled at an external university, working with ESO staff. Positions are open to students preferentially but not necessarily from ESO member states, so PhD students at Indian universities can apply."
+    },
+    {
+      "id": "egu-roland-schlich-travel-support",
+      "name": "EGU Roland Schlich Travel Support (EGU General Assembly 2027)",
+      "funder": "European Geosciences Union (EGU)",
+      "url": "https://www.egu27.eu/attendance/financial_support_and_waivers.html",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-12-01"
+      ],
+      "deadlineNote": "Apply with abstract submission by 1 December 2026, 13:00 CET; decisions by 9 January 2027. EGU27 is 4-9 April 2027 in Vienna.",
+      "region": "Vienna, Austria",
+      "amount": "Registration waiver, abstract charge refund and up to EUR 400 travel",
+      "duration": "Single meeting",
+      "description": "Travel support for on-site presenters at the EGU General Assembly. Early-career scientists from low- and middle-income non-European countries, and established scientists from low-, lower-middle and upper-middle income countries, are target groups, which includes researchers based in India. Applicants must be EGU members and first and presenting author of an abstract."
+    },
+    {
+      "id": "ias-sedimentologists-research-grants",
+      "name": "IAS Postgraduate and Postdoctoral Research Grants",
+      "funder": "International Association of Sedimentologists (IAS)",
+      "url": "https://sedimentologists.org/resources/grants/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2027-03-31",
+        "2027-09-30"
+      ],
+      "deadlineNote": "Two rounds a year, closing 31 March and 30 September at midnight CEST. Institutional grants for economies spending under 1% of GDP on R&D share the same dates.",
+      "region": "Global (IAS members)",
+      "amount": "Postgraduate grants up to EUR 1,000; postdoctoral grant amounts in guidelines",
+      "duration": "Single project",
+      "description": "Research grants for PhD students (student members) and early-career postdocs (ordinary members) working in sedimentology, for fieldwork, lab analyses and similar costs. There is no nationality restriction, so members based in India can apply; conference travel and equipment are not covered."
+    },
+    {
+      "id": "future-for-nature-award",
+      "name": "Future For Nature Award",
+      "funder": "Future For Nature Foundation",
+      "url": "https://futurefornature.org/2027-future-for-nature-applications-are-open/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2027 award applications closed 23 August 2026; annual call, 2028 round not yet announced.",
+      "region": "Global",
+      "amount": "EUR 50,000 per winner (three winners)",
+      "duration": "One-time prize",
+      "description": "Prize for young conservationists aged 18 to 35 working to protect threatened species. Applicants from all over the world can apply, including those based in India."
+    },
+    {
+      "id": "spie-optics-photonics-scholarships",
+      "name": "SPIE Optics and Photonics Education Scholarships",
+      "funder": "SPIE, the international society for optics and photonics",
+      "url": "https://spie.org/membership/student-hub/scholarships",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2027-02-15"
+      ],
+      "deadlineNote": "2027 applications are open and close 15 February 2027.",
+      "region": "Global (SPIE student members)",
+      "amount": "USD 3,000-11,000 (named awards up to USD 11,000; 70+ awards of USD 3,000-5,000)",
+      "duration": "One academic year",
+      "description": "Scholarships for students around the world studying optics, photonics or related fields. Applicants must be active SPIE student members, which students in India can join."
+    },
+    {
+      "id": "ieee-photonics-graduate-student-scholarship",
+      "name": "IEEE Photonics Society Graduate Student Scholarship",
+      "funder": "IEEE Photonics Society",
+      "url": "https://ieeephotonics.org/awards/graduate-student-scholarship/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2027-05-30"
+      ],
+      "deadlineNote": "Society page lists 30 May as the annual application deadline.",
+      "region": "Global (Photonics Society student members)",
+      "amount": "Up to USD 10,000 awarded annually",
+      "duration": "One-time award",
+      "description": "Scholarships for graduate students in photonics, normally in the penultimate year of study, based on research excellence. Applicants must be IEEE Photonics Society student members; recent honorees come from several countries, and students in India can join and apply."
+    },
+    {
+      "id": "ieee-eds-phd-student-fellowship",
+      "name": "IEEE Electron Devices Society PhD Student Fellowship",
+      "funder": "IEEE Electron Devices Society (EDS)",
+      "url": "https://students.ieee.org/ieee-electron-devices-society-eds-phd-student-fellowship/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual nomination cycle; the 2027 deadline is not yet posted on the EDS site.",
+      "region": "Global (one award intended per region, including Asia and Pacific)",
+      "amount": "USD 5,000 plus travel to IEDM if needed",
+      "duration": "One-time award",
+      "description": "Fellowships for full-time PhD students in electron devices, with at least one award intended for the Asia and Pacific region. Candidates must be EDS student members with a sponsor who is an EDS member, so PhD students in India can be nominated."
+    },
+    {
+      "id": "iupac-solvay-young-chemists",
+      "name": "IUPAC-Solvay International Award for Young Chemists",
+      "funder": "International Union of Pure and Applied Chemistry (IUPAC) and Solvay",
+      "url": "https://iupac.org/2027-iupac-solvay-international-award-for-young-chemists-call-for-applicants/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2027-01-31"
+      ],
+      "deadlineNote": "Online applications for the 2027 award close 31 January 2027; awards presented at the IUPAC Congress in Montreal, July 2027.",
+      "region": "Global (PhDs from IUPAC member countries)",
+      "amount": "USD 1,000 cash plus up to USD 1,000 travel to the IUPAC Congress",
+      "duration": "One-time prize",
+      "description": "Up to five prizes for the best PhD theses in the chemical sciences completed in 2026. The PhD must be granted by an institution in an IUPAC member country; India is a member, so recent Indian PhDs can apply."
+    },
+    {
+      "id": "ecs-summer-fellowships",
+      "name": "ECS Summer Fellowships",
+      "funder": "The Electrochemical Society (ECS)",
+      "url": "https://www.electrochem.org/summer-fellowships",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2027-01-15"
+      ],
+      "deadlineNote": "ECS lists 15 January as the annual deadline; submission opens in mid-September.",
+      "region": "Global (ECS members)",
+      "amount": "Up to USD 5,000 each (up to four awards)",
+      "duration": "One summer",
+      "description": "Summer research support for graduate students in electrochemistry and solid-state science who will continue their studies after the summer. Awards are made without regard to citizenship; applicants must be ECS members, so students in India can apply."
+    },
+    {
+      "id": "opcw-research-project-support",
+      "name": "OPCW Programme for Support of Research Projects",
+      "funder": "Organisation for the Prohibition of Chemical Weapons (OPCW)",
+      "url": "https://www.opcw.org/resources/capacity-building/international-cooperation-programmes/research-project-support-programme",
+      "audience": [
+        "faculty",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call; the 2027 round closed 30 September 2026 (Note S/2526/2026). The next deadline is set in the following year's Technical Secretariat note.",
+      "region": "OPCW member states with developing or transition economies",
+      "amount": "Small-scale research grants to the host institution",
+      "duration": "Set per project agreement",
+      "description": "Funds small-scale research in chemistry for peaceful purposes in developing and transition-economy member states. Applications go through the National Authority of the country where the research is done; for India this is the National Authority Chemical Weapons Convention."
+    },
+    {
+      "id": "apn-crrp-capable",
+      "name": "APN Call for Proposals (CRRP and CAPaBLE)",
+      "funder": "Asia-Pacific Network for Global Change Research (APN)",
+      "url": "https://www.apn-gcr.org/opportunities/calls-for-proposals/",
+      "audience": [
+        "faculty",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Call usually launches in November with a Stage 1 summary proposal deadline three to four weeks later; full proposals by invitation in March-June. The 2026 call is not yet posted.",
+      "region": "Asia-Pacific (APN member countries)",
+      "amount": "Project grants (amount set per call)",
+      "duration": "Set per call",
+      "description": "Funds collaborative regional research on global change and sustainability (CRRP, at least three member countries) and science capacity building (CAPaBLE). India is an APN member country, so researchers at Indian institutions can lead or join proposals."
+    },
+    {
+      "id": "humboldt-international-climate-protection-fellowship",
+      "name": "International Climate Protection Fellowship",
+      "funder": "Alexander von Humboldt Foundation (funded by Germany's International Climate Initiative)",
+      "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/international-climate-protection-fellowship",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2026 round closed 10 February 2026; the next round opens in autumn 2026 and the deadline is not yet posted.",
+      "region": "Germany (applicants from non-European developing and transition countries)",
+      "amount": "EUR 2,500-3,000 per month plus allowances; host receives EUR 800 per month for science and engineering projects",
+      "duration": "12 months (prospective leaders) or 12-24 months (postdocs)",
+      "description": "Fellowships for prospective leaders and postdocs working on climate protection or climate adaptation to carry out a project with a host in Germany. Applicants must be citizens of a non-European developing or transition country who have lived and worked mainly there, which includes India."
+    },
+    {
+      "id": "igstc-2plus2-projects",
+      "name": "IGSTC 2+2 Industrial R&D Projects",
+      "funder": "Indo-German Science and Technology Centre (IGSTC; DST and BMFTR)",
+      "url": "https://www.igstc.org/home/current_call",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Thematic calls roughly once a year; the most recent (Advanced Materials, 2025) had a first-stage deadline of 18 September 2025. Next call not yet posted.",
+      "region": "India and Germany",
+      "amount": "Up to INR 350 lakh for Indian partners and up to EUR 450,000-500,000 for German partners",
+      "duration": "Up to three years",
+      "description": "Joint R&D projects of industrial relevance with at least one academic institution and one company from each of India and Germany. Indian principal investigators must hold regular positions; Indian companies must be majority Indian-owned."
+    },
+    {
+      "id": "twas-fapesp-postdoc",
+      "name": "TWAS-FAPESP Postdoctoral Fellowship Programme",
+      "funder": "UNESCO-TWAS and the São Paulo Research Foundation (FAPESP)",
+      "url": "https://twas.org/opportunity/twas-fapesp-postdoctoral-fellowship-programme-developing-countries",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [
+        "2027-04-01"
+      ],
+      "deadlineNote": "Host supervisors list projects by 1 November 2026; full proposals due 1 April 2027; results August 2027.",
+      "region": "São Paulo State, Brazil",
+      "amount": "FAPESP postdoctoral fellowship (see call document)",
+      "duration": "Up to 12 months",
+      "description": "Postdoctoral stays at São Paulo State institutions for researchers from developing countries with a PhD from the last seven years, in fields including physics, chemistry, engineering, and astronomy, space and earth sciences. India is on TWAS's list of developing countries, so Indian researchers can apply."
+    },
+    {
+      "id": "riken-spdr",
+      "name": "RIKEN Special Postdoctoral Researcher (SPDR) Program",
+      "funder": "RIKEN",
+      "url": "https://www.riken.jp/en/careers/programs/spdr/index.html",
+      "audience": [
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual call; FY2027 call ran 2 February to 2 April 2026. FY2028 dates not yet posted.",
+      "region": "Japan",
+      "amount": "JPY 550,000 per month plus allowances; research budget JPY 1,000,000 per year",
+      "duration": "Three years",
+      "description": "Independent postdoctoral positions at RIKEN laboratories for early-career researchers with a recent PhD in the natural sciences, engineering or mathematics. Applicants contact a RIKEN host lab before applying; the call sets no nationality restriction, so Indian researchers can apply."
+    },
+    {
+      "id": "desy-summer-student-programme",
+      "name": "DESY Summer Student Programme",
+      "funder": "Deutsches Elektronen-Synchrotron (DESY)",
+      "url": "https://summerstudents.desy.de",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2027 programme in preparation; past rounds closed 31 January.",
+      "region": "Hamburg and Zeuthen, Germany",
+      "amount": "EUR 28.50 per day, free hostel accommodation, partial travel reimbursement",
+      "duration": "About 7.5 weeks",
+      "description": "Summer research and lecture programme for undergraduate students in physics and related fields such as scientific computing and engineering. The programme is international and does not restrict nationality, so students from India can apply."
+    },
+    {
+      "id": "save-our-seas-small-grants",
+      "name": "Save Our Seas Foundation Small Grants",
+      "funder": "Save Our Seas Foundation",
+      "url": "https://saveourseas.com/grants/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Closed; applications reopen mid-May 2027.",
+      "region": "Global",
+      "amount": "Up to USD 10,000",
+      "duration": "Up to 18 months",
+      "description": "Annual grants for early-career scientists, educators and conservationists working on threatened marine megafauna, especially sharks, rays and skates. Projects must combine at least two of research, conservation and education. The grants page sets no nationality restriction, so researchers in India can apply."
+    },
+    {
+      "id": "jn-tata-endowment",
+      "name": "JN Tata Endowment Loan Scholarship",
+      "funder": "The J.N. Tata Endowment for the Higher Education of Indians",
+      "url": "https://www.jntataendowment.org/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual window; for Fall 2026-Spring 2027 forms were available 5 January to 29 March 2026. The next window is not yet posted.",
+      "region": "Overseas study (applicants from India)",
+      "amount": "Loan scholarship (amount set per award)",
+      "duration": "Course duration",
+      "description": "Merit-based loan scholarships for Indian citizens with an Indian undergraduate degree going abroad for Master's, PhD or postdoctoral study in any field. Selection includes an aptitude test and expert interviews."
+    },
+    {
+      "id": "kc-mahindra-pg-scholarships-abroad",
+      "name": "K.C. Mahindra Scholarships for Post-Graduate Studies Abroad",
+      "funder": "K.C. Mahindra Education Trust",
+      "url": "https://www.kcmet.org/what-we-do-Scholarship-Grants.aspx",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2026 round closed 30 April 2026; the next round is not yet announced.",
+      "region": "Overseas study (applicants from India)",
+      "amount": "Interest-free loan scholarship up to INR 10 lakh (top three) or INR 5 lakh",
+      "duration": "Course duration",
+      "description": "Interest-free loan scholarships for Indian citizens with a first-class degree admitted to postgraduate programmes abroad, in any field including the sciences and engineering. At least 50 awards are made each year."
+    },
+    {
+      "id": "narotam-sekhsaria-pg-scholarship",
+      "name": "Narotam Sekhsaria Foundation Postgraduate Scholarship",
+      "funder": "Narotam Sekhsaria Foundation",
+      "url": "https://pg.nsfoundation.co.in/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Applications are invited each January; the 2026 round closed in March 2026.",
+      "region": "India and abroad (applicants from India)",
+      "amount": "Interest-free repayable financial assistance",
+      "duration": "Course duration",
+      "description": "Merit-based interest-free loan scholarships for Indian students pursuing postgraduate study at institutions in India or abroad. Science and engineering students are eligible."
+    },
+    {
+      "id": "oriental-bird-club-conservation-fund",
+      "name": "Oriental Bird Club Small Conservation Grants",
+      "funder": "Oriental Bird Club",
+      "url": "https://www.orientalbirdclub.org/applications",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-03-01",
+        "2027-09-01"
+      ],
+      "deadlineNote": "Two rounds a year, 1 March and 1 September; email the application form to the club.",
+      "region": "Oriental region and Asia",
+      "amount": "Typically GBP 1,000-2,000; up to GBP 3,000 in exceptional cases",
+      "duration": "Usually within 12 months",
+      "description": "Small grants for bird conservation projects in Asia, prioritising threatened species, Important Bird Areas and community work, with preference for applicants from the project country. Projects in India fall within the club's region."
+    },
+    {
+      "id": "bes-small-research-grants",
+      "name": "British Ecological Society Small Research Grants",
+      "funder": "British Ecological Society (BES)",
+      "url": "https://www.britishecologicalsociety.org/content/small-research-grants/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Two rounds a year; Round 2 of 2026 ran 8 June to 8 September 2026. 2027 round dates not yet posted.",
+      "region": "Global (BES members)",
+      "amount": "Up to GBP 5,000",
+      "duration": "Up to 12 months",
+      "description": "Grants for ecological research, especially for early-career researchers, open to BES members from all countries for projects anywhere. BES aims to direct at least 51% of grant funding to ecologists who are citizens of and work in Global South countries, which includes India."
+    },
+    {
+      "id": "reliance-foundation-pg-scholarships",
+      "name": "Reliance Foundation Postgraduate Scholarships",
+      "funder": "Reliance Foundation",
+      "url": "https://scholarships.reliancefoundation.org/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [],
+      "deadlineNote": "2026-27 round closed 5 October 2026; the next annual round is not yet announced.",
+      "region": "India",
+      "amount": "Up to INR 6 lakh over the degree",
+      "duration": "Duration of the postgraduate programme",
+      "description": "Scholarships for first-year postgraduate students in India in engineering, technology, energy (including renewable and new energy) and life sciences. Applicants must be resident Indian citizens with a GATE score of 550-1,000 or undergraduate CGPA of 7.5 or above."
     }
   ]
 }
