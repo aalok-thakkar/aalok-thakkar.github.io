@@ -963,12 +963,12 @@
       "id": "meta-phd-fellowship",
       "name": "Meta Research PhD Fellowship",
       "funder": "Meta (FAIR)",
-      "url": "https://research.facebook.com/fellowship/",
+      "url": "https://research.facebook.com/fellows/",
       "audience": [
         "students"
       ],
       "deadlines": [],
-      "deadlineNote": "Meta's page says it is not accepting new applications. Check the funder's site for the next call.",
+      "deadlineNote": "Meta is not accepting new applications at present. Check the page for the next call.",
       "region": "Global",
       "amount": "$42,000/year stipend + full tuition and fees",
       "duration": "2 years",
@@ -2335,7 +2335,7 @@
       "id": "habitats-trust-seed-grant",
       "name": "The Habitats Trust Seed Grant",
       "funder": "The Habitats Trust",
-      "url": "https://www.thehabitatstrust.org/grants.php",
+      "url": "https://www.thehabitatstrust.org/",
       "audience": [
         "students",
         "postdocs",
@@ -4861,21 +4861,6 @@
       "amount": "K99 phase up to USD 90K/yr salary + research costs; R00 phase up to USD 249K/yr direct costs",
       "duration": "K99: up to 2 years (mentored); R00: up to 3 years (independent)",
       "description": "Two-phase award to accelerate promising postdocs to tenure-track independent research positions. Mentored K99 phase followed by independent R00 phase activated upon a faculty appointment. Companion Independent Clinical Trial Allowed track (PA-24-193) available."
-    },
-    {
-      "id": "ugc-faculty-recharge-programme",
-      "name": "UGC Faculty Recharge Programme (UGC-FRP)",
-      "funder": "University Grants Commission (UGC), Government of India",
-      "url": "https://ugcfrps.ac.in/uohyd/",
-      "audience": [
-        "postdocs",
-        "faculty"
-      ],
-      "deadlines": [],
-      "deadlineNote": "Rolling / periodic calls. Positions at Assistant Professor, Associate Professor, and Professor levels. Compensation at par with Central University appointees. NET/PhD required.",
-      "region": "India",
-      "duration": "5 years initial (extendible in 5-year peer-evaluated terms)",
-      "description": "Inducts outstanding candidates into Indian universities in basic sciences (Physics, Mathematics, Chemistry, Biology) and Engineering and Earth Sciences, at faculty levels, to strengthen research and teaching in interdisciplinary and frontier areas."
     },
     {
       "id": "klingenstein-fellowship-neuroscience",
