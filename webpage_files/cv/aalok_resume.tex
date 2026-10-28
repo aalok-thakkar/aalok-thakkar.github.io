@@ -1,0 +1,290 @@
+% =============================================================
+% Aalok Thakkar - Resume (LIPIcs-inspired styling)
+% Compile with: pdflatex aalok_resume.tex (twice for headers)
+% =============================================================
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+% Linux Libertine (serif) + Biolinum (sans) approximates the LIPIcs look.
+\IfFileExists{libertine.sty}{%
+  \usepackage{libertine}%
+  \usepackage[libertine]{newtxmath}%
+}{%
+  \usepackage{mathptmx}%
+}
+
+\usepackage[a4paper,margin=1in,top=0.9in,bottom=1in]{geometry}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{array}
+\usepackage{etoolbox}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+
+% LIPIcs-ish link blue.
+\definecolor{lipicsblue}{rgb}{0.0, 0.25, 0.55}
+\definecolor{lipicsrule}{rgb}{0.65, 0.65, 0.65}
+
+\usepackage[colorlinks=true,
+            linkcolor=lipicsblue,
+            citecolor=lipicsblue,
+            urlcolor=lipicsblue,
+            pdftitle={Aalok Thakkar - Resume},
+            pdfauthor={Aalok Thakkar}]{hyperref}
+
+\usepackage{parskip}
+
+% Minimal \needspace replacement.
+\makeatletter
+\newcommand{\needspace}[1]{%
+  \begingroup
+  \setlength{\@tempdima}{#1}%
+  \vskip\z@\@plus\@tempdima
+  \penalty -100\vskip\z@\@plus-\@tempdima
+  \endgroup
+}
+\makeatother
+
+% ---------------- Section headings (LIPIcs-ish) --------------
+\titleformat{\section}{\normalfont\large\bfseries\color{black}}{}{0pt}{}[\vspace{-0.3em}\textcolor{lipicsrule}{\rule{\linewidth}{0.4pt}}]
+\titlespacing*{\section}{0pt}{1.6em}{0.4em}
+
+\newcommand{\cvsection}[1]{\needspace{6\baselineskip}\section*{#1}}
+\newcommand{\cvsubsection}[1]{%
+  \needspace{5\baselineskip}%
+  \vspace{0.4em}\noindent{\normalsize\itshape #1}\par\vspace{0.1em}%
+}
+
+% ---------------- Two-column entry helper ----------------
+\newcommand{\entry}[2]{%
+  \noindent
+  \begin{minipage}[t]{0.18\linewidth}\raggedright\small #1\end{minipage}%
+  \hspace{0.02\linewidth}%
+  \begin{minipage}[t]{0.78\linewidth}#2\end{minipage}\par\vspace{0.55em}
+}
+
+% Publication entry.
+\newcommand{\pub}[3]{%
+  \par\vspace{0.2em}%
+  \noindent\begin{minipage}{\linewidth}%
+    {#1}.\ %
+    \ifstrempty{#2}{}{{\small #2.}\ }%
+    {\itshape #3}.
+  \end{minipage}\par\vspace{0.15em}%
+}
+
+% Header / footer.
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[L]{\small\textcolor{lipicsrule}{Aalok Thakkar \quad Resume \quad 2026}}
+\fancyfoot[C]{\small\thepage}
+
+\fancypagestyle{firstpage}{%
+  \fancyhf{}%
+  \renewcommand{\headrulewidth}{0pt}%
+  \fancyfoot[C]{\small\thepage}%
+}
+
+\begin{document}
+\thispagestyle{firstpage}
+
+% ---------------- Author block (LIPIcs-style) ----------------
+\begingroup
+\noindent
+{\LARGE\bfseries Aalok Thakkar}\\[0.3em]
+{\small\itshape Department of Computer Science, Ashoka University, Sonipat, Haryana, India}\\[0.1em]
+{\small\href{mailto:thakkar@ashoka.edu.in}{thakkar@ashoka.edu.in} \quad\textbar\quad \href{https://aalok-thakkar.github.io}{aalok-thakkar.github.io}}\par
+\endgroup
+\vspace{1.0em}
+
+% ---------------- Academic Appointment -------------------
+\cvsection{Academic Appointment}
+
+\entry{2024--present}{%
+  Assistant Professor, Department of Computer Science, Ashoka University, Sonipat.}
+
+% ---------------- Education ------------------------------
+\cvsection{Education}
+
+\entry{2018--2023}{%
+  Ph.D., Computer and Information Science, University of Pennsylvania. \\
+  Thesis: \emph{Example-Guided Synthesis of Relational Queries}. \\
+  Advisors: Rajeev Alur and Mayur Naik.}
+
+\entry{2015--2018}{%
+  B.Sc.\ (Honours), Mathematics and Computer Science, Chennai Mathematical Institute.}
+
+% ---------------- Awards and Honours ---------------------
+\cvsection{Awards and Honours}
+
+\entry{2026}{%
+  \textbf{Distinguished Paper}, Automated Technology for Verification and Analysis (ATVA 2026), for \emph{How Often Does Your Program Fail?}.}
+
+\entry{2026}{%
+  \textbf{Best Paper Award}, Conference for AI Scientists (CAISc 2026), for \emph{A Forced-Structure Reduction and Verifiable Bounds for Conway's 99-Graph}.}
+
+\entry{2026--2027}{%
+  \textbf{INSA Visiting Scientist}, Indian National Science Academy. \\
+  Residency at the Chennai Mathematical Institute to work with Aiswarya on the synthesis of string transducers.}
+
+% ---------------- Grants and Fellowships -----------------
+\cvsection{Grants and Fellowships}
+
+\entry{2026}{%
+  \textbf{VSAC Transdisciplinary Grant}, Ashoka University. \\
+  Two projects: Circle of Joy (with Devapriya Roy and Annie Baxi) and Animal Acoustics (with Meghna Agarwala and Nandini Chatterjee Singh).}
+
+\entry{2026--}{%
+  \textbf{ANRF Prime Minister Early Career Research Grant}, Anusandhan National Research Foundation. \\
+  Robust and scalable program synthesis.}
+
+\entry{2026}{%
+  \textbf{Nagarathna Memorial Grant}. \\
+  Translation of \emph{Nayi Kavita} poets into English.}
+
+\entry{2025--2026}{%
+  \textbf{Data \& AI Adoption Fellowship}, EkStep Foundation. \\
+  AI safety benchmarks for education and agriculture.}
+
+\entry{2025--2026}{%
+  \textbf{Darjeeling Revival Fellowship}, Alt Carbon. \\
+  Geostatistical modelling for enhanced rock weathering.}
+
+\entry{2025--2026}{%
+  \textbf{Adaptive and Inclusive Pedagogy Grant}, Mphasis. \\
+  Curriculum design for an adaptive and inclusive classroom.}
+
+% ---------------- Publications ---------------------------
+\cvsection{Publications}
+
+\cvsubsection{Conference Publications}
+
+\pub{The Trust a Protocol Needs}
+  {with Bhumika Mittal}
+  {International Conference on Information Systems Security (ICISS 2026)}
+
+\pub{Defining Purpose Limited Secrets}
+  {with Bhumika Mittal}
+  {International Conference on Information Systems Security (ICISS 2026)}
+
+\pub{Localising Stochasticity in Weighted Automata}
+  {with Smayan Agarwal}
+  {Foundations of Software Technology and Theoretical Computer Science (FSTTCS 2026)}
+
+\pub{How Often Does Your Program Fail?}
+  {with Arnab Ray}
+  {Automated Technology for Verification and Analysis (ATVA 2026). \textbf{Distinguished Paper}}
+
+\pub{A Forced-Structure Reduction and Verifiable Bounds for Conway's 99-Graph}
+  {}
+  {Conference for AI Scientists (CAISc 2026). \textbf{Best Paper Award}}
+
+\pub{A Correctness-First Introduction to Computer Science}
+  {with Vaani Goenka}
+  {Innovation and Technology in Computer Science Education (ITiCSE 2026)}
+
+\pub{A Good Rubber Duck Does Not Quack}
+  {with Ayush Thonge}
+  {Innovation and Technology in Computer Science Education (ITiCSE 2026)}
+
+\pub{Accessibility Beyond Accommodations}
+  {with Vaanee Tripathi}
+  {ACM India Compute Conference (COMPUTE 2025)}
+
+\pub{Ancient Algorithms for a Modern Curriculum}
+  {}
+  {ACM India Compute Conference (COMPUTE 2025)}
+
+\pub{BOOP: Write Right Code}
+  {with Vaani Goenka}
+  {ACM India Compute Conference (COMPUTE 2025)}
+
+\pub{SocraticAI: Transforming LLMs into Guided CS Tutors Through Scaffolded Interaction}
+  {with Karthik Sunil}
+  {ACM India Compute Conference (COMPUTE 2025)}
+
+\pub{From Transformers to Weighted Automata: Towards Verification of Large Language Models}
+  {with Smayan Agarwal, Aslah Ahmad Faizi, and Shobhit Singh}
+  {From Data to Models and Back (DATAMOD 2025)}
+
+\pub{Mobius: Synthesizing Relational Queries with Recursive and Invented Predicates}
+  {with Nathaniel Sands, George Petrou, Rajeev Alur, Mayur Naik, and Mukund Raghothaman}
+  {Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA 2023)}
+
+\pub{Relational Query Synthesis $\bowtie$ Decision Tree Learning}
+  {with Aaditya Naik, Adam Stein, Rajeev Alur, and Mayur Naik}
+  {International Conference on Very Large Data Bases (VLDB 2023)}
+
+\pub{Example-Guided Synthesis of Relational Queries}
+  {with Aaditya Naik, Nathaniel Sands, Mukund Raghothaman, Mayur Naik, and Rajeev Alur}
+  {Programming Language Design and Implementation (PLDI 2021)}
+
+\pub{Additive Collatz Trajectories}
+  {with Mrunmay Jagadale}
+  {International Conference of the Jangjeon Mathematical Society (ICJMS 2016)}
+
+\cvsubsection{Journal Publications}
+
+\pub{Reopening businesses and risk of COVID-19 transmission}
+  {with Ashley O'Donoghue, Tenzin Dechen, Whitney Pavlova, Michael Boals, Garba Moussa, Manvi Madan, Frank J.~DeFalco, and Jennifer P.~Stevens}
+  {npj Digital Medicine 4, 51 (2021)}
+
+\pub{Concurrency in Boolean networks}
+  {with Thomas Chatain, Stefan Haar, Juraj Kolcak, and Loic Pauleve}
+  {Natural Computing 19, 91--109 (2020)}
+
+\pub{Infinitude of Primes Using Formal Languages}
+  {}
+  {The American Mathematical Monthly 125:8, 745--749 (2018)}
+
+\cvsubsection{Workshop Publications}
+
+\pub{Complexity of Relational Query Synthesis}
+  {with Rajeev Alur and Mayur Naik}
+  {11th Workshop on Synthesis (SYNT 2022)}
+
+\pub{Modular Synthesis of Reactive Systems}
+  {with Kedar S.~Namjoshi and Richard Trefler}
+  {9th Workshop on Synthesis (SYNT 2020)}
+
+\pub{Verification of Rewriting-based Query Optimizers}
+  {with Krishnamurthy Balaji and Piyush Gupta}
+  {16th International Workshop on Termination (WST 2018)}
+
+% ---------------- Teaching -------------------------------
+\cvsection{Teaching}
+
+\entry{Monsoon 2026}{CS-2212-1: Data Structures and Algorithms.}
+\entry{Summer 2026}{FC-0306: Quantitative Reasoning and Mathematical Thinking.}
+\entry{Spring 2026}{CS-3330: Theory of Computation. CS-3610: Information Security.}
+\entry{Monsoon 2025}{CS-1102: Introduction to Computer Science. CS-5310: Symbolic Logic and Applications. CS-6101: Computer Science Research Methods and Seminars.}
+\entry{Summer 2025}{FC-0306: Quantitative Reasoning and Mathematical Thinking. CS-1102: Introduction to Computer Science.}
+\entry{Spring 2025}{CS-1102: Introduction to Computer Science. CS-5440: Trustworthy AI.}
+\entry{Monsoon 2024}{CS-5310: Symbolic Logic and Applications.}
+
+% ---------------- Service --------------------------------
+\cvsection{Professional Service}
+
+\entry{Organiser}{%
+  Verification, Logic, and Cryptography (VeLCro) 2026, CMI. \\
+  ACM COMPUTE 2026, Amrita Vishwa Vidyapeetham. \\
+  FSTTCS 2026, IIT Delhi. \\
+  Formal Methods Update Meeting 2026, Krea University. \\
+  FSTTCS 2024, FSTTCS 2025. \\
+  IARCS Verification Seminar Series. \\
+  Logic Society of Delhi.}
+
+\entry{Editor}{%
+  Corresponding editor, \emph{Bh\=avan\=a} magazine (2026).}
+
+\entry{Reviewer}{%
+  Programme committees and review activities for ICLA 2026, MFCS 2026, OOPSLA 2026, ATVA AEC 2025, PLDI SRC 2025, ISEC 2025, POPL AEC 2022, \emph{ACM Computing Surveys}, and the \emph{Indian Journal of History of Science}.}
+
+\entry{Memberships}{%
+  Association for Computing Machinery (ACM India). \\
+  Vijnana Bharati.}
+
+\end{document}
