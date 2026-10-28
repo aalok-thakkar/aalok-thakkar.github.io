@@ -221,7 +221,7 @@
     const host = document.getElementById('rolling-list');
     const items = rollingGrants();
     if (!items.length) {
-      host.innerHTML = '<p class="grants-empty">No rolling-deadline grants for the selected audience.</p>';
+      host.innerHTML = '<p class="grants-empty">No grants without a fixed date for the selected audience.</p>';
       return;
     }
     host.innerHTML = items.map(g => grantCard(g, null, 'rolling')).join('');
