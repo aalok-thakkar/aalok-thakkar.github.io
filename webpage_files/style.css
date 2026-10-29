@@ -27,10 +27,10 @@
   --text-muted: #6e6e74;
   --text-faint: #b3b3b8;
   --border: #ebeae5;
-  --accent: #2d6a45;
-  --accent-soft: rgba(45, 106, 69, 0.10);
-  --accent-tint: rgba(45, 106, 69, 0.035);
-  --accent-hover: #3f8a5c;
+  --accent: #1b2f5e;
+  --accent-soft: rgba(27, 47, 94, 0.10);
+  --accent-tint: rgba(27, 47, 94, 0.035);
+  --accent-hover: #2f4f8f;
 
   /* Audience colours (used by /grants/) */
   --aud-students: #2a5cb8;
@@ -59,16 +59,16 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #0e1a14;
-    --bg-elev: #15241c;
-    --text: #e5ece6;
-    --text-muted: #9bab9f;
-    --text-faint: #4e6056;
-    --border: #22352a;
-    --accent: #9fd8ac;
-    --accent-soft: rgba(159, 216, 172, 0.14);
-    --accent-tint: rgba(159, 216, 172, 0.05);
-    --accent-hover: #c3ebcb;
+    --bg: #0a1124;
+    --bg-elev: #111a33;
+    --text: #e4e8f0;
+    --text-muted: #9aa4b8;
+    --text-faint: #4a5570;
+    --border: #1e2a47;
+    --accent: #a9c4f5;
+    --accent-soft: rgba(169, 196, 245, 0.14);
+    --accent-tint: rgba(169, 196, 245, 0.05);
+    --accent-hover: #cddcfa;
     --shadow-lg: 0 12px 36px rgba(0, 0, 0, 0.5);
 
     /* Audience colours (dark) */
