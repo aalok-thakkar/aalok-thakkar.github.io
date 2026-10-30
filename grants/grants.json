@@ -1,6 +1,6 @@
 {
   "_comment": "Source of truth for /grants/. 'deadlines' holds only officially announced upcoming ISO dates; leave it empty for rolling calls or when the next date is not announced (the entry then appears under 'Rolling or date to be announced').",
-  "lastUpdated": "2026-10-28",
+  "lastUpdated": "2026-10-30",
   "grants": [
     {
       "id": "nsf-grfp",
@@ -8034,6 +8034,77 @@
       "amount": "Up to INR 6 lakh over the degree",
       "duration": "Duration of the postgraduate programme",
       "description": "Scholarships for first-year postgraduate students in India in engineering, technology, energy (including renewable and new energy) and life sciences. Applicants must be resident Indian citizens with a GATE score of 550-1,000 or undergraduate CGPA of 7.5 or above."
+    },
+    {
+      "id": "gcc-nexa-lighthouse-asia-pacific-2026",
+      "name": "Nexa Lighthouse Funding Opportunity: Asia and the Pacific",
+      "funder": "Grand Challenges Canada and AVPN, with Nexa Lighthouse funding partners",
+      "url": "https://www.grandchallenges.ca/funding-opportunity-nexa-lighthouse/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-17"
+      ],
+      "deadlineNote": "Applications close 17 November 2026, 2:00 PM ET, through the Grand Challenges Canada Fluxx portal.",
+      "region": "Asia-Pacific",
+      "amount": "Approximately USD 250,000–2,000,000 per innovation",
+      "duration": "See call details",
+      "description": "Transition to Scale funding for proven climate-and-health innovations that help health actors respond to mosquito-borne infections, extreme heat, or poor air quality, through climate-informed early warning and monitoring or climate-responsive patient care. Organisations may be incorporated in any country but must implement in an eligible country in Asia or the Pacific."
+    },
+    {
+      "id": "ai-alignment-foundation-support",
+      "name": "AI Alignment Foundation Research Support",
+      "funder": "AI Alignment Foundation",
+      "url": "https://aialignmentfoundation.org/approach/apply",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "No deadline stated; applications accepted through the foundation's form.",
+      "region": "Global",
+      "amount": "Not stated; funding plus access to dedicated engineering teams",
+      "duration": "See call details",
+      "description": "Support for high-risk, high-reward research on new directions in AI alignment, including ideas from fields such as cognitive neuroscience, mathematics, or physics. Individuals and teams may apply; institutional affiliation is optional."
+    },
+    {
+      "id": "apf-millon-grant",
+      "name": "Theodore Millon Grant in Personality Psychology",
+      "funder": "American Psychological Foundation",
+      "url": "https://apf.apa.org/funding/millon-grant/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-12-14"
+      ],
+      "deadlineNote": "Applications for the 2027 program year open 1 November 2026 and close 14 December 2026.",
+      "region": "Global",
+      "amount": "One grant of USD 2,000",
+      "duration": "See call details",
+      "description": "Research grant in personality psychology, including personality theory, personality disorders, and personality assessment, with preference for work on how personality assessment is studied, developed, or delivered. Open to graduate students and psychologists holding an EdD, PsyD, or PhD."
+    },
+    {
+      "id": "biocodex-womens-health-2027",
+      "name": "Microbiota & Women's Health International Call for Projects",
+      "funder": "Biocodex Microbiota Foundation",
+      "url": "https://www.biocodexmicrobiotafoundation.com/women-health-award/microbiota-womens-health-international-call-projects",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-01-15"
+      ],
+      "deadlineNote": "Applications close 15 January 2027, 24:00 CET. Decision expected May 2027.",
+      "region": "Global",
+      "amount": "EUR 200,000",
+      "duration": "Up to 3 years",
+      "description": "Clinical or fundamental research on male–female genital microbiome interactions and their role in vaginal dysbiosis, including bacterial vaginosis; STI projects other than bacterial vaginosis are excluded. Open to MDs, PhDs, and Pharm-Ds worldwide, applying through a university, hospital, or research institution; overhead capped at 10%."
     }
   ]
 }
