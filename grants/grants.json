@@ -8652,6 +8652,42 @@
       "amount": "Doctoral: USD 17,000; postdoctoral: USD 20,500",
       "duration": "Up to 2 years",
       "description": "Two doctoral and two postdoctoral fellowships for locally led research on the overlap between violence against women and violence against children. Open to nationals of low- and middle-income countries enrolled full-time at an in-person academic institution in an LMIC; PhD applicants need an approved or defended dissertation proposal."
+    },
+    {
+      "id": "birac-femtech-2026",
+      "name": "BIRAC Femtech Call for Women Founders",
+      "funder": "Biotechnology Industry Research Assistance Council (BIRAC), Department of Biotechnology",
+      "url": "https://birac.nic.in/desc_new.php?id=1364",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-23"
+      ],
+      "deadlineNote": "Applications close on 23 November 2026.",
+      "region": "India",
+      "amount": "Not stated in the call guidelines; support is described as investment opportunities and market and technology linkages",
+      "duration": "Not stated",
+      "description": "Support for DPIIT-recognised Indian startups with a woman founder, co-founder or CXO and at least 51% Indian ownership, working on women's health. Areas include reproductive and sexual health, maternal care, menopause, women's health diagnostics, gynaecological cancers, and digital health and AI for women."
+    },
+    {
+      "id": "coefficient-giving-incubation-rfp",
+      "name": "Request for Proposals: Incubation",
+      "funder": "Coefficient Giving (formerly Open Philanthropy)",
+      "url": "https://coefficientgiving.org/funds/effective-giving-and-careers/request-for-proposals-incubation/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-12-18"
+      ],
+      "deadlineNote": "Applications close 18 December 2026.",
+      "region": "Global",
+      "amount": "USD 20,000 to USD 7.5 million",
+      "duration": "2-3 years",
+      "description": "Funds incubators and accelerators that find founders and launch cost-effective organisations in areas such as global health, high-impact policy, animal welfare and global catastrophic risks. Open to existing incubators and accelerators, and to individuals or teams starting a new incubator."
     }
   ]
 }
