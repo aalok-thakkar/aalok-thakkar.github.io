@@ -8467,6 +8467,121 @@
       "amount": "Team prizes vary by sprint",
       "duration": "One weekend per sprint",
       "description": "Free weekend research hackathons on AI safety topics such as threat modelling and agent attribution; top teams may be invited to continue their work with Apart."
+    },
+    {
+      "id": "dbt-biocare-women",
+      "name": "BioCARe - Biotechnology Career Advancement and Re-orientation for Women Researchers (2026-27)",
+      "funder": "Department of Biotechnology (DBT), Government of India",
+      "url": "https://dbt.gov.in/offerings/call-for-proposals",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "The 2026-27 call is no longer listed as open. Check DBT's call-for-proposals page for the next round.",
+      "region": "India",
+      "amount": "Up to INR 60 lakh (Cat-I) or INR 40 lakh (Cat-II) including fellowship",
+      "duration": "Up to 3 years",
+      "description": "First extramural research grant for women scientists in biotechnology and allied areas to advance or re-establish research careers. Category I: PhD in Biotechnology / Life Sciences / allied or interdisciplinary areas, or MD / MDS / M.V.Sc. Category II: M.Tech in Biotechnology / allied areas, M.Pharma, or equivalent."
+    },
+    {
+      "id": "smart-india-hackathon-2026",
+      "name": "Smart India Hackathon (SIH) 2026",
+      "funder": "Ministry of Education, Government of India / AICTE",
+      "url": "https://www.sih.gov.in/",
+      "audience": [
+        "students"
+      ],
+      "type": "hackathon",
+      "deadlines": [],
+      "deadlineNote": "SIH 2026 launched in August 2026 and institute-level registration closed in September 2026. Check the funder's site for later stages and the next edition.",
+      "region": "India (nationwide)",
+      "amount": "Rs 1 lakh per winning team per problem statement",
+      "duration": "36 hours (grand finale)",
+      "description": "Nationwide initiative by the Ministry of Education engaging Higher Education Institution students to solve problem statements submitted by government ministries, PSUs, industries and NGOs. 16 themes including Smart Automation, MedTech/BioTech, Agriculture, Robotics, Blockchain & Cybersecurity, Smart Education, and Disaster Management."
+    },
+    {
+      "id": "indoml-datathon-2026",
+      "name": "IndoML Datathon 2026 - Indic Speech Noise Detection & Removal",
+      "funder": "IndoML (Heritage Institute of Technology, IIT Kharagpur, IISc Bangalore, Inception - G42)",
+      "url": "https://indoml.in/datathon/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "type": "hackathon",
+      "deadlines": [],
+      "deadlineNote": "Registration closed 9 September 2026 and final submissions closed 17 October 2026. Top teams present at IndoML 2026 at IIT Kharagpur in December 2026.",
+      "region": "India",
+      "amount": "INR 2,00,000 total prize pool",
+      "description": "Research-oriented data-science competition on noise event detection and removal in real-world Indic speech. Two tracks: (1) identify noise events with precise timestamps, (2) suppress detected noise while preserving speech intelligibility. Uses ~150 hours of real-world Indic audio from the Vaani corpus. At least one team member must be affiliated with an Indian university or research institution."
+    },
+    {
+      "id": "venus-remedies-i-amr-cdp",
+      "name": "India AMR Co-Development Programme (I-AMR-CDP)",
+      "funder": "Venus Remedies Limited",
+      "url": "https://venusremedies.com/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-10-31"
+      ],
+      "deadlineNote": "Rolling review of non-confidential expressions of interest through 31 October 2026. Selected innovators enter a co-development agreement with Venus Remedies via a mutually agreed value-sharing model.",
+      "region": "India",
+      "amount": "INR 10 lakh upfront award on entering a co-development agreement, plus Venus-led development investment",
+      "description": "Co-development call for promising Indian anti-infective innovations at proof-of-concept or preclinical stage: novel antibiotics, beta-lactamase inhibitors, or adjunctive/potentiator therapies. Selected teams receive end-to-end development, R&D infrastructure, manufacturing, commercialisation, IP, and publication support. Open to academic institutions, industry researchers, startups or spin-outs, and independent investigators in India."
+    },
+    {
+      "id": "tnq-inspiring-science-awards-2027",
+      "name": "TNQ Inspiring Science Awards (ISA) 2027",
+      "funder": "TNQ Foundation",
+      "url": "https://indiabioscience.org/grants/tnq-inspiring-science-awards-isa-2027",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-10-31"
+      ],
+      "deadlineNote": "Applications close 31 October 2026. Eligible papers must have been first published between 1 October 2025 and 30 September 2026, with the applicant as first or co-first author.",
+      "region": "India",
+      "amount": "Apple laptop, medal, and citation for eight finalists; winner also receives a conference travel fellowship",
+      "duration": "One-time award",
+      "description": "Annual award recognising the best full-length life-sciences research paper by a student from India. Open to PhD researchers and postdoctoral fellows within four years of their postdoctoral programme, where the work was conducted at an India-based institution."
+    },
+    {
+      "id": "icmr-centres-advanced-research-2026",
+      "name": "ICMR Centres for Advanced Research (CAR) Special Calls 2026",
+      "funder": "Indian Council of Medical Research (ICMR)",
+      "url": "https://www.icmr.gov.in/call-for-proposals",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-13"
+      ],
+      "deadlineNote": "Two special calls (Priority Medical Devices and Diagnostic Technologies; NIRMAN-AT Assistive Technology) close 13 November 2026, 17:00 IST.",
+      "region": "India",
+      "amount": "Up to INR 15 crore per centre",
+      "duration": "Up to 5 years",
+      "description": "ICMR funds multi-technology Centres for Advanced Research that take medical devices, diagnostics and assistive technologies to translation. The medical devices call is limited to regular faculty at the top 25 NIRF 2025 institutions; the assistive technology call is open to institutions eligible for ICMR extramural support. A Co-PI from the PI's institute is mandatory."
+    },
+    {
+      "id": "uk-aisi-alignment-project",
+      "name": "The Alignment Project",
+      "funder": "UK AI Security Institute with OpenAI, Microsoft and other partners",
+      "url": "https://alignmentproject.aisi.gov.uk/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Applications currently closed; next round not yet dated.",
+      "region": "Global",
+      "amount": "GBP 50,000 to 1,000,000, plus compute credits and support from AISI researchers",
+      "duration": "Project-based",
+      "description": "Funds research on AI alignment and control across disciplines, as an international coalition with over GBP 27 million committed. The first round funded projects in eight countries. The page does not restrict applicants by country, so researchers in India can apply when the next round opens."
     }
   ]
 }
