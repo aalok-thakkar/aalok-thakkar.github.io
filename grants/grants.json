@@ -8582,6 +8582,76 @@
       "amount": "GBP 50,000 to 1,000,000, plus compute credits and support from AISI researchers",
       "duration": "Project-based",
       "description": "Funds research on AI alignment and control across disciplines, as an international coalition with over GBP 27 million committed. The first round funded projects in eight countries. The page does not restrict applicants by country, so researchers in India can apply when the next round opens."
+    },
+    {
+      "id": "saroj-chandrasekhar-young-researcher-2027",
+      "name": "Saroj Chandrasekhar Memorial Young Researcher Award 2027",
+      "funder": "Chandrasekhar Foundation",
+      "url": "https://indiabioscience.org/grants/saroj-chandrasekhar-memorial-young-researcher-award-2027",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-12-15"
+      ],
+      "deadlineNote": "Applications close 15 December 2026. The award is presented at IIT Kanpur on National Science Day, 28 February 2027.",
+      "region": "India",
+      "amount": "INR 3.5 lakh cash prize, certificate, travel and lodging for the ceremony",
+      "description": "Recognises an early-career woman scientist in biosciences, biotechnology, life sciences or medical sciences, at assistant-professor level or above and within five years of starting an independent position. The winner gives an honorary lecture at IIT Kanpur."
+    },
+    {
+      "id": "biocodex-gut-microbiota-international-2027",
+      "name": "Gut Microbiota International Call for Projects 2027",
+      "funder": "Biocodex Microbiota Foundation",
+      "url": "https://www.biocodexmicrobiotafoundation.com/international-research-grant/international-call-projects",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-30"
+      ],
+      "deadlineNote": "Applications close 30 November 2026, 24:00 CET. Decision expected May 2027.",
+      "region": "Global",
+      "amount": "EUR 200,000 (VAT included), paid to the institution",
+      "duration": "1-3 years",
+      "description": "Clinical or fundamental research on diet-microbiome interactions that shape immune function in the treatment of human disease. Projects must include microbiome analysis, immunophenotyping and a dietary component, mainly in humans and in a disease context; observational studies of healthy subjects alone are excluded. Open to MDs, PhDs and PharmDs in any country, applying through a university, hospital or research institution."
+    },
+    {
+      "id": "ihs-housing-reform-2027",
+      "name": "Housing Reform: From Policy to Lasting Outcomes",
+      "funder": "Institute for Humane Studies",
+      "url": "https://theihs.org/funding/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-02-19"
+      ],
+      "deadlineNote": "Applications close 19 February 2027. Decisions expected 2 April 2027.",
+      "region": "Global",
+      "amount": "Up to USD 20,000; larger awards possible for exceptional projects",
+      "description": "Supports research on how the design and implementation of housing reforms shape housing supply, access and other outcomes, leading to peer-reviewed papers, policy white papers or research databases. Open to faculty, graduate students and policy researchers. Covers research travel, collaboration, data, materials and publishing; excludes living costs, hardware, retroactive costs and overhead."
+    },
+    {
+      "id": "svri-early-career-fellowships-2027",
+      "name": "SVRI Early Career Research Fellowships",
+      "funder": "Sexual Violence Research Initiative, supported by the Kering Foundation",
+      "url": "https://www.svri.org/svri-early-career-research-fellowships/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2027-01-15"
+      ],
+      "deadlineNote": "Applications close 15 January 2027.",
+      "region": "LMICs (India eligible)",
+      "amount": "Doctoral: USD 17,000; postdoctoral: USD 20,500",
+      "duration": "Up to 2 years",
+      "description": "Two doctoral and two postdoctoral fellowships for locally led research on the overlap between violence against women and violence against children. Open to nationals of low- and middle-income countries enrolled full-time at an in-person academic institution in an LMIC; PhD applicants need an approved or defended dissertation proposal."
     }
   ]
 }
