@@ -1,6 +1,6 @@
 {
   "_comment": "Source of truth for /grants/. 'deadlines' holds only officially announced upcoming ISO dates; leave it empty for rolling calls or when the next date is not announced (the entry then appears under 'Rolling or date to be announced').",
-  "lastUpdated": "2026-11-14",
+  "lastUpdated": "2026-11-18",
   "grants": [
     {
       "id": "nsf-grfp",
@@ -9391,6 +9391,113 @@
       "deadlineNote": "Annual nominations on the National Awards Portal; the 2026 window ran 28 March to 11 May 2026. Next cycle expected in early 2027.",
       "region": "India",
       "description": "National science awards that replaced the Shanti Swarup Bhatnagar Prize and other ministry awards. The Vigyan Yuva-SSB award has an age limit of 45; self-nominations were accepted in 2026."
+    },
+    {
+      "id": "nivea-connect-gen-z-2026",
+      "name": "NIVEA CONNECT 2026 Gen Z Research",
+      "funder": "NIVEA CONNECT and Social Connection Institute",
+      "url": "https://socialconnectioninstitute.org/nivea-connect",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-12-11"
+      ],
+      "deadlineNote": "Applications close 11 December 2026.",
+      "region": "Global",
+      "amount": "EUR 20,000-30,000 per award",
+      "duration": "Through 31 December 2027",
+      "description": "Seed grants for early-stage research on social connection among Gen Z (roughly ages 14-29), including pilot, exploratory and feasibility studies, methodological development, and targeted additions to existing research programmes."
+    },
+    {
+      "id": "moes-eu-climate-extremes-2027",
+      "name": "Understanding, Modelling and Prediction of Extreme Events in a Changing Climate (MoES-EU Horizon Europe)",
+      "funder": "Ministry of Earth Sciences, Government of India, with the European Union (Horizon Europe)",
+      "url": "https://www.moes.gov.in/static/uploads/2026/04/f1d652381229f1518be873434fecc74f.pdf",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-03-04"
+      ],
+      "deadlineNote": "Proposals close 4 March 2027. Indian entities join an EU consortium as Associated Partners.",
+      "region": "India",
+      "amount": "Up to INR 2 crore per project (MoES share)",
+      "duration": "3-4 years",
+      "description": "Research on past and present climate extremes and their cascading impacts, high-resolution modelling and attribution, and multi-hazard prediction and early warning using integrated datasets, digital twins and AI. Open to Indian academic and research institutions, private R&D institutions with three years of research experience, and research-focused non-profits; links with Copernicus, Destination Earth and the EU Mission on Adaptation are encouraged."
+    },
+    {
+      "id": "iea-ec-early-career-research-policy-grant",
+      "name": "IEA Research and Policy Grant for Early Career Researchers",
+      "funder": "International Association for the Evaluation of Educational Achievement (IEA) and European Commission (DG EAC)",
+      "url": "https://www.iea.nl/news-events/news/call-proposals-research-policy-grant-early-career-researchers",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "deadlines": [
+        "2026-12-01"
+      ],
+      "deadlineNote": "Applications close 1 December 2026.",
+      "region": "Global",
+      "amount": "EUR 20,000 per project",
+      "duration": "12 months",
+      "description": "Supports comparative secondary analysis of IEA international large-scale assessment data on basic skills, teacher preparedness, or learning outcomes and inequalities, with EU policy relevance. Open to PhD candidates and researchers of any nationality within five years of their first doctorate; PhD candidates and applicants new to these datasets need a supervisor."
+    },
+    {
+      "id": "harvard-salata-sea-level-program-2027",
+      "name": "Sea Level Investigation and Management Program Call for Proposals",
+      "funder": "Salata Institute for Climate and Sustainability, Harvard University",
+      "url": "https://salatainstitute.harvard.edu/sea-level-investigation-and-management-program-call-for-proposals/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-01-11"
+      ],
+      "deadlineNote": "Proposals close 11 January 2027.",
+      "region": "Global",
+      "amount": "Exploratory: up to USD 50,000; project: USD 100,000-400,000; instrumented experiment: up to USD 1 million",
+      "duration": "1 year (exploratory); 2 years (project and experiment)",
+      "description": "Funds research on storing water on or within land to slow sea-level rise, covering technical feasibility, geologic and freshwater storage, environmental impacts, economics, governance, law, politics and ethics. Faculty at universities and non-profit research institutions may apply, with external awards made as Harvard subawards; postdocs and graduate students may lead exploratory proposals with a faculty co-signature."
+    },
+    {
+      "id": "casi-sangam-grants-2027",
+      "name": "CASI Sangam Grants for Collaborative Penn-India Research",
+      "funder": "Center for the Advanced Study of India (CASI), University of Pennsylvania",
+      "url": "https://casi.sas.upenn.edu/casi-sangam-grants",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-02-01"
+      ],
+      "deadlineNote": "Proposals close 1 February 2027.",
+      "region": "India (with a Penn collaborator)",
+      "amount": "USD 2,000-8,000 per project",
+      "description": "Seed or self-contained collaborative projects such as pilot experiments, original surveys and focused studies. Each proposal needs a Penn-based PI and an India-based PI working at an Indian university or research organisation; projects on climate and energy, urbanisation, inclusive governance, or AI and technology get a small preference."
+    },
+    {
+      "id": "biswas-fast-grants-ai-health",
+      "name": "Biswas Family Foundation Fast Grants (AI and Health)",
+      "funder": "Biswas Family Foundation",
+      "url": "https://www.biswasfamilyfoundation.org/science/fast-grants",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-12-15"
+      ],
+      "deadlineNote": "Applications close 15 December 2026.",
+      "region": "Global",
+      "amount": "USD 25,000, 50,000 or 100,000",
+      "duration": "12 months",
+      "description": "Fast, high-risk seed funding at the intersection of AI and health, including models of biomedical data, datasets, AI tools or agents, and pilot experiments. Open to academic researchers worldwide at any career stage; non-US institutions must qualify as the equivalent of a US public charity or receive funds through a US 501(c)(3) intermediary, and undergraduates are limited to the USD 25,000 tier."
     }
   ]
 }
