@@ -43,7 +43,7 @@
         "students"
       ],
       "deadlines": [],
-      "deadlineNote": "The application for the 2027 cohort closed on 6 October 2026. Knight-Hennessy states the application for the 2028 cohort will open in June 2027.",
+      "deadlineNote": "The application for the 2027 cohort closed on 6 October 2026. Knight-Hennessy states the application for the 2028 cohort will open in summer 2027.",
       "region": "Global",
       "amount": "Full tuition + stipend",
       "duration": "Up to 3 years",
@@ -150,7 +150,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Nomination by department head. Nominations for the 2027 fellowships ran 15 July to 15 September 2026; the next cycle has not been announced.",
+      "deadlineNote": "Nomination by department head. Nominations for the 2027 fellowships closed 15 September 2026. Nominations for the 2028 fellowships open 15 July 2027 and close 15 September 2027; letters are due 22 September.",
       "region": "USA",
       "amount": "USD 75,000",
       "duration": "2 years",
@@ -273,8 +273,10 @@
       "audience": [
         "faculty"
       ],
-      "deadlines": [],
-      "deadlineNote": "The pre-proposal stage has closed; ANRF has invited detailed proposals from shortlisted applicants, due 2 December 2026 at 5 pm IST.",
+      "deadlines": [
+        "2026-12-02"
+      ],
+      "deadlineNote": "The pre-proposal stage ran 1 June to 18 July 2026. ANRF has opened submission of detailed proposals from shortlisted applicants until 2 December 2026, 5 pm IST.",
       "region": "India",
       "amount": "Up to ₹20 crore",
       "duration": "3 years (extendable to 5)",
@@ -303,8 +305,10 @@
         "postdocs",
         "faculty"
       ],
-      "deadlines": [],
-      "deadlineNote": "Applications are closed; the funder says the next call will open soon. Check the funder's site.",
+      "deadlines": [
+        "2026-12-04"
+      ],
+      "deadlineNote": "Applications close 4 December 2026, 11:59 pm CET. Four awards are offered.",
       "region": "Global (LMIC)",
       "amount": "USD 100,000",
       "duration": "2 years",
@@ -427,10 +431,8 @@
         "postdocs",
         "faculty"
       ],
-      "deadlines": [
-        "2026-11-15"
-      ],
-      "deadlineNote": "Applications close 15 November 2026. Indian citizens; non-fiction on contemporary India.",
+      "deadlines": [],
+      "deadlineNote": "Submissions for the 2027 cycle closed in November 2026 (listed date 15 November 2026). Shortlists come in April 2027 and winners in July 2027. The fellowship is now annual; the next call is expected around August 2027.",
       "region": "India",
       "description": "Supports research and writing of original non-fiction books on contemporary India; stipend, editorial support, and publication with leading houses."
     },
@@ -507,7 +509,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Annual call. ANRF's 2026 calendar had pre-proposals in April to May and full proposals from 15 September to 15 October 2026; both stages have closed. Check the ANRF portal for the next call.",
+      "deadlineNote": "Annual call. The 2026 call ran on the ANRF portal from 15 May to 10 June 2026, and the later full-proposal stage has also closed. The next call is expected around May 2027.",
       "region": "India",
       "amount": "Up to INR 5 crore",
       "duration": "Up to 5 years (3+1+1)",
@@ -522,7 +524,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Annual call under the ARG umbrella; the 2026 window has closed. Check the ANRF portal for the next call.",
+      "deadlineNote": "Annual call under the ARG umbrella; the 2026 window ran 15 May to 10 June 2026 and has closed. The next call is expected around May 2027.",
       "region": "India",
       "amount": "INR 5 lakh/year + overheads (incl. up to INR 5 lakh international travel)",
       "duration": "Up to 5 years",
@@ -537,7 +539,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Annual nominations; the 2026 window closed 10 February 2026. Check the ANRF portal for the next call.",
+      "deadlineNote": "Annual nominations; the 2026 window ran 1 January to 10 February 2026. The next call is expected around January 2027.",
       "region": "India",
       "amount": "INR 25 lakh/year research grant plus INR 1 lakh/year overheads, for five years",
       "duration": "5 years",
@@ -573,7 +575,7 @@
       "deadlineNote": "Always open. Nominations accepted throughout the year via online portal; no last date. Selection made twice a year.",
       "region": "India",
       "amount": "INR 15,000/month in addition to salary plus INR 10 lakh/year research grant, for three years",
-      "duration": "3 years",
+      "duration": "3 years (no extension)",
       "description": "Mitigates gender disparity in S&T research funding. Recognises and supports outstanding women scientists in active research in Indian academic institutions and R&D labs. One of the two ANRF schemes that remain open year-round."
     },
     {
@@ -600,7 +602,7 @@
         "postdocs"
       ],
       "deadlines": [],
-      "deadlineNote": "Annual call; the 2026 window closed 17 February 2026. Calls are announced on the ANRF portal and usually stay open for about one month.",
+      "deadlineNote": "Annual call; the 2026 window ran 15 January to 20 February 2026. Calls are announced on the ANRF portal and usually stay open for about one month; the next is expected around January 2027.",
       "region": "India",
       "amount": "INR 80,000/month (PhD awarded); INR 50,000/month (thesis submitted) + research grant",
       "duration": "2 years",
@@ -616,7 +618,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Rolling, event-tied: applications accepted in a 60-90 day window before event start date. Not eligible if availed in past 3 years.",
+      "deadlineNote": "Rolling, event-tied: apply 60 to 90 days before the event start date; early or late applications are not accepted. Not eligible if availed in the past 3 years. As of 18 November 2026, applications are accepted for events starting 17 January to 16 February 2027.",
       "region": "India",
       "amount": "Economy airfare, airport tax, visa fees; young scientists also get registration up to INR 50,000",
       "duration": "Per-event support",
@@ -665,7 +667,7 @@
       "deadlineNote": "Call-based; notified periodically via ANRF/SERB websites. No active 2026 call confirmed on the official page.",
       "region": "India",
       "amount": "INR 60,000/year fellowship (in addition to regular salary) + INR 5 lakh/yr research grant (split 50/50 between host and parent institutions) + overheads",
-      "duration": "3 years",
+      "duration": "Up to 3 years",
       "description": "Facilitates mobility of faculty in State Universities, colleges, and private academic institutions to carry out research at established public-funded institutions (IITs, IISc, IISERs, NITs, CSIR/ICAR/ICMR labs, Central Universities)."
     },
     {
@@ -676,8 +678,10 @@
       "audience": [
         "faculty"
       ],
-      "deadlines": [],
-      "deadlineNote": "Stage 1 pre-proposal call: 27 April - 26 May 2026 (closed). Stage 2 to follow for shortlisted consortia.",
+      "deadlines": [
+        "2026-11-20"
+      ],
+      "deadlineNote": "The Stage 1 pre-proposal call ran 27 April to 2 June 2026. ANRF says the current MAHA Drones call for proposals is extended to 20 November 2026, 5 pm IST.",
       "region": "India",
       "amount": "Up to INR 50 Crore per consortium over 3 years",
       "duration": "Project-dependent",
@@ -692,7 +696,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "ANRF has said the second call for MAHA AI for Science and Engineering will be announced shortly; no dates have been published.",
+      "deadlineNote": "The first call ran 18 October to 25 November 2025. ANRF has said the second call will be announced shortly; no dates have been published.",
       "region": "India",
       "amount": "Up to INR 30 Crore for 3-year projects (up to INR 50 Crore in exceptional cases); GPU usage capped at 70% of budget via MeitY infrastructure",
       "duration": "Project-dependent",
@@ -770,10 +774,10 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Two calls per year; 25th call announced in early 2026, calls typically open ~45 days.",
+      "deadlineNote": "BIRAC announces BIG calls twice a year (1 January and 1 July), each open for about 45 days. The latest call listed on the BIRAC calls page is the 25th, which closed 30 November 2025.",
       "region": "India",
       "amount": "Up to INR 50 lakh grant-in-aid",
-      "duration": "18 months",
+      "duration": "Up to 18 months",
       "description": "Flagship early-stage biotech startup grant for scientist entrepreneurs and incubatee companies to translate ideas to proof of concept."
     },
     {
@@ -1097,11 +1101,10 @@
         "faculty"
       ],
       "deadlines": [
-        "2026-11-16",
         "2027-02-16",
         "2027-03-16"
       ],
-      "deadlineNote": "NIH standard due dates: new applications 16 February, 16 June, 16 October; renewals and resubmissions 16 March, 16 July, 16 November.",
+      "deadlineNote": "NIH standard due dates: new applications 16 February, 16 June, 16 October; renewals and resubmissions 16 March, 16 July, 16 November. The 16 November 2026 cycle has passed.",
       "region": "US",
       "amount": "Up to $275k direct costs over two years",
       "duration": "Up to 2 years",
@@ -1194,7 +1197,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "2026 cycle: pre-applications were due March 24, 2026; full applications June 2, 2026; recurring annually.",
+      "deadlineNote": "The 2026 cycle closed (pre-applications 24 March 2026, full applications 2 June 2026). The call recurs annually; FY2027 dates are not yet posted.",
       "region": "US",
       "amount": "$875k+ over 5 years (univ.); $2.75M+ (national lab)",
       "duration": "5 years",
@@ -1209,9 +1212,9 @@
         "faculty"
       ],
       "deadlines": [
-        "2026-12-04"
+        "2026-12-11"
       ],
-      "deadlineNote": "FY2027 call: white papers were due 9 October 2026; full proposals are due 4 December 2026 via Grants.gov.",
+      "deadlineNote": "FY2027 call: white papers were due 9 October 2026; full proposals are now due 11 December 2026, 11:59 PM ET, via Grants.gov.",
       "region": "US",
       "amount": "Up to $450k total",
       "duration": "3 years",
@@ -1226,7 +1229,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "The 30 October 2026 deadline has passed.",
+      "deadlineNote": "The FY2027 call (N0001426SF004) closed on 30 October 2026. Check the funder's site for the FY2028 call.",
       "region": "US",
       "amount": "Up to $750k over 3 years",
       "duration": "3 years",
@@ -1258,9 +1261,9 @@
       "deadlines": [
         "2027-02-24"
       ],
-      "deadlineNote": "The 29 October 2026 deadline has passed; the remaining listed deadline is 24 February 2027.",
+      "deadlineNote": "The letter of intent deadline (29 October 2026) has passed; full proposals from invited applicants are due 24 February 2027, noon Eastern. Awards start 1 January 2028.",
       "region": "International",
-      "amount": "Up to $2M/year",
+      "amount": "Up to $2M/year including 20% indirect costs (four-year total up to $8M)",
       "duration": "4 years (3-year extension possible)",
       "description": "Funds large team-science collaborations on fundamental questions in math, theoretical physics, and TCS."
     },
@@ -1305,7 +1308,7 @@
       "deadlines": [],
       "deadlineNote": "The 2027 competition closed 30 September 2026. Nominations come through participating institutions; check the funder's site for the 2028 cycle.",
       "region": "US",
-      "amount": "$300k over 3 years",
+      "amount": "$450,000 over 3 years ($150,000 a year)",
       "duration": "3 years",
       "description": "Supports young US tenure-track faculty in chemistry and biological sciences pursuing high-impact, innovative research."
     },
@@ -1460,7 +1463,7 @@
       ],
       "deadlines": [],
       "deadlineNote": "Submit at least four weeks before the conference's early registration and hotel deadlines; multiple categories (students, professional members, scholars from marginalized groups, parents, international members).",
-      "description": "Funding to attend SIGPLAN-sponsored conferences (PLDI, POPL, OOPSLA, ICFP, PPoPP, etc.), including long-distance travel support from outside North America and Europe, and child-care/family support. Open to students and non-students; SIGPLAN membership not required."
+      "description": "Funding to attend SIGPLAN-sponsored conferences (PLDI, POPL, OOPSLA, ICFP, PPoPP, etc.), including long-distance travel support for SIGPLAN members in Asia, Africa, Australia and South America, and child-care/family support. Students must be ACM members with a SIGPLAN-member advisor; most other categories require SIGPLAN membership, except support for scholars from historically marginalized groups."
     },
     {
       "id": "sigcomm-student-travel-grant",
@@ -1471,7 +1474,7 @@
         "students"
       ],
       "deadlines": [],
-      "deadlineNote": "Deadlines are set for each SIGCOMM conference; the 2026 deadline was 19 June 2026. Tracks include NSF (US-based), GeoDiversity, and N2Women.",
+      "deadlineNote": "Deadlines are set for each SIGCOMM conference; the 2026 deadline was 19 June 2026. SIGCOMM 2027 is in Bangkok, 8-12 August 2027, and its travel grant call has not been posted yet. Tracks include NSF (US-based), GeoDiversity, and N2Women.",
       "amount": "~$800–$1,000 (economy airfare + hotel)",
       "description": "Travel support for students and early-career researchers to attend ACM SIGCOMM 2026 (Denver, 17–21 Aug 2026). Multiple tracks including geographic diversity and women in networking."
     },
@@ -1523,19 +1526,19 @@
       ],
       "deadlines": [],
       "deadlineNote": "NeurIPS 2026 financial assistance closed on 6 October 2026 and awards were notified on 15 October. It covers registration and up to seven hotel nights, not travel.",
-      "description": "Need-based financial assistance for NeurIPS attendees, prioritising student and junior postdoc (<2 years) authors. Criteria include accessibility, affinity-group membership, financial hardship and first-time attendance."
+      "description": "Need-based financial assistance for NeurIPS attendees, with priority for students and junior postdocs who are primary contributors to accepted work. Applications are also assessed on accessibility needs, financial hardship, first-time attendance and service to NeurIPS."
     },
     {
       "id": "icml-financial-aid",
       "name": "ICML Financial Aid",
       "funder": "International Conference on Machine Learning",
-      "url": "https://icml.cc/Conferences/2026/FinancialAid",
+      "url": "https://icml.cc/Conferences/2027/FinancialAid",
       "audience": [
         "students",
         "postdocs"
       ],
       "deadlines": [],
-      "deadlineNote": "ICML 2026 application closed 18 May 2026; decisions on 1 Jun 2026. Award covers conference registration and 7-night hotel for in-person attendees; no travel support.",
+      "deadlineNote": "ICML 2026 application closed 18 May 2026; decisions on 1 Jun 2026. The ICML 2027 financial aid page says dates will be announced there. Award covers conference registration and 7-night hotel for in-person attendees; no travel support.",
       "description": "ICML 2026 financial aid covers conference registration and a 7-night hotel stay for in-person attendees (virtual registration for virtual attendees); travel costs are not supported. Eligibility limited to applicants with an accepted paper linked to their ICML.cc email."
     },
     {
@@ -1565,7 +1568,8 @@
       ],
       "deadlineNote": "Applications for the 14th HLF (2027) open 11 November 2026 and close 11 February 2027 at 23:59 Berlin time.",
       "region": "Heidelberg, Germany",
-      "description": "Fully funded week-long forum bringing 200 selected young researchers in mathematics and computer science into cross-generational dialogue with Turing Award, ACM Prize in Computing, Abel Prize, Fields Medal, IMU Abacus Medal and Nevanlinna Prize laureates. Open to undergraduates, graduate students and recent PhDs."
+      "description": "Fully funded week-long forum bringing 200 selected young researchers in mathematics and computer science into cross-generational dialogue with Turing Award, ACM Prize in Computing, Abel Prize, Fields Medal, IMU Abacus Medal and Nevanlinna Prize laureates. Open to undergraduates, graduate students and recent PhDs.",
+      "amount": "Hotel room with breakfast, lunches, dinners and airport shuttles covered for 11 to 18 September 2027; travel grants available if other funding is unavailable"
     },
     {
       "id": "lindau-nobel-young-scientists",
@@ -1829,7 +1833,7 @@
       ],
       "type": "hackathon",
       "deadlines": [],
-      "deadlineNote": "The 2026 hackathon runs 14 to 15 November 2026; registration opened 26 August 2026.",
+      "deadlineNote": "The 2026 hackathon took place 14 to 15 November 2026 and is over; global nominees are announced 3 December 2026. Check the site for the 2027 event.",
       "region": "Global",
       "amount": "Global judging, no cash prize (in-kind awards)",
       "duration": "48h",
@@ -1863,9 +1867,9 @@
       ],
       "type": "hackathon",
       "deadlines": [],
-      "deadlineNote": "Rolling year-round; each competition sets its own deadline. ARC Prize 2026 final submissions close 2 November 2026, though new entries closed 26 October.",
+      "deadlineNote": "Rolling year-round; each competition sets its own deadline.",
       "region": "Global / online",
-      "amount": "Varies per competition; ARC Prize 2026 pool ~$1M",
+      "amount": "Varies per competition",
       "duration": "Weeks to months per competition",
       "description": "Continuously running data-science and ML competitions hosted on Kaggle covering vision, NLP, science, biology, and AGI benchmarks. Open to individuals and teams worldwide."
     },
@@ -1880,7 +1884,7 @@
       ],
       "type": "hackathon",
       "deadlines": [],
-      "deadlineNote": "The 2027 MIT event is in January 2027, with a hybrid hack at AWE USA 2027 in May or June 2027. Application dates are not yet posted.",
+      "deadlineNote": "The 2027 MIT event runs 28 January to 1 February 2027. Applications open 20 November 2026; the closing date is not yet posted.",
       "region": "Cambridge, MA, USA",
       "amount": "Sponsor prizes; no fixed pool",
       "duration": "5 days",
@@ -1975,7 +1979,7 @@
       "id": "lablab-ai-hackathons-rolling-2026",
       "name": "Lablab.ai AI Hackathons (rolling)",
       "funder": "Lablab.ai with IBM, AMD, NVIDIA, Hugging Face, OpenAI and partners",
-      "url": "https://lablab.ai/event",
+      "url": "https://starfieldlabs.ai/ai-hackathons",
       "audience": [
         "students",
         "postdocs",
@@ -1983,9 +1987,9 @@
       ],
       "type": "hackathon",
       "deadlines": [],
-      "deadlineNote": "Continuous calendar of online and hybrid AI hackathons. Current listings include the AMD AI League (to 1 December 2026) and the Vultr Agent Rush Hackathon (3-8 November 2026).",
+      "deadlineNote": "LabLab AI has rebranded as Starfield Labs (lablab.ai now redirects there). Hackathons run on a continuous calendar; no upcoming events were listed as of 18 November 2026.",
       "region": "Global / hybrid",
-      "amount": "Varies; recent events $3,500-$32,000+ per event",
+      "amount": "Varies by event",
       "duration": "3-14 days per event",
       "description": "Largest rolling calendar of AI builder hackathons globally. Topics span LLM agents, multimodal models, open-weights fine-tuning, enterprise AI, and applied ML. Open to developers and researchers worldwide."
     },
@@ -2137,7 +2141,7 @@
         "students"
       ],
       "deadlines": [],
-      "deadlineNote": "Annual call; check TANSCST schemes page for the next open window.",
+      "deadlineNote": "Proposals are invited once a year. As of November 2026 the page says applications will be invited shortly; no date is posted.",
       "region": "Tamil Nadu, India",
       "amount": "Rs. 1.5 lakh/year (Rs. 10,000 stipend/month + Rs. 30,000 contingency)",
       "duration": "2 years",
@@ -2153,7 +2157,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Annual call; proposals invited once a year via the TANSCST site.",
+      "deadlineNote": "Proposals are invited once a year. As of November 2026 the page says applications will be invited shortly; no date is posted.",
       "region": "Tamil Nadu, India",
       "amount": "Rs. 10,000/month (top-up over regular salary)",
       "duration": "2 to 6 months",
@@ -2201,7 +2205,7 @@
         "students"
       ],
       "deadlines": [],
-      "deadlineNote": "The 2026-27 call on the Har-Chhatravratti portal closed 3 September 2026. Check the funder's site for the next call.",
+      "deadlineNote": "The 2026-27 call on the Har-Chhatravratti portal closed on 3 September 2026. The next call is expected around mid-2027.",
       "region": "Haryana, India",
       "amount": "Up to Rs. 35,000/month",
       "duration": "Up to 5 years (JRF + SRF combined)",
@@ -2236,9 +2240,10 @@
       ],
       "deadlines": [
         "2027-01-31",
-        "2027-05-31"
+        "2027-05-31",
+        "2027-10-15"
       ],
-      "deadlineNote": "Applications are closed. The next windows run 4-31 January 2027 and 1-31 May 2027; a September to October window is also listed.",
+      "deadlineNote": "Applications are closed. The 2027 windows run 4-31 January, 1-31 May and 15 September to 15 October 2027 (GMT).",
       "region": "Global",
       "amount": "Up to USD 25,000",
       "duration": "Typically 1-2 years",
@@ -2252,10 +2257,8 @@
       "audience": [
         "faculty"
       ],
-      "deadlines": [
-        "2026-10-30"
-      ],
-      "deadlineNote": "Applications for the 2027 Whitley Awards close at 23:59 GMT on Friday 30 October 2026.",
+      "deadlines": [],
+      "deadlineNote": "Applications for the 2027 Whitley Awards closed on 30 October 2026; shortlisted candidates are interviewed in January and winners announced in April 2027. The next call is expected around autumn 2027.",
       "region": "Global South",
       "amount": "GBP 50,000",
       "duration": "1 year",
@@ -2507,7 +2510,7 @@
     },
     {
       "id": "aria-safeguarded-ai-ta2-cybersecurity",
-      "name": "Safeguarded AI - TA2 Cybersecurity Solicitation",
+      "name": "Safeguarded AI - Cybersecurity Rolling Solicitation (Track 1)",
       "funder": "Advanced Research + Invention Agency (ARIA, UK)",
       "url": "https://aria.org.uk/opportunity-spaces/mathematics-for-safe-ai/safeguarded-ai/funding/",
       "audience": [
@@ -2515,7 +2518,7 @@
         "postdocs"
       ],
       "deadlines": [],
-      "deadlineNote": "The 31 October 2026 deadline has passed.",
+      "deadlineNote": "Rolling: applications may be submitted at any time while the call is open and are reviewed in quarterly batches. ARIA says dates for the next review cycle will be confirmed soon.",
       "region": "UK (>50% of project costs/personnel must be UK-based)",
       "amount": "Programme backed by GBP 59M; team-level awards vary",
       "duration": "Multi-year project teams",
@@ -2590,16 +2593,18 @@
     },
     {
       "id": "rand-tasp-fellowship",
-      "name": "RAND Technology and Security Policy (TASP) Fellowship",
+      "name": "RAND Center on AI, Security, and Technology (CAST) Fellowship",
       "funder": "RAND Corporation",
-      "url": "https://www.rand.org/global-and-emerging-risks/centers/technology-and-security-policy/get-involved.html",
+      "url": "https://www.rand.org/global-and-emerging-risks/centers/ai-security-and-technology/fellows.html",
       "audience": [
         "students",
         "postdocs",
         "faculty"
       ],
-      "deadlines": [],
-      "deadlineNote": "Rolling applications. Requires ability to obtain US or UK government security clearance.",
+      "deadlines": [
+        "2027-02-01"
+      ],
+      "deadlineNote": "Applications are reviewed quarterly, with deadlines on 1 February, 1 May, 1 August and 1 November. The centre was formerly the Technology and Security Policy Center (TASP). Requires ability to obtain a US or UK government security clearance.",
       "region": "US or UK (remote or in-office)",
       "amount": "$40,000 - $200,000 stipend (US fellows); UK compensation experience-based",
       "duration": "6 months, renewable up to 3 years; full- or part-time",
@@ -2764,7 +2769,7 @@
       "deadlines": [
         "2027-03-04"
       ],
-      "deadlineNote": "The 28 October 2026 deadline has passed; the remaining listed deadline is 4 March 2027.",
+      "deadlineNote": "The October 2026 deadline has passed; the next deadline is 4 March 2027 (selection around May, funding from July 2027).",
       "region": "India to Germany",
       "amount": "EUR 934/month (doctoral); EUR 1,300/month (postdoc); plus travel, insurance, research allowance",
       "duration": "Short-term 1-6 months; one-year up to 12 months; doctoral up to 4 years",
@@ -2780,7 +2785,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Calls open on 15 March, 15 July and 15 November and close once 800 applications are received. The July 2026 call has reached the limit; the next call opens 15 November 2026.",
+      "deadlineNote": "Calls open on 15 March, 15 July and 15 November and close once 800 applications are received. The November 2026 call has already reached the limit; the next call opens 15 March 2027. Unfinished applications can be saved and submitted when it opens.",
       "region": "Worldwide (incl. India) to Germany",
       "amount": "EUR 3,000/month (postdoc); EUR 3,600/month (experienced); plus family, language, mobility allowances",
       "duration": "6-24 months (postdoc); 6-18 months (experienced), divisible into up to 3 stays over 3 years",
@@ -2971,10 +2976,10 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Rolling submission; Scientific Committee decisions take 6-8 weeks",
+      "deadlineNote": "Rolling submission, ideally about six months before the planned stay; decisions take 6-8 weeks.",
       "region": "Oberwolfach, Germany",
       "amount": "Full board and accommodation at MFO; stay realised within 1 year of decision",
-      "duration": "1-4 weeks for small research groups (2-4 participants); Leibniz Fellowships for single researchers",
+      "duration": "1-4 weeks for groups of 2-4 researchers; Leibniz Fellowships for single junior researchers run 4-12 weeks",
       "description": "Successor to Research in Pairs. Supports small collaborative groups (2-4 researchers) in residence at MFO for 1-4 weeks of focused mathematical research; Leibniz Fellowships allow single-researcher stays."
     },
     {
@@ -2988,7 +2993,7 @@
       "deadlines": [],
       "deadlineNote": "Tied to specific thematic programs; deadlines vary, posted on MathJobs",
       "region": "Toronto, Canada",
-      "amount": "USD 35,000 per six-month term (from July 2026)",
+      "amount": "$35,000 per six-month term from 1 July 2026 (previously $30,000); prorated for shorter terms",
       "duration": "Six months to two years, linked to thematic programs",
       "description": "Postdoctoral fellowships tied to Fields Institute thematic programs in pure and applied mathematics, including upcoming programs in quantum algorithms and mathematics for AI safety. Usually co-funded with a sponsoring university."
     },
@@ -3002,8 +3007,11 @@
         "faculty",
         "students"
       ],
-      "deadlines": [],
-      "deadlineNote": "HIM lists upcoming trimester programmes for 2027 and 2028; each programme page gives its own application deadline.",
+      "deadlines": [
+        "2027-01-31",
+        "2027-03-14"
+      ],
+      "deadlineNote": "Each programme sets its own call. The summer 2027 trimester (randomness in nonlinear dispersive and wave phenomena) takes applications for its summer school and conference until 31 January 2027; the autumn 2027 trimester on nonstandard discretizations of PDEs (20 September to 17 December 2027) takes participation applications until 14 March 2027.",
       "region": "Bonn, Germany",
       "amount": "Monthly fellowship covering living costs; varies by program",
       "duration": "13-15 weeks (one trimester)",
@@ -3034,8 +3042,11 @@
         "postdocs",
         "faculty"
       ],
-      "deadlines": [],
-      "deadlineNote": "Annual programme. The 2026 graduate and undergraduate summer school applications closed 15 and 31 January 2026. Check the funder's site for 2027 dates.",
+      "deadlines": [
+        "2027-01-15",
+        "2027-01-31"
+      ],
+      "deadlineNote": "The 2027 Summer Session runs 27 June to 17 July 2027. Graduate Summer School applications and Research Program and Undergraduate Faculty Program materials are due 15 January 2027; Undergraduate Summer School applications are due 31 January 2027. Applications go through MathPrograms.Org.",
       "region": "Park City, Utah, USA",
       "amount": "Lodging, meals, partial travel; stipend support varies by program",
       "duration": "3-week summer session",
@@ -3070,7 +3081,7 @@
       "deadlines": [],
       "deadlineNote": "Small Grants reviewed on a rolling basis; Focused Research Grants annually in November",
       "region": "United Kingdom",
-      "amount": "Small Grants up to GBP 10K; International Visitors up to GBP 10K; Focused Research up to GBP 8K",
+      "amount": "Small Grants usually GBP 5K or less; International Visitors up to GBP 10K; Focused Research up to GBP 8K",
       "duration": "Project-dependent; visitor scheme up to 3 weeks",
       "description": "Heilbronn funding schemes for UK-based mathematical research in algebra, algebraic geometry, combinatorics, data science, number theory, probability, and quantum information. Includes Small Grants, Focused Research Grants, and an International Visitors Scheme for hosting overseas experts."
     },
@@ -3097,10 +3108,8 @@
       "audience": [
         "postdocs"
       ],
-      "deadlines": [
-        "2026-11-15"
-      ],
-      "deadlineNote": "Primary-consideration deadline 15 November 2026 for appointments starting 1 September 2027. Apply through Academic Jobs Online.",
+      "deadlines": [],
+      "deadlineNote": "The primary-consideration deadline of 15 November 2026 (for appointments starting 1 September 2027) has passed. Later applications may still be read; check the Academic Jobs Online listing.",
       "region": "United States",
       "duration": "3 years",
       "description": "Highly selective postdoctoral positions at KITP, with 4-5 scholars selected annually across all areas of theoretical physics, offering a flexible research environment alongside KITP programs."
@@ -3114,7 +3123,7 @@
         "postdocs"
       ],
       "deadlines": [],
-      "deadlineNote": "The 6 November 2026 deadline has passed.",
+      "deadlineNote": "The 2026 call (posted 8 September 2026 on Academic Jobs Online) closed on 6 November 2026. Perimeter recruits every year, so the next call is expected around September 2027.",
       "region": "Canada",
       "duration": "3 years (with 4- and 5-year named fellowships available)",
       "description": "Postdoctoral positions in fundamental theoretical physics with generous research and travel support, mentoring, and flexibility to host visitors at Perimeter Institute in Waterloo."
@@ -3127,10 +3136,8 @@
       "audience": [
         "postdocs"
       ],
-      "deadlines": [
-        "2026-11-15"
-      ],
-      "deadlineNote": "Applicants are encouraged to submit materials by 15 November 2026 (JST). Appointments are for three years.",
+      "deadlines": [],
+      "deadlineNote": "The PD2026 call (start 1 April 2027) asked for applications and letters by 15 November 2026 (JST) for full consideration; the search stays open until filled. Appointments are for three years.",
       "region": "Japan",
       "duration": "3 years",
       "description": "Postdoctoral positions spanning astrophysics, cosmology, particle physics, mathematics and statistics at Kavli IPMU in Kashiwa, Japan, with research allowance and ability to work abroad up to three months per year."
@@ -3158,7 +3165,7 @@
         "postdocs"
       ],
       "deadlines": [],
-      "deadlineNote": "The 28 October 2026 deadline has passed.",
+      "deadlineNote": "Applications for the 2027 programme closed on 28 October 2026 (letters were due 4 November). Dates for the next cycle are not yet posted.",
       "region": "United States",
       "duration": "Up to 3 years",
       "description": "Prestigious umbrella postdoctoral fellowship covering NASA astrophysics: Hubble (cosmic origins), Einstein (physics of the cosmos), and Sagan (exoplanets). Salary plus benefits, travel, and research allowance at chosen US host institutions."
@@ -3172,7 +3179,7 @@
         "postdocs"
       ],
       "deadlines": [],
-      "deadlineNote": "The 2026 call closed 5 July 2026. Check the funder's site for the next call.",
+      "deadlineNote": "The main 2026 call closed on 5 July 2026. Later project postdoctoral calls (AstroSat Science Support Cell and NINJA simulations) closed on 9 October and 30 October 2026. Check the funder's site for the next call.",
       "region": "India",
       "amount": "Stipend Rs 67,000-95,000/month + contingency grant",
       "duration": "2-3 years (Regular); 5 years (Vaidya-Raychaudhury)",
@@ -3204,9 +3211,9 @@
         "students"
       ],
       "deadlines": [
-        "2026-11-01"
+        "2027-05-01"
       ],
-      "deadlineNote": "Two cycles per year: May 1 and November 1. Open to PhD students enrolled at a university worldwide who wish to do part or all of their thesis research under SAO scientists.",
+      "deadlineNote": "Two cycles per year: 1 May and 1 November. The 1 November 2026 cycle has passed; the next deadline is 1 May 2027. Submit at least three months before the intended start date.",
       "region": "United States",
       "duration": "Typically 1-2 years (thesis research period)",
       "description": "Predoctoral fellowship for PhD students to carry out thesis research at the Smithsonian Astrophysical Observatory in Cambridge, MA, under the supervision of a CfA scientist."
@@ -3220,7 +3227,7 @@
         "postdocs"
       ],
       "deadlines": [],
-      "deadlineNote": "Calls are advertised periodically; the last RA/PDF call closed 15 June 2026. Check the funder's site for the next call.",
+      "deadlineNote": "Calls are advertised periodically; the 2026 RA/PDF calls, including Aditya-L1 Support Cell positions, closed by mid-June 2026. Check the funder's site for the next call.",
       "region": "India",
       "amount": "Rs 58,000-75,000/month depending on level",
       "duration": "1 year (renewable up to 3 years)",
@@ -3331,7 +3338,7 @@
         "postdocs"
       ],
       "deadlines": [],
-      "deadlineNote": "The 2026 rounds have closed. Check the funder's site for 2027 round dates. One grant per applicant every three years.",
+      "deadlineNote": "2026 Round 4 opened 14 September 2026 for activities on or after 1 January 2027; its closing date could not be confirmed (the RSC page blocks automated access). One grant per applicant every three years.",
       "region": "International (RSC members)",
       "amount": "Up to £500",
       "duration": "Single activity",
@@ -3362,7 +3369,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Research directors are selected through JST's call for nominations. Check the funder's site for the current nomination period.",
+      "deadlineNote": "Nominations received by 30 September 2026 (JST) were considered for the FY2027 selection. JST accepts e-mail nominations throughout the year; the next cut-off is not yet posted.",
       "region": "Japan (Research Director must be affiliated with a domestic Japanese institution; nationality not a barrier)",
       "amount": "Up to JPY 1.2 billion per project",
       "duration": "~5 years",
@@ -3377,7 +3384,7 @@
         "students"
       ],
       "deadlines": [],
-      "deadlineNote": "Annual call with a late-September deadline; the most recent round has closed. Check the funder's site for the next call.",
+      "deadlineNote": "Annual call with a late-September deadline (25 September in the most recent posted round); that round has closed. Check the funder's site for the next call.",
       "region": "United States (US-enrolled PhD)",
       "amount": "Up to $75,000/year for two academic years (paid to university) + $10,000 one-time to the recipient",
       "duration": "2 years",
@@ -3406,10 +3413,8 @@
       "audience": [
         "students"
       ],
-      "deadlines": [
-        "2026-10-30"
-      ],
-      "deadlineNote": "The 2027 application opened 31 August 2026 and closes 30 October 2026; reference letters are due in November 2026.",
+      "deadlines": [],
+      "deadlineNote": "The 2027 application closed on 30 October 2026. The next application is expected to open around late August 2027.",
       "region": "United States (US citizens / permanent residents)",
       "amount": "Up to $250,000 over five years (stipend plus tuition equivalent)",
       "duration": "Up to 5 years",
@@ -3423,10 +3428,8 @@
       "audience": [
         "students"
       ],
-      "deadlines": [
-        "2026-10-30"
-      ],
-      "deadlineNote": "The FY2027 application is open from 3 August to 30 October 2026, closing at 5 PM Eastern.",
+      "deadlines": [],
+      "deadlineNote": "The FY2027 application window (3 August to 30 October 2026) has closed. The next window is expected to open around August 2027.",
       "region": "United States (US citizens / nationals)",
       "amount": "Three years of full tuition + ~$45,500 annual stipend + health insurance allowance",
       "duration": "3 years",
@@ -3466,16 +3469,18 @@
       "id": "cooperative-ai-phd-fellowship",
       "name": "Cooperative AI PhD Fellowship",
       "funder": "Cooperative AI Foundation",
-      "url": "https://www.cooperativeai.com/phd-fellowship/2026",
+      "url": "https://www.cooperativeai.com/phd-fellowship/2027",
       "audience": [
         "students"
       ],
-      "deadlines": [],
-      "deadlineNote": "The 2026 round closed 16 November 2025. No 2027 call is posted. Check the funder's site for the next call.",
+      "deadlines": [
+        "2026-12-20"
+      ],
+      "deadlineNote": "The 2027 call is open; applications close 20 December 2026, 23:59 AoE. Applicants apply directly (no nomination).",
       "region": "Global",
-      "amount": "Up to $40,000/year living stipend plus conference budget and compute support",
-      "duration": "Up to 3 years",
-      "description": "Supports PhD students whose research advances cooperative AI: multi-agent cooperation, AI in social contexts, mechanism design, and the foundations of agentic systems that interact safely with humans and other agents."
+      "amount": "Yearly conference and compute budget of USD 7,000 plus a USD 600 wellbeing and productivity budget; no tuition or living stipend in this round",
+      "duration": "One year, renewable on application",
+      "description": "Supports current and incoming PhD students at any accredited university whose research focuses on cooperative AI, such as multi-agent cooperation, AI in social contexts and mechanism design. Fellows get research budgets and access to the CAIF research community."
     },
     {
       "id": "paul-daisy-soros-fellowship",
@@ -3485,10 +3490,8 @@
       "audience": [
         "students"
       ],
-      "deadlines": [
-        "2026-10-29"
-      ],
-      "deadlineNote": "Applicants must be immigrants, the children of immigrants, or DACA recipients, and 30 or younger as of the deadline. Supports any full-time US graduate program including STEM/CS PhDs.",
+      "deadlines": [],
+      "deadlineNote": "The 2027 application closed on 29 October 2026. The 2028 application opens in spring 2027. Applicants must be immigrants, the children of immigrants, or DACA recipients, and 30 or younger as of the deadline.",
       "region": "United States (graduate study in the US)",
       "amount": "Up to $90,000 over two years (stipend + tuition support)",
       "duration": "Up to 2 years",
@@ -3529,12 +3532,12 @@
       "id": "usistef-critical-minerals-quantum-2026",
       "name": "USISTEF - U.S.-India Partnerships in Critical Minerals and Quantum Technology",
       "funder": "United States-India Science and Technology Endowment Fund (USISTEF)",
-      "url": "https://endowment.iusstf.org/login",
+      "url": "https://iusstf.org/u-s-india-science-technology-endowment-fund",
       "audience": [
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "The 2026 call closed. Check the funder's site for the next call.",
+      "deadlineNote": "The 2026 call closed on 31 July 2026. Check the funder's site for the next call.",
       "region": "India / USA",
       "description": "Bilateral partnerships to develop and commercialise technologies in critical minerals and supply chain resilience, and in quantum technologies. Teams may combine incorporated companies (including start-ups), non-incorporated entities, and academic/government/non-government research institutions."
     },
@@ -3542,12 +3545,12 @@
       "id": "dst-jsps-ijcsp-2026",
       "name": "DST-JSPS Indo-Japan Cooperative Science Programme (IJCSP) 2026",
       "funder": "Department of Science and Technology (DST), India and Japan Society for the Promotion of Science (JSPS)",
-      "url": "https://onlinedst.gov.in",
+      "url": "https://dst.gov.in/callforproposals/dst-jsps-call-proposal-2026-under-indo-japan-cooperative-science-programme-ijcsp",
       "audience": [
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "The 2026 call closed 3 September 2026. Indian and Japanese PIs submit the same proposal to DST and JSPS respectively; check the funder's site for the next call.",
+      "deadlineNote": "The 2026 call (for projects starting from June 2027) ran 15 June to 3 September 2026; results are expected around April-May 2027. Indian and Japanese PIs submit the same proposal to DST and JSPS respectively. The next call is expected around June 2027.",
       "region": "India / Japan",
       "description": "Bilateral scientific collaboration across physical sciences, chemical sciences, life sciences and agriculture, mathematics and computational science, astronomy and earth science, and materials and engineering. Indian PI must be in a regular faculty/scientist position at universities, deemed universities, academic institutes, national R&D laboratories, or private non-profit R&D institutions."
     },
@@ -3667,7 +3670,7 @@
         "postdocs"
       ],
       "deadlines": [],
-      "deadlineNote": "The 3 November 2026 deadline has passed; the next call is not yet announced.",
+      "deadlineNote": "The 3 November 2026 call was the final Ambizione call; the scheme is being discontinued. SNSF plans a new postdoctoral scheme for 2028.",
       "region": "Switzerland",
       "duration": "Up to 4 years",
       "description": "Supports early-career researchers who wish to conduct, manage, and lead an independent project at a Swiss higher education institution. Covers the grantee's salary and project funds, or project funds alone if the grantee already holds a salary-bearing position. Swiss nationality, a Swiss degree, or 12+ months of research at a Swiss institution required."
@@ -3745,7 +3748,7 @@
         "postdocs"
       ],
       "deadlines": [],
-      "deadlineNote": "The 1 November 2026 deadline has passed.",
+      "deadlineNote": "NASA is not accepting NPP applications at this time; the site says the next application cycle will be announced soon.",
       "region": "United States (host NASA centres); applicants US and international",
       "amount": "USD 82,500+ stipend (varies by centre) + relocation and health allowances",
       "duration": "1-3 years",
@@ -3822,8 +3825,10 @@
         "students",
         "postdocs"
       ],
-      "deadlines": [],
-      "deadlineNote": "For applicants based in Europe; supports visits to other European neuroscience labs. The 15 October 2026 round is closed and no later deadline is posted.",
+      "deadlines": [
+        "2027-04-15"
+      ],
+      "deadlineNote": "For applicants based in Europe. The next round opens 1 December 2026 and closes 15 April 2027.",
       "region": "Europe",
       "description": "Exchange fellowship supporting PhD students and early-career postdoctoral researchers in neuroscience to visit host laboratories elsewhere in Europe for training and collaboration. Companion to the global IBRO Exchange Fellowships."
     },
@@ -4051,8 +4056,10 @@
         "students",
         "postdocs"
       ],
-      "deadlines": [],
-      "deadlineNote": "Rolling deadline; the application takes under 10 minutes and decisions come within two weeks.",
+      "deadlines": [
+        "2026-11-25"
+      ],
+      "deadlineNote": "The current round closes 25 November (the site gives 11/25 with no year; read as 2026). The application takes about 10 minutes and decisions come within two weeks.",
       "region": "Global",
       "amount": "USD 100,000 (uncapped)",
       "description": "Grant for young people (high school through PhD, including dropouts) building projects that push humanity forward. Past recipients have worked on human brain organoids for Alzheimer's research, extreme-heat resilience, and stable antibody design."
@@ -4127,7 +4134,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Rolling. Grants provide API access to Cohere models rather than cash.",
+      "deadlineNote": "Currently closed. The funder's page shows status Closed and invites sign-ups for notification when the programme reopens. Grants provide API access to Cohere models rather than cash.",
       "region": "Global",
       "amount": "API credits to Cohere models",
       "description": "API-access grants for academic partners, civic organisations, and public-impact groups. Focus areas: language model safety, prosocial LM applications (education, climate science, content moderation, healthcare, law, history, social science), and language model capabilities."
@@ -4360,7 +4367,7 @@
         "students"
       ],
       "deadlines": [],
-      "deadlineNote": "Annual cycle; the GYTI-2025 call closed in January 2026. Check the funder's site for the next call.",
+      "deadlineNote": "Annual cycle; the GYTI-2025 call closed in January 2026 and no GYTI-2026 call is posted yet. Check the funder's site for the next call.",
       "region": "India",
       "amount": "Up to INR 15 lakh per project (15 projects funded per cycle)",
       "description": "Student Innovations for Translation & Advancement of Research Explorations (SITARE) award for Indian PhD/Masters students working on translational innovations across healthcare, life sciences, diagnostics, medical devices, drugs, vaccines, industrial biotech, bioinformatics, agriculture, waste management, sanitation, clean energy, and AI/IoT applications in these areas."
@@ -4464,7 +4471,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Calls are announced on the ANRF portal. The hub submits on behalf of a network of 3 to 7 spokes. Check the funder's site for the next call.",
+      "deadlineNote": "The last call ran 14 November 2024 to 10 February 2025. The hub submits on behalf of a network of 3 to 7 spokes. No new call has been announced.",
       "region": "India",
       "amount": "Up to INR 100 crore over five years per hub-and-spoke network",
       "description": "Mentorship-driven hub-and-spoke programme to grow research capacity across Indian universities. Hub: top-25 NIRF overall or top 26-50 INIs. Spokes: central/state public universities (top 200 NIRF), NITs/IIITs, or other central/state public universities. At least two state public universities per network mandatory; at least one spoke outside the hub's state."
@@ -4478,7 +4485,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "The 2026 call ran from 1 October to 3 November 2026 and has closed; the next call has not been announced.",
+      "deadlineNote": "The 2026 call ran from 1 October to 3 November 2026 and has closed. The next call is expected around autumn 2027.",
       "region": "India",
       "amount": "Up to INR 60 lakh excluding institutional overheads",
       "duration": "Up to 3 years",
@@ -4616,7 +4623,7 @@
         "postdocs"
       ],
       "deadlines": [],
-      "deadlineNote": "WCS states the programme is not currently accepting applications. Check the funder's site for the next call.",
+      "deadlineNote": "The general WCS Research Fellowship Program is not currently accepting applications. A separate John Thorbjarnarson Fellowship for Reptile Research is open under the same eligibility rules; no deadline is listed.",
       "region": "Global South (with Native American / First Nations exception)",
       "amount": "Up to USD 15,000",
       "description": "Small grants for individual field research projects with clear application to conservation of threatened wildlife and wild places. Priority themes include business and conservation, climate change, ecosystem services, human wellbeing, and wildlife health."
@@ -4852,7 +4859,7 @@
       "id": "ncbs-past-cohort-2",
       "name": "Program for the Archiving of Science and Technology (PAST) - Cohort 2",
       "funder": "Archives at NCBS, National Centre for Biological Sciences",
-      "url": "https://archives.ncbs.res.in/past27",
+      "url": "https://archives.ncbs.res.in/past",
       "audience": [
         "faculty"
       ],
@@ -5145,9 +5152,9 @@
         "postdocs"
       ],
       "deadlines": [
-        "2026-11-15"
+        "2026-11-29"
       ],
-      "deadlineNote": "Annual 15 November deadline for the following academic year.",
+      "deadlineNote": "Applications close 29 November 2026. Pre-application visits must be completed by 15 January 2027; admission decisions by mid-February 2027.",
       "region": "Global (India eligible; hosted in Israel)",
       "amount": "Tax-free Excellence Fellowship of USD 55,000 per year for three years (paid in NIS)",
       "duration": "Up to 3 years",
@@ -5274,7 +5281,7 @@
       "id": "drdo-dia-coe-2026",
       "name": "DRDO DIA-CoE Research Problems September 2026",
       "funder": "Directorate of Futuristic Technology Management (DFTM), DRDO, Government of India",
-      "url": "https://drdo.gov.in/drdo/dia-coe",
+      "url": "https://iitk.ac.in/dord/diacoe/data/Research-Problems-for-DIA-CoEs-Sep-2026.pdf",
       "audience": [
         "faculty"
       ],
@@ -5377,10 +5384,8 @@
       "audience": [
         "faculty"
       ],
-      "deadlines": [
-        "2026-11-13"
-      ],
-      "deadlineNote": "Letter of intent call open 5 October to 13 November 2026, 5pm UK time. Outcomes in February 2027; final decisions end of September 2027. Open to researchers anywhere in the world.",
+      "deadlines": [],
+      "deadlineNote": "The letter of intent call ran 5 October to 13 November 2026 (5pm UK time) and is now closed. LOI outcomes in February 2027; final decisions end of September 2027. Open to researchers anywhere in the world.",
       "region": "Global",
       "amount": "Investigator-initiated grants up to GBP 500,000; pilot and feasibility grants up to GBP 60,000",
       "duration": "Up to 4 years (investigator-initiated); up to 2 years (pilot/feasibility)",
@@ -5440,7 +5445,7 @@
       "id": "fcdo-srhr-research-centre-2026",
       "name": "FCDO SRHR Applied Research Centre",
       "funder": "UK Foreign, Commonwealth & Development Office (FCDO)",
-      "url": "https://www.grtd.fcdo.gov.uk/funding/",
+      "url": "https://www.grtd.fcdo.gov.uk/funding-opportunitie/prior-information-notice-sexual-and-reproductive-health-and-rights-applied-research-centre/",
       "audience": [
         "faculty"
       ],
@@ -5461,10 +5466,8 @@
       "audience": [
         "faculty"
       ],
-      "deadlines": [
-        "2026-11-15"
-      ],
-      "deadlineNote": "The current EFB open call on DBT eProMIS runs from 6 October to 15 November 2026.",
+      "deadlines": [],
+      "deadlineNote": "The 6 October to 15 November 2026 window on DBT eProMIS has closed. EFB has run two windows a year; check DBT's call-for-proposals page for the next one.",
       "region": "India",
       "amount": "Up to INR 100 lakh per project",
       "duration": "See call details",
@@ -5594,7 +5597,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Proposals can be submitted at any time through mySNF, at least four months before the event or visit. Each applicant may apply once per calendar year.",
+      "deadlineNote": "Proposals can be submitted at any time through mySNF, at least four months before the event or visit. Each applicant may apply once per calendar year. Revised regulations take effect on 1 January 2027.",
       "region": "India-Switzerland (co-PI route)",
       "amount": "Travel, accommodation and meals for visitors; research visits of 1 to 6 months, at CHF 3,500/month for visitors from DAC-list countries",
       "duration": "Up to 6 months for a research visit, up to 5 days for an event",
@@ -5641,10 +5644,8 @@
       "audience": [
         "faculty"
       ],
-      "deadlines": [
-        "2026-11-16"
-      ],
-      "deadlineNote": "Applications close 16 November 2026. Projects must qualify as ecosystem-based adaptation, build on existing work, partner with local institutions, and target global, thematic, or ODA-eligible contexts. Government entities may collaborate but cannot receive grant funds.",
+      "deadlines": [],
+      "deadlineNote": "The call ran 12 October to 16 November 2026 (11:59 pm PST) and is now closed. Check the funder's site for the next call. Projects must qualify as ecosystem-based adaptation, build on existing work, partner with local institutions, and target global, thematic, or ODA-eligible contexts. Government entities may collaborate but cannot receive grant funds.",
       "region": "Global (ODA-eligible countries, India eligible)",
       "amount": "Up to USD 500,000 per grant",
       "duration": "Up to 24 months",
@@ -5661,9 +5662,9 @@
         "faculty"
       ],
       "deadlines": [
-        "2026-11-15"
+        "2026-11-20"
       ],
-      "deadlineNote": "Applications close 15 November 2026. Awards editorial assistance (not cash). Open worldwide without institutional, departmental, or national restrictions.",
+      "deadlineNote": "Winter 2026 deadline extended to 20 November 2026; results due 4 December 2026. Awards editorial assistance (not cash). Open worldwide without institutional, departmental, or national restrictions.",
       "region": "Global",
       "amount": "Editorial assistance valued at USD 750 (master's), USD 2,500 (doctoral), USD 500 (junior academics), or USD 5,000 toward open-access charges for eligible book authors and editors",
       "duration": "See call details",
@@ -5778,10 +5779,8 @@
       "audience": [
         "students"
       ],
-      "deadlines": [
-        "2026-10-30"
-      ],
-      "deadlineNote": "Applications close 30 October 2026. Listed on the Manthan-Utthan platform (sign-in required to view).",
+      "deadlines": [],
+      "deadlineNote": "Applications closed on 30 October 2026. Listed on the Manthan-Utthan platform (sign-in required to view).",
       "region": "India",
       "amount": "See call details",
       "duration": "See call details",
@@ -5833,10 +5832,8 @@
       "audience": [
         "faculty"
       ],
-      "deadlines": [
-        "2026-11-06"
-      ],
-      "deadlineNote": "Applications close 6 November 2026. Listed on the Manthan-Utthan platform (sign-in required to view).",
+      "deadlines": [],
+      "deadlineNote": "Applications closed on 6 November 2026. Listed on the Manthan-Utthan platform (sign-in required to view).",
       "region": "India",
       "amount": "See call details",
       "duration": "See call details",
@@ -5954,7 +5951,7 @@
         "postdocs"
       ],
       "deadlines": [],
-      "deadlineNote": "Rolling; applications accepted all year and committees meet two or three times a year.",
+      "deadlineNote": "The latest Mathematics round closed on 15 November 2026. IMSc otherwise accepts postdoctoral applications year-round, with selection committees meeting two or three times a year.",
       "region": "India (Chennai)",
       "amount": "INR 58,000 to 67,000 per month, plus INR 60,000 per year contingency, medical cover and housing or 30% HRA",
       "duration": "One year, extendable by one more year",
@@ -5984,7 +5981,7 @@
         "students"
       ],
       "deadlines": [],
-      "deadlineNote": "2027 application dates not yet announced; the written test is tentatively scheduled for 30 January 2027. The 2026 portal closed on 25 December 2025.",
+      "deadlineNote": "2027 application dates not yet announced; the written test is tentatively scheduled for 30 January 2027. In the 2026 cycle the portal opened on 3 December 2025 and closed on 25 December 2025, so a December 2026 window is likely.",
       "region": "India",
       "amount": "Doctoral stipend INR 37,000 per month for the first two years (2026 rates), rising thereafter",
       "duration": "Duration of the PhD or master's programme",
@@ -5999,7 +5996,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Annual call; the page states no current dates. Past calls opened in March and closed at the end of May.",
+      "deadlineNote": "The call for the 2026-2029 associateships closed on 1 May 2026. The call is annual; the next one is expected around March to May 2027.",
       "region": "India",
       "amount": "Travel and local living expenses for visits to IUCAA",
       "duration": "Three years",
@@ -6110,10 +6107,12 @@
       "audience": [
         "students"
       ],
-      "deadlines": [],
-      "deadlineNote": "2027-28 call to be announced.",
+      "deadlines": [
+        "2027-02-28"
+      ],
+      "deadlineNote": "Applications for the 2027-28 programme (starting 1 September 2027) close 28 February 2027.",
       "region": "Italy (Trieste)",
-      "amount": "Tuition-free; about 10 scholarships a year for students from developing countries cover travel and living costs",
+      "amount": "Tuition-free; about 10 scholarships per field for students from developing countries cover travel and living costs",
       "duration": "One year (1 September to 31 August)",
       "description": "A one-year pre-PhD programme in condensed matter physics, high energy physics, mathematics, earth system physics or quantitative life sciences. Applicants should generally be under 28 with an MSc-equivalent degree and come from a UN, UNESCO or IAEA member country, which includes India."
     },
@@ -6208,7 +6207,7 @@
         "students"
       ],
       "deadlines": [],
-      "deadlineNote": "2026 cycle closed; 2027 dates not yet announced (past cycles closed in spring).",
+      "deadlineNote": "Applications for 2026 have closed. The 2027 call is not yet posted; the 2026 call ran from mid-February to 31 March 2026.",
       "region": "Top universities in the US, UK and Europe (for Indian residents)",
       "amount": "Up to USD 120,000 covering tuition, living costs, travel, visa and health",
       "duration": "Nine months to four years",
@@ -6272,7 +6271,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Annual call; the 2026/2027 deadline was 30 January 2026. The next call is not yet announced.",
+      "deadlineNote": "Annual call. The 2026/2027 call closed on 13 February 2026 (extended from 30 January 2026). No 2027/2028 call has been announced yet; the previous call was issued in December 2025.",
       "region": "Nationals and residents of LMICs in the WHO South-East Asia, Western Pacific and Eastern Mediterranean Regions (includes India)",
       "amount": "Fully funded in-person fellowship",
       "duration": "6 months",
@@ -6334,8 +6333,11 @@
       "audience": [
         "postdocs"
       ],
-      "deadlines": [],
-      "deadlineNote": "Two cycles a year (spring concept papers in March, fall in September). The 2027 spring date is not yet announced.",
+      "deadlines": [
+        "2027-03-16",
+        "2027-08-30"
+      ],
+      "deadlineNote": "Two concept-paper cycles in 2027: spring due 16 March 2027 and fall due 30 August 2027, both at noon Mountain Time.",
       "region": "Worldwide; institutions inside and outside the US",
       "amount": "Up to USD 25,000 direct costs plus 7% indirect",
       "duration": "Up to 2 years",
@@ -6360,14 +6362,14 @@
       "id": "cancer-grand-challenges",
       "name": "Cancer Grand Challenges",
       "funder": "Cancer Research UK and the National Cancer Institute (US)",
-      "url": "https://www.cancergrandchallenges.org/apply",
+      "url": "https://www.cancergrandchallenges.org/",
       "audience": [
         "faculty"
       ],
       "deadlines": [
         "2026-11-24"
       ],
-      "deadlineNote": "Applications for the current challenge close 24 November 2026.",
+      "deadlineNote": "Applications for the current gastroesophageal cancer challenge close 24 November 2026. No further round is announced.",
       "region": "International teams; no more than 70% of activity in one country",
       "amount": "Up to USD 34 million per team",
       "duration": "Multi-year (set by the call)",
@@ -6497,7 +6499,8 @@
       ],
       "deadlines": [
         "2027-02-01",
-        "2027-06-01"
+        "2027-06-01",
+        "2027-10-01"
       ],
       "deadlineNote": "Three deadlines a year: 1 February, 1 June and 1 October. The portal opens about one month before each deadline.",
       "region": "European citizens anywhere, or non-European citizens doing their PhD in Europe",
@@ -6547,7 +6550,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Forecast opportunity PAR-26-144; NIH estimates an application due date of 15 November 2026, not yet confirmed.",
+      "deadlineNote": "Forecast opportunity PAR-26-144. The estimated due date of 15 November 2026 has passed and the notice is still listed as forecast, not posted; check Grants.gov for the final dates.",
       "region": "US institutions and LMIC institutions (includes India); each application needs a US and an LMIC partner",
       "amount": "Not stated in the forecast",
       "duration": "R21 exploratory grant (typically up to 2 years)",
@@ -6580,9 +6583,11 @@
         "faculty"
       ],
       "deadlines": [
-        "2026-12-15"
+        "2026-12-01",
+        "2026-12-15",
+        "2027-01-19"
       ],
-      "deadlineNote": "Per meeting. Next listed: Vaccinology (Vancouver, May 2027) Global Health Award deadline 15 December 2026. Open to students, fellows, scientists and clinicians from and based in LMICs (India eligible).",
+      "deadlineNote": "Per meeting. Upcoming in-person Global Health Award deadlines: Plant and Microbe Engineering for Sustainability (May 2027) 1 December 2026; Vaccinology and Ending HIV (16-19 May 2027) 15 December 2026; Progress in Antibiotic Discovery and Development (June 2027) 19 January 2027. Open to students, fellows, scientists and clinicians from and based in LMICs (India eligible).",
       "region": "Scientists from and living or working in low- and middle-income countries (includes India)",
       "amount": "Travel award covers registration, lodging and airfare; virtual registration also offered",
       "duration": "One meeting",
@@ -6724,8 +6729,11 @@
         "postdocs",
         "faculty"
       ],
-      "deadlines": [],
-      "deadlineNote": "Several programmes with their own letter-of-intent dates, some restricted by region; check the programme list for current calls.",
+      "deadlines": [
+        "2026-12-01",
+        "2027-01-29"
+      ],
+      "deadlineNote": "Each programme has its own dates. Upcoming: ZENITH Fellows Award letter of intent 1 December 2026 (full application 30 March 2027); Bridge Funding letters of intent 29 January and 30 April 2027. ISTAART conference grants are reviewed on a rolling basis until 30 June 2027. Some programmes are restricted by region.",
       "region": "Most programmes open to US and international researchers",
       "amount": "Varies by programme",
       "duration": "Varies by programme",
@@ -6758,8 +6766,10 @@
         "postdocs",
         "faculty"
       ],
-      "deadlines": [],
-      "deadlineNote": "Two calls a year, with deadlines around 1 April and 1 October. 2027 dates are not yet posted.",
+      "deadlines": [
+        "2027-04-01"
+      ],
+      "deadlineNote": "The ERS fellowship page lists the next Short-Term Research Training Fellowship deadline as 1 April 2027 (call currently closed).",
       "region": "ERS members of all nationalities, based in Europe or overseas",
       "amount": "Monthly allowance for the training stay",
       "duration": "Short-term visit (set in the call guidance)",
@@ -6825,7 +6835,7 @@
       "deadlines": [
         "2026-12-01"
       ],
-      "deadlineNote": "Applications for 2027 are due 1 December 2026; recommendation letters by 7 December 2026.",
+      "deadlineNote": "Applications for 2027 are due 1 December 2026; recommendation letters by 15 December 2026.",
       "region": "International applicants accepted (valid US visa required for the fellowship)",
       "amount": "Funded summer research residency",
       "duration": "14 weeks",
@@ -6933,7 +6943,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Previous cycle opened 15 October 2025 and closed 15 December 2025; next cycle dates not yet posted.",
+      "deadlineNote": "The last cycle opened 15 October 2025 and closed 15 December 2025, with visits from March 2026 to January 2027; next cycle dates are not yet posted.",
       "region": "Global (visit to MSR Asia)",
       "amount": "Funded three-month research visit with compute, tools and data support",
       "duration": "3 months",
@@ -6996,10 +7006,8 @@
         "students",
         "postdocs"
       ],
-      "deadlines": [
-        "2026-11-15"
-      ],
-      "deadlineNote": "Deadline for the spring 2028 programme on subelliptic and magnetic operators.",
+      "deadlines": [],
+      "deadlineNote": "The call for the spring 2028 programme on subelliptic and magnetic operators closed on 15 November 2026. No other junior fellowship call is open; calls are posted per semester programme.",
       "region": "Sweden",
       "amount": "Monthly grant, free accommodation and one return trip",
       "duration": "About 3.5 months (9 February to 19 May 2028)",
@@ -7026,7 +7034,7 @@
       "id": "gemini-academic-program",
       "name": "Gemini Academic Program",
       "funder": "Google",
-      "url": "https://ai.google.dev/gemini-api/docs/gemini-for-research",
+      "url": "https://aistudio.google.com/docs/gemini-for-research",
       "audience": [
         "students",
         "postdocs",
@@ -7060,7 +7068,7 @@
       "id": "lambda-research-grant",
       "name": "Lambda Research Grant",
       "funder": "Lambda",
-      "url": "https://lambda.ai/research",
+      "url": "https://lambda.com/research",
       "audience": [
         "students",
         "postdocs",
@@ -7186,7 +7194,7 @@
         "postdocs"
       ],
       "deadlines": [],
-      "deadlineNote": "The listed deadline of 1 November 2026 has passed; next cohort not yet announced.",
+      "deadlineNote": "Applications for the 18 January to 30 April 2027 cohort in London have closed; the next round is not yet announced.",
       "region": "Global (in person in London)",
       "amount": "GBP 15,000 (GBP 18,000 senior) plus GBP 1,800 per month housing and travel",
       "duration": "15 weeks",
@@ -7250,8 +7258,10 @@
         "postdocs",
         "faculty"
       ],
-      "deadlines": [],
-      "deadlineNote": "Committee meets twice a year (summer and fall); the fall 2026 deadline was 16 October 2026 and the next date is not yet posted.",
+      "deadlines": [
+        "2027-06-04"
+      ],
+      "deadlineNote": "The selection committee meets twice a year (summer and fall). The next application deadline is 4 June 2027; both recommendation letters must be uploaded by then.",
       "region": "Germany",
       "amount": "Funded visits and postdoc positions (terms not stated on the page)",
       "duration": "Weeks to several months (guests); up to 2 years (postdocs)",
@@ -7497,7 +7507,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "ESO now issues one call per year; the next call date is not yet announced (the Period 117 call closed 23 September 2025).",
+      "deadlineNote": "ESO issues one call per year. The Period 118 call is closed; ESO says the next call will be released in July 2027.",
       "region": "Global (telescope time in Chile)",
       "amount": "Telescope time on VLT, VLTI, APEX and other ESO facilities",
       "duration": "One yearly observing cycle",
@@ -7507,14 +7517,16 @@
       "id": "gmrt-observing-proposals",
       "name": "GMRT Call for Observing Proposals",
       "funder": "National Centre for Radio Astrophysics (NCRA-TIFR)",
-      "url": "https://www.ncra.tifr.res.in/gmrt/gtac",
+      "url": "https://www.gmrt.ncra.tifr.res.in/gmrt_users/gtac/gtac.html",
       "audience": [
         "students",
         "postdocs",
         "faculty"
       ],
-      "deadlines": [],
-      "deadlineNote": "Standing tentative schedule: announcement 15 December and proposals 15 January for the April-September period; announcement 15 June and proposals 15 July for October-March. Cycle 52 not yet announced.",
+      "deadlines": [
+        "2027-01-15"
+      ],
+      "deadlineNote": "Cycle 51 proposals closed on 15 July 2026. The standing tentative schedule puts the Cycle 52 announcement around 15 December 2026 and the proposal deadline around 15 January 2027 (for April to September 2027); the October to March cycle has proposals due around 15 July.",
       "region": "India (open to international users)",
       "amount": "Telescope time on the upgraded Giant Metrewave Radio Telescope",
       "duration": "One observing cycle (about six months)",
@@ -7696,13 +7708,15 @@
       "id": "apn-crrp-capable",
       "name": "APN Call for Proposals (CRRP and CAPaBLE)",
       "funder": "Asia-Pacific Network for Global Change Research (APN)",
-      "url": "https://www.apn-gcr.org/opportunities/calls-for-proposals/",
+      "url": "https://www.apn-gcr.org/news/2026-call-for-proposals-under-the-crrp-and-capable-programmes/",
       "audience": [
         "faculty",
         "postdocs"
       ],
-      "deadlines": [],
-      "deadlineNote": "Call usually launches in November with a Stage 1 summary proposal deadline three to four weeks later; full proposals by invitation in March-June. The 2026 call is not yet posted.",
+      "deadlines": [
+        "2026-11-30"
+      ],
+      "deadlineNote": "2026 call open: Stage 1 summary proposals due 30 November 2026, 23:59 Japan Standard Time, via APNIS. Invited full proposals due 29 March 2027.",
       "region": "Asia-Pacific (APN member countries)",
       "amount": "Project grants (amount set per call)",
       "duration": "Set per call",
@@ -7750,7 +7764,7 @@
       "deadlines": [
         "2027-04-01"
       ],
-      "deadlineNote": "Host supervisors list projects by 1 November 2026; full proposals due 1 April 2027; results August 2027.",
+      "deadlineNote": "Host supervisors submitted projects by 1 November 2026; the list of supervisors is published after 1 December 2026. Full proposals due 1 April 2027; results August 2027.",
       "region": "São Paulo State, Brazil",
       "amount": "FAPESP postdoctoral fellowship (see call document)",
       "duration": "Up to 12 months",
@@ -7765,7 +7779,7 @@
         "postdocs"
       ],
       "deadlines": [],
-      "deadlineNote": "Annual call; FY2027 call ran 2 February to 2 April 2026. FY2028 dates not yet posted.",
+      "deadlineNote": "Annual call; the FY2027 call ran 10 February to 2 April 2026 (registration), with documents due 9 April 2026. FY2028 dates are not yet posted.",
       "region": "Japan",
       "amount": "JPY 550,000 per month plus allowances; research budget JPY 1,000,000 per year",
       "duration": "Three years",
@@ -7910,9 +7924,9 @@
         "faculty"
       ],
       "deadlines": [
-        "2026-11-17"
+        "2026-12-08"
       ],
-      "deadlineNote": "Applications close 17 November 2026, 2:00 PM ET, through the Grand Challenges Canada Fluxx portal.",
+      "deadlineNote": "Deadline extended: applications close 8 December 2026, 2:00 PM ET (19:00 UTC), through the Grand Challenges Canada Fluxx portal.",
       "region": "Asia-Pacific",
       "amount": "Approximately USD 250,000–2,000,000 per innovation",
       "duration": "See call details",
@@ -8041,23 +8055,6 @@
       "description": "Recognition for up to 36 Indian scientists under 40 on 31 December 2026 (43 for women), selected for their research contributions; OCI/PIO card holders working in India for at least 5 years are also eligible. Candidates must be nominated by a head of institution or department, a vice-chancellor, registrar or dean, or an INSA Fellow."
     },
     {
-      "id": "imsc-postdoctoral-fellowships",
-      "name": "IMSc Postdoctoral Fellowships",
-      "funder": "The Institute of Mathematical Sciences (IMSc), Chennai",
-      "url": "https://www.imsc.res.in/node/12",
-      "audience": [
-        "postdocs"
-      ],
-      "deadlines": [
-        "2026-11-15"
-      ],
-      "deadlineNote": "The current Mathematics round closes on 15 November 2026; IMSc otherwise accepts postdoctoral applications year-round, with selection committees meeting two or three times a year.",
-      "region": "India",
-      "amount": "Rs 58,000 to Rs 67,000 per month depending on post-PhD experience, plus Rs 60,000 per year contingency grant",
-      "duration": "1 year, extendable by up to 1 more year",
-      "description": "Postdoctoral positions in mathematics, theoretical physics, theoretical computer science and computational biology. Fellows need not be attached to a faculty member and may work independently or collaboratively."
-    },
-    {
       "id": "iitm-institute-postdoctoral-fellowship",
       "name": "IIT Madras Institute Post-Doctoral Fellowship (IPDF)",
       "funder": "Indian Institute of Technology Madras",
@@ -8095,11 +8092,14 @@
       "audience": [
         "faculty"
       ],
-      "deadlines": [],
-      "deadlineNote": "Listed on the DST e-PMS portal under proposals invited throughout the year.",
+      "deadlines": [
+        "2027-02-01",
+        "2027-08-01"
+      ],
+      "deadlineNote": "Open throughout the year with two deadlines for joint draft proposals, 1 February and 1 August. Review of the draft takes about 6 to 8 months; if approved, a full proposal is invited and submitted to DST and DFG at the same time.",
       "region": "India and Germany",
       "amount": "Not stated on the DST portal",
-      "duration": "Not stated on the DST portal",
+      "duration": "Up to 9 years in two funding periods, with a mid-term evaluation",
       "description": "Joint DST-DFG support for Indian research groups partnering with German universities on International Research Training Groups, which run structured doctoral training across both countries. Indian partners submit through the DST e-PMS portal (International Cooperation Division)."
     },
     {
@@ -8279,10 +8279,8 @@
       "audience": [
         "students"
       ],
-      "deadlines": [
-        "2026-11-15"
-      ],
-      "deadlineNote": "Applications for the 2027 programme close on 15 November 2026.",
+      "deadlines": [],
+      "deadlineNote": "Applications for the 2027 programme (5 July to 27 August 2027) closed on 15 November 2026. The next call is expected around autumn 2027.",
       "region": "Global (held in Lausanne and Geneva, Switzerland)",
       "amount": "CHF 3,600 stipend for two months plus travel up to CHF 1,000",
       "duration": "8 weeks (5 July to 27 August 2027)",
@@ -8346,7 +8344,7 @@
         "students"
       ],
       "deadlines": [],
-      "deadlineNote": "The window for the Class of 2028-2029 runs from April to September 2027 for global applicants; exact closing date not yet posted.",
+      "deadlineNote": "For the Class of 2028-2029, the window runs April to September 2027 for U.S. and global applicants and March to May 2027 for applicants with Chinese citizenship; exact closing dates are not yet posted.",
       "region": "Global (held in Beijing, China)",
       "amount": "Fully funded",
       "duration": "1 year",
@@ -8498,7 +8496,7 @@
       ],
       "type": "hackathon",
       "deadlines": [],
-      "deadlineNote": "SIH 2026 launched in August 2026 and institute-level registration closed in September 2026. Check the funder's site for later stages and the next edition.",
+      "deadlineNote": "SIH 2026 launched in August 2026; team nomination and idea submission closed on 9 October 2026 (extended). Check the funder's site for later stages and the next edition.",
       "region": "India (nationwide)",
       "amount": "Rs 1 lakh per winning team per problem statement",
       "duration": "36 hours (grand finale)",
@@ -8528,10 +8526,8 @@
       "audience": [
         "faculty"
       ],
-      "deadlines": [
-        "2026-10-31"
-      ],
-      "deadlineNote": "Rolling review of non-confidential expressions of interest through 31 October 2026. Selected innovators enter a co-development agreement with Venus Remedies via a mutually agreed value-sharing model.",
+      "deadlines": [],
+      "deadlineNote": "The expression-of-interest window closed on 31 October 2026. Selected innovators enter a co-development agreement with Venus Remedies via a mutually agreed value-sharing model.",
       "region": "India",
       "amount": "INR 10 lakh upfront award on entering a co-development agreement, plus Venus-led development investment",
       "description": "Co-development call for promising Indian anti-infective innovations at proof-of-concept or preclinical stage: novel antibiotics, beta-lactamase inhibitors, or adjunctive/potentiator therapies. Selected teams receive end-to-end development, R&D infrastructure, manufacturing, commercialisation, IP, and publication support. Open to academic institutions, industry researchers, startups or spin-outs, and independent investigators in India."
@@ -8545,10 +8541,8 @@
         "students",
         "postdocs"
       ],
-      "deadlines": [
-        "2026-10-31"
-      ],
-      "deadlineNote": "Applications close 31 October 2026. Eligible papers must have been first published between 1 October 2025 and 30 September 2026, with the applicant as first or co-first author.",
+      "deadlines": [],
+      "deadlineNote": "The ISA 2027 call closed on 31 October 2026. The next call is expected around mid-2027.",
       "region": "India",
       "amount": "Apple laptop, medal, and citation for eight finalists; winner also receives a conference travel fellowship",
       "duration": "One-time award",
@@ -8562,10 +8556,8 @@
       "audience": [
         "faculty"
       ],
-      "deadlines": [
-        "2026-11-13"
-      ],
-      "deadlineNote": "Two special calls (Priority Medical Devices and Diagnostic Technologies; NIRMAN-AT Assistive Technology) close 13 November 2026, 17:00 IST.",
+      "deadlines": [],
+      "deadlineNote": "The two special calls (Priority Medical Devices and Diagnostic Technologies; NIRMAN-AT Assistive Technology) closed on 13 November 2026 and are no longer listed on ICMR's call page. Check that page for future CAR calls.",
       "region": "India",
       "amount": "Up to INR 15 crore per centre",
       "duration": "Up to 5 years",
@@ -8912,7 +8904,7 @@
         "faculty"
       ],
       "deadlines": [],
-      "deadlineNote": "Annual call. The 2026 cycle opened for submissions in late June 2026 and has closed; the 2027 call is expected around June 2027. India contact: gro.asia@samsung.com.",
+      "deadlineNote": "Annual call. The 2026 cycle ran 22 June to 23 August 2026 and has closed; the 2027 call is expected around June 2027. India contact: gro.asia@samsung.com.",
       "region": "Global (universities; India included)",
       "amount": "Typically up to about USD 150,000 per project per year",
       "duration": "1 year, extendable",
@@ -8944,10 +8936,8 @@
         "postdocs",
         "faculty"
       ],
-      "deadlines": [
-        "2026-11-16"
-      ],
-      "deadlineNote": "Original deadline 30 October 2026 extended to 16 November 2026. Hard copy by post plus soft copy by email.",
+      "deadlines": [],
+      "deadlineNote": "The 2026-27 round closed on 16 November 2026 (extended from 30 October 2026). The next call is expected around September to October 2027.",
       "region": "India",
       "amount": "PDF: Rs 33,880 per month plus Rs 24,200 per year contingency. SAF: Rs 48,400 per month plus Rs 48,400 per year contingency.",
       "duration": "2 years (extendable by 1 year without funds)",
@@ -8981,7 +8971,7 @@
       "deadlines": [
         "2026-11-20"
       ],
-      "deadlineNote": "Two deadlines a year. 20 November 2026 is for the April 2027 committee; the May 2027 date is to be announced. Project requests up to EUR 30,000 can be submitted any time under a simplified procedure.",
+      "deadlineNote": "Two deadlines a year. 20 November 2026 is for the April 2027 committee meeting (funding from May 2027 at the earliest); the May 2027 date will be announced after the November deadline. Since 1 July 2026 all scholarship applications go through these regular deadlines; the simplified procedure for short-term scholarships has ended.",
       "region": "International (any nationality or place of work)",
       "amount": "Scholarships EUR 2,760 per month (postdoc) or EUR 3,720 (post-habilitation), plus travel and material costs",
       "duration": "1 to 24 months",
@@ -9049,12 +9039,13 @@
         "faculty"
       ],
       "deadlines": [
-        "2027-02-26"
+        "2027-02-28"
       ],
       "region": "Indian citizens resident in India, aged 25 to 45",
       "amount": "GBP 1,900 towards UK stay costs (international travel not covered)",
       "duration": "About 3 weeks",
-      "description": "Short research visits to the UK, mainly for archival work, in history, literature, archaeology, history of art, philosophy and the performing and creative arts. Doctoral candidates in their final stages may apply; economics, anthropology, development studies, law and science are not covered."
+      "description": "Short research visits to the UK, mainly for archival work, in history, literature, archaeology, history of art, philosophy and the performing and creative arts. Doctoral candidates in their final stages may apply; economics, anthropology, development studies, law and science are not covered.",
+      "deadlineNote": "Applications close 28 February 2027. Final-stage Indian doctoral students at UK universities receive GBP 700."
     },
     {
       "id": "cwit-va-curatorial-fellowship-2027",
@@ -9065,10 +9056,8 @@
         "postdocs",
         "faculty"
       ],
-      "deadlines": [
-        "2026-11-16"
-      ],
-      "deadlineNote": "Email proposal (500 words) and CV by 16 November 2026. Results February 2027; fellowship starts April 2027.",
+      "deadlines": [],
+      "deadlineNote": "The call closed on 16 November 2026. Results are due February 2027 and the fellowship starts April 2027. The next call is expected around late 2027.",
       "region": "Indian citizens domiciled in India, aged 25 to 45",
       "amount": "GBP 1,600 per month stipend, GBP 800 towards airfare, visa costs covered",
       "duration": "3 to 6 months",
@@ -9087,7 +9076,7 @@
       "deadlineNote": "No general deadline; each UK host (CRASSH Cambridge, Durham IAS, Edinburgh IASH, King's India Institute, Leeds, Queen's Belfast, UEA, Kent, Stirling, V&A) advertises its own call through the year. Check the CWIT page for current links.",
       "region": "Indian citizens resident in India, aged 25 to 45 (no upper limit for translators)",
       "amount": "Varies by host; typically a monthly stipend plus a travel contribution",
-      "duration": "About 3 months",
+      "duration": "About 2 to 3 months",
       "description": "Around a dozen hosted fellowships at UK universities for Indian historians, social scientists, writers and translators. Applicants need a postgraduate degree or five years of professional or academic experience and no CWIT grant in the previous five years."
     },
     {
@@ -9102,7 +9091,7 @@
       "deadlines": [
         "2026-12-01"
       ],
-      "deadlineNote": "Online portal only; closes 1 December 2026, 23:59 CET. Fellowship starts between April and June 2027.",
+      "deadlineNote": "Online portal only; closes 1 December 2026, 23:59 CET, with selection by the end of 2026. Fellowship starts between April and June 2027. Applicants should hold a doctorate.",
       "region": "Young researchers from India, Nepal, Pakistan, Sri Lanka or Bangladesh",
       "amount": "EUR 1,200 per month, rent paid, up to EUR 1,500 for travel",
       "duration": "Up to 3 months in Heidelberg",
@@ -9217,11 +9206,10 @@
         "postdocs"
       ],
       "deadlines": [
-        "2026-11-17",
         "2027-01-19",
         "2027-02-23"
       ],
-      "deadlineNote": "Each meeting has its own scholarship deadline, listed on the meeting page. Examples: Transposable Elements (17 Nov 2026), Vaccinology (19 Jan 2027), Host-Pathogen Interactions (23 Feb 2027).",
+      "deadlineNote": "Each meeting has its own scholarship deadline, listed on the meeting page. Examples: Vaccinology (19 Jan 2027), Host-Pathogen Interactions (23 Feb 2027).",
       "region": "Global",
       "amount": "Up to USD 1,500 (reimbursement of airfare, ground transport, lodging and part of registration)",
       "description": "Travel support for graduate students and postdocs (within 8 years of PhD/MD/DVM) to attend a Keystone Symposia conference in person and present a poster. No nationality restriction is stated; a mentor letter and abstract are required."
@@ -9498,6 +9486,306 @@
       "amount": "USD 25,000, 50,000 or 100,000",
       "duration": "12 months",
       "description": "Fast, high-risk seed funding at the intersection of AI and health, including models of biomedical data, datasets, AI tools or agents, and pilot experiments. Open to academic researchers worldwide at any career stage; non-US institutions must qualify as the equivalent of a US public charity or receive funds through a US 501(c)(3) intermediary, and undergraduates are limited to the USD 25,000 tier."
+    },
+    {
+      "id": "anrf-atri",
+      "name": "ANRF Translational Research and Innovation (ATRI) Centres",
+      "funder": "Anusandhan National Research Foundation",
+      "url": "https://anrfonline.in/ANRF/atri_anrf",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-11-23"
+      ],
+      "deadlineNote": "Pre-proposal call extended to 23 November 2026, 5 pm IST, per the ANRF Online news ticker. Shortlisted teams are invited to submit full proposals.",
+      "region": "India",
+      "amount": "Mode I(a): projects of INR 50-200+ crore with ANRF paying up to 50% or INR 100 crore; Mode I(b): INR 10-50 crore with ANRF paying up to 70% or INR 25 crore",
+      "description": "Co-funded centres that take a technology from TRL 4 to TRL 7 with at least one committed industry partner. The lead PI must hold a regular position at a recognised academic institution or national laboratory, and the balance of the cost comes from industry or other non-ANRF sources."
+    },
+    {
+      "id": "anrf-seminar-symposia",
+      "name": "ANRF Financial Assistance for Seminars, Symposia and Workshops (SSY)",
+      "funder": "Anusandhan National Research Foundation",
+      "url": "https://anrfonline.in/ANRF/seminar_symposia",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Open all year. Apply online between 150 and 30 days before the event's start date.",
+      "region": "India",
+      "amount": "INR 1-2 lakh (small meetings), INR 2-5 lakh (standard meetings), INR 5-10 lakh (major meetings, up to INR 20 lakh for flagship workshops and top international conferences in India)",
+      "description": "Partial support for scientific conferences, schools, workshops and focused meetings held in India. Applicants must be Indian citizens with a regular position at a recognised academic institution or R&D organisation; at most two events per person per year."
+    },
+    {
+      "id": "ichr-seminar-grant",
+      "name": "ICHR Grants for Seminars, Workshops and Conferences",
+      "funder": "Indian Council of Historical Research (ICHR)",
+      "url": "https://ichr.ac.in/seminarworkshopconference-grant.php",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "No fixed deadline; applications in the prescribed form are placed before ICHR's Research Projects Committee as they arrive.",
+      "region": "India",
+      "amount": "Up to INR 3.5 lakh per event for individual coordinators (up to INR 5 lakh for registered associations of historians)",
+      "description": "Support for seminars, workshops and academic conferences on themes in history, paid through the coordinator's host institution. One grant per department or individual per financial year, with preference for history departments."
+    },
+    {
+      "id": "ichr-research-project-grant",
+      "name": "ICHR Research Project Grant",
+      "funder": "Indian Council of Historical Research (ICHR)",
+      "url": "https://ichr.ac.in/research-project-grant.php",
+      "audience": [
+        "faculty",
+        "postdocs"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Applications accepted on a rolling basis; presentation-cum-interviews are held twice a year, in June and December.",
+      "region": "India",
+      "amount": "Up to INR 5 lakh",
+      "duration": "2 years",
+      "description": "Two-year project grants for research in history undertaken in India, awarded to a PhD-holding project director (individual category) or to institutions with a record of historical research (institutional category)."
+    },
+    {
+      "id": "hscsit-pose-scholarship-2026",
+      "name": "Promotion of Science Education (POSE) Scholarship 2026-27",
+      "funder": "Haryana State Council for Science, Innovation & Technology (HSCSIT)",
+      "url": "https://harchhatravratti.highereduhry.ac.in/Notices/POSEGuidelinesandAnnesures2026.pdf",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2027-01-12"
+      ],
+      "deadlineNote": "Online portal open 12 November 2026 to 12 January 2027 on the Har-Chhatravratti portal.",
+      "region": "Haryana, India",
+      "amount": "INR 4,000/month in years 1-3 and INR 6,000/month in years 4-5, plus a one-time mentorship grant of INR 12,000-22,000 (2025-26 rates)",
+      "duration": "Up to the end of the undergraduate or integrated master's programme",
+      "description": "Scholarship for first-year students in BSc, BS or integrated MSc/MS programmes in basic and natural sciences. Applicants must have passed Class X and XII from a school in Haryana (80% Haryana Board or 85% CBSE/ICSE in Class XII) or hold a Haryana Residence Certificate; 250 awards."
+    },
+    {
+      "id": "asean-india-collaborative-rd",
+      "name": "ASEAN-India Collaborative R&D Scheme",
+      "funder": "ASEAN-India Science & Technology Development Fund (DST, Ministry of External Affairs and ANRF)",
+      "url": "https://aistic.gov.in/ASEAN/aistdfCollaborative",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "The portal accepts online proposals with no deadline currently stated; an older 1 April to 30 September annual window appears only in retired page text.",
+      "region": "India + ASEAN member states",
+      "amount": "Travel (economy airfare and INR 7,000/day hospitality), up to INR 5 lakh/year for consumables and equipment add-ons, one postdoc salary, and 5% overheads to the Indian institution",
+      "duration": "Up to 2 years",
+      "description": "Joint R&D projects between an Indian PI and PIs from at least two ASEAN member states, in priority areas such as AI and HPC, marine science, materials, agriculture and food technology, and cyber-physical systems. PIs must hold a PhD and a regular post at a UGC-recognised university or publicly funded lab and be 60 or younger."
+    },
+    {
+      "id": "mospi-grant-in-aid-official-statistics",
+      "name": "MoSPI Grant-in-Aid for Research Studies and Seminars on Official Statistics",
+      "funder": "Ministry of Statistics and Programme Implementation (MoSPI)",
+      "url": "https://mospi.gov.in/sites/default/files/main_menu/Grant-in-Aid/Grant_in_Aid_Guidelines2024.pdf",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [],
+      "deadlineNote": "No fixed deadline; proposals in the prescribed formats go to MoSPI under the Capacity Development Scheme and are reviewed by a screening committee. Travel grant applications must reach MoSPI at least six months before the event.",
+      "region": "India",
+      "amount": "Research studies up to INR 50 lakh (up to INR 1 crore in exceptional cases); seminars up to INR 10 lakh (national) or INR 20 lakh (international)",
+      "description": "Funds studies and surveys that fill data gaps in official statistics, plus seminars and workshops on official statistics and travel grants to present papers abroad. Applicant institutions must have worked in official statistics for at least three years with qualified statisticians, economists or social scientists."
+    },
+    {
+      "id": "weizmann-kupcinet-getz-2027",
+      "name": "Kupcinet-Getz International Summer Science Program 2027",
+      "funder": "Weizmann Institute of Science (Feinberg Graduate School), Israel",
+      "url": "https://info.weizmann.ac.il/kupcinet-getz-international-summer-program/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2027-01-20"
+      ],
+      "deadlineNote": "Online application opens 20 December 2026 and closes 20 January 2027; results usually in March.",
+      "region": "International (Israel; open to students worldwide)",
+      "amount": "USD 1,100 stipend, flight subsidy up to USD 400, free dormitory housing, partial meals and medical insurance",
+      "duration": "8 weeks (16 June to 12 August 2027)",
+      "description": "Eight-week summer research placement in a Weizmann lab for bachelor's and master's students in the physical, chemical and life sciences, mathematics or computer science who have finished at least their first year. Requires GPA of 3.6/4.0 or equivalent; PhD students are not eligible."
+    },
+    {
+      "id": "oist-research-internship",
+      "name": "OIST Research Internship Program (Fall 2027 round)",
+      "funder": "Okinawa Institute of Science and Technology Graduate University (OIST), Japan",
+      "url": "https://www.oist.jp/admissions/research-internship/apply-research-internship",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2027-04-15"
+      ],
+      "deadlineNote": "Fall 2027 round closes 15 April 2027, 23:59 JST (internship between 1 October 2027 and 31 March 2028). The spring 2027 round closed on 15 October 2026. Schedule marked tentative.",
+      "region": "International (Japan; open to students worldwide)",
+      "amount": "Daily internship allowance and support set by OIST; 5,000 JPY application fee",
+      "duration": "4 to 6 months",
+      "description": "Research internship in an OIST research unit for students in the last two years of a bachelor's degree, master's students, and recent bachelor's or master's graduates. Current or former PhD students are not eligible, and enrolled students need approval from their home institution."
+    },
+    {
+      "id": "msca-staff-exchanges-2027",
+      "name": "MSCA Staff Exchanges 2027",
+      "funder": "European Commission (European Research Executive Agency)",
+      "url": "https://rea.ec.europa.eu/funding-and-grants/horizon-europe-marie-sklodowska-curie-actions/msca-staff-exchanges_en",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-04-13"
+      ],
+      "deadlineNote": "Call HORIZON-MSCA-2027-SE-01-01 opens 15 December 2026; proposals due 13 April 2027; results July 2027.",
+      "region": "EU and Horizon Europe associated countries; Indian institutions can join as associated partners",
+      "amount": "Unit costs per person-month of secondment (see call text)",
+      "duration": "Up to 4 years per project; secondments of 1 to 12 months",
+      "description": "Funds consortia of universities, research organisations and companies to exchange research and innovation staff across borders and sectors. Indian organisations can take part as associated partners hosting or sending staff, but India is not automatically eligible for EU funding, so the consortium must be led and funded through European beneficiaries."
+    },
+    {
+      "id": "moes-eu-antarctica-southern-ocean-2027",
+      "name": "Safe Operating Space for Antarctica and the Southern Ocean (MoES-EU Horizon Europe)",
+      "funder": "Ministry of Earth Sciences, Government of India, with the European Union (Horizon Europe)",
+      "url": "https://www.moes.gov.in/static/uploads/2026/04/f1d652381229f1518be873434fecc74f.pdf",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-09-23"
+      ],
+      "deadlineNote": "Horizon Europe topic HORIZON-CL6-2027-02-CLIMATE-04 opens 20 April 2027 and closes 23 September 2027, 17:00 CET.",
+      "region": "India (as associated partners in EU consortia)",
+      "amount": "MoES grant-in-aid up to INR 2 crore per project for the Indian side",
+      "duration": "3-4 years",
+      "description": "Second theme of the India-EU co-funding initiative on climate and polar research, covering the Antarctic cryosphere and Southern Ocean systems. Indian institutions join an EU consortium as associated partners and are funded by MoES rather than the EU; they may lead work packages but not coordinate."
+    },
+    {
+      "id": "mozilla-foundation-fellowships-2027",
+      "name": "Mozilla Foundation Fellowships 2027-2028",
+      "funder": "Mozilla Foundation",
+      "url": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/fellowship/2027-call-for-applications/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "deadlines": [
+        "2026-12-17",
+        "2027-03-12"
+      ],
+      "deadlineNote": "Letter of intent due 17 December 2026, 11:59 PM Pacific. Invited full applications due 12 March 2027.",
+      "region": "Global, subject to legal eligibility to receive Mozilla funding",
+      "amount": "Up to USD 125,000 per fellowship (about 10 awards)",
+      "duration": "12 months from 1 June 2027",
+      "description": "Fellowships for technologists, researchers and builders working toward a more trustworthy and open technology future, in an Embedded or an Independent track. Most review happens at the letter of intent stage; applications must be in English."
+    },
+    {
+      "id": "astar-arap",
+      "name": "A*STAR Research Attachment Programme (ARAP)",
+      "funder": "Agency for Science, Technology and Research (A*STAR), Singapore",
+      "url": "https://www.a-star.edu.sg/scholarships/home/international-awards/astar-research-attachment-programme-arap",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2026-12-01",
+        "2027-06-01"
+      ],
+      "deadlineNote": "Nominations close 1 June and 1 December each year; the attachment starts at least 6 months after the deadline.",
+      "region": "International (Singapore); open to overseas PhD students, including those at Indian universities (past awardees include IIT Bombay)",
+      "amount": "S$3,600 monthly stipend, S$300 housing allowance, airfare, settling-in, IT and conference allowances; tuition not covered",
+      "duration": "1 to 2 years",
+      "description": "Lets PhD students at overseas universities spend 1 to 2 years doing part of their doctoral research in an A*STAR institute, co-supervised by an A*STAR scientist. Students are jointly nominated by the home university and the A*STAR supervisor; students at non-partner universities go through the ARAP-Individual route, so the A*STAR supervisor must be found first."
+    },
+    {
+      "id": "yenching-academy-2027",
+      "name": "Yenching Academy Scholars Program (September 2027 intake)",
+      "funder": "Yenching Academy, Peking University, China",
+      "url": "https://yenchingacademy.pku.edu.cn/",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2026-11-30"
+      ],
+      "deadlineNote": "Applications for the September 2027 intake close 30 November 2026; the Peking University graduate application must also be completed.",
+      "region": "International (China; open to international candidates including Indian nationals)",
+      "amount": "Full fellowship (tuition, accommodation and stipend)",
+      "duration": "Master's programme in China Studies (about 2 years)",
+      "description": "Fully funded interdisciplinary master's programme in China Studies at Peking University for graduates from any discipline. Open to international candidates and applicants from Hong Kong, Macao and Taiwan."
+    },
+    {
+      "id": "oxford-clarendon-2027",
+      "name": "Clarendon Scholarships (University of Oxford, 2027-28 entry)",
+      "funder": "Clarendon Fund, University of Oxford",
+      "url": "https://www.spi.ox.ac.uk/node/2036",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2027-01-07"
+      ],
+      "deadlineNote": "No separate application; applicants who submit their Oxford graduate application by the course's December 2026 or January 2027 funding deadline (for many courses 12 midday UK time on 7 January 2027) are considered. Some courses have earlier December deadlines.",
+      "region": "International (UK; open to all nationalities including India)",
+      "amount": "Full course fees plus a living-costs grant",
+      "duration": "Full length of the graduate course",
+      "description": "Merit scholarships for graduate study (master's and DPhil) at Oxford in all subjects, with over 100 new awards each year. Selection is based on academic excellence and potential, and is automatic for applicants who meet their course's funding deadline."
+    },
+    {
+      "id": "felix-scholarships-soas-2027",
+      "name": "Felix Scholarships for Indian Students (SOAS, 2027 entry)",
+      "funder": "Felix Trust, with SOAS University of London (also offered at Oxford and Reading)",
+      "url": "https://www.soas.ac.uk/study/student-life/finance/scholarships/felix-scholarships",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2027-02-26"
+      ],
+      "deadlineNote": "SOAS scholarship application closes 11:59 AM UK time on 26 February 2027; a firm offer of admission is needed. Oxford and Reading run their own Felix deadlines.",
+      "region": "India only (Indian nationals living in India)",
+      "amount": "Full tuition, living costs and return airfare",
+      "duration": "Full-time taught master's or PhD",
+      "description": "Scholarships for Indian nationals with a first-class bachelor's degree and financial need to take a full-time master's or PhD at SOAS. Applicants who have studied outside India for a year or more, or hold a non-Indian degree, are not eligible."
+    },
+    {
+      "id": "cambridge-postgraduate-funding-2027",
+      "name": "Cambridge Trust and University of Cambridge Postgraduate Scholarships (2027-28 entry)",
+      "funder": "Cambridge Trust and University of Cambridge",
+      "url": "https://www.postgraduate.study.cam.ac.uk/finance/funding",
+      "audience": [
+        "students"
+      ],
+      "deadlines": [
+        "2026-12-08",
+        "2027-01-06"
+      ],
+      "deadlineNote": "Main University funding deadlines are 8 December 2026 and 6 January 2027 (23:59 GMT, references included); the course page states which applies. Applicants are considered for most Cambridge Trust awards through the graduate application.",
+      "region": "International (UK; Indian nationals eligible, including India-specific Cambridge Trust awards)",
+      "amount": "Full-cost and part-cost scholarships (fees and maintenance)",
+      "duration": "Full length of the master's or PhD course",
+      "description": "Cambridge Trust and departmental scholarships for master's and PhD study at Cambridge, awarded through the main graduate application by the funding deadline. Separate from Gates Cambridge, which is listed on its own."
+    },
+    {
+      "id": "iki-small-grants-8th-call",
+      "name": "IKI Small Grants 8th Call (Nature-based Solutions)",
+      "funder": "International Climate Initiative (IKI), German Federal Ministry for the Environment, implemented by GIZ",
+      "url": "https://www.international-climate-initiative.com/en/find-funding/small-grants/small-grants-2026/",
+      "audience": [
+        "faculty"
+      ],
+      "deadlines": [
+        "2027-01-08"
+      ],
+      "deadlineNote": "Call open 15 November 2026 to 8 January 2027, 23:59 CET.",
+      "region": "Non-profit organisations in ODA-eligible developing and emerging countries (India is on the OECD DAC list)",
+      "amount": "EUR 60,000 to 200,000 per project",
+      "duration": "1 to 2 years (start from Q2 2028)",
+      "description": "Grants to local and national non-profit organisations for nature-based solutions that protect, manage or restore ecosystems while benefiting people and biodiversity. Applicants need at least three years of experience and annual revenue of EUR 60,000 to 500,000, so it suits university-linked NGOs and field partners rather than universities themselves."
     }
   ]
 }
