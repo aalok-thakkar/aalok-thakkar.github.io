@@ -17,6 +17,7 @@
   const state = {
     grants: [],
     filter: 'all',
+    field: 'all',
     year: 0,
     month: 0,
     today: null
@@ -54,7 +55,14 @@
   function isRolling(grant) {
     return !Array.isArray(grant.deadlines) || grant.deadlines.length === 0;
   }
+  // Entries tagged "any" are open to all fields and match both field filters.
+  function fieldMatch(grant) {
+    if (state.field === 'all') return true;
+    const g = grant.field || 'any';
+    return g === 'any' || g === state.field;
+  }
   function filterMatch(grant) {
+    if (!fieldMatch(grant)) return false;
     const f = state.filter;
     if (f === 'all') return true;
     if (f === 'hackathons') return isHackathon(grant);
@@ -199,7 +207,7 @@
     if (!items.length) {
       host.innerHTML = state.filter === 'rolling'
         ? '<p class="grants-empty">Rolling grants have no fixed date &mdash; see the list below.</p>'
-        : '<p class="grants-empty">No deadlines this month for the selected audience.</p>';
+        : '<p class="grants-empty">No deadlines this month for the selected filters.</p>';
       return;
     }
     host.innerHTML = items.map(({ grant, date }) => grantCard(grant, date, 'month')).join('');
@@ -211,7 +219,7 @@
     if (!items.length) {
       host.innerHTML = state.filter === 'rolling'
         ? '<p class="grants-empty">Rolling grants have no fixed date &mdash; see the list below.</p>'
-        : '<p class="grants-empty">No upcoming fixed deadlines for the selected audience.</p>';
+        : '<p class="grants-empty">No upcoming fixed deadlines for the selected filters.</p>';
       return;
     }
     host.innerHTML = items.map(({ grant, date }) => grantCard(grant, date, 'upcoming')).join('');
@@ -221,7 +229,7 @@
     const host = document.getElementById('rolling-list');
     const items = rollingGrants();
     if (!items.length) {
-      host.innerHTML = '<p class="grants-empty">No grants without a fixed date for the selected audience.</p>';
+      host.innerHTML = '<p class="grants-empty">No grants without a fixed date for the selected filters.</p>';
       return;
     }
     host.innerHTML = items.map(g => grantCard(g, null, 'rolling')).join('');
@@ -235,13 +243,13 @@
   }
 
   // -------- wiring --------
-  function wireTabs() {
-    const tabs = document.querySelectorAll('.tab');
+  function wireTabGroup(selector, attr, key) {
+    const tabs = document.querySelectorAll(selector);
     tabs.forEach(t => {
       t.addEventListener('click', () => {
-        const f = t.getAttribute('data-filter');
-        if (f === state.filter) return;
-        state.filter = f;
+        const v = t.getAttribute(attr);
+        if (v === state[key]) return;
+        state[key] = v;
         tabs.forEach(o => {
           const on = o === t;
           o.classList.toggle('is-active', on);
@@ -250,6 +258,10 @@
         renderAll();
       });
     });
+  }
+  function wireTabs() {
+    wireTabGroup('.tabs-audience .tab', 'data-filter', 'filter');
+    wireTabGroup('.tabs-field .tab', 'data-field', 'field');
   }
   function wireNav() {
     document.getElementById('cal-prev').addEventListener('click', () => {

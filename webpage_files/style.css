@@ -471,6 +471,8 @@ details.news-archive > summary:hover { color: var(--text); }
   margin: var(--sp-6) 0 var(--sp-8);
   padding-bottom: 0;
 }
+.tabs-field { margin-bottom: var(--sp-2); }
+.tabs-field + .tabs-audience { margin-top: 0; }
 .tab {
   font-family: var(--font-body);
   font-size: 0.95em;
