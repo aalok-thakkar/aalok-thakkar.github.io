@@ -434,16 +434,104 @@ details.news-archive > summary:hover { color: var(--text); }
  * /grants/ - repository of science grants
  * ==================================================================== */
 
+#content.grants-page { display: block; }
+.grants-page h1 { margin-bottom: var(--sp-8); }
 .grants-intro {
   font-size: 1.05em;
   color: var(--text);
-  margin: 0.5em 0 var(--sp-3);
+  margin: 0 0 var(--sp-2);
 }
 .grants-meta {
   color: var(--text-muted);
   font-size: 0.9em;
-  margin: 0 0 var(--sp-6);
+  margin: var(--sp-3) 0 var(--sp-6);
 }
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0);
+  white-space: nowrap; border: 0;
+}
+.grants-search-wrap { margin: var(--sp-6) 0 var(--sp-4); }
+.grants-search {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: var(--font-body);
+  font-size: 1em;
+  color: var(--text);
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--sp-3) var(--sp-4);
+  transition: border-color var(--t-fast), box-shadow var(--t-fast);
+}
+.grants-search::placeholder { color: var(--text-muted); opacity: 0.8; }
+.grants-search:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+.disc-panel { margin: 0 0 var(--sp-2); }
+.disc-summary {
+  cursor: pointer;
+  font-size: 0.85em;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
+  padding: var(--sp-1) 0;
+  list-style: none;
+  user-select: none;
+}
+.disc-summary::-webkit-details-marker { display: none; }
+.disc-summary::before {
+  content: "\203A";
+  display: inline-block;
+  font-size: 1.4em;
+  line-height: 1;
+  margin-right: 0.4em;
+  transition: transform var(--t-fast);
+}
+.disc-panel[open] > .disc-summary::before { transform: rotate(90deg); }
+#disc-current { color: var(--text); font-weight: 500; }
+.tabs-audience { margin: var(--sp-4) 0 var(--sp-3); }
+.grants-summary {
+  font-size: 0.85em;
+  color: var(--text-muted);
+  margin: 0 0 var(--sp-4);
+}
+.grants-clear {
+  font: inherit;
+  color: var(--accent);
+  background: none;
+  border: 0;
+  padding: 0;
+  margin-left: 0.4em;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.grants-more-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--sp-2);
+  margin-top: var(--sp-4);
+}
+.grants-more {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.9em;
+  color: var(--text);
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: var(--sp-2) var(--sp-6);
+  cursor: pointer;
+  transition: border-color var(--t-fast), background var(--t-fast);
+}
+.grants-more:hover { border-color: var(--accent); background: var(--accent-tint); }
+.grants-more:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.grants-more-rest { color: var(--text-muted); }
 .grants-footnote {
   margin-top: var(--sp-6);
   font-size: 0.85em;
@@ -501,7 +589,7 @@ details.news-archive > summary:hover { color: var(--text); }
 .disc-filter {
   display: grid;
   gap: var(--sp-2);
-  margin: var(--sp-6) 0 0;
+  margin: var(--sp-3) 0 0;
 }
 .disc-row {
   display: grid;
@@ -555,7 +643,7 @@ details.news-archive > summary:hover { color: var(--text); }
 }
 
 /* Calendar ------------------------------------------------------------- */
-.cal-section { margin: var(--sp-8) 0 var(--sp-12); }
+.cal-section { margin: var(--sp-4) 0 var(--sp-8); }
 .cal-header {
   display: flex;
   align-items: center;
@@ -617,7 +705,9 @@ details.news-archive > summary:hover { color: var(--text); }
   transition: background var(--t-fast);
 }
 .cal-cell.is-blank { background: var(--bg-elev); opacity: 0.4; }
-.cal-cell.is-past .cal-num { color: var(--text-muted); }
+.cal-cell.is-past { background: var(--bg-elev); }
+.cal-cell.is-past .cal-num { color: var(--text-faint); }
+.cal-cell.is-past .cal-dots { opacity: 0.45; }
 .cal-cell.is-today {
   background: var(--accent-tint);
   outline: 1px solid var(--accent);
@@ -664,7 +754,7 @@ details.news-archive > summary:hover { color: var(--text); }
   height: 8px;
   border-radius: 50%;
   margin-right: 4px;
-  vertical-align: 1px;
+  vertical-align: middle;
 }
 .cal-legend-dot[data-audience="students"] { background: var(--aud-students); }
 .cal-legend-dot[data-audience="postdocs"] { background: var(--aud-postdocs); }
@@ -678,7 +768,7 @@ details.news-archive > summary:hover { color: var(--text); }
   text-transform: uppercase;
   font-size: 0.78em;
   color: var(--text-muted);
-  margin: var(--sp-12) 0 var(--sp-3);
+  margin: var(--sp-8) 0 var(--sp-3);
   padding-bottom: var(--sp-2);
   border-bottom: 1px solid var(--border);
 }
@@ -693,11 +783,10 @@ details.news-archive > summary:hover { color: var(--text); }
 }
 .grant-card:last-child { border-bottom: 0; }
 .grant-row {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: baseline;
-  gap: var(--sp-3);
-  flex-wrap: wrap;
+  gap: var(--sp-4);
 }
 .grant-name {
   font-size: 1.02em;
@@ -711,6 +800,19 @@ details.news-archive > summary:hover { color: var(--text); }
   color: var(--accent);
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
+  font-weight: 500;
+}
+.grant-rel {
+  margin-left: 0.5em;
+  font-size: 0.85em;
+  font-weight: 400;
+  color: var(--text-muted);
+}
+.grant-rel.is-soon {
+  color: var(--bg);
+  background: var(--accent);
+  border-radius: 999px;
+  padding: 1px 8px;
   font-weight: 500;
 }
 .grant-deadline.grant-rolling {
@@ -758,7 +860,7 @@ details.news-archive > summary:hover { color: var(--text); }
   .cal-dot { width: 6px; height: 6px; }
   .cal-wd { font-size: 0.65em; padding: 6px 0; }
   .cal-title { font-size: 1.1em; }
-  .grant-row { flex-direction: column; align-items: flex-start; gap: var(--sp-1); }
+  .grant-row { grid-template-columns: 1fr; gap: var(--sp-1); }
 }
 
 /* ======================================================================

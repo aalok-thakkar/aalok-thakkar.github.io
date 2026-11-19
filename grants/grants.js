@@ -54,10 +54,14 @@
     all: 'All disciplines', stem: 'All sciences', hss: 'All humanities and social sciences'
   };
 
+  const PAGE = 20;
+
   const state = {
     grants: [],
     filter: 'all',
     disc: 'all',
+    query: '',
+    shown: { upcoming: PAGE, rolling: PAGE },
     year: 0,
     month: 0,
     today: null
@@ -129,7 +133,21 @@
       .filter(Boolean)
       .join(', ');
   }
+  function searchText(grant) {
+    if (!grant._text) {
+      grant._text = [grant.name, grant.funder, grant.region, grant.amount,
+        grant.description, grant.deadlineNote, disciplineText(grant)]
+        .filter(Boolean).join(' ').toLowerCase();
+    }
+    return grant._text;
+  }
+  function queryMatch(grant) {
+    if (!state.query) return true;
+    const hay = searchText(grant);
+    return state.query.split(/\s+/).every(w => hay.includes(w));
+  }
   function filterMatch(grant) {
+    if (!queryMatch(grant)) return false;
     if (!fieldMatch(grant)) return false;
     const f = state.filter;
     if (f === 'all') return true;
@@ -243,8 +261,25 @@
   }
 
   // -------- list render --------
+  function daysUntil(d) {
+    return Math.round((d - state.today) / 86400000);
+  }
+  function relativeLabel(d) {
+    const n = daysUntil(d);
+    if (n < 0) return { text: 'closed', cls: 'is-closed' };
+    if (n === 0) return { text: 'today', cls: 'is-soon' };
+    if (n === 1) return { text: 'tomorrow', cls: 'is-soon' };
+    if (n <= 7) return { text: `in ${n} days`, cls: 'is-soon' };
+    if (n <= 60) return { text: `in ${n} days`, cls: '' };
+    return null;
+  }
+  function deadlineHTML(d) {
+    if (!d) return '<span class="grant-deadline grant-rolling">no fixed date</span>';
+    const rel = relativeLabel(d);
+    const badge = rel ? ` <span class="grant-rel ${rel.cls}">${rel.text}</span>` : '';
+    return `<span class="grant-deadline">${formatLong(d)}${badge}</span>`;
+  }
   function grantCard(grant, withDeadline, section) {
-    const next = withDeadline ? formatLong(withDeadline) : '';
     const aud = (grant.audience || []).join(', ');
     const metaParts = [
       grant.type === 'hackathon' ? 'Hackathon' : null,
@@ -258,7 +293,7 @@
       <article id="g-${section}-${grant.id}" class="grant-card">
         <div class="grant-row">
           <h4 class="grant-name"><a href="${grant.url}" target="_blank" rel="noopener">${grant.name}</a></h4>
-          ${next ? `<span class="grant-deadline">${next}</span>` : '<span class="grant-deadline grant-rolling">rolling</span>'}
+          ${deadlineHTML(withDeadline)}
         </div>
         <p class="grant-meta">${metaParts.join(' &middot; ')}</p>
         <p class="grant-disc">${disciplineText(grant)}</p>
@@ -275,7 +310,7 @@
     );
     if (!items.length) {
       host.innerHTML = state.filter === 'rolling'
-        ? '<p class="grants-empty">Rolling grants have no fixed date &mdash; see the list below.</p>'
+        ? '<p class="grants-empty">These grants have no fixed date. See the list below.</p>'
         : '<p class="grants-empty">No deadlines this month for the selected filters.</p>';
       return;
     }
@@ -284,27 +319,96 @@
 
   function renderUpcomingList() {
     const host = document.getElementById('upcoming-list');
-    const items = expandedDeadlines(false).slice(0, 30);
+    const all = expandedDeadlines(false);
+    const items = all.slice(0, state.shown.upcoming);
     if (!items.length) {
       host.innerHTML = state.filter === 'rolling'
-        ? '<p class="grants-empty">Rolling grants have no fixed date &mdash; see the list below.</p>'
+        ? '<p class="grants-empty">These grants have no fixed date. See the list below.</p>'
         : '<p class="grants-empty">No upcoming fixed deadlines for the selected filters.</p>';
       return;
     }
-    host.innerHTML = items.map(({ grant, date }) => grantCard(grant, date, 'upcoming')).join('');
+    host.innerHTML = items.map(({ grant, date }) => grantCard(grant, date, 'upcoming')).join('') +
+      moreButton('upcoming', all.length - items.length);
   }
 
   function renderRollingList() {
     const host = document.getElementById('rolling-list');
-    const items = rollingGrants();
+    const all = rollingGrants();
+    const items = all.slice(0, state.shown.rolling);
     if (!items.length) {
       host.innerHTML = '<p class="grants-empty">No grants without a fixed date for the selected filters.</p>';
       return;
     }
-    host.innerHTML = items.map(g => grantCard(g, null, 'rolling')).join('');
+    host.innerHTML = items.map(g => grantCard(g, null, 'rolling')).join('') +
+      moreButton('rolling', all.length - items.length);
+  }
+
+  function moreButton(section, remaining) {
+    if (remaining <= 0) return '';
+    const n = Math.min(PAGE, remaining);
+    const all = remaining > PAGE
+      ? `<button type="button" class="grants-more" data-more="${section}" data-all="1">Show all ${remaining}</button>`
+      : '';
+    return `<div class="grants-more-row"><button type="button" class="grants-more" data-more="${section}">Show ${n} more <span class="grants-more-rest">(${remaining} remaining)</span></button>${all}</div>`;
+  }
+  function countMatching() {
+    let n = 0;
+    for (const g of state.grants) if (filterMatch(g)) n++;
+    return n;
+  }
+  function filtersActive() {
+    return state.query || state.disc !== 'all' || state.filter !== 'all';
+  }
+  function renderSummary() {
+    const host = document.getElementById('grants-summary');
+    if (!host) return;
+    const n = countMatching();
+    const total = state.grants.length;
+    const text = filtersActive()
+      ? `Showing ${n} of ${total} grants.`
+      : `Showing all ${total} grants.`;
+    host.innerHTML = text + (filtersActive()
+      ? ' <button type="button" class="grants-clear" id="grants-clear">Clear filters</button>'
+      : '');
+  }
+  function writeHash() {
+    const params = new URLSearchParams();
+    if (state.query) params.set('q', state.query);
+    if (state.disc !== 'all') params.set('d', state.disc);
+    if (state.filter !== 'all') params.set('a', state.filter);
+    const h = params.toString();
+    history.replaceState(null, '', h ? '#' + h : location.pathname + location.search);
+  }
+  function readHash() {
+    const params = new URLSearchParams(location.hash.slice(1));
+    const q = (params.get('q') || '').trim().toLowerCase();
+    const d = params.get('d') || 'all';
+    const a = params.get('a') || 'all';
+    state.query = q;
+    const validDisc = d === 'all' || DISC_LABEL[d] ||
+      (d.startsWith('group:') && DISC_GROUPS.some(x => 'group:' + x.id === d));
+    state.disc = validDisc ? d : 'all';
+    const validAud = ['all', 'students', 'postdocs', 'faculty', 'hackathons', 'rolling'];
+    state.filter = validAud.includes(a) ? a : 'all';
+  }
+  function syncControls() {
+    const input = document.getElementById('grants-search');
+    if (input && input.value.trim().toLowerCase() !== state.query) input.value = state.query;
+    document.querySelectorAll('.tabs-audience .tab').forEach(t => {
+      const on = t.getAttribute('data-filter') === state.filter;
+      t.classList.toggle('is-active', on);
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+    });
+    renderDiscFilter();
+  }
+  function onFiltersChanged() {
+    state.shown = { upcoming: PAGE, rolling: PAGE };
+    writeHash();
+    renderAll();
   }
 
   function renderAll() {
+    renderSummary();
     renderCalendar();
     renderMonthList();
     renderUpcomingList();
@@ -330,6 +434,16 @@
       rows.push(`<div class="disc-row">${discChip('group:' + grp.id, grp.label, countFor('group:' + grp.id), 'disc-group')}<div class="disc-items">${chips}</div></div>`);
     }
     host.innerHTML = rows.join('');
+    const label = document.getElementById('disc-current');
+    if (label) label.textContent = discLabel(state.disc);
+  }
+  function discLabel(v) {
+    if (v === 'all') return 'All disciplines';
+    if (v.startsWith('group:')) {
+      const grp = DISC_GROUPS.find(x => 'group:' + x.id === v);
+      return grp ? grp.label : 'All disciplines';
+    }
+    return DISC_LABEL[v] || 'All disciplines';
   }
   function wireDiscFilter() {
     const host = document.getElementById('disc-filter');
@@ -340,7 +454,7 @@
       const v = b.dataset.disc;
       state.disc = (v === state.disc && v !== 'all') ? 'all' : v;
       renderDiscFilter();
-      renderAll();
+      onFiltersChanged();
     });
   }
   function wireTabGroup(selector, attr, key) {
@@ -355,12 +469,42 @@
           o.classList.toggle('is-active', on);
           o.setAttribute('aria-selected', on ? 'true' : 'false');
         });
-        renderAll();
+        onFiltersChanged();
       });
     });
   }
   function wireTabs() {
     wireTabGroup('.tabs-audience .tab', 'data-filter', 'filter');
+  }
+  function wireSearch() {
+    const input = document.getElementById('grants-search');
+    if (!input) return;
+    let timer = null;
+    input.addEventListener('input', () => {
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        state.query = input.value.trim().toLowerCase();
+        onFiltersChanged();
+      }, 150);
+    });
+  }
+  function wireListButtons() {
+    document.addEventListener('click', (e) => {
+      const more = e.target.closest('.grants-more');
+      if (more) {
+        const sec = more.dataset.more;
+        state.shown[sec] = more.dataset.all ? Infinity : state.shown[sec] + PAGE;
+        if (sec === 'upcoming') renderUpcomingList(); else renderRollingList();
+        return;
+      }
+      if (e.target.closest('#grants-clear')) {
+        state.query = '';
+        state.disc = 'all';
+        state.filter = 'all';
+        syncControls();
+        onFiltersChanged();
+      }
+    });
   }
   function wireNav() {
     document.getElementById('cal-prev').addEventListener('click', () => {
@@ -405,10 +549,15 @@
     }
     document.getElementById('grants-count').textContent = String(state.grants.length);
 
-    renderDiscFilter();
+    readHash();
+    syncControls();
     wireDiscFilter();
     wireTabs();
+    wireSearch();
+    wireListButtons();
     wireNav();
+    const panel = document.getElementById('disc-panel');
+    if (panel && window.matchMedia('(min-width: 701px)').matches) panel.open = true;
     wireCalendarClicks();
     renderAll();
   }

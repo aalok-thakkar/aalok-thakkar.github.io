@@ -9,14 +9,14 @@
 
     <link
       rel="stylesheet"
-      href="/webpage_files/style.css?v=3"
+      href="/webpage_files/style.css?v=5"
       type="text/css"
       media="screen"
     />
   </head>
 
   <body>
-    <div id="content" class="single-wide">
+    <div id="content" class="single-wide grants-page">
       <h1>
         Aalok Thakkar: <strong>Research Grants</strong>
       </h1>
@@ -35,7 +35,14 @@
         <span id="grants-count">&hellip;</span> grants in the repository.
       </p>
 
-      <div id="disc-filter" class="disc-filter" role="group" aria-label="Filter by discipline"></div>
+      <div class="grants-search-wrap">
+        <label for="grants-search" class="visually-hidden">Search grants</label>
+        <input id="grants-search" class="grants-search" type="search" placeholder="Search by name, funder or keyword" autocomplete="off" spellcheck="false">
+      </div>
+      <details id="disc-panel" class="disc-panel">
+        <summary class="disc-summary">Discipline: <span id="disc-current">All disciplines</span></summary>
+        <div id="disc-filter" class="disc-filter" role="group" aria-label="Filter by discipline"></div>
+      </details>
       <div class="tabs tabs-audience" role="tablist" aria-label="Filter by category">
         <button class="tab is-active" role="tab" aria-selected="true" data-filter="all">All</button>
         <button class="tab" role="tab" aria-selected="false" data-filter="students">Students</button>
@@ -45,6 +52,7 @@
         <button class="tab" role="tab" aria-selected="false" data-filter="rolling">No fixed date</button>
       </div>
 
+      <p id="grants-summary" class="grants-summary" aria-live="polite"></p>
       <section class="cal-section" aria-label="Deadline calendar">
         <div class="cal-header">
           <button class="cal-nav" id="cal-prev" aria-label="Previous month">&lsaquo;</button>
@@ -96,6 +104,6 @@
           document.getElementById('footer').innerHTML = data;
         });
     </script>
-    <script src="./grants.js?v=11"></script>
+    <script src="./grants.js?v=13"></script>
   </body>
 </html>
