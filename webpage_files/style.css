@@ -471,8 +471,6 @@ details.news-archive > summary:hover { color: var(--text); }
   margin: var(--sp-6) 0 var(--sp-8);
   padding-bottom: 0;
 }
-.tabs-field { margin-bottom: var(--sp-2); }
-.tabs-field + .tabs-audience { margin-top: 0; }
 .tab {
   font-family: var(--font-body);
   font-size: 0.95em;
@@ -497,6 +495,63 @@ details.news-archive > summary:hover { color: var(--text); }
   outline: 2px solid var(--accent);
   outline-offset: 2px;
   border-radius: var(--radius-sm);
+}
+
+/* Discipline filter ----------------------------------------------------- */
+.disc-filter {
+  display: grid;
+  gap: var(--sp-2);
+  margin: var(--sp-6) 0 0;
+}
+.disc-row {
+  display: grid;
+  grid-template-columns: 15em 1fr;
+  gap: var(--sp-2);
+  align-items: start;
+}
+.disc-row > .disc-chip { justify-self: start; }
+.disc-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-1) var(--sp-2);
+}
+.disc-chip {
+  font-family: var(--font-body);
+  font-size: 0.82em;
+  color: var(--text-muted);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 2px var(--sp-3);
+  cursor: pointer;
+  transition: color var(--t-fast), border-color var(--t-fast), background var(--t-fast);
+}
+.disc-chip:hover { color: var(--text); background: var(--accent-tint); }
+.disc-chip.is-active {
+  color: var(--bg);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.disc-chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.disc-group {
+  font-weight: 500;
+  color: var(--text);
+  text-align: left;
+}
+.disc-all { font-weight: 500; color: var(--text); }
+.disc-count {
+  margin-left: 0.45em;
+  font-size: 0.85em;
+  opacity: 0.6;
+}
+.grant-disc {
+  margin: 2px 0 0;
+  font-size: 0.82em;
+  color: var(--text-muted);
+  font-style: italic;
+}
+@media (max-width: 600px) {
+  .disc-row { grid-template-columns: 1fr; gap: var(--sp-1); }
 }
 
 /* Calendar ------------------------------------------------------------- */

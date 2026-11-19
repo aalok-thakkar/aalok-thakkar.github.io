@@ -9,7 +9,7 @@
 
     <link
       rel="stylesheet"
-      href="/webpage_files/style.css"
+      href="/webpage_files/style.css?v=3"
       type="text/css"
       media="screen"
     />
@@ -24,7 +24,9 @@
       <p class="grants-intro">
         A public-service repository of grants, fellowships, and awards in the
         sciences, humanities, and social sciences, for students, postdocs, and faculty. Updated every two weeks.
-        Spotted a missing or expired entry? Write to
+        To submit a grant, please email
+        <a href="mailto:thakkar.grants@gmail.com">thakkar.grants@gmail.com</a>.
+        To report an expired or incorrect entry, write to
         <a href="mailto:thakkar@ashoka.edu.in">thakkar@ashoka.edu.in</a>.
       </p>
       <p class="grants-meta">
@@ -33,11 +35,7 @@
         <span id="grants-count">&hellip;</span> grants in the repository.
       </p>
 
-      <div class="tabs tabs-field" role="tablist" aria-label="Filter by field">
-        <button class="tab is-active" role="tab" aria-selected="true" data-field="all">All fields</button>
-        <button class="tab" role="tab" aria-selected="false" data-field="sciences">Sciences</button>
-        <button class="tab" role="tab" aria-selected="false" data-field="hss">Humanities and social sciences</button>
-      </div>
+      <div id="disc-filter" class="disc-filter" role="group" aria-label="Filter by discipline"></div>
       <div class="tabs tabs-audience" role="tablist" aria-label="Filter by category">
         <button class="tab is-active" role="tab" aria-selected="true" data-filter="all">All</button>
         <button class="tab" role="tab" aria-selected="false" data-filter="students">Students</button>
@@ -77,9 +75,9 @@
       </section>
 
       <aside class="grants-cta" role="note">
-        <strong>Missing a grant?</strong> If you know of a grant,
-        fellowship, or award that belongs here, or spot an expired or
-        incorrect entry, write to
+        <strong>Missing a grant?</strong> To submit a grant, fellowship,
+        or award, please email <a href="mailto:thakkar.grants@gmail.com">thakkar.grants@gmail.com</a>.
+        To report an expired or incorrect entry, write to
         <a href="mailto:thakkar@ashoka.edu.in">thakkar@ashoka.edu.in</a>.
       </aside>
 
@@ -98,6 +96,6 @@
           document.getElementById('footer').innerHTML = data;
         });
     </script>
-    <script src="./grants.js?v=9"></script>
+    <script src="./grants.js?v=11"></script>
   </body>
 </html>

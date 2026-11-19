@@ -14,10 +14,50 @@
     'July', 'August', 'September', 'October', 'November', 'December'
   ];
 
+  // Discipline taxonomy. Entries carry `disciplines`: specific slugs, or the
+  // wildcards 'all' (every discipline), 'stem' or 'hss' (every slug in those groups).
+  const DISC_GROUPS = [
+    { id: 'natural', label: 'Natural sciences', kind: 'stem', items: [
+      ['physics', 'Physics and astronomy'],
+      ['chemistry', 'Chemistry and materials'],
+      ['life-sciences', 'Life sciences'],
+      ['earth-environment', 'Earth, environment and climate']] },
+    { id: 'computing', label: 'Mathematics and computing', kind: 'stem', items: [
+      ['mathematics', 'Mathematics'],
+      ['computer-science', 'Computer science']] },
+    { id: 'applied', label: 'Engineering and medicine', kind: 'stem', items: [
+      ['engineering', 'Engineering and technology'],
+      ['medicine-health', 'Medicine and public health']] },
+    { id: 'social', label: 'Social sciences', kind: 'hss', items: [
+      ['economics', 'Economics'],
+      ['politics-law-policy', 'Politics, law and policy'],
+      ['sociology-anthropology', 'Sociology and anthropology'],
+      ['psychology-cognitive', 'Psychology and cognitive science'],
+      ['education', 'Education']] },
+    { id: 'humanities', label: 'Humanities and arts', kind: 'hss', items: [
+      ['history-archaeology', 'History and archaeology'],
+      ['philosophy-religion', 'Philosophy and religion'],
+      ['languages-literature', 'Languages and literature'],
+      ['arts-design', 'Arts and design'],
+      ['area-studies', 'Area studies']] }
+  ];
+  const DISC_LABEL = {};
+  const WILDCARD = { all: [], stem: [], hss: [] };
+  for (const grp of DISC_GROUPS) {
+    for (const [slug, label] of grp.items) {
+      DISC_LABEL[slug] = label;
+      WILDCARD.all.push(slug);
+      WILDCARD[grp.kind].push(slug);
+    }
+  }
+  const WILDCARD_LABEL = {
+    all: 'All disciplines', stem: 'All sciences', hss: 'All humanities and social sciences'
+  };
+
   const state = {
     grants: [],
     filter: 'all',
-    field: 'all',
+    disc: 'all',
     year: 0,
     month: 0,
     today: null
@@ -55,11 +95,39 @@
   function isRolling(grant) {
     return !Array.isArray(grant.deadlines) || grant.deadlines.length === 0;
   }
-  // Entries tagged "any" are open to all fields and match both field filters.
+  function grantDisciplines(grant) {
+    if (Array.isArray(grant.disciplines) && grant.disciplines.length) return grant.disciplines;
+    return ['all'];
+  }
+  // Set of specific slugs an entry covers, with wildcards expanded.
+  function coveredSlugs(grant) {
+    if (!grant._covered) {
+      const out = new Set();
+      for (const t of grantDisciplines(grant)) {
+        if (WILDCARD[t]) WILDCARD[t].forEach(x => out.add(x));
+        else out.add(t);
+      }
+      grant._covered = out;
+    }
+    return grant._covered;
+  }
+  function discMatchValue(grant, value) {
+    if (value === 'all') return true;
+    const covered = coveredSlugs(grant);
+    if (value.startsWith('group:')) {
+      const grp = DISC_GROUPS.find(x => x.id === value.slice(6));
+      return grp ? grp.items.some(([slug]) => covered.has(slug)) : false;
+    }
+    return covered.has(value);
+  }
   function fieldMatch(grant) {
-    if (state.field === 'all') return true;
-    const g = grant.field || 'any';
-    return g === 'any' || g === state.field;
+    return discMatchValue(grant, state.disc);
+  }
+  function disciplineText(grant) {
+    return grantDisciplines(grant)
+      .map(t => WILDCARD_LABEL[t] || DISC_LABEL[t])
+      .filter(Boolean)
+      .join(', ');
   }
   function filterMatch(grant) {
     if (!fieldMatch(grant)) return false;
@@ -193,6 +261,7 @@
           ${next ? `<span class="grant-deadline">${next}</span>` : '<span class="grant-deadline grant-rolling">rolling</span>'}
         </div>
         <p class="grant-meta">${metaParts.join(' &middot; ')}</p>
+        <p class="grant-disc">${disciplineText(grant)}</p>
         ${grant.description ? `<p class="grant-desc">${grant.description}</p>` : ''}
         ${grant.deadlineNote ? `<p class="grant-note-line">${grant.deadlineNote}</p>` : ''}
       </article>
@@ -243,6 +312,37 @@
   }
 
   // -------- wiring --------
+  function discChip(value, label, count, extraClass) {
+    const on = state.disc === value;
+    return `<button type="button" class="disc-chip${extraClass ? ' ' + extraClass : ''}${on ? ' is-active' : ''}" data-disc="${value}" aria-pressed="${on}">${label}<span class="disc-count">${count}</span></button>`;
+  }
+  function countFor(value) {
+    let n = 0;
+    for (const g of state.grants) if (discMatchValue(g, value)) n++;
+    return n;
+  }
+  function renderDiscFilter() {
+    const host = document.getElementById('disc-filter');
+    if (!host) return;
+    const rows = [`<div class="disc-row">${discChip('all', 'All disciplines', state.grants.length, 'disc-all')}</div>`];
+    for (const grp of DISC_GROUPS) {
+      const chips = grp.items.map(([slug, label]) => discChip(slug, label, countFor(slug))).join('');
+      rows.push(`<div class="disc-row">${discChip('group:' + grp.id, grp.label, countFor('group:' + grp.id), 'disc-group')}<div class="disc-items">${chips}</div></div>`);
+    }
+    host.innerHTML = rows.join('');
+  }
+  function wireDiscFilter() {
+    const host = document.getElementById('disc-filter');
+    if (!host) return;
+    host.addEventListener('click', (e) => {
+      const b = e.target.closest('.disc-chip');
+      if (!b) return;
+      const v = b.dataset.disc;
+      state.disc = (v === state.disc && v !== 'all') ? 'all' : v;
+      renderDiscFilter();
+      renderAll();
+    });
+  }
   function wireTabGroup(selector, attr, key) {
     const tabs = document.querySelectorAll(selector);
     tabs.forEach(t => {
@@ -261,7 +361,6 @@
   }
   function wireTabs() {
     wireTabGroup('.tabs-audience .tab', 'data-filter', 'filter');
-    wireTabGroup('.tabs-field .tab', 'data-field', 'field');
   }
   function wireNav() {
     document.getElementById('cal-prev').addEventListener('click', () => {
@@ -306,6 +405,8 @@
     }
     document.getElementById('grants-count').textContent = String(state.grants.length);
 
+    renderDiscFilter();
+    wireDiscFilter();
     wireTabs();
     wireNav();
     wireCalendarClicks();
