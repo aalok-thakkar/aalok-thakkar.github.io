@@ -8,8 +8,10 @@
       "funder": "National Science Foundation",
       "url": "https://www.nsf.gov/funding/initiatives/grfp",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "stem",
         "economics",
@@ -30,8 +32,9 @@
       "funder": "Barry Goldwater Scholarship Foundation",
       "url": "https://goldwaterscholarship.gov/",
       "audience": [
-        "students"
+        "undergrads"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "stem"
       ],
@@ -50,8 +53,10 @@
       "funder": "Stanford University",
       "url": "https://knight-hennessy.stanford.edu/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -68,8 +73,10 @@
       "funder": "Rhodes Trust",
       "url": "https://www.rhodeshouse.ox.ac.uk/scholarships/applications/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -1172,9 +1179,9 @@
       "funder": "Amazon Web Services",
       "url": "https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/",
       "audience": [
-        "faculty",
         "students",
-        "postdocs"
+        "postdocs",
+        "faculty"
       ],
       "disciplines": [
         "computer-science"
@@ -1300,9 +1307,9 @@
       "funder": "OpenAI",
       "url": "https://openai.com/form/researcher-access-program/",
       "audience": [
-        "faculty",
+        "students",
         "postdocs",
-        "students"
+        "faculty"
       ],
       "disciplines": [
         "computer-science",
@@ -1799,9 +1806,11 @@
       "funder": "Indian Association for Research in Computing Science / ACM India",
       "url": "https://www.iarcs.org.in/activities/grants.php",
       "audience": [
+        "undergrads",
         "students",
         "faculty"
       ],
+      "ugType": "school",
       "disciplines": [
         "computer-science"
       ],
@@ -1817,10 +1826,12 @@
       "funder": "ACM SIGPLAN",
       "url": "https://www.sigplan.org/PAC/",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "school",
       "disciplines": [
         "computer-science"
       ],
@@ -1834,8 +1845,10 @@
       "funder": "ACM SIGCOMM",
       "url": "https://conferences.sigcomm.org/sigcomm/2026/travel-grants/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "school",
       "disciplines": [
         "computer-science"
       ],
@@ -1850,8 +1863,10 @@
       "funder": "ACM SIGACT (with NSF support)",
       "url": "https://acm-stoc.org/stoc2026/travel-support.html",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "school",
       "disciplines": [
         "computer-science"
       ],
@@ -1866,8 +1881,10 @@
       "funder": "Association for Computing Machinery (sponsored by Microsoft Research)",
       "url": "https://src.acm.org",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science"
       ],
@@ -1896,9 +1913,11 @@
       "funder": "NeurIPS Foundation",
       "url": "https://neurips.cc/Conferences/2026/FinancialAssistance",
       "audience": [
+        "undergrads",
         "students",
         "postdocs"
       ],
+      "ugType": "school",
       "disciplines": [
         "computer-science"
       ],
@@ -1912,9 +1931,11 @@
       "funder": "International Conference on Machine Learning",
       "url": "https://icml.cc/Conferences/2027/FinancialAid",
       "audience": [
+        "undergrads",
         "students",
         "postdocs"
       ],
+      "ugType": "school",
       "disciplines": [
         "computer-science"
       ],
@@ -1928,9 +1949,11 @@
       "funder": "International Conference on Learning Representations",
       "url": "https://iclr.cc/Conferences/2026/FinancialAssistance",
       "audience": [
+        "undergrads",
         "students",
         "postdocs"
       ],
+      "ugType": "school",
       "disciplines": [
         "computer-science"
       ],
@@ -1944,9 +1967,11 @@
       "funder": "Heidelberg Laureate Forum Foundation",
       "url": "https://www.heidelberg-laureate-forum.org/young-researchers/",
       "audience": [
+        "undergrads",
         "students",
         "postdocs"
       ],
+      "ugType": "school",
       "disciplines": [
         "mathematics",
         "computer-science"
@@ -1965,9 +1990,11 @@
       "funder": "Council & Foundation Lindau Nobel Laureate Meetings",
       "url": "https://www.lindau-nobel.org/young-scientists/",
       "audience": [
+        "undergrads",
         "students",
         "postdocs"
       ],
+      "ugType": "school",
       "disciplines": [
         "physics",
         "chemistry",
@@ -1985,8 +2012,10 @@
       "funder": "IEEE Computer Society",
       "url": "https://www.computer.org/volunteering/awards/scholarships/merwin",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "computer-science",
         "engineering"
@@ -2101,8 +2130,10 @@
       "funder": "Hack2skill (hosted at IPEC Ghaziabad)",
       "url": "https://hack2skill.com/event/hyperspace-hackathon",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science",
         "engineering"
@@ -2121,8 +2152,10 @@
       "funder": "Google Developer Groups (GDG) / Hack2skill",
       "url": "https://hack2skill.com/event/solution-challenge-2026",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science"
       ],
@@ -2140,8 +2173,10 @@
       "funder": "Indian Space Research Organisation (ISRO) / Hack2skill",
       "url": "https://hack2skill.com/event/bah2026/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science",
         "engineering"
@@ -2160,8 +2195,10 @@
       "funder": "IIT Madras (student-organized)",
       "url": "https://www.shaastra.org/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science",
         "engineering"
@@ -2179,8 +2216,10 @@
       "funder": "IIT Bombay (student-organized)",
       "url": "https://techfest.org/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science",
         "engineering"
@@ -2198,8 +2237,10 @@
       "funder": "IIT Kharagpur (student-organized)",
       "url": "https://www.ktj.in/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science"
       ],
@@ -2217,8 +2258,10 @@
       "funder": "Open Source Developers' Group, IIIT Hyderabad",
       "url": "https://www.osdg.in/hackiiit2026",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science"
       ],
@@ -2236,8 +2279,10 @@
       "funder": "IIT Bombay / Ministry of Education",
       "url": "https://www.e-yantra.org/eyrc",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "engineering"
       ],
@@ -2254,9 +2299,11 @@
       "funder": "C3iHub, IIT Kanpur",
       "url": "https://hackathon.c3ihub.iitk.ac.in/",
       "audience": [
+        "undergrads",
         "students",
         "faculty"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science"
       ],
@@ -2274,10 +2321,12 @@
       "funder": "NASA",
       "url": "https://www.spaceappschallenge.org/",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science",
         "engineering"
@@ -2296,8 +2345,10 @@
       "funder": "Major League Hacking",
       "url": "https://www.mlh.com/seasons/2027/events",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science",
         "engineering"
@@ -2316,10 +2367,12 @@
       "funder": "Kaggle / Google",
       "url": "https://www.kaggle.com/competitions",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science"
       ],
@@ -2337,9 +2390,11 @@
       "funder": "Reality Hack Inc. / MIT Media Lab community",
       "url": "https://www.realityhackatmit.com/",
       "audience": [
+        "undergrads",
         "students",
         "faculty"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science",
         "engineering"
@@ -2358,8 +2413,9 @@
       "funder": "MIT student organization",
       "url": "https://hackmit.org/",
       "audience": [
-        "students"
+        "undergrads"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science",
         "engineering"
@@ -2378,8 +2434,10 @@
       "funder": "Stanford University student organization",
       "url": "https://www.treehacks.com/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science",
         "engineering"
@@ -2398,8 +2456,9 @@
       "funder": "Harvard undergraduate student organization",
       "url": "https://hhuh.io/",
       "audience": [
-        "students"
+        "undergrads"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science"
       ],
@@ -2417,9 +2476,11 @@
       "funder": "MIT iQuISE, IBM Quantum, IQM, IonQ, Quantinuum and partners",
       "url": "https://iquhack.mit.edu",
       "audience": [
+        "undergrads",
         "students",
         "postdocs"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science"
       ],
@@ -2439,10 +2500,12 @@
       "funder": "ITU (UN) AI for Good + CyberPeace Foundation",
       "url": "https://www.itu.int/net4/wsis/forum/2026/en/Home/Hackathon",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science"
       ],
@@ -2460,10 +2523,12 @@
       "funder": "Lablab.ai with IBM, AMD, NVIDIA, Hugging Face, OpenAI and partners",
       "url": "https://starfieldlabs.ai/ai-hackathons",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science"
       ],
@@ -2689,8 +2754,10 @@
       "funder": "Karnataka State Council for Science and Technology (KSCST), IISc Campus, Bengaluru",
       "url": "https://www.kscst.org.in/spp.html",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "internship",
       "disciplines": [
         "stem"
       ],
@@ -2746,10 +2813,12 @@
       "funder": "Kerala Startup Mission (KSUM), Government of Kerala",
       "url": "https://startupmission.kerala.gov.in/schemes/idea-grant",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "competition",
       "disciplines": [
         "engineering"
       ],
@@ -3128,10 +3197,12 @@
       "funder": "Manifund",
       "url": "https://manifund.org/about/regranting",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "computer-science",
         "politics-law-policy"
@@ -3570,9 +3641,11 @@
       "funder": "European Commission",
       "url": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/studying-abroad",
       "audience": [
+        "undergrads",
         "students",
         "faculty"
       ],
+      "ugType": "school",
       "disciplines": [
         "all"
       ],
@@ -3703,9 +3776,9 @@
       "funder": "Hausdorff Research Institute for Mathematics, University of Bonn",
       "url": "https://www.mathematics.uni-bonn.de/him/programs/future",
       "audience": [
+        "students",
         "postdocs",
-        "faculty",
-        "students"
+        "faculty"
       ],
       "disciplines": [
         "mathematics",
@@ -3745,10 +3818,12 @@
       "funder": "Institute for Advanced Study (IAS), Princeton",
       "url": "https://www.ias.edu/pcmi",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "school",
       "disciplines": [
         "mathematics"
       ],
@@ -4122,9 +4197,11 @@
       "funder": "Gesellschaft Deutscher Chemiker (German Chemical Society)",
       "url": "https://www.gdch.de/en/scholarships",
       "audience": [
+        "undergrads",
         "students",
         "postdocs"
       ],
+      "ugType": "school",
       "disciplines": [
         "chemistry"
       ],
@@ -4198,8 +4275,10 @@
       "funder": "Fannie and John Hertz Foundation",
       "url": "https://www.hertzfoundation.org/hertz-fellowship/apply/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "physics",
         "life-sciences",
@@ -4221,8 +4300,10 @@
       "funder": "U.S. Department of Defense (Air Force, Army, Navy)",
       "url": "https://ndseg.sysplus.com/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "stem"
       ],
@@ -4276,8 +4357,10 @@
       "funder": "Cooperative AI Foundation",
       "url": "https://www.cooperativeai.com/phd-fellowship/2027",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "computer-science"
       ],
@@ -4296,8 +4379,10 @@
       "funder": "Paul & Daisy Soros Fellowships for New Americans",
       "url": "https://pdsoros.org/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -4685,8 +4770,10 @@
       "funder": "IndiaAI, Digital India Corporation, Ministry of Electronics and Information Technology (MeitY)",
       "url": "https://fellowship.indiaai.gov.in/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "computer-science"
       ],
@@ -4872,10 +4959,12 @@
       "funder": "Mercatus Center at George Mason University",
       "url": "https://www.mercatus.org/emergent-ventures",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -4891,10 +4980,12 @@
       "funder": "Astral Codex Ten (Scott Alexander) via Manifund",
       "url": "https://www.astralcodexten.com/p/apply-for-an-acx-grant-2025",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -4910,8 +5001,10 @@
       "funder": "gradCapital",
       "url": "https://www.gradcapital.in/atomicfellow",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "stem"
       ],
@@ -4927,10 +5020,12 @@
       "funder": "Bambu Lab",
       "url": "https://bambulab.com/en-us/letsmakeitfund",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "engineering",
         "arts-design"
@@ -4947,8 +5042,10 @@
       "funder": "1517 Fund",
       "url": "https://www.1517fund.com/medici",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "stem"
       ],
@@ -4964,10 +5061,12 @@
       "funder": "O'Shaughnessy Ventures",
       "url": "https://www.osv.llc/fellowships",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -4984,9 +5083,11 @@
       "funder": "Alive Prize (partners include Solcoa Industries, Shinkei Systems, Splunk founders)",
       "url": "https://aliveprize.com/",
       "audience": [
+        "undergrads",
         "students",
         "postdocs"
       ],
+      "ugType": "competition",
       "disciplines": [
         "stem"
       ],
@@ -5004,8 +5105,9 @@
       "funder": "Thiel Foundation",
       "url": "https://thielfellowship.org/",
       "audience": [
-        "students"
+        "undergrads"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "engineering",
         "computer-science"
@@ -5023,8 +5125,10 @@
       "funder": "776 Foundation (Alexis Ohanian)",
       "url": "https://776.org/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "earth-environment",
         "engineering"
@@ -5063,9 +5167,11 @@
       "funder": "Cohere Labs (formerly Cohere For AI)",
       "url": "https://cohere.com/research/scholars-program",
       "audience": [
+        "undergrads",
         "students",
         "postdocs"
       ],
+      "ugType": "internship",
       "disciplines": [
         "computer-science"
       ],
@@ -5136,10 +5242,12 @@
       "funder": "Hugging Face",
       "url": "https://huggingface.co/docs/hub/en/spaces-gpus",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "computer-science"
       ],
@@ -5210,10 +5318,12 @@
       "funder": "Department of Science & Technology (DST), Government of India",
       "url": "https://nmicps.gov.in/",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "internship",
       "disciplines": [
         "computer-science",
         "engineering"
@@ -5371,8 +5481,10 @@
       "funder": "BIRAC (with SRISTI, Ahmedabad)",
       "url": "https://gyti.techpedia.in/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "life-sciences",
         "medicine-health",
@@ -5409,8 +5521,10 @@
       "funder": "Flipkart",
       "url": "https://internshala.com/competitions/flipkart-grid-8-0/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science"
       ],
@@ -5427,8 +5541,10 @@
       "funder": "Amazon India",
       "url": "https://unstop.com/hackathons/hackon-with-amazon-60-amazon-1682652",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science"
       ],
@@ -5445,8 +5561,10 @@
       "funder": "Infosys",
       "url": "https://unstop.com/blog/hackwithinfy-2025-key-details",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science"
       ],
@@ -5463,8 +5581,10 @@
       "funder": "Tata Consultancy Services",
       "url": "https://codevita.tcsapps.com/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science"
       ],
@@ -5534,8 +5654,10 @@
       "funder": "Centre for Complex Systems and Dynamics, IIT Madras (with Office of Global Engagement)",
       "url": "https://ge.iitm.ac.in/COLD2026/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "school",
       "disciplines": [
         "mathematics",
         "physics",
@@ -5611,8 +5733,9 @@
       "funder": "Amgen Foundation",
       "url": "https://amgenscholars.com/",
       "audience": [
-        "students"
+        "undergrads"
       ],
+      "ugType": "internship",
       "disciplines": [
         "life-sciences",
         "chemistry"
@@ -5743,10 +5866,12 @@
       "funder": "Department of Science and Technology (DST), Government of India",
       "url": "https://nidhi-prayas.org/",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "competition",
       "disciplines": [
         "engineering"
       ],
@@ -6258,8 +6383,10 @@
       "funder": "Ministry of Education (MoE), Government of India",
       "url": "https://www.pmrf.in/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "stem"
       ],
@@ -6839,8 +6966,9 @@
       "funder": "Mitacs with AICTE",
       "url": "https://www.mitacs.ca/our-programs/globalink-research-internship-students/",
       "audience": [
-        "students"
+        "undergrads"
       ],
+      "ugType": "internship",
       "disciplines": [
         "engineering",
         "computer-science"
@@ -7099,8 +7227,10 @@
       "funder": "AssisTech Foundation (ATF)",
       "url": "https://manthan.gov.in/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "engineering",
         "computer-science"
@@ -7118,10 +7248,12 @@
       "funder": "Temasek Foundation",
       "url": "https://gfic.cn",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "competition",
       "disciplines": [
         "earth-environment",
         "engineering"
@@ -7141,10 +7273,12 @@
       "funder": "Temasek Foundation",
       "url": "https://www.theliveabilitychallenge.org/",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "competition",
       "disciplines": [
         "earth-environment",
         "engineering"
@@ -7246,9 +7380,11 @@
       "funder": "Indian Academy of Sciences (IASc), Indian National Science Academy (INSA) and National Academy of Sciences, India (NASI)",
       "url": "https://webjapps.ias.ac.in/fellowship2027/",
       "audience": [
+        "undergrads",
         "students",
         "faculty"
       ],
+      "ugType": "internship",
       "disciplines": [
         "stem"
       ],
@@ -7267,8 +7403,10 @@
       "funder": "International Centre for Theoretical Sciences (ICTS-TIFR)",
       "url": "https://www.icts.res.in/academic/summer-research-program",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "internship",
       "disciplines": [
         "physics",
         "mathematics",
@@ -7348,8 +7486,10 @@
       "funder": "National Board for Higher Mathematics (NBHM), Department of Atomic Energy",
       "url": "https://www.imsc.res.in/~nbhm/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "mathematics"
       ],
@@ -7422,8 +7562,10 @@
       "funder": "Indo-U.S. Science and Technology Forum (IUSSTF)",
       "url": "https://iusstf.org/s-n-bose-scholars-program",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "internship",
       "disciplines": [
         "stem"
       ],
@@ -7440,8 +7582,10 @@
       "funder": "Indo-U.S. Science and Technology Forum (IUSSTF) and Department of Biotechnology (DBT)",
       "url": "https://iusstf.org/khorana-program-for-scholars",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "internship",
       "disciplines": [
         "life-sciences"
       ],
@@ -7499,8 +7643,10 @@
       "funder": "Abdus Salam International Centre for Theoretical Physics (ICTP)",
       "url": "https://www.ictp.it/opportunity/ictp-postgraduate-diploma-programme",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "physics",
         "mathematics",
@@ -7598,8 +7744,10 @@
       "funder": "Gates Cambridge Trust, University of Cambridge",
       "url": "https://www.gatescambridge.org/apply/timeline/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -7619,8 +7767,10 @@
       "funder": "Inlaks Shivdasani Foundation",
       "url": "https://www.inlaksfoundation.org/scholarships/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "hss",
         "physics",
@@ -8482,9 +8632,11 @@
       "funder": "MATS Program",
       "url": "https://www.matsprogram.org/",
       "audience": [
+        "undergrads",
         "students",
         "postdocs"
       ],
+      "ugType": "internship",
       "disciplines": [
         "computer-science",
         "politics-law-policy"
@@ -8577,8 +8729,10 @@
       "funder": "European Laboratory for Learning and Intelligent Systems (ELLIS)",
       "url": "https://ellis.eu/research/phd-postdoc",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "computer-science"
       ],
@@ -8712,10 +8866,12 @@
       "funder": "Unitary Foundation",
       "url": "https://unitary.foundation/grants/",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "computer-science",
         "physics"
@@ -8816,9 +8972,11 @@
       "funder": "Pivotal Research",
       "url": "https://www.pivotal-research.org/fellowship",
       "audience": [
+        "undergrads",
         "students",
         "postdocs"
       ],
+      "ugType": "internship",
       "disciplines": [
         "computer-science",
         "politics-law-policy"
@@ -8836,9 +8994,11 @@
       "funder": "ERA Cambridge",
       "url": "https://erafellowship.org/",
       "audience": [
+        "undergrads",
         "students",
         "postdocs"
       ],
+      "ugType": "internship",
       "disciplines": [
         "computer-science",
         "politics-law-policy"
@@ -8875,8 +9035,10 @@
       "funder": "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)",
       "url": "https://mbzuai.ac.ae/study/admission-process",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "computer-science"
       ],
@@ -8916,8 +9078,10 @@
       "funder": "Association for the Advancement of Artificial Intelligence (AAAI)",
       "url": "https://aaai.org/conference/aaai/aaai-27/student-scholar-volunteer-program/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "school",
       "disciplines": [
         "computer-science"
       ],
@@ -9092,8 +9256,10 @@
       "funder": "CERN",
       "url": "https://careers.cern/summer",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "internship",
       "disciplines": [
         "physics",
         "engineering",
@@ -9319,8 +9485,10 @@
       "funder": "SPIE, the international society for optics and photonics",
       "url": "https://spie.org/membership/student-hub/scholarships",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "physics",
         "engineering"
@@ -9540,8 +9708,10 @@
       "funder": "Deutsches Elektronen-Synchrotron (DESY)",
       "url": "https://summerstudents.desy.de",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "internship",
       "disciplines": [
         "physics",
         "computer-science",
@@ -9581,9 +9751,11 @@
       "funder": "The J.N. Tata Endowment for the Higher Education of Indians",
       "url": "https://www.jntataendowment.org/",
       "audience": [
+        "undergrads",
         "students",
         "postdocs"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -9600,8 +9772,10 @@
       "funder": "K.C. Mahindra Education Trust",
       "url": "https://www.kcmet.org/what-we-do-Scholarship-Grants.aspx",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -9618,8 +9792,10 @@
       "funder": "Narotam Sekhsaria Foundation",
       "url": "https://pg.nsfoundation.co.in/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -9788,8 +9964,10 @@
       "funder": "ACM WSDM 2027, with the Community Notes team at X",
       "url": "https://noteagents.org/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science"
       ],
@@ -9807,8 +9985,9 @@
       "funder": "Department of Science and Technology (DST), Government of India",
       "url": "https://www.online-inspire.gov.in/",
       "audience": [
-        "students"
+        "undergrads"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "physics",
         "chemistry",
@@ -9831,9 +10010,11 @@
       "funder": "Indian Academy of Sciences (IASc), Indian National Science Academy (INSA) and National Academy of Sciences, India (NASI)",
       "url": "https://webjapps.ias.ac.in/fastsf2027/application_instructions.jsp",
       "audience": [
+        "undergrads",
         "students",
         "faculty"
       ],
+      "ugType": "internship",
       "disciplines": [
         "stem"
       ],
@@ -10072,10 +10253,12 @@
       "funder": "EA Funds (Centre for Effective Altruism)",
       "url": "https://funds.effectivealtruism.org/funds/transformative-ai",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "computer-science",
         "politics-law-policy"
@@ -10093,8 +10276,10 @@
       "funder": "ETH Zurich, Department of Computer Science",
       "url": "https://inf.ethz.ch/studies/summer-research-fellowship/how-to-apply.html",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "internship",
       "disciplines": [
         "computer-science"
       ],
@@ -10113,8 +10298,10 @@
       "funder": "EPFL School of Computer and Communication Sciences",
       "url": "https://summer.epfl.ch/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "internship",
       "disciplines": [
         "computer-science"
       ],
@@ -10133,8 +10320,10 @@
       "funder": "EPFL School of Life Sciences",
       "url": "https://epfl.ch/schools/sv/education/summer-research-program",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "internship",
       "disciplines": [
         "life-sciences",
         "chemistry"
@@ -10152,8 +10341,10 @@
       "funder": "CERN",
       "url": "https://jobs.smartrecruiters.com/CERN/744000159596524",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "internship",
       "disciplines": [
         "computer-science"
       ],
@@ -10172,8 +10363,10 @@
       "funder": "Commonwealth Scholarship Commission in the UK",
       "url": "https://cscuk.fcdo.gov.uk/shared",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -10192,8 +10385,10 @@
       "funder": "European Commission (Erasmus+)",
       "url": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -10210,8 +10405,10 @@
       "funder": "Schwarzman Scholars (Tsinghua University)",
       "url": "https://www.schwarzmanscholars.org/admissions/eligibility/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "politics-law-policy",
         "economics",
@@ -10230,8 +10427,10 @@
       "funder": "Jane Street",
       "url": "https://www.janestreet.com/graduate-research-fellowship/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "computer-science",
         "mathematics",
@@ -10251,8 +10450,10 @@
       "funder": "ACM-W",
       "url": "https://women.acm.org/scholarships",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "school",
       "disciplines": [
         "computer-science"
       ],
@@ -10276,8 +10477,10 @@
       "funder": "Google",
       "url": "https://developers.google.com/open-source/gsoc/timeline",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "internship",
       "disciplines": [
         "computer-science"
       ],
@@ -10294,8 +10497,10 @@
       "funder": "Outreachy (Software Freedom Conservancy)",
       "url": "https://www.outreachy.org/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "internship",
       "disciplines": [
         "computer-science"
       ],
@@ -10312,8 +10517,10 @@
       "funder": "Microsoft",
       "url": "https://imaginecup.microsoft.com/Support/faq",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science",
         "engineering"
@@ -10334,8 +10541,10 @@
       "funder": "Vesuvius Challenge",
       "url": "https://scrollprize.org/prizes",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science",
         "history-archaeology"
@@ -10357,8 +10566,10 @@
       "funder": "Apart Research",
       "url": "https://www.apartresearch.com/sprints",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science"
       ],
@@ -10395,8 +10606,10 @@
       "funder": "Ministry of Education, Government of India / AICTE",
       "url": "https://www.sih.gov.in/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science",
         "engineering"
@@ -10415,9 +10628,11 @@
       "funder": "IndoML (Heritage Institute of Technology, IIT Kharagpur, IISc Bangalore, Inception - G42)",
       "url": "https://indoml.in/datathon/",
       "audience": [
+        "undergrads",
         "students",
         "postdocs"
       ],
+      "ugType": "competition",
       "disciplines": [
         "computer-science"
       ],
@@ -10685,9 +10900,9 @@
       "funder": "National Board for Higher Mathematics (NBHM), Department of Atomic Energy",
       "url": "https://nbhm.dae.gov.in/travel.html",
       "audience": [
-        "faculty",
+        "students",
         "postdocs",
-        "students"
+        "faculty"
       ],
       "disciplines": [
         "mathematics"
@@ -10704,8 +10919,10 @@
       "funder": "Association for Symbolic Logic (ASL)",
       "url": "https://aslonline.org/student-travel-awards/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "school",
       "disciplines": [
         "mathematics",
         "philosophy-religion"
@@ -10722,8 +10939,10 @@
       "funder": "Society for Industrial and Applied Mathematics (SIAM)",
       "url": "https://www.siam.org/conferences-events/conference-support/travel-and-registration-support/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "school",
       "disciplines": [
         "mathematics"
       ],
@@ -10746,9 +10965,9 @@
       "funder": "IndiaAI Mission, Ministry of Electronics and Information Technology (MeitY)",
       "url": "https://compute.indiaai.gov.in/",
       "audience": [
-        "faculty",
+        "students",
         "postdocs",
-        "students"
+        "faculty"
       ],
       "disciplines": [
         "computer-science"
@@ -10801,8 +11020,10 @@
       "funder": "Microsoft Research India",
       "url": "https://www.microsoft.com/en-us/research/academic-program/research-fellows-program-at-microsoft-research-india/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "internship",
       "disciplines": [
         "computer-science"
       ],
@@ -11700,8 +11921,9 @@
       "funder": "Haryana State Council for Science, Innovation & Technology (HSCSIT)",
       "url": "https://harchhatravratti.highereduhry.ac.in/Notices/POSEGuidelinesandAnnesures2026.pdf",
       "audience": [
-        "students"
+        "undergrads"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "physics",
         "chemistry",
@@ -11760,8 +11982,10 @@
       "funder": "Weizmann Institute of Science (Feinberg Graduate School), Israel",
       "url": "https://info.weizmann.ac.il/kupcinet-getz-international-summer-program/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "internship",
       "disciplines": [
         "stem"
       ],
@@ -11780,8 +12004,10 @@
       "funder": "Okinawa Institute of Science and Technology Graduate University (OIST), Japan",
       "url": "https://www.oist.jp/admissions/research-internship/apply-research-internship",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "internship",
       "disciplines": [
         "stem"
       ],
@@ -11887,8 +12113,10 @@
       "funder": "Yenching Academy, Peking University, China",
       "url": "https://yenchingacademy.pku.edu.cn/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "area-studies"
       ],
@@ -11907,8 +12135,10 @@
       "funder": "Clarendon Fund, University of Oxford",
       "url": "https://www.spi.ox.ac.uk/node/2036",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -11927,8 +12157,10 @@
       "funder": "Felix Trust, with SOAS University of London (also offered at Oxford and Reading)",
       "url": "https://www.soas.ac.uk/study/student-life/finance/scholarships/felix-scholarships",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "hss"
       ],
@@ -11947,8 +12179,10 @@
       "funder": "Cambridge Trust and University of Cambridge",
       "url": "https://www.postgraduate.study.cam.ac.uk/finance/funding",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -12143,8 +12377,9 @@
       "funder": "Indian Council of Social Science Research (ICSSR), Ministry of Education",
       "url": "https://icssr.org/yuva-shodh-pratibha-scheme",
       "audience": [
-        "students"
+        "undergrads"
       ],
+      "ugType": "internship",
       "disciplines": [
         "economics",
         "politics-law-policy",
@@ -12376,8 +12611,10 @@
       "funder": "Centre for Cultural Resources and Training (CCRT), Ministry of Culture",
       "url": "https://ccrtindia.gov.in/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "arts-design"
       ],
@@ -12694,8 +12931,10 @@
       "funder": "Swasti with Public Policy India and STRIDE, supported by the High Commission of Canada (CFLI); promoted by the Shastri India Canada Institute",
       "url": "https://shastriinstitute.org/maple-bridge-research-fellowship-2026-27",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "internship",
       "disciplines": [
         "politics-law-policy",
         "economics"
@@ -12893,8 +13132,10 @@
       "funder": "Ministry of Education, Culture, Sports, Science and Technology (MEXT), Japan, via the Embassy of Japan in India",
       "url": "https://www.in.emb-japan.go.jp/Education/Research_Student.html",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -12910,8 +13151,10 @@
       "funder": "Government of the Republic of Korea (NIIED), via the Embassy of Korea in New Delhi",
       "url": "https://overseas.mofa.go.kr/in-en/brd/m_22090/view.do?seq=761565",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -13423,8 +13666,10 @@
       "funder": "Weidenfeld-Hoffmann Trust and University of Oxford",
       "url": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/fees-funding-and-scholarship-search/weidenfeld-hoffmann-scholarships-and-leadership-programme",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "politics-law-policy",
         "economics",
@@ -13445,8 +13690,10 @@
       "funder": "Ertegun Graduate Scholarship Programme, University of Oxford",
       "url": "https://www.ertegun.ox.ac.uk/scholarships",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "history-archaeology",
         "philosophy-religion",
@@ -13508,8 +13755,10 @@
       "funder": "Aga Khan Foundation",
       "url": "https://www.akdn.org/our-agencies/aga-khan-foundation/international-scholarship-programme",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -13883,8 +14132,10 @@
       "funder": "French Ministry for Europe and Foreign Affairs (administered by Campus France)",
       "url": "https://www.campusfrance.org/en/france-excellence-eiffel-scholarship-program",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "stem",
         "economics",
@@ -14125,8 +14376,10 @@
       "funder": "Higher Education Authority (Ireland)",
       "url": "https://hea.ie/policy/internationalisation/goi-ies/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -14325,8 +14578,10 @@
       "funder": "Chennai Mathematical Institute (CMI)",
       "url": "https://www.cmi.ac.in/admissions/internships.php",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "internship",
       "disciplines": [
         "computer-science"
       ],
@@ -14345,8 +14600,10 @@
       "funder": "The Institute of Mathematical Sciences (IMSc), Chennai",
       "url": "https://www.imsc.res.in/summer_research_programme",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "internship",
       "disciplines": [
         "mathematics",
         "computer-science",
@@ -14365,8 +14622,10 @@
       "funder": "Tata Institute of Fundamental Research (TIFR), School of Mathematics",
       "url": "https://mathweb.tifr.res.in/vsrp.html",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "internship",
       "disciplines": [
         "mathematics"
       ],
@@ -14401,8 +14660,10 @@
       "funder": "USENIX Association",
       "url": "https://www.usenix.org/grants",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "school",
       "disciplines": [
         "computer-science"
       ],
@@ -14418,10 +14679,12 @@
       "funder": "Association for Computational Linguistics (ACL)",
       "url": "https://2026.aclweb.org/calls/di_subsidies/",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "school",
       "disciplines": [
         "computer-science",
         "languages-literature"
@@ -14438,8 +14701,10 @@
       "funder": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "url": "https://cvpr.thecvf.com/Conferences/2026/BroadeningParticipation",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "school",
       "disciplines": [
         "computer-science"
       ],
@@ -14455,10 +14720,12 @@
       "funder": "Ethereum Foundation",
       "url": "https://esp.ethereum.foundation/",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "computer-science"
       ],
@@ -14474,10 +14741,12 @@
       "funder": "Zcash Community Grants (Zcash Foundation)",
       "url": "https://zcashcommunitygrants.org/",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "computer-science"
       ],
@@ -14620,8 +14889,10 @@
       "funder": "ACM SIGPLAN",
       "url": "https://plmw.sigplan.org/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "school",
       "disciplines": [
         "computer-science"
       ],
@@ -14654,9 +14925,11 @@
       "funder": "Women in Machine Learning (WiML)",
       "url": "https://sites.google.com/wimlworkshop.org/wimlworkshopneurips2026/call-for-participation",
       "audience": [
+        "undergrads",
         "students",
         "postdocs"
       ],
+      "ugType": "school",
       "disciplines": [
         "computer-science"
       ],
@@ -14672,8 +14945,10 @@
       "funder": "ACM India IKDD (Conference on Data Science, CODS)",
       "url": "https://ikdd.acm.org/cods-2026/student-travel-grants.php",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "school",
       "disciplines": [
         "computer-science"
       ],
@@ -14689,10 +14964,12 @@
       "funder": "ACM Conference on Fairness, Accountability, and Transparency (FAccT)",
       "url": "https://facctconference.org/2026/scholarships.html",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "school",
       "disciplines": [
         "computer-science",
         "politics-law-policy",
@@ -14710,10 +14987,12 @@
       "funder": "Constellation Institute",
       "url": "https://constellation.org/programs/astra/empirical",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "internship",
       "disciplines": [
         "computer-science"
       ],
@@ -15211,9 +15490,11 @@
       "funder": "International Astronautical Federation (IAF)",
       "url": "https://www.iafastro.org/activities/next-generation/emerging-space-leaders-grant-programme/",
       "audience": [
+        "undergrads",
         "students",
         "postdocs"
       ],
+      "ugType": "school",
       "disciplines": [
         "engineering",
         "physics",
@@ -15231,8 +15512,10 @@
       "funder": "Indian National Academy of Engineering (INAE)",
       "url": "https://www.inae.in/innovative-student-projects-award/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "engineering"
       ],
@@ -15286,8 +15569,10 @@
       "funder": "IEEE Microwave Theory and Technology Society (MTT-S)",
       "url": "https://mtt.org/students/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "engineering"
       ],
@@ -15306,8 +15591,10 @@
       "funder": "IEEE Signal Processing Society (SPS)",
       "url": "https://signalprocessingsociety.org/community-involvement/sps-scholarship-program",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "engineering",
         "computer-science"
@@ -15377,8 +15664,10 @@
       "funder": "ASME International Gas Turbine Institute (IGTI)",
       "url": "https://event.asme.org/Turbo-Expo/Students/Student-Advisory-Committee-Travel-Award-(SACTA)",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "school",
       "disciplines": [
         "engineering"
       ],
@@ -15396,8 +15685,10 @@
       "funder": "James Dyson Foundation",
       "url": "https://www.jamesdysonaward.org/en-IN/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "competition",
       "disciplines": [
         "engineering",
         "arts-design"
@@ -15437,9 +15728,11 @@
       "funder": "IEEE Educational Activities (EPICS in IEEE), with IEEE societies (AP-S, IMS, RAS, SSCS, IAS) and IEEE SA",
       "url": "https://epics.ieee.org/october-2026-epics-in-ieee-call-for-proposals/",
       "audience": [
+        "undergrads",
         "students",
         "faculty"
       ],
+      "ugType": "competition",
       "disciplines": [
         "engineering"
       ],
@@ -15475,8 +15768,10 @@
       "funder": "Research Grants Council of Hong Kong",
       "url": "https://cerg1.ugc.edu.hk/hkpfs/apply.html",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -15495,8 +15790,10 @@
       "funder": "Government of Türkiye (YTB)",
       "url": "https://www.turkiyeburslari.gov.tr/calendar",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -15512,8 +15809,10 @@
       "funder": "Dutch Ministry of Education, Culture and Science and Dutch universities (Study in NL)",
       "url": "https://www.studyinnl.org/finances/holland-scholarship",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -15530,8 +15829,10 @@
       "funder": "Government of Hungary (Tempus Public Foundation)",
       "url": "https://stipendiumhungaricum.hu/partners/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -15547,8 +15848,10 @@
       "funder": "Embassy of France in India / Campus France India",
       "url": "https://www.inde.campusfrance.org/charpak-master-s-scholarship",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -15565,8 +15868,10 @@
       "funder": "Embassy of France in India / Campus France India",
       "url": "https://inde.campusfrance.org/node/96",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "internship",
       "disciplines": [
         "all"
       ],
@@ -15583,8 +15888,10 @@
       "funder": "Italian Ministry of Foreign Affairs (MAECI), ICE and Uni-Italia",
       "url": "https://investyourtalent.esteri.it/SitoIYT/EN/invest-your-talent-in-italy",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "engineering",
         "computer-science",
@@ -15669,8 +15976,10 @@
       "funder": "Commonwealth Scholarship Commission in the UK (FCDO)",
       "url": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -15818,8 +16127,10 @@
       "funder": "Ministry of Education, Taiwan (via Taipei Economic and Cultural Center in India)",
       "url": "https://www.roc-taiwan.org/uploads/sites/16/2026/02/2026_India_Taiwan_Scholarship_Guide_24_Feb_2026.pdf",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -15836,10 +16147,12 @@
       "funder": "Ministry of Education, Taiwan (via Taipei Economic and Cultural Center in India)",
       "url": "https://roc-taiwan.org/uploads/sites/16/2026/01/2026_HES_Guide_India.pdf",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -15877,8 +16190,10 @@
       "funder": "The University of Hong Kong",
       "url": "https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hku_presidential_phd_scholar_programme",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "scholarship",
       "disciplines": [
         "all"
       ],
@@ -15897,8 +16212,10 @@
       "funder": "King Abdullah University of Science and Technology",
       "url": "https://admissions.kaust.edu.sa/study/internships",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "internship",
       "disciplines": [
         "stem"
       ],
@@ -15915,8 +16232,9 @@
       "funder": "California Institute of Technology",
       "url": "https://sfp.caltech.edu/undergraduate-research/programs/surf/application_information",
       "audience": [
-        "students"
+        "undergrads"
       ],
+      "ugType": "internship",
       "disciplines": [
         "stem"
       ],
@@ -16036,8 +16354,10 @@
       "funder": "PRS Legislative Research",
       "url": "https://prsindia.org/lamp",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "internship",
       "disciplines": [
         "politics-law-policy"
       ],
@@ -16245,8 +16565,10 @@
       "funder": "Cognitive Science Society and the Robert J. Glushko and Pamela Samuelson Fund",
       "url": "https://cognitivesciencesociety.org/conference-awards/",
       "audience": [
+        "undergrads",
         "students"
       ],
+      "ugType": "school",
       "disciplines": [
         "psychology-cognitive"
       ],
@@ -16745,10 +17067,12 @@
       "funder": "Berggruen Institute",
       "url": "https://berggruen.org/essay-competition-open",
       "audience": [
+        "undergrads",
         "students",
         "postdocs",
         "faculty"
       ],
+      "ugType": "competition",
       "disciplines": [
         "philosophy-religion"
       ],
@@ -17003,6 +17327,30 @@
       "region": "Open to applicants of any nationality; grantees need a bank account compliant with US banking rules and must follow US OFAC regulations",
       "amount": "Individual research grants up to USD 10,000",
       "description": "Grants for research on Iranian civilisation and its wider reach, including Central Asia, the Caucasus and the Indian subcontinent; publication and institutional grants are also offered. Tuition, PhD dissertation work and conference travel are not funded."
+    },
+    {
+      "id": "hku-society-of-fellows-humanities-2027",
+      "name": "Society of Fellows in the Humanities, University of Hong Kong (2027-28 intake)",
+      "funder": "Faculty of Arts, University of Hong Kong",
+      "url": "https://sof.arts.hku.hk/call-for-applications",
+      "audience": [
+        "postdocs"
+      ],
+      "disciplines": [
+        "history-archaeology",
+        "philosophy-religion",
+        "languages-literature",
+        "arts-design",
+        "area-studies"
+      ],
+      "deadlines": [
+        "2026-12-15"
+      ],
+      "deadlineNote": "Applications close 23:59 Hong Kong time on 15 December 2026, online via the HKU careers site; three referees email letters to sofhku@hku.hk. Notification by end of February 2027.",
+      "region": "Hong Kong; no nationality restriction stated; HKU PhDs not eligible",
+      "amount": "Salary with medical benefits, annual leave, and conference and research support (amount not stated)",
+      "duration": "3 years, non-renewable, starting June to August 2027",
+      "description": "Up to two postdoctoral fellowships at the rank of Research Assistant Professor in the Faculty of Arts, hosted by the department closest to the fellow's research. Open to applicants with a PhD conferred between 1 January 2025 and 30 June 2027 who are not in tenure-track posts; fellows teach two courses over the term and must live in Hong Kong."
     }
   ]
 }

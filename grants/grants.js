@@ -8,6 +8,30 @@
   'use strict';
 
   const AUDIENCES = ['students', 'postdocs', 'faculty'];
+  const AUDIENCE_LABEL = {
+    undergrads: 'undergraduates', students: 'graduate students', postdocs: 'postdocs', faculty: 'faculty'
+  };
+  const UG_TYPES = ['internship', 'scholarship', 'competition', 'school'];
+  const UG_TYPE_LABEL = {
+    internship: 'Research internship', scholarship: 'Scholarship', competition: 'Competition', school: 'School or workshop'
+  };
+  // The page has two views over one data file. Each view sets its tabs, the
+  // calendar dot legend and the noun used in the result count.
+  const VIEWS = {
+    grants: {
+      noun: 'grants',
+      tabs: [['all', 'All'], ['students', 'Graduate students'], ['postdocs', 'Postdocs'],
+        ['faculty', 'Faculty'], ['hackathons', 'Hackathons'], ['rolling', 'No fixed date']],
+      legend: [['students', 'graduate students'], ['postdocs', 'postdocs'], ['faculty', 'faculty']]
+    },
+    ug: {
+      noun: 'undergraduate opportunities',
+      tabs: [['all', 'All'], ['internship', 'Internships'], ['scholarship', 'Scholarships'],
+        ['competition', 'Competitions'], ['school', 'Schools and workshops'], ['rolling', 'No fixed date']],
+      legend: [['internship', 'internships'], ['scholarship', 'scholarships'],
+        ['competition', 'competitions'], ['school', 'schools and workshops']]
+    }
+  };
   const WEEKDAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
   const MONTH_NAMES = [
     'January', 'February', 'March', 'April', 'May', 'June',
@@ -58,6 +82,7 @@
 
   const state = {
     grants: [],
+    view: 'grants',
     filter: 'all',
     disc: 'all',
     query: '',
@@ -166,13 +191,20 @@
     const hay = searchText(grant);
     return state.query.split(/\s+/).every(w => hay.includes(w));
   }
+  function inView(grant, view) {
+    const aud = Array.isArray(grant.audience) ? grant.audience : [];
+    if (view === 'ug') return aud.includes('undergrads');
+    return AUDIENCES.some(a => aud.includes(a));
+  }
   function filterMatch(grant) {
+    if (!inView(grant, state.view)) return false;
     if (!queryMatch(grant)) return false;
     if (!fieldMatch(grant)) return false;
     const f = state.filter;
     if (f === 'all') return true;
-    if (f === 'hackathons') return isHackathon(grant);
     if (f === 'rolling') return isRolling(grant);
+    if (state.view === 'ug') return grant.ugType === f;
+    if (f === 'hackathons') return isHackathon(grant);
     // Audience tabs exclude hackathons.
     if (isHackathon(grant)) return false;
     return Array.isArray(grant.audience) && grant.audience.includes(f);
@@ -201,6 +233,18 @@
       .filter(g => isRolling(g))
       .slice()
       .sort((a, b) => a.name.localeCompare(b.name));
+  }
+
+  function dotKeys(grant) {
+    if (state.view === 'ug') return grant.ugType ? [grant.ugType] : [];
+    return (grant.audience || []).filter(a => AUDIENCES.includes(a));
+  }
+  function renderLegend() {
+    const host = document.getElementById('cal-legend');
+    if (!host) return;
+    host.innerHTML = VIEWS[state.view].legend
+      .map(([k, label]) => `<span><span class="cal-legend-dot" data-key="${k}" aria-hidden="true"></span> ${label}</span>`)
+      .join('');
   }
 
   // -------- calendar render --------
@@ -235,13 +279,11 @@
       const d = new Date(state.year, state.month, day);
       const isToday = ymd(d) === todayKey;
       const dayGrants = pins.get(day) || [];
-      const audSet = new Set();
-      for (const g of dayGrants) {
-        for (const a of (g.audience || [])) audSet.add(a);
-      }
-      const dots = AUDIENCES
-        .filter(a => audSet.has(a))
-        .map(a => `<span class="cal-dot" data-audience="${a}"></span>`)
+      const keySet = new Set();
+      for (const g of dayGrants) dotKeys(g).forEach(k => keySet.add(k));
+      const dots = VIEWS[state.view].legend
+        .filter(([k]) => keySet.has(k))
+        .map(([k]) => `<span class="cal-dot" data-key="${k}"></span>`)
         .join('');
       const isPast = ymd(d) < todayKey;
       const cls = `cal-cell${isToday ? ' is-today' : ''}${isPast ? ' is-past' : ''}${dayGrants.length ? ' has-pin' : ''}`;
@@ -301,9 +343,10 @@
     return `<span class="grant-deadline">${formatLong(d)}${badge}</span>`;
   }
   function grantCard(grant, withDeadline, section) {
-    const aud = (grant.audience || []).join(', ');
+    const aud = (grant.audience || []).map(a => AUDIENCE_LABEL[a] || a).join(', ');
     const metaParts = [
-      grant.type === 'hackathon' ? 'Hackathon' : null,
+      state.view === 'ug' && grant.ugType ? UG_TYPE_LABEL[grant.ugType] : null,
+      state.view !== 'ug' && grant.type === 'hackathon' ? 'Hackathon' : null,
       grant.funder,
       grant.region,
       grant.amount,
@@ -372,6 +415,11 @@
       : '';
     return `<div class="grants-more-row"><button type="button" class="grants-more" data-more="${section}">Show ${n} more <span class="grants-more-rest">(${remaining} remaining)</span></button>${all}</div>`;
   }
+  function viewTotal(view) {
+    let n = 0;
+    for (const g of state.grants) if (inView(g, view)) n++;
+    return n;
+  }
   function countMatching() {
     let n = 0;
     for (const g of state.grants) if (filterMatch(g)) n++;
@@ -385,10 +433,11 @@
     const clearEl = document.getElementById('grants-clear');
     if (!textEl) return;
     const n = countMatching();
-    const total = state.grants.length;
+    const total = viewTotal(state.view);
+    const noun = VIEWS[state.view].noun;
     const text = filtersActive()
-      ? `Showing ${n} of ${total} grants.`
-      : `Showing all ${total} grants.`;
+      ? `Showing ${n} of ${total} ${noun}.`
+      : `Showing all ${total} ${noun}.`;
     if (textEl.textContent !== text) textEl.textContent = text;
     if (clearEl) clearEl.hidden = !filtersActive();
   }
@@ -396,6 +445,7 @@
     const params = new URLSearchParams();
     if (state.query) params.set('q', state.query);
     if (state.disc !== 'all') params.set('d', state.disc);
+    if (state.view !== 'grants') params.set('v', state.view);
     if (state.filter !== 'all') params.set('a', state.filter);
     const h = params.toString();
     history.replaceState(null, '', h ? '#' + h : location.pathname + location.search);
@@ -409,18 +459,21 @@
     const validDisc = d === 'all' || Object.prototype.hasOwnProperty.call(DISC_LABEL, d) ||
       (d.startsWith('group:') && DISC_GROUPS.some(x => 'group:' + x.id === d));
     state.disc = validDisc ? d : 'all';
-    const validAud = ['all', 'students', 'postdocs', 'faculty', 'hackathons', 'rolling'];
-    state.filter = validAud.includes(a) ? a : 'all';
+    state.view = params.get('v') === 'ug' ? 'ug' : 'grants';
+    const validTabs = VIEWS[state.view].tabs.map(([k]) => k);
+    state.filter = validTabs.includes(a) ? a : 'all';
   }
   function syncControls() {
     const input = document.getElementById('grants-search');
     if (input && input.value.trim().toLowerCase() !== state.query) input.value = state.query;
-    document.querySelectorAll('.tabs-audience .tab').forEach(t => {
-      const on = t.getAttribute('data-filter') === state.filter;
-      t.classList.toggle('is-active', on);
-      t.setAttribute('aria-pressed', on ? 'true' : 'false');
+    document.querySelectorAll('.view-switch button').forEach(b => {
+      const on = b.dataset.view === state.view;
+      b.classList.toggle('is-active', on);
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
     });
-    updateDiscFilter();
+    renderTabs();
+    renderLegend();
+    renderDiscFilter();
   }
   function onFiltersChanged() {
     state.shown = { upcoming: PAGE, rolling: PAGE };
@@ -441,19 +494,28 @@
   }
 
   // -------- wiring --------
+  function renderTabs() {
+    const host = document.getElementById('audience-tabs');
+    if (!host) return;
+    host.setAttribute('aria-label', state.view === 'ug' ? 'Filter by type' : 'Filter by audience');
+    host.innerHTML = VIEWS[state.view].tabs.map(([k, label]) => {
+      const on = k === state.filter;
+      return `<button type="button" class="tab${on ? ' is-active' : ''}" aria-pressed="${on}" data-filter="${k}">${label}</button>`;
+    }).join('');
+  }
   function discChip(value, label, count, extraClass) {
     const on = state.disc === value;
-    return `<button type="button" class="disc-chip${extraClass ? ' ' + extraClass : ''}${on ? ' is-active' : ''}" data-disc="${value}" aria-pressed="${on}" title="${count} grants in total">${label}<span class="disc-count"><span class="visually-hidden">, </span>${count}</span></button>`;
+    return `<button type="button" class="disc-chip${extraClass ? ' ' + extraClass : ''}${on ? ' is-active' : ''}" data-disc="${value}" aria-pressed="${on}" title="${count} ${VIEWS[state.view].noun} in total">${label}<span class="disc-count"><span class="visually-hidden">, </span>${count}</span></button>`;
   }
   function countFor(value) {
     let n = 0;
-    for (const g of state.grants) if (discMatchValue(g, value)) n++;
+    for (const g of state.grants) if (inView(g, state.view) && discMatchValue(g, value)) n++;
     return n;
   }
   function renderDiscFilter() {
     const host = document.getElementById('disc-filter');
     if (!host) return;
-    const rows = [`<div class="disc-row">${discChip('all', 'All disciplines', state.grants.length, 'disc-all')}</div>`];
+    const rows = [`<div class="disc-row">${discChip('all', 'All disciplines', viewTotal(state.view), 'disc-all')}</div>`];
     for (const grp of DISC_GROUPS) {
       const chips = grp.items.map(([slug, label]) => discChip(slug, label, countFor(slug))).join('');
       rows.push(`<div class="disc-row">${discChip('group:' + grp.id, grp.label, countFor('group:' + grp.id), 'disc-group')}<div class="disc-items">${chips}</div></div>`);
@@ -491,24 +553,30 @@
       onFiltersChanged();
     });
   }
-  function wireTabGroup(selector, attr, key) {
-    const tabs = document.querySelectorAll(selector);
-    tabs.forEach(t => {
-      t.addEventListener('click', () => {
-        const v = t.getAttribute(attr);
-        if (v === state[key]) return;
-        state[key] = v;
-        tabs.forEach(o => {
-          const on = o === t;
-          o.classList.toggle('is-active', on);
-          o.setAttribute('aria-pressed', on ? 'true' : 'false');
-        });
+  function wireTabs() {
+    const host = document.getElementById('audience-tabs');
+    host.addEventListener('click', (e) => {
+      const t = e.target.closest('.tab');
+      if (!t || t.dataset.filter === state.filter) return;
+      state.filter = t.dataset.filter;
+      host.querySelectorAll('.tab').forEach(o => {
+        const on = o === t;
+        o.classList.toggle('is-active', on);
+        o.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
+      onFiltersChanged();
+    });
+  }
+  function wireViewSwitch() {
+    document.querySelectorAll('.view-switch button').forEach(b => {
+      b.addEventListener('click', () => {
+        if (b.dataset.view === state.view) return;
+        state.view = b.dataset.view;
+        state.filter = 'all';
+        syncControls();
         onFiltersChanged();
       });
     });
-  }
-  function wireTabs() {
-    wireTabGroup('.tabs-audience .tab', 'data-filter', 'filter');
   }
   function wireSearch() {
     const input = document.getElementById('grants-search');
@@ -585,7 +653,7 @@
     if (summary) summary.textContent = msg;
     const grid = document.getElementById('cal-grid');
     if (grid) grid.innerHTML = `<p class="grants-empty">${msg}</p>`;
-    for (const id of ['grants-count', 'grants-updated']) {
+    for (const id of ['grants-count', 'ug-count', 'grants-updated']) {
       const el = document.getElementById(id);
       if (el) el.textContent = '-';
     }
@@ -604,13 +672,16 @@
     } else {
       updatedEl.textContent = '-';
     }
-    document.getElementById('grants-count').textContent = String(state.grants.length);
+    document.getElementById('grants-count').textContent = String(viewTotal('grants'));
+    const ugCount = document.getElementById('ug-count');
+    if (ugCount) ugCount.textContent = String(viewTotal('ug'));
 
     readHash();
     renderDiscFilter();
     syncControls();
     wireDiscFilter();
     wireTabs();
+    wireViewSwitch();
     wireSearch();
     wireListButtons();
     wireNav();

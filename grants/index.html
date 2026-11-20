@@ -4,12 +4,12 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Aalok Thakkar: Research Grants</title>
+    <title>Aalok Thakkar: Grants and Opportunities</title>
     <link rel="icon" href="data:,">
 
     <link
       rel="stylesheet"
-      href="/webpage_files/style.css?v=6"
+      href="/webpage_files/style.css?v=7"
       type="text/css"
       media="screen"
     />
@@ -18,12 +18,14 @@
   <body>
     <div id="content" class="single-wide grants-page">
       <h1>
-        Aalok Thakkar: <strong>Research Grants</strong>
+        Aalok Thakkar: <strong>Grants and Opportunities</strong>
       </h1>
 
       <p class="grants-intro">
         A public-service repository of grants, fellowships, and awards in the
-        sciences, humanities, and social sciences, for students, postdocs, and faculty. Updated every two weeks.
+        sciences, humanities, and social sciences, for graduate students, postdocs, and faculty,
+        with a separate view of internships, scholarships, competitions, and schools for undergraduates.
+        Updated every two weeks.
         To submit a grant, please email
         <a href="mailto:thakkar.grants@gmail.com">thakkar.grants@gmail.com</a>.
         To report an expired or incorrect entry, write to
@@ -32,8 +34,14 @@
       <p class="grants-meta">
         Last updated: <span id="grants-updated">&hellip;</span>
         &middot;
-        <span id="grants-count">&hellip;</span> grants in the repository.
+        <span id="grants-count">&hellip;</span> research grants and
+        <span id="ug-count">&hellip;</span> undergraduate opportunities.
       </p>
+
+      <div class="view-switch" role="group" aria-label="Choose what to browse">
+        <button type="button" class="is-active" aria-pressed="true" data-view="grants">Research grants</button>
+        <button type="button" aria-pressed="false" data-view="ug">Undergraduate opportunities</button>
+      </div>
 
       <div class="grants-search-wrap">
         <label for="grants-search" class="visually-hidden">Search grants</label>
@@ -43,14 +51,7 @@
         <summary class="disc-summary">Discipline: <span id="disc-current">All disciplines</span></summary>
         <div id="disc-filter" class="disc-filter" role="group" aria-label="Filter by discipline"></div>
       </details>
-      <div class="tabs tabs-audience" role="group" aria-label="Filter by audience">
-        <button type="button" class="tab is-active" aria-pressed="true" data-filter="all">All</button>
-        <button type="button" class="tab" aria-pressed="false" data-filter="students">Students</button>
-        <button type="button" class="tab" aria-pressed="false" data-filter="postdocs">Postdocs</button>
-        <button type="button" class="tab" aria-pressed="false" data-filter="faculty">Faculty</button>
-        <button type="button" class="tab" aria-pressed="false" data-filter="hackathons">Hackathons</button>
-        <button type="button" class="tab" aria-pressed="false" data-filter="rolling">No fixed date</button>
-      </div>
+      <div id="audience-tabs" class="tabs tabs-audience" role="group" aria-label="Filter by audience"></div>
 
       <p class="grants-summary"><span id="grants-summary-text" aria-live="polite"></span> <button type="button" class="grants-clear" id="grants-clear" hidden>Clear filters</button></p>
       <section class="cal-section" aria-label="Deadline calendar">
@@ -60,11 +61,7 @@
           <button type="button" class="cal-nav" id="cal-next" aria-label="Next month">&rsaquo;</button>
         </div>
         <div class="cal-grid" id="cal-grid"></div>
-        <p class="cal-legend">
-          <span class="cal-legend-dot" data-audience="students" aria-hidden="true"></span> students
-          <span class="cal-legend-dot" data-audience="postdocs" aria-hidden="true"></span> postdocs
-          <span class="cal-legend-dot" data-audience="faculty" aria-hidden="true"></span> faculty
-        </p>
+        <p id="cal-legend" class="cal-legend"></p>
       </section>
 
       <section aria-labelledby="month-list-title">
@@ -104,6 +101,6 @@
           document.getElementById('footer').innerHTML = data;
         });
     </script>
-    <script src="./grants.js?v=15"></script>
+    <script src="./grants.js?v=16"></script>
   </body>
 </html>

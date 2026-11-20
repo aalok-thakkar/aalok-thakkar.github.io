@@ -36,6 +36,7 @@
   --aud-students: #2a5cb8;
   --aud-postdocs: #c97b3b;
   --aud-faculty:  #3f8a55;
+  --aud-school:   #8a4fb0;
 
   /* Spacing scale */
   --sp-1: 4px;   --sp-2: 8px;   --sp-3: 12px;  --sp-4: 16px;
@@ -75,6 +76,7 @@
     --aud-students: #8db1ff;
     --aud-postdocs: #e8a06a;
     --aud-faculty:  #76c08e;
+    --aud-school:   #c493e3;
   }
 }
 
@@ -453,7 +455,35 @@ details.news-archive > summary:hover { color: var(--text); }
   overflow: hidden; clip: rect(0 0 0 0);
   white-space: nowrap; border: 0;
 }
-.grants-search-wrap { margin: var(--sp-6) 0 var(--sp-4); }
+.view-switch {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0;
+  margin: var(--sp-6) 0 0;
+  padding: 3px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg-elev);
+}
+.view-switch button {
+  font-family: var(--font-body);
+  font-size: 0.95em;
+  color: var(--text-muted);
+  background: transparent;
+  border: 0;
+  border-radius: 999px;
+  padding: var(--sp-2) var(--sp-4);
+  cursor: pointer;
+  transition: color var(--t-fast), background var(--t-fast);
+}
+.view-switch button:hover { color: var(--text); }
+.view-switch button.is-active {
+  color: var(--bg);
+  background: var(--accent);
+  font-weight: 500;
+}
+.view-switch button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.grants-search-wrap { margin: var(--sp-4) 0 var(--sp-4); }
 .grants-search {
   width: 100%;
   box-sizing: border-box;
@@ -746,9 +776,10 @@ button.cal-cell {
   border-radius: 50%;
   display: inline-block;
 }
-.cal-dot[data-audience="students"] { background: var(--aud-students); }
-.cal-dot[data-audience="postdocs"] { background: var(--aud-postdocs); }
-.cal-dot[data-audience="faculty"]  { background: var(--aud-faculty); }
+.cal-dot[data-key="students"], .cal-legend-dot[data-key="students"], .cal-dot[data-key="internship"], .cal-legend-dot[data-key="internship"] { background: var(--aud-students); }
+.cal-dot[data-key="postdocs"], .cal-legend-dot[data-key="postdocs"], .cal-dot[data-key="scholarship"], .cal-legend-dot[data-key="scholarship"] { background: var(--aud-postdocs); }
+.cal-dot[data-key="faculty"], .cal-legend-dot[data-key="faculty"], .cal-dot[data-key="competition"], .cal-legend-dot[data-key="competition"] { background: var(--aud-faculty); }
+.cal-dot[data-key="school"], .cal-legend-dot[data-key="school"] { background: var(--aud-school); }
 
 .cal-legend {
   display: flex;
@@ -767,9 +798,6 @@ button.cal-cell {
   margin-right: 4px;
   vertical-align: middle;
 }
-.cal-legend-dot[data-audience="students"] { background: var(--aud-students); }
-.cal-legend-dot[data-audience="postdocs"] { background: var(--aud-postdocs); }
-.cal-legend-dot[data-audience="faculty"]  { background: var(--aud-faculty); }
 
 /* Listings ------------------------------------------------------------- */
 .list-title {
