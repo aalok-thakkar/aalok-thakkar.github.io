@@ -17351,6 +17351,1569 @@
       "amount": "Salary with medical benefits, annual leave, and conference and research support (amount not stated)",
       "duration": "3 years, non-renewable, starting June to August 2027",
       "description": "Up to two postdoctoral fellowships at the rank of Research Assistant Professor in the Faculty of Arts, hosted by the department closest to the fellow's research. Open to applicants with a PhD conferred between 1 January 2025 and 30 June 2027 who are not in tenure-track posts; fellows teach two courses over the term and must live in Hong Kong."
+    },
+    {
+      "id": "fields-fusrp-2027",
+      "name": "Fields Undergraduate Summer Research Program (FUSRP) 2027",
+      "funder": "Fields Institute for Research in Mathematical Sciences",
+      "url": "https://www.fields.utoronto.ca/activities/26-27/FUSRP",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "mathematics"
+      ],
+      "deadlines": [
+        "2027-01-04"
+      ],
+      "deadlineNote": "Student applications close 4 January 2027, 1:00 pm EST; reference letters are due 11 January 2027.",
+      "region": "Canada",
+      "amount": "Most travel and on-site costs covered",
+      "duration": "Groups of three to four undergraduates from around the world work on a supervised mathematics research project at the Fields Institute in Toronto or at Western University. Projects for 2027 are listed on the programme page.",
+      "description": "1 June to 31 July 2027"
+    },
+    {
+      "id": "jncasr-srfp",
+      "name": "JNCASR Summer Research Fellowship Programme (SRFP)",
+      "funder": "Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR)",
+      "url": "https://www.jncasr.ac.in/academic/fandeprogrammes/srfp/",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "life-sciences",
+        "chemistry",
+        "physics",
+        "engineering"
+      ],
+      "deadlines": [],
+      "deadlineNote": "The 2026 call ran from 22 December 2025 to 31 January 2026. JNCASR lists SRFP-2027 as opening soon; expect a similar December to January window.",
+      "region": "India",
+      "amount": "Rs 12,500 per month plus third AC train fare",
+      "duration": "Two-month summer project with a JNCASR scientist in Bengaluru for students in science, engineering, pharmacy, medicine, agriculture or veterinary programmes. Eligible years depend on discipline (for example B.Sc. years 1-2, B.Tech. years 1-3) and applicants need at least 60% in previous semesters.",
+      "description": "Two months between April and July"
+    },
+    {
+      "id": "jncasr-pobe",
+      "name": "JNCASR Project Oriented Biology Education (POBE)",
+      "funder": "Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR)",
+      "url": "https://www.jncasr.ac.in/academic/fandeprogrammes/pobe/",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "life-sciences"
+      ],
+      "deadlines": [],
+      "deadlineNote": "The 2026 call ran from 6 January to 28 February 2026. JNCASR lists POBE-2027 as opening soon.",
+      "region": "India",
+      "amount": "Rs 10,000 per month",
+      "duration": "Up to ten first-year students in three- or four-year B.Sc. programmes (preferably with physics, chemistry, biology or mathematics) spend three summers on lectures and lab projects at JNCASR and receive a Diploma in Biology. Integrated BS-MS students are not eligible.",
+      "description": "Two months each summer for three consecutive summers"
+    },
+    {
+      "id": "jncasr-poce",
+      "name": "JNCASR Project Oriented Chemistry Education (POCE)",
+      "funder": "Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR)",
+      "url": "https://www.jncasr.ac.in/academic/fandeprogrammes/poce/",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "chemistry"
+      ],
+      "deadlines": [],
+      "deadlineNote": "The 2026 call closed on 28 February 2026. JNCASR lists POCE-2027 as opening soon.",
+      "region": "India",
+      "amount": "Rs 12,500 per month",
+      "duration": "Up to ten first-year students in three- or four-year science bachelor's programmes (preferably with chemistry and physics) spend three summers on lectures and lab projects at JNCASR and receive a Diploma in Chemistry. Integrated BS-MS students are not eligible.",
+      "description": "6 to 8 weeks each summer for three consecutive summers"
+    },
+    {
+      "id": "iitk-surge",
+      "name": "SURGE (Students-Undergraduate Research Graduate Excellence), IIT Kanpur",
+      "funder": "Indian Institute of Technology Kanpur",
+      "url": "https://surge.iitk.ac.in/",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "stem"
+      ],
+      "deadlines": [],
+      "deadlineNote": "The 2026 cycle took applications from 2 to 22 February 2026 for an internship from 11 May to 10 July 2026. Expect the 2027 call in late January or February.",
+      "region": "India",
+      "amount": "Up to Rs 16,000 for the programme (CPI 8.5 or above; limited places); some places self-funded",
+      "duration": "Summer research under IIT Kanpur faculty for students from other Indian institutions: B.Tech/B.E./B.Arch/BS in third year, or B.Sc./B.A. in second year, with CPI at least 6.0. Applicants submit a 500-word research proposal and two faculty letters.",
+      "description": "About 8 weeks"
+    },
+    {
+      "id": "iith-sure",
+      "name": "Summer Undergraduate Research Exposure (SURE), IIT Hyderabad",
+      "funder": "Indian Institute of Technology Hyderabad",
+      "url": "https://iith.ac.in/research/SURE/",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "stem"
+      ],
+      "deadlines": [],
+      "deadlineNote": "The 2026 deadline was 14 March 2026 for an internship from 15 May to 14 July 2026. Expect the 2027 call around February.",
+      "region": "India",
+      "amount": "Up to Rs 15,000 for two months; hostel provided",
+      "duration": "About 250 non-IITH students (100 places reserved for women) work full time with IIT Hyderabad faculty. Open to 2nd/3rd-year B.Tech or B.Des students, first-year M.Sc. and M.A. students and integrated B.Tech-M.Tech students in the top 20% of their class.",
+      "description": "1 to 2 months"
+    },
+    {
+      "id": "iitkgp-grishma",
+      "name": "GRISHMA UG Internship, IIT Kharagpur",
+      "funder": "Indian Institute of Technology Kharagpur (KRITI)",
+      "url": "https://kriti.iitkgp.ac.in/programs/grishma",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "all"
+      ],
+      "deadlines": [],
+      "deadlineNote": "The 2026 window ran from 5 to 18 April 2026 for a programme from 16 May to 10 July 2026. Expect a similar April window in 2027.",
+      "region": "India",
+      "amount": "Up to Rs 22,000 per month",
+      "duration": "Summer research fellowship at IIT Kharagpur for third-year and higher undergraduates from other Indian institutions in science, engineering, medicine or the humanities. The fellowship covers hostel, meals and travel.",
+      "description": "8 weeks"
+    },
+    {
+      "id": "ncra-vsrp",
+      "name": "NCRA-TIFR Visiting Students' Research Programme (VSRP)",
+      "funder": "National Centre for Radio Astrophysics, TIFR (Pune)",
+      "url": "https://www.ncra.tifr.res.in/students/external-students/vsrp",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "physics",
+        "engineering"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Applications usually open in mid-January and close around mid-February; offers are made by mid-March. The 2026 programme ran 11 May to 10 July 2026.",
+      "region": "India",
+      "amount": "Stipend paid by NCRA-TIFR; hostel subject to availability",
+      "duration": "Summer research project in astronomy and astrophysics for students entering the final year of a B.Sc./M.Sc. in physics, astronomy, applied mathematics or electronics, a B.Tech./B.E., or years 3-4 of an integrated M.Sc. Strong students may be pre-selected for the NCRA-TIFR PhD programme.",
+      "description": "May to July"
+    },
+    {
+      "id": "rri-visiting-student-program",
+      "name": "RRI Visiting Student Program (VSP)",
+      "funder": "Raman Research Institute",
+      "url": "https://www.rri.res.in/careers/visiting-students",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "physics"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling, open all year. Email a chosen RRI researcher at least two months before the proposed visit.",
+      "region": "India",
+      "amount": "Rs 15,000 per month plus sleeper-class train fare for full-time outstation students",
+      "duration": "Research placements in astronomy and astrophysics, light and matter physics, soft condensed matter and theoretical physics at RRI Bengaluru. Open to students within one or two years of finishing an undergraduate or master's degree in science or engineering, including those in a gap year.",
+      "description": "4 weeks to 6 months"
+    },
+    {
+      "id": "tifrh-vsrp",
+      "name": "TIFR Hyderabad Visiting Students' Research Programme (VSRP)",
+      "funder": "Tata Institute of Fundamental Research Hyderabad",
+      "url": "https://www.tifrh.res.in/academics/vsrp/",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "physics",
+        "chemistry",
+        "life-sciences",
+        "computer-science"
+      ],
+      "deadlines": [],
+      "deadlineNote": "The VSRP-2026 deadline was 31 January 2026; expect a January deadline for 2027.",
+      "region": "India",
+      "amount": "Rs 9,000 per month, travel reimbursement and free shared accommodation",
+      "duration": "Eight-week summer research at TIFR Hyderabad for final-year 3-year B.Sc. students in any stream and pre-final or final-year students in M.Sc., integrated M.Sc., 4-year B.Sc. or B.Tech./B.E. programmes. Past participants and PhD students are not eligible.",
+      "description": "8 weeks, May to July"
+    },
+    {
+      "id": "prs-internship",
+      "name": "PRS Legislative Research Internship",
+      "funder": "PRS Legislative Research",
+      "url": "https://prsindia.org/careers/opportunities-at-prs",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "politics-law-policy",
+        "economics",
+        "arts-design"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling applications throughout the year; selected candidates are told three weeks before the start date.",
+      "region": "India",
+      "amount": "Unpaid",
+      "duration": "In-office internship at PRS in research, data or design tracks for people interested in how Parliament works. Applicants send a 500-word statement of purpose, a CV and a policy writing sample or design sample. This is separate from the LAMP Fellowship.",
+      "description": "Usually 4 to 8 weeks, in office in New Delhi"
+    },
+    {
+      "id": "orf-internship",
+      "name": "ORF Internship Programme",
+      "funder": "Observer Research Foundation",
+      "url": "https://orfonline.org/intern-with-us",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "politics-law-policy",
+        "economics",
+        "area-studies",
+        "earth-environment"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling. Apply at least 30 days before the intended start date.",
+      "region": "India",
+      "amount": "Not stated",
+      "duration": "Full-time research internship with ORF programmes on strategic studies, economy, energy and climate, technology, urban studies and neighbourhood studies. Interns write an 800-1,500 word article that may be published under their name. Applicants send a CV, letter of intent and an 800-word writing sample.",
+      "description": "Minimum three months, full time, in Delhi, Mumbai or Kolkata"
+    },
+    {
+      "id": "mea-internship",
+      "name": "Ministry of External Affairs Internship",
+      "funder": "Ministry of External Affairs, Government of India",
+      "url": "https://mea.gov.in/internship-in-mea.htm",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "politics-law-policy",
+        "area-studies",
+        "economics",
+        "history-archaeology"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Two terms a year (April to September and October to March); the 2026 Term I portal opened on 10 February 2026. Watch internship.mea.gov.in for the next notice.",
+      "region": "India",
+      "amount": "Rs 10,000 per month plus one return economy airfare",
+      "duration": "Up to 30 interns per term work in MEA divisions in New Delhi. Open to Indian citizens aged 25 or under who hold a degree or are in the final year of an undergraduate programme in which an internship is mandatory; selection includes a video interview and state quotas.",
+      "description": "1 to 3 months in New Delhi"
+    },
+    {
+      "id": "utokyo-utrip-2027",
+      "name": "University of Tokyo Research Internship Program (UTRIP) 2027",
+      "funder": "University of Tokyo, Graduate School of Science",
+      "url": "https://www.s.u-tokyo.ac.jp/en/utrip/apply-now/index.html",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "physics",
+        "chemistry",
+        "life-sciences",
+        "mathematics",
+        "earth-environment"
+      ],
+      "deadlines": [
+        "2026-12-25"
+      ],
+      "deadlineNote": "Applications and recommendation forms close 25 December 2026, 17:00 JST. Results in March to April 2027.",
+      "region": "Japan",
+      "amount": "GSS-UTRIP Scholarship (free housing and a stipend) or FUTI Award",
+      "duration": "Six-week summer research in a School of Science laboratory at the University of Tokyo for undergraduates enrolled outside Japan in natural science fields who have completed at least one year of a bachelor's degree. An English test score is needed unless English is the first language or medium of education.",
+      "description": "Six weeks in summer 2027"
+    },
+    {
+      "id": "utokyo-utsip-kashiwa-2027",
+      "name": "UTSIP Kashiwa Summer Internship Program 2027",
+      "funder": "University of Tokyo, Graduate School of Frontier Sciences",
+      "url": "https://www.k.u-tokyo.ac.jp/en/education/for_undergraduate/utsip/",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "life-sciences",
+        "chemistry",
+        "physics",
+        "earth-environment",
+        "computer-science",
+        "engineering",
+        "politics-law-policy"
+      ],
+      "deadlines": [
+        "2027-01-13"
+      ],
+      "deadlineNote": "Applications close 13 January 2027, 17:00 JST.",
+      "region": "Japan",
+      "amount": "JPY 130,000 scholarship plus accommodation; programme fee JPY 70,000",
+      "duration": "About 14 undergraduates from overseas universities join Kashiwa campus labs in biosciences, environmental studies, materials, energy, ocean science, information technology, international studies and sustainability science. Applicants should be considering graduate study in Japan.",
+      "description": "21 June to 6 August 2027"
+    },
+    {
+      "id": "vienna-biocenter-summer-school-2027",
+      "name": "Vienna BioCenter Summer School 2027",
+      "funder": "Vienna BioCenter (IMP, IMBA, GMI, Max Perutz Labs)",
+      "url": "https://training.vbc.ac.at/summer-school/",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "life-sciences"
+      ],
+      "deadlines": [
+        "2027-01-11"
+      ],
+      "deadlineNote": "The call closes on 11 January; results usually by mid-March.",
+      "region": "Austria",
+      "amount": "About EUR 820 per month net, free accommodation, travel and visa costs",
+      "duration": "Nine-week research project in a Vienna BioCenter group for undergraduates and early master's students in the life sciences or allied computational fields who have completed at least two years of university study. Open to applicants from any country.",
+      "description": "9 weeks, July to August"
+    },
+    {
+      "id": "ntu-global-connect-fellowship-2027",
+      "name": "NTU Global Connect Fellowship 2027",
+      "funder": "Nanyang Technological University, Singapore",
+      "url": "https://www.ntu.edu.sg/about-us/global/global-connect-fellowship",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "all"
+      ],
+      "deadlines": [
+        "2027-02-15"
+      ],
+      "deadlineNote": "Applications open 15 January and close 15 February 2027; results by end of May 2027.",
+      "region": "Singapore",
+      "amount": "SGD 5,000 stipend plus housing",
+      "duration": "Two-month research stay under NTU faculty for final-year bachelor's or master's (by research) students graduating in 2027 or 2028 who are interested in a PhD at NTU. Open to students from all disciplines worldwide, with STEM preferred.",
+      "description": "1 July to 31 August 2027"
+    },
+    {
+      "id": "mpi-sws-research-internship",
+      "name": "MPI-SWS Research Internships",
+      "funder": "Max Planck Institute for Software Systems",
+      "url": "https://www.mpi-sws.org/research-careers/",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "computer-science"
+      ],
+      "deadlines": [],
+      "deadlineNote": "For internships starting between May and August, apply by 1 November of the previous year (1 November 2027 for summer 2028). For other start dates, apply at least four months ahead.",
+      "region": "Germany",
+      "amount": "Monthly stipend, shared housing and travel",
+      "duration": "Research internships with faculty at the Max Planck Institute for Software Systems in Saarbrucken and Kaiserslautern for exceptional undergraduate and graduate students in computer science.",
+      "description": "Typically 12 to 14 weeks"
+    },
+    {
+      "id": "mpiib-international-summer-internship-2027",
+      "name": "MPIIB International Summer Internship 2027",
+      "funder": "Max Planck Institute for Infection Biology",
+      "url": "https://www.mpiib-berlin.mpg.de/mpiib-isi",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "life-sciences",
+        "medicine-health"
+      ],
+      "deadlines": [
+        "2026-11-27"
+      ],
+      "deadlineNote": "Apply by 27 November 2026; final selection in February 2027.",
+      "region": "Germany",
+      "amount": "EUR 1,400 stipend plus travel and accommodation",
+      "duration": "Three-month lab internship in Berlin for international bachelor's and master's students whose access to higher education or research is constrained. Bachelor's students need at least four completed semesters when applying.",
+      "description": "1 September to 30 November 2027"
+    },
+    {
+      "id": "mpifg-student-internship-2027",
+      "name": "MPIfG Student Internships 2027",
+      "funder": "Max Planck Institute for the Study of Societies",
+      "url": "https://career.mpifg.de/jobposting/c9ad6451931ee2f0c996b2e8c227e0740ec01bf6",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "economics",
+        "sociology-anthropology",
+        "politics-law-policy"
+      ],
+      "deadlines": [
+        "2026-11-30"
+      ],
+      "deadlineNote": "Applications for 2027 internships close 30 November 2026.",
+      "region": "Germany",
+      "amount": "EUR 450 per month",
+      "duration": "Research internships in Cologne within MPIfG projects on the governance of modern societies and the political foundations of economies. Open to economics and social science students of any nationality from the fifth semester of a BA or in an MA.",
+      "description": "Up to 12 weeks"
+    },
+    {
+      "id": "mpipks-biophysics-summer-internship-2027",
+      "name": "MPI-PKS Biological Physics Summer Internship 2027",
+      "funder": "Max Planck Institute for the Physics of Complex Systems",
+      "url": "https://www.pks.mpg.de/de/biophys-internship",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "physics",
+        "life-sciences"
+      ],
+      "deadlines": [
+        "2026-11-29"
+      ],
+      "deadlineNote": "Applications due 29 November 2026 through the online form.",
+      "region": "Germany",
+      "amount": "Financially supported (amount not stated)",
+      "duration": "Research internship in biological physics in Dresden for senior bachelor's and master's students in physics or related fields who remain enrolled at their home university.",
+      "description": "Up to 90 days, flexible dates"
+    },
+    {
+      "id": "mpia-summer-internship",
+      "name": "MPIA Student Summer Internship",
+      "funder": "Max Planck Institute for Astronomy",
+      "url": "https://www.mpia.de/en/careers/internships/summer",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "physics"
+      ],
+      "deadlines": [],
+      "deadlineNote": "The 2027 call is due to be announced in December 2026 with applications due in January 2027 (the 2026 deadline was 15 January).",
+      "region": "Germany",
+      "amount": "About EUR 1,000 per month net plus travel support",
+      "duration": "Summer research in astronomy at MPIA Heidelberg for bachelor's and master's students worldwide. Non-EU bachelor's students need at least four completed semesters at the start and must graduate after the internship ends.",
+      "description": "Up to three months, May to September"
+    },
+    {
+      "id": "embl-undergraduate-internships",
+      "name": "EMBL Undergraduate Internships",
+      "funder": "European Molecular Biology Laboratory",
+      "url": "https://www.embl.org/about/info/undergraduates/",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "life-sciences",
+        "chemistry",
+        "physics",
+        "mathematics",
+        "computer-science",
+        "engineering",
+        "medicine-health"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling. Contact the EMBL group leader directly.",
+      "region": "Europe",
+      "amount": "Varies by group; limited housing and subsistence support at the host's discretion",
+      "duration": "Undergraduates in the natural sciences, informatics and engineering can join an EMBL research group as interns, often as part of a bachelor's or master's thesis. Students apply by writing to the group leader they want to work with.",
+      "description": null
+    },
+    {
+      "id": "map-summer-internship",
+      "name": "MAP Summer Internship Programme",
+      "funder": "Museum of Art & Photography (MAP), Bengaluru",
+      "url": "https://map-india.org/wp-content/uploads/2026/03/Internship-26.pdf",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "arts-design",
+        "history-archaeology",
+        "education"
+      ],
+      "deadlines": [],
+      "deadlineNote": "The 2026 call ran from 12 to 31 March 2026 for a programme from 4 May to 24 July 2026. Expect a March call in 2027.",
+      "region": "India",
+      "amount": "Rs 15,000 per month",
+      "duration": "Ten paid onsite internships in MAP's collections, exhibitions, education, design, inclusion, development, marketing and public programmes departments. Open to undergraduates and postgraduates of any discipline who have completed one semester, and to recent graduates.",
+      "description": "12 weeks, from the first Monday in May"
+    },
+    {
+      "id": "csep-internship",
+      "name": "CSEP Internship Programme",
+      "funder": "Centre for Social and Economic Progress (CSEP)",
+      "url": "https://csep.org/internships/",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "economics",
+        "politics-law-policy",
+        "earth-environment"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Internships run in the summer and winter breaks; applications through CSEP's online form.",
+      "region": "India",
+      "amount": "Not stated",
+      "duration": "Research internships at the CSEP think tank in New Delhi for undergraduate and graduate students, working with researchers on economic, energy, trade and governance policy.",
+      "description": "Usually 6 to 8 weeks in New Delhi"
+    },
+    {
+      "id": "csds-internships",
+      "name": "CSDS Internships (including Lokniti)",
+      "funder": "Centre for the Study of Developing Societies (CSDS)",
+      "url": "https://www.csds.in/internships",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "hss"
+      ],
+      "deadlines": [],
+      "deadlineNote": "No fixed deadline; Lokniti-CSDS describes rolling applications by email with a CV and statement of purpose.",
+      "region": "India",
+      "amount": "Unpaid",
+      "duration": "Mentored internships at CSDS in democratic life, digital and media cultures, digital humanities, Indian languages and environment and public health. Lokniti-CSDS offers one-month internships to undergraduates, postgraduates and research scholars in the social sciences.",
+      "description": "1 to 6 months in Delhi"
+    },
+    {
+      "id": "rockefeller-surf-2027",
+      "name": "Rockefeller University Summer Undergraduate Research Fellowship (SURF) 2027",
+      "funder": "The Rockefeller University",
+      "url": "https://www.rockefeller.edu/education-and-training/surf/application-information/",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "life-sciences",
+        "chemistry",
+        "physics"
+      ],
+      "deadlines": [
+        "2027-02-01"
+      ],
+      "deadlineNote": "Applications due 1 February 2027; decisions by mid-March 2027.",
+      "region": "USA",
+      "amount": "USD 6,500 stipend plus free housing for those who cannot commute",
+      "duration": "Ten-week laboratory research fellowship in New York for college sophomores and juniors majoring in the life or physical sciences. Rockefeller states that international students are eligible to apply.",
+      "description": "7 June to 13 August 2027"
+    },
+    {
+      "id": "sfi-undergraduate-complexity-research-2027",
+      "name": "Santa Fe Institute Undergraduate Complexity Research (UCR) 2027",
+      "funder": "Santa Fe Institute",
+      "url": "https://www.santafe.edu/engage/learn/programs/undergraduate-complexity-research/applying",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "mathematics",
+        "computer-science",
+        "physics",
+        "life-sciences",
+        "economics",
+        "sociology-anthropology"
+      ],
+      "deadlines": [
+        "2027-01-13"
+      ],
+      "deadlineNote": "Applications due 13 January 2027, 4 pm MST.",
+      "region": "USA",
+      "amount": "Stipend paid (see programme page)",
+      "duration": "Ten-week mentored research on complex systems at the Santa Fe Institute for current undergraduates. Students enrolled outside the US are eligible, and SFI can sponsor a short-term J-1 visa for eligible participants.",
+      "description": "30 May to 7 August 2027"
+    },
+    {
+      "id": "mit-summer-geometry-initiative",
+      "name": "MIT Summer Geometry Initiative (SGI)",
+      "funder": "Massachusetts Institute of Technology",
+      "url": "https://sgi.mit.edu/how-apply",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "computer-science",
+        "mathematics"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Past cycles closed in mid-February (15 February in 2021 and 2023); check the site for the 2027 call.",
+      "region": "Online",
+      "amount": "Honoraria paid",
+      "duration": "Six-week research programme in geometry processing for undergraduate and master's students, held online in 2026. Most international students are eligible.",
+      "description": "Six weeks in summer, full time"
+    },
+    {
+      "id": "mpschool-matter-to-life-uro",
+      "name": "Max Planck School Matter to Life Undergraduate Research Opportunities (URO)",
+      "funder": "Max Planck School Matter to Life",
+      "url": "https://mattertolife.maxplanckschools.org/uro-research-internship",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "physics",
+        "chemistry",
+        "life-sciences",
+        "engineering",
+        "computer-science"
+      ],
+      "deadlines": [],
+      "deadlineNote": "The application portal opens 1 August and closes 1 October each year (next window August to October 2027, for 2028 internships). Results in February.",
+      "region": "Germany",
+      "amount": "Travel from home country, accommodation and a monthly allowance",
+      "duration": "Funded ten-week internship in a Matter to Life faculty lab in Germany for undergraduates in physics, chemistry, biology, informatics, materials science or engineering who have completed at least two semesters by the start. No German is required.",
+      "description": "10 weeks between June and November"
+    },
+    {
+      "id": "nhrc-online-short-term-internship",
+      "name": "NHRC Online Short Term Internship Programme (OSTI)",
+      "funder": "National Human Rights Commission, India",
+      "url": "https://nhrc.nic.in/training-programmes/internship-programmes",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "politics-law-policy",
+        "sociology-anthropology"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Calls are announced on the NHRC website through the year (see the 2026-27 internship calendar on the page).",
+      "region": "Online",
+      "amount": "Rs 2,000",
+      "duration": "Two-week online internship on human rights for about 100 students per cycle, open to students in the third or final year of a degree, postgraduates and research scholars with at least 60% in Class XII and the first four semesters. Past NHRC interns are not eligible.",
+      "description": "2 weeks"
+    },
+    {
+      "id": "perimeter-undergraduate-summer-program-2027",
+      "name": "Perimeter Institute Undergraduate Summer Program and Research Internship 2027",
+      "funder": "Perimeter Institute for Theoretical Physics",
+      "url": "https://perimeterinstitute.ca/undergraduate-summer-programs",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "physics"
+      ],
+      "deadlines": [
+        "2027-01-17"
+      ],
+      "deadlineNote": "Applications due 17 January 2027; reference letters due 30 January 2027; selections by end of February.",
+      "region": "Canada",
+      "amount": "Travel, accommodation and food covered for the school; internship is paid",
+      "duration": "Two-week summer school in theoretical physics at Perimeter in Waterloo, with an optional paid research internship of up to 15 weeks. For undergraduates who plan to start a graduate programme in theoretical physics in 2028 or later and know some classical and quantum mechanics.",
+      "description": "Summer school 14-25 June 2027; optional internship up to 15 weeks (3 May to 20 August 2027)"
+    },
+    {
+      "id": "atree-internship",
+      "name": "ATREE Internship Programme",
+      "funder": "Ashoka Trust for Research in Ecology and the Environment (ATREE)",
+      "url": "https://www.atree.org/internship/",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "earth-environment",
+        "life-sciences",
+        "sociology-anthropology",
+        "politics-law-policy"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Open all year; processing takes about two weeks after writing to a faculty member.",
+      "region": "India",
+      "amount": "Unpaid; some project interns receive a modest scholarship",
+      "duration": "Internships with ATREE research programmes on forests and governance, water and society, climate change, biodiversity and livelihoods, or in its ecoinformatics, conservation genetics and water-quality labs. Open to undergraduate, graduate and postgraduate students.",
+      "description": "Minimum 8 weeks"
+    },
+    {
+      "id": "reliance-foundation-ug-scholarships",
+      "name": "Reliance Foundation Undergraduate Scholarships",
+      "funder": "Reliance Foundation",
+      "url": "https://www.scholarships.reliancefoundation.org/",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "scholarship",
+      "disciplines": [
+        "all"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual. The 2026-27 round opened on 14 August 2026 and closed on 5 October 2026; expect the next round around August to October 2027.",
+      "region": "India",
+      "amount": "Up to INR 2 lakh over the degree",
+      "duration": "Length of the degree",
+      "description": "Merit-cum-means scholarships for first-year students in full-time undergraduate degree programmes in India, in any discipline. Selection uses an online aptitude test and a review of family income; 5,000 awards were offered for 2026-27, with mentoring and leadership activities."
+    },
+    {
+      "id": "pm-usp-central-sector-scholarship",
+      "name": "PM-USP Central Sector Scheme of Scholarships for College and University Students",
+      "funder": "Department of Higher Education, Ministry of Education, Government of India",
+      "url": "https://scholarships.gov.in/",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "scholarship",
+      "disciplines": [
+        "all"
+      ],
+      "deadlines": [
+        "2026-11-30"
+      ],
+      "deadlineNote": "Fresh applications for 2026-27 close on 30 November 2026 on the National Scholarship Portal; renewals closed on 31 October 2026.",
+      "region": "India",
+      "amount": "INR 12,000 a year in the first three undergraduate years, INR 20,000 a year after that",
+      "duration": "Up to five years",
+      "description": "Central government scholarship for students above the 80th percentile in their Class 12 board who study full-time in regular degree courses and have a family income up to INR 4.5 lakh a year. Applications go through the National Scholarship Portal; fresh applicants are in their first year of college."
+    },
+    {
+      "id": "lic-golden-jubilee-scholarship",
+      "name": "LIC Golden Jubilee Scholarship Scheme",
+      "funder": "LIC Golden Jubilee Foundation, Life Insurance Corporation of India",
+      "url": "https://licindia.in/en/web/guest/golden-jubilee-foundation",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "scholarship",
+      "disciplines": [
+        "all"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual. The 2026 scheme was announced in September 2026 and applications closed in October 2026; the next round is expected around September 2027. First-year students only.",
+      "region": "India",
+      "amount": "INR 20,000 a year for general degrees (INR 40,000 engineering, INR 50,000 medicine)",
+      "duration": "Length of the course, subject to renewal",
+      "description": "For students who passed Class 12 with at least 60% within the last three years and are in the first year of a degree at a recognised college or university, government or private. Family income must not exceed INR 4.5 lakh a year."
+    },
+    {
+      "id": "hdfc-parivartan-ecss",
+      "name": "HDFC Bank Parivartan Educational Crisis Scholarship Support (ECSS)",
+      "funder": "HDFC Bank Parivartan",
+      "url": "https://www.parivartanecss.com/",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "scholarship",
+      "disciplines": [
+        "all"
+      ],
+      "deadlines": [
+        "2026-12-15"
+      ],
+      "deadlineNote": "2026-27 applications close on 15 December 2026.",
+      "region": "India",
+      "amount": "INR 30,000 (general UG such as BA, BSc, BCom); INR 50,000 (professional UG)",
+      "duration": "One academic year",
+      "description": "Need-based scholarship for Indian students in any year of a recognised undergraduate or postgraduate course in India, with at least 55% in the previous exam and family income up to INR 2.5 lakh a year. Students whose education is at risk from a personal or family crisis in the last three years get preference."
+    },
+    {
+      "id": "tata-trusts-means-grant",
+      "name": "Tata Trusts Means Grant",
+      "funder": "Tata Trusts (Individual Grants Programme)",
+      "url": "https://www.tatatrusts.org/our-work/individual-grants-programme/education-grants",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "scholarship",
+      "disciplines": [
+        "all"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Applications for 2026-27 are being accepted by email; no closing date is published.",
+      "region": "India",
+      "amount": "Partial support toward fees, based on need, paid as reimbursement",
+      "duration": "One academic year",
+      "description": "Need-based partial financial aid for Indian residents studying at recognised institutions anywhere in India, from Standard VIII up to graduation. Eligibility rules and the application email are in the scheme document linked from the Tata Trusts page."
+    },
+    {
+      "id": "daad-helmut-schmidt-ppgg",
+      "name": "DAAD Helmut-Schmidt-Programme (Master's Scholarships for Public Policy and Good Governance)",
+      "funder": "German Academic Exchange Service (DAAD)",
+      "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50026397",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "scholarship",
+      "disciplines": [
+        "politics-law-policy",
+        "economics",
+        "sociology-anthropology"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual. For the 2027 intake, applications ran from 1 June to 31 July 2026, submitted directly to the participating German universities. Expect a similar window in June to July 2027; the bachelor's degree must be completed by the deadline.",
+      "region": "Germany (India on the eligible country list)",
+      "amount": "Monthly DAAD stipend, travel allowance and insurance",
+      "duration": "12 to 42 months, including German language course",
+      "description": "Full scholarships for master's programmes in political science, law, economics and public administration at selected German universities, for graduates from eligible countries including India. Applicants may apply to at most two participating programmes; some (such as the Willy Brandt School) require work experience."
+    },
+    {
+      "id": "daad-arts-study-scholarships",
+      "name": "DAAD Study Scholarships for Graduates in Fine Arts, Design, Film, Music, Performing Arts and Architecture",
+      "funder": "German Academic Exchange Service (DAAD)",
+      "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57135742",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "scholarship",
+      "disciplines": [
+        "arts-design"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual. Applications open on 1 June with subject-specific deadlines later in the year; currently closed. Check the DAAD database for the next call.",
+      "region": "Germany (India on the eligible country list)",
+      "amount": "EUR 992 a month plus travel allowance, study allowance and insurance",
+      "duration": "Up to 2 years (architecture up to 42 months)",
+      "description": "Scholarships for a master's or complementary study at a German art, film, music or architecture school, for applicants with a first degree in the field no more than six years old. Selection is on artistic work and the project proposal; DAAD does not pay tuition fees."
+    },
+    {
+      "id": "madhava-mathematics-competition",
+      "name": "Madhava Mathematics Competition (MMC) 2027",
+      "funder": "Bhaskaracharya Pratishthana, Pune (funded by NBHM)",
+      "url": "https://www.bprim.org/node/499",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "competition",
+      "disciplines": [
+        "mathematics"
+      ],
+      "deadlines": [
+        "2026-11-30"
+      ],
+      "deadlineNote": "Register through your college mathematics department by 30 November 2026 (fee Rs. 150). The written exam is on Sunday 10 January 2027.",
+      "region": "India",
+      "amount": "Cash prizes and medals for rank holders, special prizes for women students, nurture camps; a team of four is selected for IMC 2027",
+      "description": "National mathematics contest for undergraduates in India in science and engineering streams (B.Sc., B.E., B.Tech.). Top performers are invited to nurture camps and a team is chosen for the International Mathematics Competition for University Students."
+    },
+    {
+      "id": "imc-university-mathematics",
+      "name": "International Mathematics Competition for University Students (IMC) 2027",
+      "funder": "IMC organising committee (University College London and partners)",
+      "url": "https://www.imc-math.org.uk/",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "competition",
+      "disciplines": [
+        "mathematics"
+      ],
+      "deadlines": [],
+      "deadlineNote": "The 34th IMC runs 2 to 9 August 2027; registration details are not yet posted. Students usually enter through a university team; in India a team is selected through the Madhava Mathematics Competition.",
+      "region": "Global",
+      "amount": "Prizes and medals; no cash funding",
+      "description": "Annual international problem-solving competition for university students in algebra, analysis, geometry and combinatorics, running since 1994. Over 500 students competed in 2026."
+    },
+    {
+      "id": "simon-marais-mathematics-competition",
+      "name": "Simon Marais Mathematics Competition",
+      "funder": "Simon Marais Foundation",
+      "url": "https://www.simonmarais.org/",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "competition",
+      "disciplines": [
+        "mathematics"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Held each October (10 October 2026 in the last cycle). Your university must pre-register as an exam centre; India falls in the East Division (UTC+5:30 to +13:00).",
+      "region": "Asia-Pacific",
+      "amount": "Cash prizes for top individuals and pairs in each division",
+      "description": "Annual Putnam-style mathematics exam for undergraduates at pre-registered universities across Asia, Oceania and parts of Europe and Africa, sat individually or in pairs. Students may sit it at most four times."
+    },
+    {
+      "id": "jessup-moot-court-2027",
+      "name": "Philip C. Jessup International Law Moot Court Competition 2027",
+      "funder": "International Law Students Association (ILSA)",
+      "url": "https://www.ilsa.org/jessup/jessup-2027/",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "competition",
+      "disciplines": [
+        "politics-law-policy"
+      ],
+      "deadlines": [
+        "2026-11-20",
+        "2027-01-12"
+      ],
+      "deadlineNote": "Team registration, payment and roster close 20 November 2026; memorials are due 12 January 2027. India National Rounds are 12 to 14 February 2027 and the International Rounds are in Toronto, 27 March to 3 April 2027. Recurs yearly with registration opening in August.",
+      "region": "Global",
+      "amount": "No cash prize; national winners advance to the International Rounds",
+      "description": "Largest international law moot court, simulating a dispute between states before the International Court of Justice. Law students (including LLB and integrated BA LLB students in India) compete as university teams."
+    },
+    {
+      "id": "vis-moot-arbitration",
+      "name": "Willem C. Vis International Commercial Arbitration Moot",
+      "funder": "Association for the Organisation and Promotion of the Willem C. Vis International Commercial Arbitration Moot",
+      "url": "https://www.vismoot.org/home/34th-vis-moot/",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "competition",
+      "disciplines": [
+        "politics-law-policy"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Registration for the 34th Moot closed 12 November 2026; oral hearings are 19 to 25 March 2027 in Vienna. Registration for the next Moot usually closes in mid-November.",
+      "region": "Global",
+      "amount": "No cash prize",
+      "description": "International moot on commercial arbitration and the UN Sales Convention, with written memoranda and oral hearings in Vienna. Open to law students from all countries competing as university teams."
+    },
+    {
+      "id": "ieeextreme",
+      "name": "IEEEXtreme Programming Competition",
+      "funder": "IEEE",
+      "url": "https://ieeextreme.org/",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "competition",
+      "disciplines": [
+        "computer-science",
+        "engineering"
+      ],
+      "type": "hackathon",
+      "deadlines": [],
+      "deadlineNote": "24-hour online contest held each October (IEEEXtreme 20.0 ran on 31 October 2026). The next edition is expected in October 2027.",
+      "region": "Global",
+      "amount": "First place: trip to an IEEE conference; second and third: USD 400 and 300 per member; merchandise for top teams",
+      "description": "Global 24-hour team programming contest for IEEE student members, proctored by an IEEE member, often through a university IEEE student branch. Teams of up to three solve algorithmic problems online."
+    },
+    {
+      "id": "hult-prize",
+      "name": "Hult Prize",
+      "funder": "Hult Prize Foundation",
+      "url": "https://www.hultprize.org/register",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "competition",
+      "disciplines": [
+        "all"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Yearly cycle: registration opens in September, with on-campus rounds in autumn and winter and the global finals later in the year. Members must be 18 by 28 February 2027.",
+      "region": "Global",
+      "amount": "USD 1 million seed funding for the winning team",
+      "description": "Social-enterprise startup competition for teams of two to four students enrolled in degree programmes at any university or college. Teams progress from campus rounds to national and global rounds."
+    },
+    {
+      "id": "global-undergraduate-awards",
+      "name": "Global Undergraduate Awards",
+      "funder": "The Global Undergraduate Awards (Dublin)",
+      "url": "https://undergraduateawards.com",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "competition",
+      "disciplines": [
+        "all"
+      ],
+      "deadlines": [],
+      "deadlineNote": "The 2027 submission cycle is open; the deadline has usually been in early June (6 June in 2026). Free to submit.",
+      "region": "Global",
+      "amount": "Global and regional winner titles, the Clarkson Medal, and an invitation to the Global Undergraduate Summit",
+      "description": "Awards for outstanding undergraduate coursework across subject categories from the arts and humanities to engineering. Students in their final or penultimate undergraduate year, or graduated within the last year, submit existing coursework."
+    },
+    {
+      "id": "mcm-icm-mathematical-modeling",
+      "name": "Mathematical Contest in Modeling and Interdisciplinary Contest in Modeling (MCM/ICM) 2027",
+      "funder": "COMAP (Consortium for Mathematics and Its Applications)",
+      "url": "https://www.contest.comap.com/undergraduate/contests/mcm/instructions.php",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "competition",
+      "disciplines": [
+        "mathematics",
+        "computer-science",
+        "economics",
+        "earth-environment"
+      ],
+      "deadlines": [
+        "2027-01-28"
+      ],
+      "deadlineNote": "Teams must be registered by an advisor before 3:00 pm EST on 28 January 2027; the contest runs 28 January to 1 February 2027. Fee USD 100 per team.",
+      "region": "Global",
+      "amount": "Recognition and designations (Outstanding, Finalist, Meritorious); no cash for most teams",
+      "description": "Four-day international modelling contest in which teams of one to three undergraduates from the same institution solve an open-ended applied problem and write a report. Problems span continuous and discrete mathematics, data, operations research, environmental science and policy."
+    },
+    {
+      "id": "lee-kuan-yew-global-business-plan-competition-2027",
+      "name": "Lee Kuan Yew Global Business Plan Competition 2027",
+      "funder": "Singapore Management University, Institute of Innovation and Entrepreneurship",
+      "url": "https://iie.smu.edu.sg/lkygbpc",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "competition",
+      "disciplines": [
+        "engineering",
+        "earth-environment",
+        "computer-science",
+        "economics"
+      ],
+      "deadlines": [
+        "2027-01-31",
+        "2027-03-31"
+      ],
+      "deadlineNote": "Early-bird deadline 31 January 2027; final application deadline 31 March 2027. Finalists are announced in July and compete in Singapore, 28 September to 1 October 2027. No application fee.",
+      "region": "Global",
+      "amount": "Over SGD 2.5 million in cash, investment, grants and services",
+      "description": "Global startup competition for deep-tech ventures addressing urban and sustainability problems. At least one founder must be enrolled in a degree programme at any university or have graduated within the past five years."
+    },
+    {
+      "id": "price-media-law-moot-asia-pacific-2027",
+      "name": "Monroe E. Price Media Law Moot Court Competition: Asia-Pacific Rounds 2026-27",
+      "funder": "Bonavero Institute of Human Rights, University of Oxford",
+      "url": "https://www.law.ox.ac.uk/asia-pacific-rounds-2026-2027",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "competition",
+      "disciplines": [
+        "politics-law-policy"
+      ],
+      "deadlines": [
+        "2026-11-23",
+        "2027-01-08"
+      ],
+      "deadlineNote": "Registration for the Asia-Pacific Rounds closes 23 November 2026; memorials are due 8 January 2027. Rounds are in Manila, 4 to 7 February 2027, and top teams advance to the International Rounds in Oxford.",
+      "region": "Asia-Pacific",
+      "amount": "No cash prize; qualifying teams advance to Oxford",
+      "description": "Moot court on freedom of expression and media law, argued under international and regional human rights law. Law school teams register for a regional round; Indian teams compete in the Asia-Pacific round."
+    },
+    {
+      "id": "manfred-lachs-space-law-moot-asia-pacific-2027",
+      "name": "Manfred Lachs Space Law Moot Court Competition: Asia-Pacific Round 2027",
+      "funder": "International Institute of Space Law (IISL)",
+      "url": "https://iisl.space/asia-pacific-manfred-lachs-space-law-moot-court-competition",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "competition",
+      "disciplines": [
+        "politics-law-policy"
+      ],
+      "deadlines": [
+        "2027-01-15",
+        "2027-02-25"
+      ],
+      "deadlineNote": "Initial registration fee due 15 January 2027 (SGD 800, or SGD 400 from countries with a national round); memorials due 25 February 2027. Oral rounds at Singapore Management University, 25 to 29 May 2027.",
+      "region": "Asia-Pacific",
+      "amount": "No cash prize; regional winners advance to the World Finals",
+      "description": "International moot court on space law, with the regional round hosted in 2027 by SMU Yong Pung How School of Law. No prior space law course is required."
+    },
+    {
+      "id": "solar-decathlon-india",
+      "name": "Solar Decathlon India",
+      "funder": "Solar Decathlon India (with the US Department of Energy Solar Decathlon)",
+      "url": "https://sdichallenge.in/",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "competition",
+      "disciplines": [
+        "engineering",
+        "arts-design",
+        "earth-environment"
+      ],
+      "deadlines": [],
+      "deadlineNote": "The 2026-27 challenge is under way (Stage 1 began 13 November 2026, Stage 2 in March 2027). Registration for each cycle has usually opened in July.",
+      "region": "India",
+      "amount": "Scholarship grants for finalist teams, internships, and recognition",
+      "description": "Year-long challenge in which teams of undergraduate and postgraduate students from Indian institutions design net-zero-energy, climate-resilient buildings with a real project partner, or develop building products. Teams compete in a Building Challenge or a Product Challenge."
+    },
+    {
+      "id": "archdaily-student-project-awards",
+      "name": "ArchDaily Student Project Awards",
+      "funder": "ArchDaily",
+      "url": "https://www.archdaily.com/campus/awards",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "competition",
+      "disciplines": [
+        "arts-design"
+      ],
+      "deadlines": [
+        "2027-01-31"
+      ],
+      "deadlineNote": "Submit by 31 January 2027, 11:59 pm CET. Entry requires an ArchDaily Campus subscription.",
+      "region": "Global",
+      "amount": "USD 1,500 cash prize, publication, and a chance to build a prototype in Milan",
+      "description": "Awards for student projects in architecture, urban planning, landscape architecture, interior design and product design. Undergraduate and master's students worldwide may submit one project each."
+    },
+    {
+      "id": "commonwealth-short-story-prize",
+      "name": "Commonwealth Short Story Prize",
+      "funder": "Commonwealth Foundation",
+      "url": "https://www.commonwealthfoundation.com/short-story-prize",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "competition",
+      "disciplines": [
+        "languages-literature"
+      ],
+      "deadlines": [],
+      "deadlineNote": "The 2027 prize will open for entries in January 2027 after a review of the rules; the previous cycle closed on 1 November.",
+      "region": "Commonwealth",
+      "amount": "Regional and overall cash prizes (amounts not yet posted for 2027)",
+      "description": "Prize for unpublished short fiction by Commonwealth citizens aged 18 and over, which includes Indian students. Free to enter."
+    },
+    {
+      "id": "atlas-shrugged-essay-contest",
+      "name": "Atlas Shrugged Essay Contest",
+      "funder": "Ayn Rand Institute",
+      "url": "https://aynrand.org/students/essay-contests/",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "competition",
+      "disciplines": [
+        "philosophy-religion",
+        "languages-literature"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Runs in seasonal rounds; the next deadline is listed as to be announced.",
+      "region": "Global",
+      "amount": "Up to USD 25,000 in scholarships",
+      "description": "Essay contest on Ayn Rand's novel Atlas Shrugged, open to high school, college and graduate students worldwide who are enrolled during the contest period."
+    },
+    {
+      "id": "stanford-law-policy-review-undergraduate-essay",
+      "name": "Stanford Law and Policy Review Undergraduate Essay Contest 2026-27",
+      "funder": "Stanford Law and Policy Review",
+      "url": "https://law.stanford.edu/stanford-law-policy-review-slpr/2026-2027-undergraduate-essay-contest/",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "competition",
+      "disciplines": [
+        "politics-law-policy"
+      ],
+      "deadlines": [
+        "2027-01-04"
+      ],
+      "deadlineNote": "Submissions accepted until 4 January 2027, 11:59 pm PST.",
+      "region": "Global",
+      "amount": "Publication of first- and second-place essays on the SLPR website; no cash prize",
+      "description": "Essay contest for currently enrolled undergraduates at any university on the intersection of law and policy, citing at least three cases or law review articles. Prompts include comparing how two jurisdictions handle a policy problem."
+    },
+    {
+      "id": "nelson-mandela-world-human-rights-moot",
+      "name": "Nelson Mandela World Human Rights Moot Court Competition",
+      "funder": "Centre for Human Rights, University of Pretoria",
+      "url": "https://www.chr.up.ac.za/worldmoot",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "competition",
+      "disciplines": [
+        "politics-law-policy"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual. In the 2026 cycle faculty registration ran 26 January to 31 March, with online preliminary rounds in May and in-person finals in Geneva in July. Dates for the 2027 edition are not yet posted.",
+      "region": "Global",
+      "amount": "No cash prize; finalists argue in Geneva",
+      "description": "Human rights moot court for teams of two undergraduate or master's students from any university in the world, starting with written memorials and online preliminary rounds. Finals are held in Geneva with UN support."
+    },
+    {
+      "id": "unep-young-champions-of-the-earth",
+      "name": "Young Champions of the Earth",
+      "funder": "UN Environment Programme (UNEP)",
+      "url": "https://www.unep.org/youngchampions",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "competition",
+      "disciplines": [
+        "earth-environment",
+        "engineering",
+        "economics"
+      ],
+      "deadlines": [],
+      "deadlineNote": "The 2027 call has not opened; UNEP says to watch its page. The 2026 window ran 24 February to 31 March 2026.",
+      "region": "Global",
+      "amount": "USD 10,000 seed funding, mentorship, and a pitch for a USD 100,000 grant (2026 cycle)",
+      "description": "Prize for people aged 18 to 30 with an environmental project or venture they have pursued for at least six months. Free to apply."
+    },
+    {
+      "id": "mtts-summer-camp",
+      "name": "MTTS Summer Camp (Mathematics Training and Talent Search)",
+      "funder": "MTTS Trust (supported by NBHM)",
+      "url": "https://www.mtts.org.in/programme/mtts2026",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "school",
+      "disciplines": [
+        "mathematics"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual. For MTTS 2026 applications ran 1 January to 22 February 2026; the 2027 camp is expected to follow the same cycle.",
+      "region": "India",
+      "amount": "Free board and lodging; sleeper-class train or bus fare reimbursed",
+      "duration": "About 4 weeks (May-June)",
+      "description": "Month-long residential camp in undergraduate mathematics, taught through questioning rather than lectures. Level O is for 2nd-year undergraduates, Level I for 3rd-year undergraduates and Level II for 1st-year MSc students, all with mathematics as a main subject."
+    },
+    {
+      "id": "mtts-initmath-2027-assam",
+      "name": "InitMath 2027 (Initiation into Mathematics), Tezpur University",
+      "funder": "MTTS Trust, funded by NBHM",
+      "url": "https://www.mtts.org.in/programme/im2027as",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "school",
+      "disciplines": [
+        "mathematics"
+      ],
+      "deadlines": [
+        "2026-12-07"
+      ],
+      "deadlineNote": "Online applications close 7 December 2026; teacher recommendations by 10 December 2026. Camp runs 4-9 January 2027. MTTS runs several regional InitMath camps each year.",
+      "region": "India",
+      "amount": "No fee; food for all and accommodation for outstation participants; no travel allowance",
+      "duration": "1 week",
+      "description": "One-week regional camp in the MTTS style for second-year (3rd or 4th semester) undergraduates with mathematics as a main subject. Students from Assam and neighbouring states get preference."
+    },
+    {
+      "id": "niser-sopm",
+      "name": "Summer Outreach Programme in Mathematics (SOPM)",
+      "funder": "National Institute of Science Education and Research (NISER), Bhubaneswar",
+      "url": "https://niser.ac.in/events/sopm/",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "school",
+      "disciplines": [
+        "mathematics"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual. The 2026 deadline was 5 April 2026 for a programme from 15 June to 11 July; expect a similar cycle in 2027.",
+      "region": "India",
+      "amount": "Food, accommodation and sleeper-class train fare covered",
+      "duration": "About 4 weeks",
+      "description": "Four-week summer programme in mathematics at NISER for about 40 students. Open to 3rd and 4th-year BSc (Honours) Mathematics students and 1st-year MSc Mathematics students."
+    },
+    {
+      "id": "neuromatch-academy",
+      "name": "Neuromatch Academy Summer Courses",
+      "funder": "Neuromatch",
+      "url": "https://neuromatch.io/courses/",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "school",
+      "disciplines": [
+        "psychology-cognitive",
+        "computer-science",
+        "life-sciences"
+      ],
+      "deadlines": [
+        "2027-03-17"
+      ],
+      "deadlineNote": "Applications open 10 February 2027 and close 17 March 2027; courses run in July 2027.",
+      "region": "Global (online)",
+      "amount": "Tuition adjusted to local cost of living; tuition waivers available",
+      "duration": "2-3 weeks",
+      "description": "Online intensive courses in computational neuroscience, deep learning, NeuroAI and computational behaviour, taught in small groups by time zone. Advanced undergraduates aged 18 or over who meet the prerequisites may apply."
+    },
+    {
+      "id": "daad-university-summer-course-grant",
+      "name": "DAAD University Summer Course Grants (HSK)",
+      "funder": "German Academic Exchange Service (DAAD)",
+      "url": "https://www.daad.in/en/2026/09/17/call-for-applications-university-summer-courses-offered-in-germany-for-foreign-students-and-graduates-hsk-2026-2027/",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "school",
+      "disciplines": [
+        "all"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual. The 2026-27 portal was open 1 September to 30 October 2026; the next call is expected in September 2027.",
+      "region": "Germany",
+      "amount": "Scholarship subsidy, travel allowance and health insurance",
+      "duration": "Summer course in Germany",
+      "description": "Grants for language and subject summer courses at German universities. Bachelor's students must have completed two years of study and not be in their final year; German at B1 level or above is required."
+    },
+    {
+      "id": "icts-swms",
+      "name": "ICTS Summer School for Women in Mathematics and Statistics",
+      "funder": "International Centre for Theoretical Sciences (ICTS-TIFR), Bengaluru",
+      "url": "https://icts.res.in/program/swms2026",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "school",
+      "disciplines": [
+        "mathematics"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Held most years. The 2026 school (8-19 June) had an application deadline of 7 April 2026; watch the ICTS programme list for 2027.",
+      "region": "India",
+      "amount": "Sleeper-class train fare, board and food; performance-based book stipend",
+      "duration": "2 weeks",
+      "description": "Two-week problem-solving school at ICTS Bengaluru for women in the first year of a BA, BSc, BE or BTech with mathematics as a major subject, with daily popular science lectures."
+    },
+    {
+      "id": "tifr-vigyan-vidushi-mathematics",
+      "name": "Vigyan Vidushi Mathematics",
+      "funder": "Tata Institute of Fundamental Research (TIFR), School of Mathematics",
+      "url": "https://mathweb.tifr.res.in/webpages/vv/2026",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "school",
+      "disciplines": [
+        "mathematics"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual. For 2026 registration closed 29 March 2026 for a school from 22 June to 3 July; expect a similar cycle in 2027.",
+      "region": "India",
+      "amount": "Accommodation provided; limited travel support",
+      "duration": "2 weeks",
+      "description": "Summer school in mathematics for women at TIFR Mumbai, aimed at first-year MSc students. Exceptional women in the final year of a bachelor's programme may also be considered."
+    },
+    {
+      "id": "tifr-vigyan-vidushi-cs",
+      "name": "Vigyan Vidushi Computer Science",
+      "funder": "Tata Institute of Fundamental Research (TIFR), School of Technology and Computer Science",
+      "url": "https://www.tcs.tifr.res.in/~stcs-vv-26/application",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "school",
+      "disciplines": [
+        "computer-science",
+        "mathematics"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual. The 2026 school ran 6-17 July 2026 with applications closing in spring; expect a similar cycle in 2027.",
+      "region": "India",
+      "amount": "Accommodation, meals and travel reimbursement",
+      "duration": "2 weeks",
+      "description": "Two-week school in theoretical computer science for women at TIFR Mumbai. Open to women who have completed or are in their second year of undergraduate study in CS, EE, ECE, mathematics, statistics or a related field; master's students may also apply."
+    },
+    {
+      "id": "iia-kodaikanal-summer-school",
+      "name": "IIA Summer School in Astronomy and Astrophysics (Kodaikanal)",
+      "funder": "Indian Institute of Astrophysics (IIA)",
+      "url": "https://events.iiap.res.in/event/430/",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "school",
+      "disciplines": [
+        "physics"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual. The 2026 deadline was 30 April 2026 for a school from 8 to 17 June 2026 at the Kodaikanal Solar Observatory.",
+      "region": "India",
+      "amount": "Accommodation, food and local transport",
+      "duration": "10 days",
+      "description": "Summer school in astronomy at the Kodaikanal Solar Observatory for about 40 students. Open to pre-final or final-year students of MSc, integrated MSc or BS-MS (physics or astronomy) and BE or BTech programmes."
+    },
+    {
+      "id": "amazon-ml-summer-school",
+      "name": "Amazon ML Summer School",
+      "funder": "Amazon India",
+      "url": "https://press.aboutamazon.com/in/2026/8/amazons-machine-learning-summer-school-turns-five-over-12-000-students-trained-in-ai-ml-skills-across-india",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "school",
+      "disciplines": [
+        "computer-science"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual. Registration usually opens in May or June and selection is by an online assessment; the 2026 edition is complete.",
+      "region": "India (online)",
+      "amount": "Free",
+      "duration": "4 weekends",
+      "description": "Free online course in core machine learning taught by Amazon scientists over four weekends. Open to students at Indian institutions near graduation; about 3,000 are selected through a written and coding assessment."
+    },
+    {
+      "id": "science-academies-lecture-workshops",
+      "name": "Science Academies' Lecture Workshops",
+      "funder": "Indian Academy of Sciences, INSA and NASI (Joint Science Education Panel)",
+      "url": "https://webjapps.ias.ac.in/SEP/LectureWorkshops.jsp",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "school",
+      "disciplines": [
+        "stem"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling. Workshops are held throughout the year at host colleges; registration is through the host institution listed on the forthcoming workshops page.",
+      "region": "India",
+      "amount": "Free to attend",
+      "duration": "2-3 days",
+      "description": "Short lecture workshops by Academy Fellows in physics, mathematics, chemistry, life sciences, earth sciences and engineering, held at colleges and universities across India for undergraduate and graduate students and teachers."
+    },
+    {
+      "id": "ias-summer-school-physics-disabilities",
+      "name": "Science Academies' Summer School in Physics for Undergraduate Students with Disabilities",
+      "funder": "Indian Academy of Sciences",
+      "url": "https://webjapps.ias.ac.in/SEP/index.jsp",
+      "audience": [
+        "undergrads"
+      ],
+      "ugType": "school",
+      "disciplines": [
+        "physics"
+      ],
+      "deadlines": [],
+      "deadlineNote": "The 2026 school ran 18-30 May 2026 with registration closing 30 April 2026; check the Academy's Science Education Programmes page for 2027.",
+      "region": "India",
+      "amount": "No registration fee",
+      "duration": "2 weeks",
+      "description": "Two-week teaching and laboratory school in Bengaluru for about 25 undergraduates with disabilities studying physics at any Indian institution, with mentoring by resource persons."
+    },
+    {
+      "id": "yenching-global-symposium",
+      "name": "Yenching Global Symposium",
+      "funder": "Yenching Academy, Peking University",
+      "url": "https://yenchingacademy.pku.edu.cn/info/1040/4773.htm",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "school",
+      "disciplines": [
+        "politics-law-policy",
+        "economics",
+        "area-studies"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Annual. The 2026 call opened 8 December 2025 and closed 5 January 2026 for an April symposium; the next call is expected in December 2026.",
+      "region": "China",
+      "amount": "Fully funded",
+      "duration": "4 days",
+      "description": "Fully funded symposium in Beijing on China and global affairs for young people of any nationality. Applicants must be in the final year of a bachelor's degree or hold one, and be within the age limit."
+    },
+    {
+      "id": "haryana-har-chhatravratti-state-schemes",
+      "name": "Har-Chhatravratti State Scholarships (State Merit Scholarship to UG/PG Students and related schemes)",
+      "funder": "Department of Higher Education, Government of Haryana",
+      "url": "https://harchhatravratti.highereduhry.ac.in/",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "scholarship",
+      "disciplines": [
+        "all"
+      ],
+      "deadlines": [
+        "2026-12-31"
+      ],
+      "deadlineNote": "2026-27 applications for the eight Directorate of Higher Education schemes close on 31 December 2026. Applicants register with their Parivar Pehchan Patra family ID and need college verification.",
+      "region": "India (Haryana domicile)",
+      "amount": "Varies by scheme",
+      "description": "Haryana state scholarships for students with Haryana domicile, including the State Merit Scholarship to UG/PG Students (government, aided and self-financing colleges) and a Lower Income Group scheme. Several schemes are limited to government colleges; check the eligibility table on the portal, as private-university students may not qualify."
+    },
+    {
+      "id": "lady-meherbai-tata-scholarship",
+      "name": "Lady Meherbai D. Tata Education Trust Scholarship",
+      "funder": "Lady Meherbai D. Tata Education Trust (Tata Trusts)",
+      "url": "https://www.tatatrusts.org/our-work/individual-grants-programme/education-grants",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "scholarship",
+      "disciplines": [
+        "sociology-anthropology",
+        "education",
+        "psychology-cognitive",
+        "medicine-health",
+        "politics-law-policy"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Closed for 2026-27. The call for 2027-28 is expected in early 2027; check the Tata Trusts page.",
+      "region": "Abroad (Indian women graduates)",
+      "amount": "Partial tuition support",
+      "duration": "One master's programme",
+      "description": "Merit-based scholarships for up to ten Indian women graduates each year to take a master's degree abroad in social work, social welfare (including child welfare), education, or special-needs education. Final-year undergraduates applying onward can plan for the next call."
     }
   ]
 }
