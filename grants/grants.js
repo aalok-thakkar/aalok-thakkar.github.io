@@ -67,6 +67,19 @@
     today: null
   };
 
+  // Grant text comes from grants.json; escape it before inserting as HTML.
+  function escapeHTML(v) {
+    return String(v == null ? '' : v)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+  function safeURL(u) {
+    return /^https?:\/\//i.test(u || '') ? escapeHTML(u) : '#';
+  }
+
   // -------- date helpers (timezone-safe: parse YYYY-MM-DD as local) --------
   function parseISO(s) {
     if (!s) return null;
@@ -202,12 +215,12 @@
 
     const cells = [];
     for (const w of WEEKDAYS) {
-      cells.push(`<div class="cal-wd" role="columnheader">${w}</div>`);
+      cells.push(`<div class="cal-wd" aria-hidden="true">${w}</div>`);
     }
     const first = new Date(state.year, state.month, 1);
     const leading = weekdayMon(first);
     for (let i = 0; i < leading; i++) {
-      cells.push('<div class="cal-cell is-blank" role="gridcell" aria-hidden="true"></div>');
+      cells.push('<div class="cal-cell is-blank" aria-hidden="true"></div>');
     }
     const ndays = daysInMonth(state.year, state.month);
     const todayKey = ymd(state.today);
@@ -221,38 +234,38 @@
       }
       const dots = AUDIENCES
         .filter(a => audSet.has(a))
-        .map(a => `<span class="cal-dot" data-audience="${a}" aria-label="${a}"></span>`)
+        .map(a => `<span class="cal-dot" data-audience="${a}"></span>`)
         .join('');
       const isPast = ymd(d) < todayKey;
-      const titleAttr = dayGrants.length
-        ? ' title="' + dayGrants.map(g => g.name.replace(/"/g, '&quot;')).join('\n') + '"'
-        : '';
-      const ids = dayGrants.map(g => g.id).join(',');
-      const clickAttrs = dayGrants.length
-        ? ` data-grant-ids="${ids}" tabindex="0" role="button" aria-label="${dayGrants.length} deadline${dayGrants.length>1?'s':''} on ${MONTH_NAMES[state.month]} ${day}"`
-        : ' role="gridcell"';
+      const cls = `cal-cell${isToday ? ' is-today' : ''}${isPast ? ' is-past' : ''}${dayGrants.length ? ' has-pin' : ''}`;
+      const inner = `<span class="cal-num">${day}</span>${dots ? `<span class="cal-dots" aria-hidden="true">${dots}</span>` : ''}`;
+      if (!dayGrants.length) {
+        cells.push(`<div class="${cls}"${isToday ? ' aria-current="date"' : ''}>${inner}</div>`);
+        continue;
+      }
+      const names = dayGrants.map(g => g.name);
+      const label = `${MONTH_NAMES[state.month]} ${day}, ${state.year}: ${names.length} deadline${names.length > 1 ? 's' : ''}. ${names.join('; ')}`;
       cells.push(
-        `<div class="cal-cell${isToday ? ' is-today' : ''}${isPast ? ' is-past' : ''}${dayGrants.length ? ' has-pin' : ''}"${clickAttrs}${titleAttr}>
-           <span class="cal-num">${day}</span>
-           ${dots ? `<span class="cal-dots">${dots}</span>` : ''}
-         </div>`
+        `<button type="button" class="${cls}" data-grant-ids="${dayGrants.map(g => g.id).join(',')}" data-ymd="${ymd(d)}" aria-label="${escapeHTML(label)}" title="${escapeHTML(names.join('\n'))}"${isToday ? ' aria-current="date"' : ''}>${inner}</button>`
       );
     }
     grid.innerHTML = cells.join('');
   }
 
-  function jumpToGrant(idsCsv) {
+  function prefersReducedMotion() {
+    return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  }
+  function jumpToGrant(idsCsv, ymdKey) {
     const ids = (idsCsv || '').split(',').filter(Boolean);
     let target = null;
     for (const id of ids) {
-      target =
-        document.getElementById(`g-month-${id}`) ||
-        document.getElementById(`g-upcoming-${id}`) ||
-        document.getElementById(`g-rolling-${id}`);
+      target = document.getElementById(`g-month-${id}-${ymdKey}`);
       if (target) break;
     }
     if (!target) return;
-    target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    target.scrollIntoView({ behavior: prefersReducedMotion() ? 'auto' : 'smooth', block: 'center' });
+    target.tabIndex = -1;
+    target.focus({ preventScroll: true });
     target.classList.remove('is-flashing');
     // Force reflow so the animation restarts even if class was just toggled.
     void target.offsetWidth;
@@ -288,17 +301,17 @@
       grant.amount,
       grant.duration,
       aud ? `for ${aud}` : null
-    ].filter(Boolean);
+    ].filter(Boolean).map(escapeHTML);
     return `
-      <article id="g-${section}-${grant.id}" class="grant-card">
+      <article id="g-${section}-${grant.id}${withDeadline ? '-' + ymd(withDeadline) : ''}" class="grant-card">
         <div class="grant-row">
-          <h4 class="grant-name"><a href="${grant.url}" target="_blank" rel="noopener">${grant.name}</a></h4>
+          <h4 class="grant-name"><a href="${safeURL(grant.url)}" target="_blank" rel="noopener">${escapeHTML(grant.name)}</a></h4>
           ${deadlineHTML(withDeadline)}
         </div>
         <p class="grant-meta">${metaParts.join(' &middot; ')}</p>
-        <p class="grant-disc">${disciplineText(grant)}</p>
-        ${grant.description ? `<p class="grant-desc">${grant.description}</p>` : ''}
-        ${grant.deadlineNote ? `<p class="grant-note-line">${grant.deadlineNote}</p>` : ''}
+        <p class="grant-disc">${escapeHTML(disciplineText(grant))}</p>
+        ${grant.description ? `<p class="grant-desc">${escapeHTML(grant.description)}</p>` : ''}
+        ${grant.deadlineNote ? `<p class="grant-note-line">${escapeHTML(grant.deadlineNote)}</p>` : ''}
       </article>
     `;
   }
@@ -360,16 +373,16 @@
     return state.query || state.disc !== 'all' || state.filter !== 'all';
   }
   function renderSummary() {
-    const host = document.getElementById('grants-summary');
-    if (!host) return;
+    const textEl = document.getElementById('grants-summary-text');
+    const clearEl = document.getElementById('grants-clear');
+    if (!textEl) return;
     const n = countMatching();
     const total = state.grants.length;
     const text = filtersActive()
       ? `Showing ${n} of ${total} grants.`
       : `Showing all ${total} grants.`;
-    host.innerHTML = text + (filtersActive()
-      ? ' <button type="button" class="grants-clear" id="grants-clear">Clear filters</button>'
-      : '');
+    if (textEl.textContent !== text) textEl.textContent = text;
+    if (clearEl) clearEl.hidden = !filtersActive();
   }
   function writeHash() {
     const params = new URLSearchParams();
@@ -385,7 +398,7 @@
     const d = params.get('d') || 'all';
     const a = params.get('a') || 'all';
     state.query = q;
-    const validDisc = d === 'all' || DISC_LABEL[d] ||
+    const validDisc = d === 'all' || Object.prototype.hasOwnProperty.call(DISC_LABEL, d) ||
       (d.startsWith('group:') && DISC_GROUPS.some(x => 'group:' + x.id === d));
     state.disc = validDisc ? d : 'all';
     const validAud = ['all', 'students', 'postdocs', 'faculty', 'hackathons', 'rolling'];
@@ -397,9 +410,9 @@
     document.querySelectorAll('.tabs-audience .tab').forEach(t => {
       const on = t.getAttribute('data-filter') === state.filter;
       t.classList.toggle('is-active', on);
-      t.setAttribute('aria-selected', on ? 'true' : 'false');
+      t.setAttribute('aria-pressed', on ? 'true' : 'false');
     });
-    renderDiscFilter();
+    updateDiscFilter();
   }
   function onFiltersChanged() {
     state.shown = { upcoming: PAGE, rolling: PAGE };
@@ -407,6 +420,10 @@
     renderAll();
   }
 
+  function renderMonth() {
+    renderCalendar();
+    renderMonthList();
+  }
   function renderAll() {
     renderSummary();
     renderCalendar();
@@ -418,7 +435,7 @@
   // -------- wiring --------
   function discChip(value, label, count, extraClass) {
     const on = state.disc === value;
-    return `<button type="button" class="disc-chip${extraClass ? ' ' + extraClass : ''}${on ? ' is-active' : ''}" data-disc="${value}" aria-pressed="${on}">${label}<span class="disc-count">${count}</span></button>`;
+    return `<button type="button" class="disc-chip${extraClass ? ' ' + extraClass : ''}${on ? ' is-active' : ''}" data-disc="${value}" aria-pressed="${on}" title="${count} grants in total">${label}<span class="disc-count"><span class="visually-hidden">, </span>${count}</span></button>`;
   }
   function countFor(value) {
     let n = 0;
@@ -434,6 +451,15 @@
       rows.push(`<div class="disc-row">${discChip('group:' + grp.id, grp.label, countFor('group:' + grp.id), 'disc-group')}<div class="disc-items">${chips}</div></div>`);
     }
     host.innerHTML = rows.join('');
+    updateDiscFilter();
+  }
+  // Toggle state on the existing chips so keyboard focus stays where it is.
+  function updateDiscFilter() {
+    document.querySelectorAll('#disc-filter .disc-chip').forEach(b => {
+      const on = b.dataset.disc === state.disc;
+      b.classList.toggle('is-active', on);
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
     const label = document.getElementById('disc-current');
     if (label) label.textContent = discLabel(state.disc);
   }
@@ -443,7 +469,7 @@
       const grp = DISC_GROUPS.find(x => 'group:' + x.id === v);
       return grp ? grp.label : 'All disciplines';
     }
-    return DISC_LABEL[v] || 'All disciplines';
+    return Object.prototype.hasOwnProperty.call(DISC_LABEL, v) ? DISC_LABEL[v] : 'All disciplines';
   }
   function wireDiscFilter() {
     const host = document.getElementById('disc-filter');
@@ -453,7 +479,7 @@
       if (!b) return;
       const v = b.dataset.disc;
       state.disc = (v === state.disc && v !== 'all') ? 'all' : v;
-      renderDiscFilter();
+      updateDiscFilter();
       onFiltersChanged();
     });
   }
@@ -467,7 +493,7 @@
         tabs.forEach(o => {
           const on = o === t;
           o.classList.toggle('is-active', on);
-          o.setAttribute('aria-selected', on ? 'true' : 'false');
+          o.setAttribute('aria-pressed', on ? 'true' : 'false');
         });
         onFiltersChanged();
       });
@@ -493,8 +519,11 @@
       const more = e.target.closest('.grants-more');
       if (more) {
         const sec = more.dataset.more;
+        const before = document.querySelectorAll(`#${sec}-list .grant-card`).length;
         state.shown[sec] = more.dataset.all ? Infinity : state.shown[sec] + PAGE;
         if (sec === 'upcoming') renderUpcomingList(); else renderRollingList();
+        const next = document.querySelectorAll(`#${sec}-list .grant-card`)[before];
+        if (next) { next.tabIndex = -1; next.focus(); }
         return;
       }
       if (e.target.closest('#grants-clear')) {
@@ -503,6 +532,8 @@
         state.filter = 'all';
         syncControls();
         onFiltersChanged();
+        const input = document.getElementById('grants-search');
+        if (input) input.focus();
       }
     });
   }
@@ -510,28 +541,46 @@
     document.getElementById('cal-prev').addEventListener('click', () => {
       state.month -= 1;
       if (state.month < 0) { state.month = 11; state.year -= 1; }
-      renderAll();
+      renderMonth();
     });
     document.getElementById('cal-next').addEventListener('click', () => {
       state.month += 1;
       if (state.month > 11) { state.month = 0; state.year += 1; }
-      renderAll();
+      renderMonth();
     });
   }
   function wireCalendarClicks() {
     const grid = document.getElementById('cal-grid');
     grid.addEventListener('click', (e) => {
-      const cell = e.target.closest('.cal-cell.has-pin');
+      const cell = e.target.closest('button.cal-cell');
       if (!cell) return;
-      jumpToGrant(cell.dataset.grantIds);
+      jumpToGrant(cell.dataset.grantIds, cell.dataset.ymd);
     });
-    grid.addEventListener('keydown', (e) => {
-      if (e.key !== 'Enter' && e.key !== ' ') return;
-      const cell = e.target.closest('.cal-cell.has-pin');
-      if (!cell) return;
-      e.preventDefault();
-      jumpToGrant(cell.dataset.grantIds);
-    });
+  }
+  function onHashChange() {
+    readHash();
+    syncControls();
+    state.shown = { upcoming: PAGE, rolling: PAGE };
+    renderAll();
+  }
+  // Keep "today" current for tabs left open across midnight.
+  function onVisibilityChange() {
+    if (document.visibilityState !== 'visible') return;
+    const now = startOfToday();
+    if (ymd(now) === ymd(state.today)) return;
+    state.today = now;
+    renderAll();
+  }
+  function showLoadError() {
+    const msg = 'Could not load the grants data. Please reload the page or try again later.';
+    const summary = document.getElementById('grants-summary-text');
+    if (summary) summary.textContent = msg;
+    const grid = document.getElementById('cal-grid');
+    if (grid) grid.innerHTML = `<p class="grants-empty">${msg}</p>`;
+    for (const id of ['grants-count', 'grants-updated']) {
+      const el = document.getElementById(id);
+      if (el) el.textContent = '-';
+    }
   }
 
   function init(data) {
@@ -550,12 +599,15 @@
     document.getElementById('grants-count').textContent = String(state.grants.length);
 
     readHash();
+    renderDiscFilter();
     syncControls();
     wireDiscFilter();
     wireTabs();
     wireSearch();
     wireListButtons();
     wireNav();
+    window.addEventListener('hashchange', onHashChange);
+    document.addEventListener('visibilitychange', onVisibilityChange);
     const panel = document.getElementById('disc-panel');
     if (panel && window.matchMedia('(min-width: 701px)').matches) panel.open = true;
     wireCalendarClicks();
@@ -570,7 +622,6 @@
     .then(init)
     .catch(err => {
       console.error(err);
-      const grid = document.getElementById('cal-grid');
-      if (grid) grid.innerHTML = '<p class="grants-empty">Could not load grants data. Please try again later.</p>';
+      showLoadError();
     });
 })();

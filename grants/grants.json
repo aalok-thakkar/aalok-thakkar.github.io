@@ -1,6 +1,6 @@
 {
   "_comment": "Source of truth for /grants/. 'deadlines' holds only officially announced upcoming ISO dates; leave it empty for rolling calls or when the next date is not announced (the entry then appears under 'Rolling or date to be announced'). 'disciplines' lists discipline slugs (see DISC_GROUPS in grants.js), or the wildcards 'all', 'stem' (all sciences, engineering and medicine) or 'hss' (all humanities and social sciences).",
-  "lastUpdated": "2026-11-19",
+  "lastUpdated": "2026-11-20",
   "grants": [
     {
       "id": "nsf-grfp",
@@ -2424,10 +2424,8 @@
         "computer-science"
       ],
       "type": "hackathon",
-      "deadlines": [
-        "2026-11-18"
-      ],
-      "deadlineNote": "iQuHACK 2027 runs 29-31 January 2027 at MIT. Applications are due 18 November.",
+      "deadlines": [],
+      "deadlineNote": "Applications closed 18 November 2026. iQuHACK 2027 runs 29-31 January 2027 at MIT; the next call is expected around October 2027.",
       "region": "Cambridge, MA, USA + online",
       "amount": "Sponsor prizes",
       "duration": "3 days",
@@ -4501,10 +4499,8 @@
       "disciplines": [
         "life-sciences"
       ],
-      "deadlines": [
-        "2026-11-19"
-      ],
-      "deadlineNote": "Applications close 19 November 2026 at 13:00 CET. Applicants must be within 5 years post-PhD and change research environment.",
+      "deadlines": [],
+      "deadlineNote": "The 2026 round closed 19 November 2026 at 13:00 CET. Applicants must be within 5 years post-PhD and change research environment. The next round is expected in autumn 2027.",
       "region": "Denmark / International",
       "amount": "Up to DKK 3M",
       "duration": "3 years",
@@ -7021,10 +7017,8 @@
         "life-sciences",
         "computer-science"
       ],
-      "deadlines": [
-        "2026-11-19"
-      ],
-      "deadlineNote": "Applications close 19 November 2026. Project lead must be at a UK research organisation eligible for BBSRC funding. India-based researchers may participate as international project partners only.",
+      "deadlines": [],
+      "deadlineNote": "The 26BBR round closed 19 November 2026. Project lead must be at a UK research organisation eligible for BBSRC funding; India-based researchers may join as international project partners only.",
       "region": "UK (India as international partner)",
       "amount": "Up to GBP 2 million full economic cost; BBSRC funds 80% up to GBP 1.6 million",
       "duration": "Up to 5 years",
@@ -7837,7 +7831,7 @@
       "id": "cri-irvington-postdoctoral",
       "name": "CRI Irvington Postdoctoral Fellowship",
       "funder": "Cancer Research Institute",
-      "url": "https://www.cancerresearch.org/cri-irvington-postdoctoral-fellowship",
+      "url": "https://www.cancerresearch.org/postdoctoral-fellowships",
       "audience": [
         "postdocs"
       ],
@@ -7858,7 +7852,7 @@
       "id": "cri-immuno-informatics-postdoctoral",
       "name": "CRI Immuno-Informatics Postdoctoral Fellowship",
       "funder": "Cancer Research Institute",
-      "url": "https://www.cancerresearch.org/immuno-informatics-postdoctoral-fellowship",
+      "url": "https://www.cancerresearch.org/postdoctoral-fellowships",
       "audience": [
         "postdocs"
       ],

@@ -706,12 +706,23 @@ details.news-archive > summary:hover { color: var(--text); }
 }
 .cal-cell.is-blank { background: var(--bg-elev); opacity: 0.4; }
 .cal-cell.is-past { background: var(--bg-elev); }
-.cal-cell.is-past .cal-num { color: var(--text-faint); }
+.cal-cell.is-past .cal-num { color: var(--text-muted); font-weight: 400; }
 .cal-cell.is-past .cal-dots { opacity: 0.45; }
 .cal-cell.is-today {
   background: var(--accent-tint);
   outline: 1px solid var(--accent);
   outline-offset: -1px;
+}
+button.cal-cell {
+  border: 0;
+  border-radius: 0;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  width: 100%;
+  margin: 0;
+  -webkit-appearance: none;
+  appearance: none;
 }
 .cal-cell.has-pin { cursor: pointer; }
 .cal-cell.has-pin:hover { background: var(--accent-tint); }
