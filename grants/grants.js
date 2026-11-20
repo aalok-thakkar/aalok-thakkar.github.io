@@ -109,8 +109,15 @@
 
   // -------- data shaping --------
   function isHackathon(grant) { return grant.type === 'hackathon'; }
+  // No deadline on or after today: rolling, to be announced, or closed.
   function isRolling(grant) {
-    return !Array.isArray(grant.deadlines) || grant.deadlines.length === 0;
+    const ds = Array.isArray(grant.deadlines) ? grant.deadlines : [];
+    const todayKey = ymd(state.today);
+    return !ds.some(s => { const d = parseISO(s); return d && ymd(d) >= todayKey; });
+  }
+  function lastDeadline(grant) {
+    const ds = (Array.isArray(grant.deadlines) ? grant.deadlines : []).map(parseISO).filter(Boolean);
+    return ds.length ? ds.reduce((a, b) => (a > b ? a : b)) : null;
   }
   function grantDisciplines(grant) {
     if (Array.isArray(grant.disciplines) && grant.disciplines.length) return grant.disciplines;
@@ -191,7 +198,7 @@
   function rollingGrants() {
     return state.grants
       .filter(g => filterMatch(g))
-      .filter(g => !Array.isArray(g.deadlines) || g.deadlines.length === 0)
+      .filter(g => isRolling(g))
       .slice()
       .sort((a, b) => a.name.localeCompare(b.name));
   }
@@ -288,6 +295,7 @@
   }
   function deadlineHTML(d) {
     if (!d) return '<span class="grant-deadline grant-rolling">no fixed date</span>';
+    if (daysUntil(d) < 0) return `<span class="grant-deadline grant-rolling">closed ${formatLong(d)}</span>`;
     const rel = relativeLabel(d);
     const badge = rel ? ` <span class="grant-rel ${rel.cls}">${rel.text}</span>` : '';
     return `<span class="grant-deadline">${formatLong(d)}${badge}</span>`;
@@ -352,7 +360,7 @@
       host.innerHTML = '<p class="grants-empty">No grants without a fixed date for the selected filters.</p>';
       return;
     }
-    host.innerHTML = items.map(g => grantCard(g, null, 'rolling')).join('') +
+    host.innerHTML = items.map(g => grantCard(g, lastDeadline(g), 'rolling')).join('') +
       moreButton('rolling', all.length - items.length);
   }
 
