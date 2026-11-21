@@ -18939,6 +18939,121 @@
       "amount": "£14,000 salary, travel to London, visa sponsorship",
       "duration": "3 months (7 June to 27 August 2027)",
       "description": "Full-time, in-person fellowship in London: fellows choose an AI governance research topic and work with a supervisor from GovAI or its network. Open from early-career researchers to experienced professionals; relevant graduate study or research experience is typical. Backgrounds include public policy, political science, computer science, economics, biosecurity, cybersecurity and China studies."
+    },
+    {
+      "id": "govai-dc-summer-fellowship-2027",
+      "name": "DC Summer Fellowship 2027",
+      "funder": "Centre for the Governance of AI (GovAI)",
+      "url": "https://www.governance.ai/post/dc-summer-fellowship-2027",
+      "audience": [
+        "undergrads",
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "computer-science",
+        "engineering",
+        "economics",
+        "politics-law-policy",
+        "area-studies"
+      ],
+      "deadlines": [
+        "2026-11-22"
+      ],
+      "deadlineNote": "11:59 pm EST",
+      "region": "United States (in person in Washington, DC; US work authorisation required)",
+      "amount": "$24,500 stipend and travel support; no visa sponsorship",
+      "duration": "3 months (7 June to 27 August 2027)",
+      "description": "Full-time, in-person AI policy research fellowship in Washington, DC, with a project of the fellow's choice and a supervisor. No degree requirement; promising undergraduates are welcome. Backgrounds include public policy, political science, engineering, computer science, economics, biosecurity, cybersecurity and China studies."
+    },
+    {
+      "id": "govai-uk-summer-fellowship-2027-applied",
+      "name": "UK Summer Fellowship 2027, Applied Track",
+      "funder": "Centre for the Governance of AI (GovAI)",
+      "url": "https://www.governance.ai/post/uk-summer-fellowship-2027-applied-track",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "disciplines": [
+        "computer-science",
+        "politics-law-policy"
+      ],
+      "deadlines": [
+        "2026-11-22"
+      ],
+      "deadlineNote": "23:59 UK time",
+      "region": "International (in person in London)",
+      "amount": "£14,000 salary, travel to London, visa sponsorship",
+      "duration": "3 months (7 June to 27 August 2027)",
+      "description": "Full-time, in-person fellowship in London on non-research AI governance projects pitched by GovAI or partners such as the UK AI Security Institute: events, policy engagement, communications, programme management. For people whose main work is not research; backgrounds in policy, advocacy, communications, operations or research management."
+    },
+    {
+      "id": "govai-entrepreneur-in-residence",
+      "name": "Entrepreneur-in-Residence",
+      "funder": "Centre for the Governance of AI (GovAI)",
+      "url": "https://www.governance.ai/post/eir",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "disciplines": [
+        "computer-science",
+        "politics-law-policy"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Rolling expressions of interest",
+      "region": "International (London, Washington DC or case by case)",
+      "amount": "About $150,000 seed funding plus salary (£70,000–£113,500 London; $80,000–$180,000 DC)",
+      "duration": "12 months",
+      "description": "Salaried year to start a new AI governance project or organisation, with seed funding from partner funders and fiscal sponsorship. For operators, practitioners and researchers with a record of leading projects."
+    },
+    {
+      "id": "govai-research-scholar",
+      "name": "Research Scholar",
+      "funder": "Centre for the Governance of AI (GovAI)",
+      "url": "https://www.governance.ai/post/research-scholar",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "disciplines": [
+        "computer-science",
+        "economics",
+        "politics-law-policy"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Closed; reopens periodically",
+      "region": "International (London or Washington DC preferred)",
+      "amount": "£75,000–£103,500 (UK) or $100,000–$165,000 (DC)",
+      "duration": "1 year",
+      "description": "One-year visiting research role on AI governance. No educational requirement; open to all career stages. UK visas sponsored."
+    },
+    {
+      "id": "govai-dc-winter-fellowship-2027",
+      "name": "DC Winter Fellowship 2027",
+      "funder": "Centre for the Governance of AI (GovAI)",
+      "url": "https://www.governance.ai/post/dc-winter-fellowship-2027",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "disciplines": [
+        "computer-science",
+        "economics",
+        "politics-law-policy"
+      ],
+      "deadlines": [],
+      "deadlineNote": "Closed for 2027",
+      "region": "United States (Washington, DC; US work authorisation required)",
+      "amount": "$21,000 stipend",
+      "duration": "12 weeks (18 January to 9 April 2027)",
+      "description": "Full-time, in-person AI policy fellowship in Washington, DC."
     }
   ]
 }
