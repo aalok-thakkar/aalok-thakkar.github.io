@@ -1,6 +1,6 @@
 {
   "_comment": "Source of truth for /grants/. 'deadlines' holds officially announced ISO dates. Past dates stay; an entry with no date on or after today appears under 'Rolling, to be announced, or closed', marked closed with its last date. 'disciplines' lists discipline slugs (see DISC_GROUPS in grants.js), or the wildcards 'all', 'stem' (all sciences, engineering and medicine) or 'hss' (all humanities and social sciences).",
-  "lastUpdated": "2026-11-20",
+  "lastUpdated": "2026-11-21",
   "grants": [
     {
       "id": "nsf-grfp",
@@ -18914,6 +18914,31 @@
       "amount": "Partial tuition support",
       "duration": "One master's programme",
       "description": "Merit-based scholarships for up to ten Indian women graduates each year to take a master's degree abroad in social work, social welfare (including child welfare), education, or special-needs education. Final-year undergraduates applying onward can plan for the next call."
+    },
+    {
+      "id": "govai-uk-summer-fellowship-2027",
+      "name": "UK Summer Fellowship 2027, Research Track",
+      "funder": "Centre for the Governance of AI (GovAI)",
+      "url": "https://www.governance.ai/post/uk-summer-fellowship-2027-research-track",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "disciplines": [
+        "computer-science",
+        "economics",
+        "politics-law-policy",
+        "area-studies"
+      ],
+      "deadlines": [
+        "2026-11-22"
+      ],
+      "deadlineNote": "23:59 UK time",
+      "region": "International (in person in London)",
+      "amount": "£14,000 salary, travel to London, visa sponsorship",
+      "duration": "3 months (7 June to 27 August 2027)",
+      "description": "Full-time, in-person fellowship in London: fellows choose an AI governance research topic and work with a supervisor from GovAI or its network. Open from early-career researchers to experienced professionals; relevant graduate study or research experience is typical. Backgrounds include public policy, political science, computer science, economics, biosecurity, cybersecurity and China studies."
     }
   ]
 }
