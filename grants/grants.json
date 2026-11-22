@@ -1,6 +1,6 @@
 {
   "_comment": "Source of truth for /grants/. 'deadlines' holds officially announced ISO dates. Past dates stay; an entry with no date on or after today appears under 'Rolling, to be announced, or closed', marked closed with its last date. 'disciplines' lists discipline slugs (see DISC_GROUPS in grants.js), or the wildcards 'all', 'stem' (all sciences, engineering and medicine) or 'hss' (all humanities and social sciences).",
-  "lastUpdated": "2026-11-21",
+  "lastUpdated": "2026-11-22",
   "grants": [
     {
       "id": "nsf-grfp",
@@ -702,7 +702,7 @@
     },
     {
       "id": "anrf-ramanujan-fellowship",
-      "name": "Ramanujan Fellowship",
+      "name": "Ramanujan Fellowship 2026",
       "funder": "Anusandhan National Research Foundation (ANRF)",
       "url": "https://anrfonline.in/ANRF/Ramanujan_fellowship",
       "audience": [
@@ -717,9 +717,9 @@
       ],
       "deadlineNote": "Nominations are accepted from 1 January to 31 December 2026 (5 pm IST), with results announced twice a year.",
       "region": "India",
-      "amount": "INR 1.35 lakh/month fellowship + research grant",
+      "amount": "INR 1.35 lakh/month fellowship + INR 7 lakh/year research grant + INR 60,000/year overheads",
       "duration": "5 years",
-      "description": "For brilliant Indian/Indian-origin scientists and engineers (under age 40) currently abroad to take up scientific research positions in India. Year-round nominations through institutions; one of the ANRF schemes that remains open year-round."
+      "description": "For Indian or Indian-origin scientists and engineers under 40 working abroad who want to take up research positions in India. Requires a PhD or equivalent, relevant professional experience and an outstanding research record; candidates must not hold a permanent, tenure-track or contractual position at an Indian institution. Nominations through host institutions; results announced twice a year."
     },
     {
       "id": "anrf-power-fellowship",
