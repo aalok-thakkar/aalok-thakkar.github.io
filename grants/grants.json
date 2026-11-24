@@ -1,6 +1,6 @@
 {
   "_comment": "Source of truth for /grants/. 'deadlines' holds officially announced ISO dates. Past dates stay; an entry with no date on or after today appears under 'Rolling, to be announced, or closed', marked closed with its last date. 'disciplines' lists discipline slugs (see DISC_GROUPS in grants.js), or the wildcards 'all', 'stem' (all sciences, engineering and medicine) or 'hss' (all humanities and social sciences).",
-  "lastUpdated": "2026-11-22",
+  "lastUpdated": "2026-11-24",
   "grants": [
     {
       "id": "nsf-grfp",
@@ -1000,8 +1000,8 @@
       "deadlineNote": "The 2027 calls for Small, Follow-on Small, Intermediate and Follow-on Intermediate Extramural Grants close on 20 January 2027 at 5 pm IST.",
       "region": "India",
       "amount": "ANVESHAN (Small) up to INR 2 crore over up to 3 years; NISCHAYAK (Intermediate) INR 2-8 crore over up to 4 years; follow-on grants in the same ranges",
-      "duration": "3 years (typical)",
-      "description": "Investigator-initiated biomedical research grants across the ICMR ANVESHAN extramural family covering biomedical, clinical, public health and translational research."
+      "duration": "Up to 3 years (Small) or 4 years (Intermediate), plus an optional 6-month preparatory phase",
+      "description": "Investigator-initiated biomedical research grants across the ICMR ANVESHAN extramural family covering biomedical, clinical, public health and translational research. Open to regular faculty, and to contractual faculty with an institutional undertaking and a regular Co-PI, at Indian medical and research institutes, universities, colleges, R&D labs, government bodies and NGOs."
     },
     {
       "id": "isro-respond",
@@ -19054,6 +19054,27 @@
       "amount": "$21,000 stipend",
       "duration": "12 weeks (18 January to 9 April 2027)",
       "description": "Full-time, in-person AI policy fellowship in Washington, DC."
+    },
+    {
+      "id": "interledger-nextgen-higher-education",
+      "name": "NextGen Higher Education Grant",
+      "funder": "Interledger Foundation",
+      "url": "https://interledger.org/grant/education/nextgen/",
+      "audience": [
+        "faculty"
+      ],
+      "disciplines": [
+        "computer-science",
+        "economics",
+        "education"
+      ],
+      "deadlines": [
+        "2026-12-14"
+      ],
+      "region": "Global",
+      "amount": "Up to USD 50,000",
+      "duration": "Up to 12 months",
+      "description": "Institutional grant for courses, labs, workshops, student research and prototypes on Open Payments, interoperability and inclusive digital finance. Higher education institutions apply through a faculty member or academic unit; projects must primarily benefit tertiary students and connect to the Interledger ecosystem."
     }
   ]
 }
