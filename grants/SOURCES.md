@@ -120,4 +120,4 @@ Funders whose calls page is worth opening once a month when updating `grants.jso
 |---|---|---|
 | Ashoka Research and Development Office digest | Email | Weekly funding email to Ashoka faculty; forward items to thakkar.grants@gmail.com. |
 
-Last reviewed: 20 November 2026.
+Last reviewed: 24 November 2026.

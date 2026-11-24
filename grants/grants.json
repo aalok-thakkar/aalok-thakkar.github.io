@@ -98,8 +98,10 @@
       "disciplines": [
         "life-sciences"
       ],
-      "deadlines": [],
-      "deadlineNote": "Annual call. For the 2027 cycle the LOI closed 12 May 2026 and invited full proposals closed 24 September 2026. Check the funder's site for the next call.",
+      "deadlines": [
+        "2027-05-11"
+      ],
+      "deadlineNote": "For the 2028 cycle, the application site opens mid-March 2027; register an LOI by 4 May 2027 and submit it by 11 May 2027, 9:00 AM US Eastern. The full proposal deadline is not yet published (it was 24 September 2026 in the 2027 cycle).",
       "region": "Global",
       "amount": "Approx. USD 55,000/yr + allowances",
       "duration": "3 years",
@@ -136,8 +138,10 @@
       "disciplines": [
         "all"
       ],
-      "deadlines": [],
-      "deadlineNote": "Annual call with European and Global Fellowship streams. The 2026 call closed 9 September 2026. Check the funder's site for the next call.",
+      "deadlines": [
+        "2027-09-08"
+      ],
+      "deadlineNote": "The 2027 call (HORIZON-MSCA-2027-PF-01, European and Global Fellowships) is listed as forthcoming on the EU Funding and Tenders Portal: planned opening 7 April 2027, deadline 8 September 2027. The 2026 call closed 9 September 2026.",
       "region": "EU",
       "amount": "Salary + mobility/family allowance",
       "duration": "1–3 years",
@@ -881,8 +885,10 @@
         "computer-science",
         "engineering"
       ],
-      "deadlines": [],
-      "deadlineNote": "The first call ran 18 October to 25 November 2025. ANRF has said the second call will be announced shortly; no dates have been published.",
+      "deadlines": [
+        "2026-12-21"
+      ],
+      "deadlineNote": "The first call ran 18 October to 25 November 2025. The second call opened on 20 November 2026 and closes on 21 December 2026, 5 pm IST, on the ANRF portal. Researchers who were sanctioned PIs in the first call are not eligible.",
       "region": "India",
       "amount": "Up to INR 30 Crore for 3-year projects (up to INR 50 Crore in exceptional cases); GPU usage capped at 70% of budget via MeitY infrastructure",
       "duration": "Project-dependent",
@@ -1016,8 +1022,10 @@
         "physics",
         "earth-environment"
       ],
-      "deadlines": [],
-      "deadlineNote": "RESPOND Basket 2025 currently referenced on ISRO portal; cycles per ISRO centre (VSSC, SAC, URSC, NRSC, LPSC, IPRC, PRL, IIRS, NESAC, ISTRAC, HSFC). Check ISRO site for 2026 updates.",
+      "deadlines": [
+        "2026-01-31"
+      ],
+      "deadlineNote": "Proposals under RESPOND Basket 2025 were due by 31 January 2026 through the I-GRASP portal. ISRO publishes a new basket of research areas about once a year; no 2026 basket has been posted.",
       "region": "India",
       "amount": "Project-based (varies by problem statement)",
       "duration": "Typically 2-3 years",
@@ -5796,8 +5804,10 @@
       "disciplines": [
         "life-sciences"
       ],
-      "deadlines": [],
-      "deadlineNote": "Annual call. The current round's LOI closed 26 March 2026 and invited full proposals were due in mid-September 2026. Check the funder's site for the next call.",
+      "deadlines": [
+        "2027-03-24"
+      ],
+      "deadlineNote": "For award year 2028, the application site opens mid-January 2027; register an LOI by 16 March 2027 and submit it by 24 March 2027, 9:00 AM US Eastern. Invited full proposals are due around mid-September 2027.",
       "region": "Global (multinational teams)",
       "amount": "USD 300K/year (2-member), 400K/year (3-member), or 500K/year (4-member team)",
       "duration": "3 years",
@@ -9195,15 +9205,17 @@
       "id": "ictp-cmsp-postdoc",
       "name": "ICTP Condensed Matter and Statistical Physics Postdoctoral Positions",
       "funder": "Abdus Salam International Centre for Theoretical Physics (ICTP)",
-      "url": "https://www.ictp.it/opportunity/postdoctoral-positions-3",
+      "url": "https://www.ictp.it/opportunity/cmsp-postdoctoral-position-2027",
       "audience": [
         "postdocs"
       ],
       "disciplines": [
         "physics"
       ],
-      "deadlines": [],
-      "deadlineNote": "2026 call closed 28 February 2026; the call is annual and the next round is not yet announced.",
+      "deadlines": [
+        "2027-02-28"
+      ],
+      "deadlineNote": "The 2027 call is open; apply by 28 February 2027 through the ICTP e-applications portal, for positions starting in fall 2027. Priority to PhDs earned after 2022.",
       "region": "Trieste, Italy",
       "amount": "Internationally competitive salary and benefits (amount not published)",
       "duration": "Two years, renewable for one more year",
@@ -11148,9 +11160,10 @@
         "education"
       ],
       "deadlines": [
-        "2026-11-20"
+        "2026-11-20",
+        "2026-11-30"
       ],
-      "deadlineNote": "Online applications close 20 November 2026, 6:00 PM IST; forwarded through the affiliating institution.",
+      "deadlineNote": "Online applications were due 20 November 2026; ICSSR extended the last date to 30 November 2026. Forwarded through the affiliating institution.",
       "region": "India (Indian citizens)",
       "amount": "Rs 45,000 per month plus Rs 40,000 per year contingency",
       "duration": "2 years",
@@ -19075,6 +19088,324 @@
       "amount": "Up to USD 50,000",
       "duration": "Up to 12 months",
       "description": "Institutional grant for courses, labs, workshops, student research and prototypes on Open Payments, interoperability and inclusive digital finance. Higher education institutions apply through a faculty member or academic unit; projects must primarily benefit tertiary students and connect to the Interledger ecosystem."
+    },
+    {
+      "id": "gerda-henkel-forced-migration",
+      "name": "Gerda Henkel Foundation Special Programme Forced Migration",
+      "funder": "Gerda Henkel Foundation",
+      "url": "https://www.gerda-henkel-stiftung.de/en/forced_migration",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "disciplines": [
+        "hss"
+      ],
+      "deadlines": [
+        "2027-04-29"
+      ],
+      "deadlineNote": "Applications for the 2027 call close 29 April 2027; committees meet in November 2027 and funding can start in December 2027 at the earliest.",
+      "region": "Global; no restriction by nationality, location or institutional affiliation",
+      "amount": "EUR 2,760/month research scholarship, plus family allowance and travel and material costs",
+      "duration": "1-24 months",
+      "description": "Individual full-time research scholarships for postdoctoral researchers (doctorate no more than eight years old) working on forced migration: infrastructures of forced migration, South-South (im)mobilities, agency of displaced people, gender and intersectionality, and state and supra-state influences on displacement. Comparative and multidisciplinary projects in the humanities, social sciences, law and economics are welcome. Applications are online, in English."
+    },
+    {
+      "id": "gerda-henkel-lost-cities",
+      "name": "Gerda Henkel Foundation Special Programme Lost Cities",
+      "funder": "Gerda Henkel Foundation",
+      "url": "https://www.gerda-henkel-stiftung.de/en/lost_cities",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "disciplines": [
+        "history-archaeology",
+        "sociology-anthropology",
+        "area-studies",
+        "arts-design"
+      ],
+      "deadlines": [
+        "2027-05-19"
+      ],
+      "region": "Global; no restriction by nationality or place of work",
+      "amount": "Up to three scholarships per group (EUR 1,920/month PhD, EUR 2,760/month postdoc, EUR 3,720/month senior), plus travel and material costs",
+      "duration": "Up to 36 months",
+      "description": "Funds research groups of at least two university-based postdoctoral scholars in the humanities and social sciences studying abandoned cities from antiquity to the present, with a focus on how such cities are perceived and interpreted. Individual applications outside a group are not accepted. Applications in English or German."
+    },
+    {
+      "id": "wenner-gren-fejos-public-media",
+      "name": "Wenner-Gren Fejos Fellowship in Public Media",
+      "funder": "Wenner-Gren Foundation",
+      "url": "https://wennergren.org/program/fejos-postdoctoral-fellowship/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "disciplines": [
+        "sociology-anthropology"
+      ],
+      "deadlines": [
+        "2027-05-01"
+      ],
+      "deadlineNote": "Annual deadline 1 May for fellowships starting between 1 January and 31 December of the following year; the portal opens two months before.",
+      "region": "Global; scholars of any nationality or institutional affiliation",
+      "amount": "Up to USD 80,000 (9-month stipend, prorated for shorter periods)",
+      "duration": "9 months",
+      "description": "Supports the final post-production stages of a film, audio or other public media project based on anthropological research the applicant has already completed. Applicants need a doctorate in anthropology (or a related field with an anthropology appointment) and should be no more than ten years past the PhD. Does not fund pilot research or fieldwork."
+    },
+    {
+      "id": "wenner-gren-global-initiatives-grant",
+      "name": "Wenner-Gren Global Initiatives Grant",
+      "funder": "Wenner-Gren Foundation",
+      "url": "https://wennergren.org/program/global-initiatives-grant/",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "disciplines": [
+        "sociology-anthropology"
+      ],
+      "deadlines": [
+        "2027-05-15"
+      ],
+      "deadlineNote": "Annual deadline 15 May for projects beginning 1 January of the following year; the portal opens two months before. One award per year.",
+      "region": "Global; applicants of any nationality or country of residence",
+      "amount": "Up to USD 80,000",
+      "description": "One award a year (2026 to 2030) for a public anthropology project that reaches broad audiences, such as a media campaign, a communication platform, training for anthropologists, or bringing anthropology into public decision-making. The lead applicant needs a PhD in anthropology or an anthropology department affiliation, and an institution that can carry the project forward; graduate students may be co-applicants."
+    },
+    {
+      "id": "humboldt-research-professorship",
+      "name": "Humboldt Research Professorship",
+      "funder": "Alexander von Humboldt Foundation",
+      "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-professorship",
+      "audience": [
+        "faculty"
+      ],
+      "disciplines": [
+        "all"
+      ],
+      "deadlines": [
+        "2026-11-16",
+        "2027-10-15"
+      ],
+      "deadlineNote": "Nomination by a German university only; self-nomination is not possible. The 2027 selection closed for nominations on 16 November 2026. The 2028 call opens 15 May 2027 and nominations close 15 October 2027.",
+      "region": "Germany; nominees of any nationality who have worked mainly outside Germany for at least five years (India-based researchers eligible)",
+      "amount": "Up to EUR 3 million (typically EUR 1.5 million theoretical, EUR 3 million experimental) plus 20% administrative allowance to the host",
+      "duration": "5 years",
+      "description": "Award for researchers based abroad, no more than 18 years past the doctorate or at a later career stage, to set up research at a German university. German universities nominate candidates through their president or rector; non-university institutes can nominate jointly with a university."
+    },
+    {
+      "id": "alexander-von-humboldt-professorship",
+      "name": "Alexander von Humboldt Professorship",
+      "funder": "Alexander von Humboldt Foundation",
+      "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/alexander-von-humboldt-professorship",
+      "audience": [
+        "faculty"
+      ],
+      "disciplines": [
+        "all"
+      ],
+      "deadlines": [
+        "2027-04-15",
+        "2027-09-15"
+      ],
+      "deadlineNote": "Nomination closing dates are 15 April and 15 September each year; nominations come only from German universities, and the selection committee meets twice a year after about six months of review.",
+      "region": "Germany; nominees must be established academics based abroad (India-based researchers eligible)",
+      "amount": "EUR 3.5 million to EUR 10 million",
+      "duration": "7 years",
+      "description": "Germany's largest research award, given to leading researchers working abroad to take up a professorship at a German university. Candidates must be eligible for a German professorship and cannot hold a regular position in Germany. Self-nomination is not possible."
+    },
+    {
+      "id": "icts-ltvsp-2027",
+      "name": "ICTS Long Term Visiting Students Program (LTVSP) 2027",
+      "funder": "International Centre for Theoretical Sciences (ICTS-TIFR)",
+      "url": "https://www.icts.res.in/academic/long-term-visiting-student-program",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "internship",
+      "disciplines": [
+        "physics",
+        "mathematics",
+        "computer-science",
+        "life-sciences",
+        "engineering"
+      ],
+      "deadlines": [
+        "2027-01-15"
+      ],
+      "deadlineNote": "Applications due 15 January 2027, 5:00 PM IST; referee letters due 29 January 2027, 5:00 PM IST. Selected candidates are told by mid-April.",
+      "region": "India (Bengaluru); Indian and foreign nationals",
+      "amount": "Stipend and accommodation",
+      "duration": "One or two semesters, normally starting in August",
+      "description": "One or two semesters of research with ICTS faculty in Bengaluru for bachelor's, master's or integrated master's students in science, mathematics or engineering who are entering or in their final year, or have recently graduated. Strong LTVSP students in fluid dynamics and turbulence or applied and computational mathematics may be considered for the ICTS ACM PhD program."
+    },
+    {
+      "id": "cwit-scholarships",
+      "name": "Charles Wallace India Trust Scholarships",
+      "funder": "Charles Wallace India Trust",
+      "url": "https://www.charleswallaceindiatrust.com/scholarships",
+      "audience": [
+        "students"
+      ],
+      "disciplines": [
+        "arts-design",
+        "history-archaeology"
+      ],
+      "deadlines": [
+        "2027-01-29"
+      ],
+      "deadlineNote": "Applications close 29 January 2027.",
+      "region": "Indian citizens living in India, aged 28 to 38",
+      "amount": "UK accommodation and living costs plus GBP 700 towards international travel (average award over GBP 50,000)",
+      "duration": "Usually 10 months (a taught MA); a few 3 to 6 month professional development programmes",
+      "description": "Long-term awards for Indian artists and heritage professionals to study in the UK, usually on a taught MA, in visual arts, performance, film, photography, design (not architecture), curating, art history and heritage conservation. Applicants need a first degree or professional qualification in their field; working experience is preferred, and those who held a CWIT grant in the last five years are not eligible."
+    },
+    {
+      "id": "tata-trusts-medical-healthcare-scholarship",
+      "name": "Tata Trusts Medical and Healthcare Scholarship (Merit Scholarship Programme 2026-27)",
+      "funder": "Tata Trusts (Individual Grants Programme)",
+      "url": "https://www.tatatrusts.org/our-work/individual-grants-programme/education-grants",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "scholarship",
+      "disciplines": [
+        "medicine-health"
+      ],
+      "deadlines": [
+        "2026-12-09"
+      ],
+      "deadlineNote": "Online applications open 25 November and close 9 December 2026, 6:00 PM; documents must be emailed to igpadmin@tatatrusts.org within 48 hours. Students with delayed results may send marksheets by 15 February 2027.",
+      "region": "India",
+      "amount": "Support towards annual course fees; amount not stated",
+      "duration": "One academic year (2026-27)",
+      "description": "Merit scholarships for students in Indian medical and healthcare programmes: MBBS, nursing, dentistry, physiotherapy, occupational therapy and pharmacy bachelor's students from second year onwards, and master's students (MD, MS, MCh, DM, MDS, M.Pharm, PharmD, nursing, physiotherapy) from first year. Percentage cut-offs apply by stream (for example 75% for MBBS). Students whose fees are already covered by another stipend or scholarship are not eligible."
+    },
+    {
+      "id": "anrf-maha-renewable-energy",
+      "name": "ANRF MAHA Renewable Energy Programme (MAHA-RE)",
+      "funder": "Anusandhan National Research Foundation (ANRF) and Ministry of New and Renewable Energy (MNRE)",
+      "url": "https://anrfonline.in/ANRF/mahare_anrf?HomePage=New",
+      "audience": [
+        "faculty"
+      ],
+      "disciplines": [
+        "engineering",
+        "chemistry"
+      ],
+      "deadlines": [
+        "2026-12-18"
+      ],
+      "deadlineNote": "The pre-proposal call opened on 19 November 2026 and closes on 18 December 2026, 5 pm IST, on the ANRF portal. Shortlisted teams submit full proposals within 30 days of invitation. Track B (AI-based forecasting for renewable generation) will be announced under the AI for Science and Engineering programme.",
+      "region": "India",
+      "amount": "Up to INR 10 crore per project; ANRF and MNRE fund 90% of the budget, with at least 10% cash cost-sharing expected from other sources",
+      "duration": "Up to 60 months (36+12+12)",
+      "description": "Mission-mode programme for indigenous non-lithium battery storage for the grid (sodium-ion, flow, zinc-based, iron-based and sodium-sulphur systems), from TRL 3 or 4 up to pilot demonstration at TRL 7. Proposals come from multi-institutional consortia led by a PI with a regular post at an academic institution, national lab or recognised not-for-profit, who must be an Indian citizen or OCI holder with a PhD or medical degree. Industry, MSMEs and start-ups can join as partners but receive no grant-in-aid."
+    },
+    {
+      "id": "fulbright-specialist-indian-institutions",
+      "name": "Fulbright Specialist Program for Indian Institutions",
+      "funder": "United States-India Educational Foundation (USIEF)",
+      "url": "https://usief.org.in/fulbright-fellowships/fellowships-for-indian-citizen/fulbright-specialist-program/",
+      "audience": [
+        "faculty"
+      ],
+      "disciplines": [
+        "all"
+      ],
+      "deadlines": [
+        "2027-01-15"
+      ],
+      "deadlineNote": "2027-28 cycle: Indian host institutions submit through the FSP portal by 15 January 2027. Results are expected in April or May 2027, and visits must take place between 1 September 2027 and 30 September 2028.",
+      "region": "India (US specialist visits an Indian institution)",
+      "amount": "Fulbright pays the specialist's international airfare and honorarium; the host covers housing, meals and in-country travel",
+      "duration": "14 to 42 days",
+      "description": "Lets a recognised Indian higher education institution host a US academic or professional for a short project such as teaching, curriculum work or institutional planning. A faculty member applies on behalf of the institution; one application per field per institution. Personal research projects, including clinical research, are not eligible."
+    },
+    {
+      "id": "royal-society-wolfson-fellowship",
+      "name": "Royal Society Wolfson Fellowship",
+      "funder": "The Royal Society",
+      "url": "https://royalsociety.org/grants/royal-society-wolfson-fellowship/",
+      "audience": [
+        "faculty"
+      ],
+      "disciplines": [
+        "stem"
+      ],
+      "deadlines": [
+        "2027-02-10"
+      ],
+      "deadlineNote": "2027 round 1 opens 9 December 2026 and closes 10 February 2027 (host nomination deadline 22 January 2027). Round 2 runs 9 June to 11 August 2027 (nominations by 23 July 2027).",
+      "region": "United Kingdom",
+      "amount": "Up to GBP 300,000; relocation and visa costs may exceed this if justified",
+      "duration": "Up to five years",
+      "description": "Helps UK universities and not-for-profit research institutions recruit established senior or exceptional mid-career researchers in the natural sciences who are currently based overseas, so researchers in India can apply. Candidates are nominated by the UK host and need a firm offer of employment there if funded."
+    },
+    {
+      "id": "anso-cas-twas-phd-scholarship",
+      "name": "ANSO-CAS-TWAS/UNESCO PhD Scholarship",
+      "funder": "Alliance of International Science Organizations (ANSO), Chinese Academy of Sciences and UNESCO-TWAS",
+      "url": "https://twas.org/opportunity/anso-cas-twasunesco-phd-scholarship",
+      "audience": [
+        "students"
+      ],
+      "disciplines": [
+        "stem"
+      ],
+      "deadlines": [
+        "2027-02-28"
+      ],
+      "deadlineNote": "Call opened 17 November 2026; applications close 28 February 2027 (Beijing time) through the USTC or UCAS admission system (not both), selecting the CAS-ANSO Scholarship and ticking the ANSO-CAS-TWAS/UNESCO option.",
+      "region": "China (USTC or UCAS)",
+      "amount": "CNY 6,000 or 7,000/month stipend, tuition waiver and health insurance",
+      "duration": "Up to 4 years",
+      "description": "Up to 40 PhD scholarships a year at the University of Science and Technology of China or the University of Chinese Academy of Sciences for nationals of developing countries in the South who hold an MSc and were born on or after 1 January 1992. India is on TWAS's list of developing countries. Applicants already doing a PhD in China are not eligible."
+    },
+    {
+      "id": "ictp-indam-research-pairs-2027",
+      "name": "ICTP-INdAM Collaborative Grants and Research in Pairs 2027",
+      "funder": "Abdus Salam International Centre for Theoretical Physics (ICTP) and Istituto Nazionale di Alta Matematica (INdAM)",
+      "url": "https://www.ictp.it/opportunity/ictp-indam-collaborative-grants-and-research-pairs-2027",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "disciplines": [
+        "mathematics"
+      ],
+      "deadlines": [
+        "2026-11-30"
+      ],
+      "deadlineNote": "Applications close 30 November 2026 through the ICTP online application system.",
+      "region": "Italy (Trieste)",
+      "amount": "Up to EUR 10,000 per project for travel, living costs and health insurance",
+      "duration": "2 to 12 weeks between 1 February and 20 December 2027",
+      "description": "Funds a mathematician who is a citizen of, and affiliated with an institution in, a developing country to work at ICTP with up to two INdAM members from the GNAMPA, GNCS, GNFM or GNSAGA groups. The applicant must have worked or studied in a developing country for at least 3 of the last 5 years."
+    },
+    {
+      "id": "ictp-scientific-calendar-2028-proposals",
+      "name": "ICTP Scientific Calendar 2028: Call for Activity Proposals",
+      "funder": "Abdus Salam International Centre for Theoretical Physics (ICTP)",
+      "url": "https://www.ictp.it/news/2026/11/call-proposals-ictp-scientific-calendar-2028",
+      "audience": [
+        "faculty"
+      ],
+      "disciplines": [
+        "stem"
+      ],
+      "deadlines": [
+        "2027-02-28"
+      ],
+      "deadlineNote": "Proposals due 28 February 2027, 23:59 CET, through the ICTP online application system.",
+      "region": "Trieste and worldwide",
+      "amount": "Terms set in ICTP's proposal guidelines (not stated on the call page)",
+      "duration": "Conferences, workshops and schools held in 2028",
+      "description": "ICTP invites the international scientific community to propose conferences, workshops and schools for its 2028 calendar. Selection weighs scientific novelty, bringing together scientists from the South and North, and training for younger scientists; ICTP wants more events held outside Trieste in 2028."
     }
   ]
 }
