@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aalok Thakkar: Software</title>
+    <link rel="icon" href="data:,">
+
+    <link
+      rel="stylesheet"
+      href="/webpage_files/style.css"
+      type="text/css"
+      media="screen"
+    />
+  </head>
+
+  <body>
+    <div id="content" class="single-wide">
+      <h1>Aalok Thakkar: <strong>Software</strong></h1>
+
+      <div>
+        <h3>Research software</h3>
+        <div class="research-grid">
+          <div class="research-cell">
+            <h3 class="section-title"><a href="https://github.com/DiagonaLean/DiagonaLean" target="_blank">DiagonaLean</a></h3>
+            <p>A Lean 4 library of machine-checked undecidability results, built on Mathlib and Cslib. Every result is a chain of reductions from the halting problem for Turing machines, and each reduction comes with a correctness proof. The library covers the modified and classical Post Correspondence Problems, string rewriting, membership for unrestricted grammars, ambiguity and intersection of context-free grammars, matrix mortality, SKI and &beta;-convertibility, and Rice's theorem. It also formalises the undecidability of Kleene algebra with commutativity conditions (Azevedo de Amorim, Zhang and Gaboardi), and finds and repairs an error in that paper's Theorem 6. Undecidability is stated in two ways: as a reduction that Lean must compile, and as the absence of a Turing machine that decides the problem under a given encoding. With <a href="https://krea.edu.in/about/faculty/sias/prathamesh-t-v-h/" target="_blank">TVH Prathamesh</a>, Akhilesh Balaji and others.</p>
+          </div>
+          <div class="research-cell">
+            <h3 class="section-title"><a href="https://github.com/aalok-thakkar/minimal-trust-tool" target="_blank">minimal-trust-tool</a></h3>
+            <p>Given a security protocol, a goal and a finite set of candidate assumptions, computes every minimal set of assumptions under which the goal holds, together with the minimal attacks. It runs a counterexample-guided loop over a protocol verifier, with a bounded Dolev-Yao analyser and CPSA as oracles. Tool for &ldquo;The Trust a Protocol Needs&rdquo; (ICISS 2026), with <a href="https://bhumikamittal.in" target="_blank">Bhumika Mittal</a>.</p>
+          </div>
+          <div class="research-cell">
+            <h3 class="section-title"><a href="https://github.com/aalok-thakkar/egs-artifact" target="_blank">EGS</a></h3>
+            <p>Example-guided synthesis of relational queries from input-output examples. The artifact packages EGS with ILASP, ProSynth and Scythe, the benchmarks, and scripts to reproduce the experiments of the <a href="https://doi.org/10.1145/3453483.3454098" target="_blank">PLDI 2021</a> paper.</p>
+          </div>
+          <div class="research-cell">
+            <h3 class="section-title"><a href="https://github.com/aalok-thakkar/echogae" target="_blank">echogae</a></h3>
+            <p>A reproduction of Alatawi, Sheth and Liu (2023), &ldquo;Quantifying the Echo Chamber Effect&rdquo;, submitted to ReScience C. The reproduction matches the paper's headline score and documents that the paper's Equation 4 and the released code compute different quantities under the same name.</p>
+          </div>
+        </div>
+
+        <h3>Libraries</h3>
+        <div class="research-grid">
+          <div class="research-cell">
+            <h3 class="section-title"><a href="https://github.com/aalok-thakkar/ocaml-highs" target="_blank">ocaml-highs</a></h3>
+            <p>OCaml bindings for the <a href="https://highs.dev" target="_blank">HiGHS</a> solver for linear, mixed-integer and quadratic programming. A problem is an immutable OCaml record, and solving it returns a new solution record. On opam as <code>highs</code>.</p>
+          </div>
+          <div class="research-cell">
+            <h3 class="section-title"><a href="https://github.com/aalok-thakkar/ocaml-hexaly" target="_blank">ocaml-hexaly</a></h3>
+            <p>OCaml bindings for the <a href="https://www.hexaly.com/" target="_blank">Hexaly</a> optimizer, including its interval, list and set decision variables for scheduling and routing. On opam as <code>hexaly</code>.</p>
+          </div>
+          <div class="research-cell">
+            <h3 class="section-title"><a href="https://github.com/aalok-thakkar/kolam-tikz" target="_blank">kolam-tikz</a></h3>
+            <p>A TikZ package for drawing pulli kolams. Place the dots at integer coordinates, name the gates between them, and the package draws the strands.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script>
+    fetch("/webpage_files/footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer').innerHTML = data;
+      });
+    </script>
+  </body>
+</html>
