@@ -1,6 +1,6 @@
 {
   "_comment": "Source of truth for /grants/. 'deadlines' holds officially announced ISO dates. Past dates stay; an entry with no date on or after today appears under 'Rolling, to be announced, or closed', marked closed with its last date. 'disciplines' lists discipline slugs (see DISC_GROUPS in grants.js), or the wildcards 'all', 'stem' (all sciences, engineering and medicine) or 'hss' (all humanities and social sciences).",
-  "lastUpdated": "2026-11-24",
+  "lastUpdated": "2026-11-25",
   "grants": [
     {
       "id": "nsf-grfp",
@@ -19406,6 +19406,111 @@
       "amount": "Terms set in ICTP's proposal guidelines (not stated on the call page)",
       "duration": "Conferences, workshops and schools held in 2028",
       "description": "ICTP invites the international scientific community to propose conferences, workshops and schools for its 2028 calendar. Selection weighs scientific novelty, bringing together scientists from the South and North, and training for younger scientists; ICTP wants more events held outside Trieste in 2028."
+    },
+    {
+      "id": "ohamr-jtc-2027",
+      "name": "One Health AMR Joint Transnational Call 2027",
+      "funder": "European Partnership on One Health Antimicrobial Resistance (EUP OHAMR)",
+      "url": "https://ohamr.eu/calls/joint-transnational-call-2027/",
+      "audience": [
+        "faculty"
+      ],
+      "disciplines": [
+        "life-sciences",
+        "medicine-health",
+        "earth-environment"
+      ],
+      "deadlines": [
+        "2027-02-01"
+      ],
+      "region": "Transnational consortia (at least 3 partners from 3 eligible countries, 2 of them EU or Associated)",
+      "amount": "Total call budget about EUR 31 million; partner budgets set by national funders",
+      "duration": "Up to 3 years",
+      "description": "Research and innovation on understanding, modelling and stopping antimicrobial-resistance transmission across One Health sectors, including surveillance and interventions. Usually up to 6 partners; each partner must meet its national or regional funder's rules, so India-based groups should check whether an Indian funder takes part."
+    },
+    {
+      "id": "timepie-longevity-grant-2027",
+      "name": "TimePie Longevity Research Grant Program 2027",
+      "funder": "TimePie Longevity Forum",
+      "url": "https://www.timepielongevityforum.com/grant",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "disciplines": [
+        "life-sciences",
+        "medicine-health"
+      ],
+      "deadlines": [
+        "2027-01-04"
+      ],
+      "region": "Global",
+      "amount": "RMB 120,000–160,000 per project",
+      "duration": "Up to 24 months",
+      "description": "Early-career grants for research on ageing biomarkers and biological clocks, immune ageing and chronic inflammation, or translational ageing interventions. For PhD holders under 40 at universities, research institutes or nonprofit clinical settings with limited access to major funding; three to four projects selected worldwide."
+    },
+    {
+      "id": "warwick-cim-methods-fellowship",
+      "name": "CIM Methods Fellowship",
+      "funder": "University of Warwick Methods Hub and Centre for Interdisciplinary Methodologies",
+      "url": "https://warwick.ac.uk/fac/cross_fac/methodshub/methods-fellowships/cim-methods-fellowship-2026/",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "disciplines": [
+        "all"
+      ],
+      "deadlines": [
+        "2027-01-22"
+      ],
+      "region": "International",
+      "amount": "Up to GBP 5,000",
+      "duration": "3–12 months",
+      "description": "Supports methodological and interdisciplinary projects on knowledge and intelligence infrastructures, democratising information and participation, or making methods matter. Open to scholars in any discipline and practitioners; applicants nominate up to three Warwick collaborators, at least one from CIM, and arrange their own UK visa."
+    },
+    {
+      "id": "ucs-science-public-good-fund",
+      "name": "Science for Public Good Fund",
+      "funder": "Union of Concerned Scientists (UCS)",
+      "url": "https://www.ucs.org/resources/science-public-good-fund",
+      "audience": [
+        "students",
+        "postdocs",
+        "faculty"
+      ],
+      "disciplines": [
+        "stem"
+      ],
+      "deadlines": [
+        "2027-01-06"
+      ],
+      "region": "UCS Science Network members (can join when applying)",
+      "amount": "Up to USD 1,500 for the project plus USD 500 for cohort participation",
+      "duration": "Project completed within 6 months",
+      "description": "Small grants for science-advocacy and community-building projects that advance equitable science-based policy, with a 2027 peer-learning cohort of workshops and coaching. Individuals and groups may apply; applicants funded twice before are not considered."
+    },
+    {
+      "id": "aranyani-earth-grant",
+      "name": "Aranyani Earth Grant",
+      "funder": "Aranyani",
+      "url": "https://aranyanilife.com/aranyani-grants/",
+      "audience": [
+        "students",
+        "postdocs"
+      ],
+      "disciplines": [
+        "earth-environment",
+        "sociology-anthropology"
+      ],
+      "deadlines": [
+        "2027-03-31"
+      ],
+      "region": "India (work grounded in Northeast India or West Bengal); Indian citizens aged 18–35",
+      "amount": "INR 3–5 lakh",
+      "duration": "About 12 months",
+      "description": "Four grants to individuals working across ecology, community and culture: water and wetlands, urban ecologies, land restoration, and agriculture and food security. Applicants may work independently, with communities or alongside organisations."
     }
   ]
 }
