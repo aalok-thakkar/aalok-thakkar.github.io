@@ -1,6 +1,6 @@
 {
   "_comment": "Source of truth for /grants/. 'deadlines' holds officially announced ISO dates. Past dates stay; an entry with no date on or after today appears under 'Rolling, to be announced, or closed', marked closed with its last date. 'disciplines' lists discipline slugs (see DISC_GROUPS in grants.js), or the wildcards 'all', 'stem' (all sciences, engineering and medicine) or 'hss' (all humanities and social sciences).",
-  "lastUpdated": "2026-11-25",
+  "lastUpdated": "2026-11-27",
   "grants": [
     {
       "id": "nsf-grfp",
@@ -19511,6 +19511,91 @@
       "amount": "INR 3–5 lakh",
       "duration": "About 12 months",
       "description": "Four grants to individuals working across ecology, community and culture: water and wetlands, urban ecologies, land restoration, and agriculture and food security. Applicants may work independently, with communities or alongside organisations."
+    },
+    {
+      "id": "iusstf-bilateral-workshops",
+      "name": "Bilateral Workshops, Symposia and Training Programs",
+      "funder": "Indo-U.S. Science and Technology Forum (IUSSTF)",
+      "url": "https://iusstf.org/bilateral-workshops-symposia-training-programs",
+      "audience": [
+        "faculty"
+      ],
+      "disciplines": [
+        "stem"
+      ],
+      "deadlines": [
+        "2027-03-31"
+      ],
+      "deadlineNote": "Two cycles a year; the portal stays open. The March cycle closes 31 March for events between August and January.",
+      "region": "India and United States",
+      "amount": "Typically INR 10–15 lakh in partial support",
+      "duration": "One event",
+      "description": "Partial support for bilateral workshops, symposia and training programmes that start lasting Indo-U.S. partnerships in strategic technology, biotechnology, energy, materials, space and other priority areas. Needs at least one Indian and one U.S. institutional partner."
+    },
+    {
+      "id": "transform-hf-seed-grant-2027",
+      "name": "TRANSFORM HF Seed Grant 2027",
+      "funder": "TRANSFORM HF (University of Toronto)",
+      "url": "https://transformhf.ca/opportunities/#seed",
+      "audience": [
+        "postdocs",
+        "faculty"
+      ],
+      "disciplines": [
+        "medicine-health",
+        "engineering",
+        "computer-science"
+      ],
+      "deadlines": [
+        "2027-01-17"
+      ],
+      "deadlineNote": "11:59 pm EST",
+      "region": "International partner with a University of Toronto or TAHSN co-lead",
+      "amount": "Up to CAD 100,000 (CAD 50,000 a year)",
+      "duration": "Up to 2 years (second year conditional)",
+      "description": "Seed funding for translational digital-health research on equitable heart-failure care: wearables and diagnostics, AI, remote monitoring, care models, sustainable digital health and Indigenous heart health. Two co-leads, one affiliated with UofT or TAHSN and one from anywhere; all applicants must be TRANSFORM HF members and the team must include a person with lived experience."
+    },
+    {
+      "id": "commonwealth-blue-charter-incubator-2",
+      "name": "Commonwealth Blue Charter Incubator: Round II",
+      "funder": "Commonwealth Secretariat",
+      "url": "https://thecommonwealth.org/commonwealth-blue-charter-project-incubator-round-ii",
+      "audience": [
+        "faculty"
+      ],
+      "disciplines": [
+        "earth-environment",
+        "politics-law-policy"
+      ],
+      "deadlines": [
+        "2026-12-21"
+      ],
+      "deadlineNote": "Extended to 21 December 2026, 23:59 GMT.",
+      "region": "Commonwealth countries, including India",
+      "amount": "GBP 20,000–50,000 per project",
+      "duration": "6–18 months",
+      "description": "Funds government-led ocean projects on marine pollution, ecosystem restoration, sustainable fisheries, the blue economy or the ocean and climate. The lead must be a national or sub-national government body; universities and research institutes can join as technical or implementation partners but cannot lead."
+    },
+    {
+      "id": "bevisioneers-fellowship-2027",
+      "name": "beVisioneers: The Mercedes-Benz Fellowship 2027",
+      "funder": "Mercedes-Benz (run by The DO School Fellowships)",
+      "url": "https://bevisioneers.world/faqs/fellowship",
+      "audience": [
+        "undergrads",
+        "students"
+      ],
+      "ugType": "school",
+      "disciplines": [
+        "all"
+      ],
+      "deadlines": [
+        "2027-01-31"
+      ],
+      "region": "Global, including India; ages 18–28",
+      "amount": "Fully funded; needs-based participation support, later project scholarships",
+      "duration": "12-month foundation year within a multi-year fellowship",
+      "description": "Hybrid fellowship for young eco-innovators with a planet-positive project or well-developed idea, combining venture coaching, mentoring and peer learning. Applicants must live in an eligible country for most of each fellowship year and work in English."
     }
   ]
 }
