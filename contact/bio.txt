@@ -1,5 +1,7 @@
-Aalok Thakkar is an Assistant Professor of Computer Science at Ashoka 
-University and an Alt Carbon Darjeeling Revival Fellow. His research spans 
+Aalok Thakkar is Chief of Staff at Alt Carbon, where he works on
+computational methods for the earth sciences. He is also a visitor at the
+Indian Institute of Science and an Assistant Professor of Computer Science at
+Ashoka University, currently on sabbatical. His research spans 
 logic, programming languages, and artificial intelligence, with particular 
 focus on program synthesis, trustworthy AI, and computational sustainability. 
 He also works on computer science pedagogy, especially in the context of 
